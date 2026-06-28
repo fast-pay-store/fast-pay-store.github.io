@@ -18,16 +18,18 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rclone
 
-      - name: Настройка авторизации через Сервисный аккаунт Google
+      - name: Настройка чистой авторизации Google
         run: |
           mkdir -p ~/.config/rclone
-          echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}" > ~/.config/google-key.json
+          # Записываем чистый ключ поиска Google во временный файл
+          echo '${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}' > /tmp/google-key.json
           
-          cat << EOF > ~/.config/rclone/rclone.conf
+          # Создаем абсолютно новый файл конфигурации без единой лишней буквы
+          cat << 'EOF' > ~/.config/rclone/rclone.conf
           [gdrive]
           type = drive
           scope = drive
-          service_account_file = ~/.config/google-key.json
+          service_account_file = /tmp/google-key.json
           EOF
 
       - name: Создание архива сайта во временной папке
