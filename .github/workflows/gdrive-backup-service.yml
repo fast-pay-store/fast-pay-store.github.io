@@ -13,21 +13,25 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Установка Rclone (Официальный модуль)
-        uses: AnimMouse/setup-rclone@v1
-        with:
-          rclone_config: |
-            [gdrive]
-            type = drive
-            scope = drive
-            service_account_file = google-key.json
-
-      - name: Настройка ключа авторизации робота
+      - name: Установка Rclone из репозитория Ubuntu
         run: |
-          echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}" > google-key.json
+          sudo apt-get update
+          sudo apt-get install -y rclone
+
+      - name: Настройка авторизации через Сервисный аккаунт Google
+        run: |
+          mkdir -p ~/.config/rclone
+          echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}" > ~/.config/google-key.json
+          
+          cat << EOF > ~/.config/rclone/rclone.conf
+          [gdrive]
+          type = drive
+          scope = drive
+          service_account_file = ~/.config/google-key.json
+          EOF
 
       - name: Создание архива сайта
-        run: tar --exclude='.git' --exclude='.github' --exclude='google-key.json' -czf site-backup.tar.gz .
+        run: tar --exclude='.git' --exclude='.github' -czf site-backup.tar.gz .
 
       - name: Отправка архива на Google Диск
         run: rclone copy site-backup.tar.gz gdrive:GitHub_Backups
