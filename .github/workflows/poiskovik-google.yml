@@ -1,0 +1,73 @@
+name: Поисковик - Google
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml'
+
+jobs:
+  google_indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачивание репозитория
+        uses: actions/checkout@v4
+
+      - name: Установка Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-node-version: '20'
+
+      - name: Установка библиотеки Google API
+        run: npm install googleapis
+
+      - name: Отправка страниц в Google Indexing API
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const {google} = require('googleapis');
+            
+            // Читаем секретный ключ авторизации из настроек GitHub
+            const authData = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
+            
+            const jwtClient = new google.auth.JWT(
+              authData.client_email,
+              null,
+              authData.private_key,
+              ['https://googleapis.com'],
+              null
+            );
+
+            // Список ваших страниц для обхода Google
+            const urls = [
+              "https://fast-pay-store.github.io/",
+              "https://github.io",
+              "https://github.io",
+              "https://github.io",
+              "https://github.io"
+            ];
+
+            jwtClient.authorize(async (err, tokens) => {
+              if (err) {
+                console.error("Ошибка авторизации Google:", err);
+                return;
+              }
+              
+              for (const url of urls) {
+                try {
+                  const res = await google.indexing({version: 'v3', auth: jwtClient}).urlNotifications.publish({
+                    requestBody: {
+                      url: url,
+                      type: 'URL_UPDATED'
+                    }
+                  });
+                  console.log(`Успешно отправлено в Google: ${url}`);
+                } catch (apiErr) {
+                  console.error(`Ошибка отправки URL ${url}:`, apiErr.message);
+                }
+              }
+            });
+        env:
+          GOOGLE_SERVICE_ACCOUNT_KEY: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}
