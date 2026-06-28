@@ -1,0 +1,44 @@
+name: Сервис - Уведомления в Telegram
+
+on:
+  workflow_run:
+    workflows:
+      - "Сервис - Бэкап на Диск Google"
+      - "Поисковик - Яндекс"
+      - "Поисковик - Google"
+      - "Поисковик - Bing"
+      - "Сервис - Тестировщик ссылок"
+    types:
+      - completed
+
+jobs:
+  send_telegram_status:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Анализ и отправка отчета
+        run: |
+          # 1. Собираем данные о том, какой робот отработал
+          WORKFLOW_NAME="${{ github.event.workflow_run.name }}"
+          CONCLUSION="${{ github.event.workflow_run.conclusion }}"
+          RUN_ID="${{ github.event.workflow_run.id }}"
+          REPO_URL="https://github.com{{ github.repository }}"
+          LOG_URL="${REPO_URL}/actions/runs/${RUN_ID}"
+
+          # 2. Формируем иконку и статус
+          if [ "$CONCLUSION" = "success" ]; then
+            STATUS_EMOJI="✅"
+            STATUS_TEXT="Успешно завершен"
+          else
+            STATUS_EMOJI="❌"
+            STATUS_TEXT="Завершился с ошибкой!"
+          fi
+
+          # 3. Составляем текст сообщения
+          MESSAGE="${STATUS_EMOJI} *Робот:* \`${WORKFLOW_NAME}\`%0A📈 *Статус:* ${STATUS_TEXT}%0A%0A🔗 [Открыть логи сборки на GitHub](${LOG_URL})"
+
+          # 4. Отправляем в Telegram
+          curl -s -X POST "https://telegram.org{{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
+            -d "parse_mode=Markdown" \
+            -d "disable_web_page_preview=true" \
+            -d "text=${MESSAGE}"
