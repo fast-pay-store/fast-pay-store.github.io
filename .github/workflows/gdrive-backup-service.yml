@@ -31,7 +31,7 @@ jobs:
           EOF
 
       - name: Создание архива сайта
-        run: tar --exclude='.git' --exclude='.github' -czf site-backup.tar.gz .
+        run: tar --exclude='.git' --exclude='.github' --exclude='site-backup.tar.gz' -czf site-backup.tar.gz .
 
       - name: Отправка архива на Google Диск
         run: rclone copy site-backup.tar.gz gdrive:GitHub_Backups
