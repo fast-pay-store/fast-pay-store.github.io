@@ -32,10 +32,13 @@ jobs:
 
       - name: Создание уникального архива сайта во временной папке
         run: |
-          # Создаем простое имя файла из цифр (например, backup-20260628.tar.gz)
+          # Создаем безопасное имя файла из цифр
           FILENAME="backup-$(date +%Y%m%d%H%M%S).tar.gz"
           tar --exclude='.git' --exclude='.github' -czf "/tmp/$FILENAME" .
           echo "BACKUP_FILENAME=$FILENAME" >> $GITHUB_ENV
 
-      - name: Отправка архива на Google Диск
-        run: rclone copy "/tmp/${{ env.BACKUP_FILENAME }}" gdrive:GitHub_Backups
+      - name: Отправка архива на Google Диск с передачей прав
+        run: |
+          rclone copy "/tmp/${{ env.BACKUP_FILENAME }}" gdrive:GitHub_Backups \
+          --drive-acknowledge-abuse \
+          --drive-keep-revision=false
