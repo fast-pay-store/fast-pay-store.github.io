@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /test/
+Disallow: /testdfg.html
+Disallow: /*.txt
+
+Sitemap: https://fast-pay-store.github.io
