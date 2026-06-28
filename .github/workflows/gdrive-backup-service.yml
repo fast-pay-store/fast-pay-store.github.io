@@ -18,17 +18,23 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y rclone
 
+      - name: Настройка чистой авторизации Google через Токен
+        run: |
+          mkdir -p ~/.config/rclone
+          
+          # Собираем файл конфигурации на лету из секретов GitHub
+          cat << 'EOF' > ~/.config/rclone/rclone.conf
+          [gdrive]
+          type = drive
+          scope = drive
+          token = ${{ secrets.RCLONE_CONFIG_DATA }}
+          EOF
+
       - name: Создание уникального архива сайта во временной папке
         run: |
           FILENAME="backup-$(date +%Y%m%d%H%M%S).tar.gz"
           tar --exclude='.git' --exclude='.github' -czf "/tmp/$FILENAME" .
           echo "BACKUP_FILENAME=$FILENAME" >> $GITHUB_ENV
 
-      - name: Отправка архива на Google Диск через Личный Токен
-        run: |
-          # Передаем параметры подключения напрямую через системные команды Linux
-          rclone copy "/tmp/${{ env.BACKUP_FILENAME }}" :gdrive:GitHub_Backups \
-          --drive-scope=drive
-        env:
-          RCLONE_CONFIG_GDRIVE_TYPE: drive
-          RCLONE_CONFIG_GDRIVE_TOKEN: ${{ secrets.RCLONE_CONFIG_DATA }}
+      - name: Отправка архива на Google Диск
+        run: rclone copy "/tmp/${{ env.BACKUP_FILENAME }}" gdrive:GitHub_Backups
