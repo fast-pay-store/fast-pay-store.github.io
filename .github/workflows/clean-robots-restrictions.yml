@@ -1,0 +1,61 @@
+name: Сервис - Очистка запретов индексации
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml'
+
+jobs:
+  clean_restrictions:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачивание репозитория
+        uses: actions/checkout@v4
+
+      - name: Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.x'
+
+      - name: Удаление noindex из HTML файлов
+        run: |
+          python -c "
+          import os, re
+
+          for root, dirs, files in os.walk('.'):
+              # Пропускаем технические папки гитхаба
+              if '.git' in root or '.github' in root:
+                  continue
+                  
+              for file in files:
+                  if file.endswith(('.html', '.htm')):
+                      file_path = os.path.join(root, file)
+                      
+                      with open(file_path, 'r', encoding='utf-8', errors='ignore') as f:
+                          text = f.read()
+                      
+                      # Регулярное выражение ищет и удаляет теги <meta name='robots' content='...noindex...'>
+                      cleaned_text = re.sub(r'<meta\s+name=[\"\']robots[\"\']\s+content=[\"\'][^\"\']*noindex[^\"\']*[\"\']\s*/?>', '', text, flags=re.IGNORECASE)
+                      
+                      # Сохраняем файл только если в нем реально был найден и удален запрет
+                      if text != cleaned_text:
+                          with open(file_path, 'w', encoding='utf-8') as f:
+                              f.write(cleaned_text)
+                          print(f'Запрет индексации успешно удален из файла: {file_path}')
+          "
+
+      - name: Сохранение изменений на GitHub
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@://github.com'
+          
+          git add *.html
+          
+          if [[ `git status --porcelain` ]]; then
+            git commit -m "Автоматическая очистка: удалены теги noindex из файлов"
+            git push
+          else
+            echo "Все файлы чистые, запретов индексации не обнаружено."
+          fi
