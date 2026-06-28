@@ -19,7 +19,10 @@ jobs:
       - name: Настройка авторизации Google Диска
         run: |
           mkdir -p ~/.config/rclone
-          echo "${{ secrets.RCLONE_CONFIG_DATA }}" > ~/.config/rclone/rclone.conf
+          echo "[gdrive]" > ~/.config/rclone/rclone.conf
+          echo "type = drive" >> ~/.config/rclone/rclone.conf
+          echo "scope = drive" >> ~/.config/rclone/rclone.conf
+          echo "token = ${{ secrets.RCLONE_CONFIG_DATA }}" >> ~/.config/rclone/rclone.conf
 
       - name: Создание архива сайта
         run: tar --exclude='.git' --exclude='.github' -czf site-backup.tar.gz .
