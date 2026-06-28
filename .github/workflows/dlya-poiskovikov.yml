@@ -1,1 +1,25 @@
+name: Для поисковиков
 
+on:
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  yandex_index_now:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Отправка страниц в Яндекс
+        run: |
+          curl -X POST "https://yandex.com" \
+          -H "Content-Type: application/json; charset=utf-8" \
+          -d '{
+            "host": "fast-pay-store.github.io",
+            "key": "cnjxrbphtybz",
+            "keyLocation": "https://github.io",
+            "urlList": [
+              "https://github.io",
+              "https://github.ioindex.html",
+              "https://github.ioshoptitans-bot/",
+              "https://github.iobot-dungeon-crusher/",
+              "https://github.iotrofei-rybalka2/"
+            ]
+          }'
