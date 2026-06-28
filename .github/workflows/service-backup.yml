@@ -3,8 +3,8 @@ name: Сервис - Бэкап на Google Диск
 on:
   push:
     branches:
-      - main  # Создавать бэкап при каждом обновлении сайта
-  workflow_dispatch: # Кнопка для ручного запуска бэкапа
+      - main
+  workflow_dispatch: # Кнопка ручного запуска
 
 jobs:
   backup:
@@ -21,14 +21,8 @@ jobs:
           mkdir -p ~/.config/rclone
           echo "${{ secrets.RCLONE_CONFIG_DATA }}" > ~/.config/rclone/rclone.conf
 
-      - name: Архивирование и отправка на Google Диск
-        run: |
-          # Создаем архив со всеми файлами сайта (текущая дата в названии)
-          ARCHIVE_NAME="fast-pay-store-backup-$(date +'%Y-%m-%d_%H-%m').tar.gz"
-          tar --exclude='.git' --exclude='.github' -czf "$ARCHIVE_NAME" .
-          
-          # Отправляем архив в папку "GitHub_Backups" на вашем Google Диске
-          # (Rclone сам создаст эту папку, если её ещё нет)
-          rclone copy "$ARCHIVE_NAME" gdrive:GitHub_Backups
-          
-          echo "Бэкап успешно отправлен на Google Диск!"
+      - name: Создание архива сайта
+        run: tar --exclude='.git' --exclude='.github' -czf site-backup.tar.gz .
+
+      - name: Отправка архива на Google Диск
+        run: rclone copy site-backup.tar.gz gdrive:GitHub_Backups
