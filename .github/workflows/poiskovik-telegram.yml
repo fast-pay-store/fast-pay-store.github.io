@@ -17,14 +17,14 @@ jobs:
     steps:
       - name: Анализ и отправка отчета
         run: |
-          # 1. Собираем данные о том, какой робот отработал
+          # 1. Собираем данные без сложных символов экранирования
           WORKFLOW_NAME="${{ github.event.workflow_run.name }}"
           CONCLUSION="${{ github.event.workflow_run.conclusion }}"
           RUN_ID="${{ github.event.workflow_run.id }}"
           REPO_URL="https://github.com{{ github.repository }}"
           LOG_URL="${REPO_URL}/actions/runs/${RUN_ID}"
 
-          # 2. Формируем иконку и статус
+          # 2. Определяем статус и иконку
           if [ "$CONCLUSION" = "success" ]; then
             STATUS_EMOJI="✅"
             STATUS_TEXT="Успешно завершен"
@@ -33,12 +33,13 @@ jobs:
             STATUS_TEXT="Завершился с ошибкой!"
           fi
 
-          # 3. Составляем текст сообщения
-          MESSAGE="${STATUS_EMOJI} *Робот:* \`${WORKFLOW_NAME}\`%0A📈 *Статус:* ${STATUS_TEXT}%0A%0A🔗 [Открыть логи сборки на GitHub](${LOG_URL})"
+          # 3. Составляем текстовое сообщение без разметки Markdown
+          MESSAGE="${STATUS_EMOJI} Робот: ${WORKFLOW_NAME}
+          Статус: ${STATUS_TEXT}
+          
+          Логи сборки: ${LOG_URL}"
 
-          # 4. Отправляем в Telegram
-          curl -s -X POST "https://telegram.org{{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
-            -d "chat_id=${{ secrets.TELEGRAM_CHAT_ID }}" \
-            -d "parse_mode=Markdown" \
-            -d "disable_web_page_preview=true" \
-            -d "text=${MESSAGE}"
+          # 4. Отправляем через чистый JSON-формат (защита от сломанных URL)
+          curl -s -X POST "https://api.telegram.org/bot${{ secrets.TELEGRAM_BOT_TOKEN }}/sendMessage" \
+            -H "Content-Type: application/json" \
+            -d "{\"chat_id\": \"${{ secrets.TELEGRAM_CHAT_ID }}\", \"text\": \"${MESSAGE}\"}"
