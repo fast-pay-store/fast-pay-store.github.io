@@ -1,0 +1,28 @@
+name: Поисковики - Другие
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml'
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  others_indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Отправка страниц в Seznam и Naver
+        run: |
+          echo "Отправка в Seznam (Чехия)..."
+          curl -X POST "https://seznam.cz" \
+          -H "Content-Type: application/json; charset=utf-8" \
+          -d '{
+            "host": "fast-pay-store.github.io",
+            "key": "cnjxrbphtybz",
+            "keyLocation": "https://github.io",
+            "urlList": ["https://github.io"]
+          }'
+
+          echo "Отправка в Mail.ru..."
+          curl -s "https://blogs.yandex.ru/pings/?status=success&url=https://github.io"
