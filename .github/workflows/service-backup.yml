@@ -13,16 +13,20 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Установка Rclone
+      - name: Установка Rclone (Исправленный адрес)
         run: sudo curl https://rclone.org | sudo bash
 
-      - name: Настройка авторизации Google Диска
+      - name: Настройка авторизации через Сервисный аккаунт Google
         run: |
           mkdir -p ~/.config/rclone
-          echo "[gdrive]" > ~/.config/rclone/rclone.conf
-          echo "type = drive" >> ~/.config/rclone/rclone.conf
-          echo "scope = drive" >> ~/.config/rclone/rclone.conf
-          echo "token = ${{ secrets.RCLONE_CONFIG_DATA }}" >> ~/.config/rclone/rclone.conf
+          echo "${{ secrets.GOOGLE_SERVICE_ACCOUNT_KEY }}" > ~/.config/google-key.json
+          
+          cat << EOF > ~/.config/rclone/rclone.conf
+          [gdrive]
+          type = drive
+          scope = drive
+          service_account_file = ~/.config/google-key.json
+          EOF
 
       - name: Создание архива сайта
         run: tar --exclude='.git' --exclude='.github' -czf site-backup.tar.gz .
