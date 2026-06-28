@@ -1,0 +1,28 @@
+name: Сервис - Тестировщик ссылок
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  link_checker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачивание репозитория
+        uses: actions/checkout@v4
+
+      - name: Проверка всех ссылок на сайте
+        uses: lycheeverse/lychee-action@v2
+        with:
+          # Проверяем все HTML-файлы и файлы разметки в репозитории
+          args: --verbose --no-progress './**/*.html'
+          # Робот сам создаст красивый текстовый отчет со списком битых ссылок
+          output: ./lychee-report.md
+
+      - name: Отправка отчета при обнаружении поломок
+        if: env.lychee_exit_code != 0
+        run: |
+          echo "Критическая ошибка: На сайте обнаружены сломанные ссылки!"
+          echo "Подробный отчет сохранен во вкладке Actions этого запуска."
