@@ -12,11 +12,19 @@ jobs:
   bing_indexing:
     runs-on: ubuntu-latest
     steps:
-      - name: Авто-отправка карты сайта в Bing
-        uses: jakob-bagterp/index-now-submit-sitemap-action@v1
-        with:
-          host: fast-pay-store.github.io
-          api_key: cnjxrbphtybz
-          api_key_location: https://github.io
-          sitemap_locations: https://github.io
-          endpoint: bing # Указан сервер Bing
+      - name: Отправка страниц в Bing
+        run: |
+          curl -X POST "https://bing.com" \
+          -H "Content-Type: application/json; charset=utf-8" \
+          -d '{
+            "host": "fast-pay-store.github.io",
+            "key": "cnjxrbphtybz",
+            "keyLocation": "https://github.io",
+            "urlList": [
+              "https://github.io",
+              "https://github.ioindex.html",
+              "https://github.ioshoptitans-bot/",
+              "https://github.iobot-dungeon-crusher/",
+              "https://github.iotrofei-rybalka2/"
+            ]
+          }'
