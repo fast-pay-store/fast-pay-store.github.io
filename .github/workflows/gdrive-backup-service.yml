@@ -30,12 +30,11 @@ jobs:
           service_account_file = /tmp/google-key.json
           EOF
 
-      - name: Создание уникального архива сайта
+      - name: Создание уникального архива сайта во временной папке
         run: |
-          # Создаем имя файла с текущей датой и временем
-          FILENAME="backup-$(date +'%Y-%m-%d_%H-%M').tar.gz"
+          # Создаем простое имя файла из цифр (например, backup-20260628.tar.gz)
+          FILENAME="backup-$(date +%Y%m%d%H%M%S).tar.gz"
           tar --exclude='.git' --exclude='.github' -czf "/tmp/$FILENAME" .
-          # Передаем имя файла в следующий шаг
           echo "BACKUP_FILENAME=$FILENAME" >> $GITHUB_ENV
 
       - name: Отправка архива на Google Диск
