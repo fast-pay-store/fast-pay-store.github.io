@@ -6,6 +6,7 @@ on:
       - main
     paths-ignore:
       - 'sitemap.xml'
+  workflow_dispatch: # Эта строка выведет кнопку ручного запуска
 
 jobs:
   google_indexing:
@@ -17,7 +18,7 @@ jobs:
       - name: Установка Node.js
         uses: actions/setup-node@v4
         with:
-          node-node-version: '20'
+          node-version: '20'
 
       - name: Установка библиотеки Google API
         run: npm install googleapis
@@ -26,10 +27,8 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            const fs = require('fs');
             const {google} = require('googleapis');
             
-            // Читаем секретный ключ авторизации из настроек GitHub
             const authData = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
             
             const jwtClient = new google.auth.JWT(
@@ -40,13 +39,13 @@ jobs:
               null
             );
 
-            // Список ваших страниц для обхода Google
             const urls = [
-              "https://fast-pay-store.github.io/",
               "https://github.io",
-              "https://github.io",
-              "https://github.io",
-              "https://github.io"
+              "https://github.ioindex.html",
+              "https://github.iogoogle.html",
+              "https://github.ioshoptitans-bot/",
+              "https://github.iobot-dungeon-crusher/",
+              "https://github.iotrofei-rybalka2/"
             ];
 
             jwtClient.authorize(async (err, tokens) => {
