@@ -1,25 +1,21 @@
-name: Для поисковиков
+name: Поисковик - Яндекс
 
 on:
-  workflow_dispatch: # Кнопка ручного запуска
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml' # Защита от бесконечного цикла при обновлении карты сайта
 
 jobs:
-  yandex_index_now:
+  yandex_auto_index:
     runs-on: ubuntu-latest
     steps:
-      - name: Отправка страниц в Яндекс
-        run: |
-          curl -X POST "https://yandex.com" \
-          -H "Content-Type: application/json; charset=utf-8" \
-          -d '{
-            "host": "fast-pay-store.github.io",
-            "key": "cnjxrbphtybz",
-            "keyLocation": "https://github.io",
-            "urlList": [
-              "https://github.io",
-              "https://github.ioindex.html",
-              "https://github.ioshoptitans-bot/",
-              "https://github.iobot-dungeon-crusher/",
-              "https://github.iotrofei-rybalka2/"
-            ]
-          }'
+      - name: Авто-отправка карты сайта в Яндекс
+        uses: jakob-bagterp/index-now-submit-sitemap-action@v1
+        with:
+          host: fast-pay-store.github.io
+          api_key: cnjxrbphtybz
+          api_key_location: https://github.io
+          sitemap_locations: https://github.io
+          endpoint: yandex
