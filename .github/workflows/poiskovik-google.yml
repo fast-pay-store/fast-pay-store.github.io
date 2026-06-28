@@ -6,7 +6,7 @@ on:
       - main
     paths-ignore:
       - 'sitemap.xml'
-  workflow_dispatch: # Эта строка выведет кнопку ручного запуска
+  workflow_dispatch: # Кнопка ручного запуска
 
 jobs:
   google_indexing:
@@ -18,7 +18,7 @@ jobs:
       - name: Установка Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20'
+          node-version: '24' # Обновлено до актуальной версии 2026 года
 
       - name: Установка библиотеки Google API
         run: npm install googleapis
@@ -29,7 +29,12 @@ jobs:
           script: |
             const {google} = require('googleapis');
             
-            const authData = JSON.parse(process.env.GOOGLE_SERVICE_ACCOUNT_KEY);
+            const secretKey = process.env.GOOGLE_SERVICE_ACCOUNT_KEY;
+            if (!secretKey || secretKey.trim() === "") {
+              throw new Error("Критическая ошибка: Переменная GOOGLE_SERVICE_ACCOUNT_KEY пуста. Проверьте Settings -> Secrets на GitHub!");
+            }
+            
+            const authData = JSON.parse(secretKey);
             
             const jwtClient = new google.auth.JWT(
               authData.client_email,
