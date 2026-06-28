@@ -16,6 +16,6 @@ jobs:
         with:
           host: fast-pay-store.github.io
           api_key: cnjxrbphtybz
-          api_key_location: https://github.io
-          sitemap_locations: https://github.io
+          api_key_location: https://fast-pay-store.github.io/cnjxrbphtybz.txt
+          sitemap_locations: https://fast-pay-store.github.io/sitemap.xml
           endpoint: yandex
