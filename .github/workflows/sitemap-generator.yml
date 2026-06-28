@@ -17,7 +17,7 @@ jobs:
       - name: Generate Sitemap
         uses: cicirello/generate-sitemap@v1
         with:
-          base-url-path: https://github.io
+          base-url-path: https://fast-pay-store.github.io
 
       - name: Commit and Push Sitemap
         run: |
