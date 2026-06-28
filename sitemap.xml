@@ -1,1 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://sitemaps.org">
 
+  <!-- Главная страница-каталог -->
+  <url>
+    <loc>https://github.io</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+
+  <!-- Бот Трофейная Рыбалка 2 -->
+  <url>
+    <loc>https://github.iotrofei-rybalka2/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Бот Крушители Подземелий -->
+  <url>
+    <loc>https://github.iobot-dungeon-crusher/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+  <!-- Бот Shop Titans -->
+  <url>
+    <loc>https://github.ioshoptitans-bot/</loc>
+    <lastmod>2026-06-28</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.80</priority>
+  </url>
+
+</urlset>
