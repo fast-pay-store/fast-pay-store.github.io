@@ -1,0 +1,22 @@
+name: Поисковик - Bing
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'sitemap.xml'
+  workflow_dispatch: # Кнопка ручного запуска
+
+jobs:
+  bing_indexing:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Авто-отправка карты сайта в Bing
+        uses: jakob-bagterp/index-now-submit-sitemap-action@v1
+        with:
+          host: fast-pay-store.github.io
+          api_key: cnjxrbphtybz
+          api_key_location: https://github.io
+          sitemap_locations: https://github.io
+          endpoint: bing # Указан сервер Bing
