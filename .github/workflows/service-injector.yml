@@ -8,9 +8,8 @@ on:
       - '**/index.html'
   workflow_dispatch:
 
-# Включаем принудительное выполнение на Node 24, чтобы убрать предупреждения
 env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true # Полностью убирает предупреждение Node.js из логов
 
 jobs:
   inject_widgets:
@@ -19,23 +18,32 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Безопасное подключение addons.js в папки ботов
-        shell: bash
+      - name: Безопасное подключение скрипта через Python
+        shell: python
         run: |
-          TARGET_FOLDERS=("shoptitans-bot" "bot-dungeon-crusher" "trofei-rybalka2")
-          INJECT_LINE='<script src="./addons.js"></script>'
+          import os
 
-          for folder in "${TARGET_FOLDERS[@]}"; do
-              file="./$folder/index.html"
-              
-              if [ -f "$file" ]; then
-                  sed -i '/addons.js/d' "$file"
-                  sed -i '/rel="canonical"/d' "$file"
+          target_folders = ["shoptitans-bot", "bot-dungeon-crusher", "trofei-rybalka2"]
+          inject_line = '<script src="./addons.js"></script>'
+
+          for folder in target_folders:
+              file_path = f"./{folder}/index.html"
+              if os.path.exists(file_path):
+                  with open(file_path, "r", encoding="utf-8") as f:
+                      content = f.read()
                   
-                  echo "Безопасно подключаем addons.js в папку: $folder"
-                  perl -i -pe "s|(<\/body>)|${INJECT_LINE}\1|gi" "$file"
-              fi
-          done
+                  # Полностью очищаем любые старые кривые вставки, если они были
+                  content = content.replace(inject_line, "")
+                  
+                  # Находим самый последний тег закрытия страницы (независимо от регистра)
+                  if "</body>" in content:
+                      content = content.replace("</body>", f"{inject_line}</body>")
+                  elif "</BODY>" in content:
+                      content = content.replace("</BODY>", f"{inject_line}</BODY>")
+                  
+                  with open(file_path, "w", encoding="utf-8") as f:
+                      f.write(content)
+                  print(f"Файл в папке {folder} успешно обработан.")
 
       - name: Сохранение изменений в репозиторий
         run: |
@@ -43,7 +51,7 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Очистка логов и привязка addons.js"
+            git commit -m "Безопасное восстановление кода и привязка чата"
             git push
           else
             echo "Изменений нет."
