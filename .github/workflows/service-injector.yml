@@ -1,0 +1,52 @@
+name: Сервис - Вставка виджетов и контактов
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/index.html'
+  workflow_dispatch:
+
+jobs:
+  inject_widgets:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Скачивание репозитория
+        uses: actions/checkout@v4
+
+      - name: Подключение внешнего скрипта в папки ботов
+        shell: bash
+        run: |
+          # Жесткий список папок, в которых должен быть чат и контакты
+          TARGET_FOLDERS=("shoptitans-bot" "bot-dungeon-crusher" "trofei-rybalka2")
+
+          # Строка подключения нашего независимого файла
+          INJECT_LINE='<script src="./addons.js"></script>'
+
+          for folder in "${TARGET_FOLDERS[@]}"; do
+              file="./$folder/index.html"
+              
+              if [ -f "$file" ]; then
+                  # Очищаем старый код виджетов, если он там был
+                  sed -i '/<!-- START FAST-PAY WIDGETS -->/,/<!-- END FAST-PAY WIDGETS -->/d' "$file"
+                  
+                  # Проверяем, не подключен ли уже addons.js
+                  if ! grep -q "addons.js" "$file"; then
+                      echo "Подключаемaddons.js в папку: $folder"
+                      sed -i "s|</body>|${INJECT_LINE}</body>|g" "$file"
+                  fi
+              fi
+          done
+
+      - name: Сохранение изменений в репозиторий
+        run: |
+          if [[ `git status --porcelain` ]]; then
+            git config --global user.name 'github-actions[bot]'
+            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git add .
+            git commit -m "Автоматическое подключение addons.js в папки ботов"
+            git push
+          else
+            echo "Изменений нет."
+          fi
