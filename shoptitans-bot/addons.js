@@ -2,8 +2,8 @@
 if (!document.querySelector('link[rel="canonical"]')) {
     const canonicalLink = document.createElement('link');
     canonicalLink.rel = 'canonical';
-    // Исправлено: берем чистый адрес страницы без мусорных хвостов
-    canonicalLink.href = window.location.href.split('?')[0].split('#')[0];
+    // Исправлено: берем чистый базовый адрес страницы без параметров
+    canonicalLink.href = window.location.origin + window.location.pathname;
     document.head.appendChild(canonicalLink);
 }
 
