@@ -15,27 +15,30 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Подключение внешнего скрипта в папки ботов
+      - name: Вшивание канонических ссылок и addons.js
         shell: bash
         run: |
-          # Жесткий список папок, в которых должен быть чат и контакты
           TARGET_FOLDERS=("shoptitans-bot" "bot-dungeon-crusher" "trofei-rybalka2")
-
-          # Строка подключения нашего независимого файла
           INJECT_LINE='<script src="./addons.js"></script>'
 
           for folder in "${TARGET_FOLDERS[@]}"; do
               file="./$folder/index.html"
               
               if [ -f "$file" ]; then
-                  # Очищаем старый код виджетов, если он там был
-                  sed -i '/<!-- START FAST-PAY WIDGETS -->/,/<!-- END FAST-PAY WIDGETS -->/d' "$file"
+                  # Очищаем старые привязки скрипта
+                  sed -i '/addons.js/d' "$file"
+                  # Очищаем старые канонические теги, если они были
+                  sed -i '/rel="canonical"/d' "$file"
                   
-                  # Проверяем, не подключен ли уже addons.js
-                  if ! grep -q "addons.js" "$file"; then
-                      echo "Подключаемaddons.js в папку: $folder"
-                      sed -i "s|</body>|${INJECT_LINE}</body>|g" "$file"
-                  fi
+                  # 1. Жестко вшиваемaddons.js перед закрывающим тегом </body>
+                  perl -i -pe "s|(<\/body>)|${INJECT_LINE}\1|gi" "$file"
+                  
+                  # 2. Генерируем правильный канонический URL для этой папки
+                  CANONICAL_TAG="<link rel=\"canonical\" href=\"https://github.io{folder}/\" />"
+                  
+                  # 3. Вставляем канонический тег в самое начало блока <head>
+                  perl -i -pe "s|(<head>)|\\1\n    ${CANONICAL_TAG}|gi" "$file"
+                  echo "Настройки успешно вшиты в папку: $folder"
               fi
           done
 
@@ -43,9 +46,9 @@ jobs:
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'github-actions[bot]'
-            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Автоматическое подключение addons.js в папки ботов"
+            git commit -m "Автоматическое вшивание канонических URL и addons.js"
             git push
           else
             echo "Изменений нет."
