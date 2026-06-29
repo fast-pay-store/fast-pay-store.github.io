@@ -8,6 +8,10 @@ on:
       - '**/index.html'
   workflow_dispatch:
 
+# Включаем принудительное выполнение на Node 24, чтобы убрать предупреждения
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   inject_widgets:
     runs-on: ubuntu-latest
@@ -25,12 +29,10 @@ jobs:
               file="./$folder/index.html"
               
               if [ -f "$file" ]; then
-                  # Очищаем старые привязки
                   sed -i '/addons.js/d' "$file"
                   sed -i '/rel="canonical"/d' "$file"
                   
                   echo "Безопасно подключаем addons.js в папку: $folder"
-                  # Вставляем строго перед закрывающим тегом </body> в самый низ
                   perl -i -pe "s|(<\/body>)|${INJECT_LINE}\1|gi" "$file"
               fi
           done
@@ -41,7 +43,7 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Откат к безопасной вставке скриптов"
+            git commit -m "Очистка логов и привязка addons.js"
             git push
           else
             echo "Изменений нет."
