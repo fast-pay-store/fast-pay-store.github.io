@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true # Полностью убирает предупреждения Node.js из логов
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
 jobs:
   inject_widgets:
@@ -22,12 +22,17 @@ jobs:
         shell: python
         run: |
           import os
+          import re
 
-          # Жесткий список папок для обработки
-          target_folders = ["shoptitans-bot", "bot-dungeon-crusher", "trofei-rybalka2"]
+          # СПИСОК ПАПОК ДЛЯ ВСТАВКИ (Наглядный столбик, добавляйте новые строки сюда)
+          target_folders = [
+              "shoptitans-bot",
+              "bot-dungeon-crusher",
+              "trofei-rybalka2",
+          ]
           
           inject_line = '<script src="./addons.js"></script>'
-          favicon_line = '    <link rel="icon" type="image/png" href="https://fast-pay-store.github.io" />'
+          favicon_line = '    <link rel="icon" type="image/png" href="https://github.io" />'
 
           for folder in target_folders:
               file_path = f"./{folder}/index.html"
@@ -35,25 +40,25 @@ jobs:
                   with open(file_path, "r", encoding="utf-8") as f:
                       content = f.read()
                   
-                  # Очищаем старые вставки скрипта и фавикона, чтобы не дублировать код
+                  # Полностью вычищаем старые вставки, чтобы избежать дублирования
                   content = content.replace(inject_line, "")
-                  content = content.replace(favicon_line + "\n", "")
+                  content = re.sub(r'^\s*<link rel="icon".*?href=".*?favicon\.png".*?>\n?', '', content, flags=re.MULTILINE | re.IGNORECASE)
                   
-                  # 1. Вставляем иконку в самое начало блока <head>
-                  if "<head>" in content:
-                      content = content.replace("<head>", f"<head>\n{favicon_line}")
-                  elif "<HEAD>" in content:
-                      content = content.replace("<HEAD>", f"<HEAD>\n{favicon_line}")
+                  # 1. Железобетонный поиск тега <head> в любом регистре (даже <HEAD> или <head class="...">)
+                  head_match = re.search(r'(<head[^>]*>)', content, re.IGNORECASE)
+                  if head_match:
+                      start_head = head_match.group(1)
+                      content = content.replace(start_head, f"{start_head}\n{favicon_line}")
                   
-                  # 2. Вставляем скрипт кнопок перед закрывающим тегом </body>
-                  if "</body>" in content:
-                      content = content.replace("</body>", f"{inject_line}</body>")
-                  elif "</BODY>" in content:
-                      content = content.replace("</BODY>", f"{inject_line}</BODY>")
+                  # 2. Железобетонный поиск закрывающего тега </body>
+                  body_match = re.search(r'(<\/body>)', content, re.IGNORECASE)
+                  if body_match:
+                      end_body = body_match.group(1)
+                      content = content.replace(end_body, f"{inject_line}{end_body}")
                   
                   with open(file_path, "w", encoding="utf-8") as f:
                       f.write(content)
-                  print(f"Иконка и кнопки успешно вшиты в папку {folder}")
+                  print(f"Успешно: иконка и кнопки вшиты в папку -> {folder}")
 
       - name: Сохранение изменений в репозиторий
         run: |
@@ -61,8 +66,8 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Автоматическое вшивание иконок favicon и контактов"
+            git commit -m "Универсальное вшивание иконок и контактов по списку"
             git push
           else
-            echo "Изменений нет."
+            echo "Изменений в файлах нет."
           fi
