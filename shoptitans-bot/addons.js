@@ -1,13 +1,4 @@
-// 1. Автоматически создаем канонический URL для правильной работы чата Telegram
-if (!document.querySelector('link[rel="canonical"]')) {
-    const canonicalLink = document.createElement('link');
-    canonicalLink.rel = 'canonical';
-    // Исправлено: берем чистый базовый адрес страницы без параметров
-    canonicalLink.href = window.location.origin + window.location.pathname;
-    document.head.appendChild(canonicalLink);
-}
-
-// 2. Создаем контейнер для чата и кнопок в самом низу страницы
+// 1. Создаем контейнер для чата и кнопок в самом низу страницы
 const addonContainer = document.createElement('div');
 addonContainer.style.maxWidth = '800px';
 addonContainer.style.margin = '50px auto';
@@ -35,7 +26,7 @@ addonContainer.innerHTML = `
 
 document.body.appendChild(addonContainer);
 
-// 3. Подключаем официальный скрипт Telegram с вашим ключом группы
+// 2. Подключаем официальный скрипт Telegram с вашим ключом группы
 const tgScript = document.createElement('script');
 tgScript.type = 'text/javascript';
 tgScript.src = 'https://telegram.org';
