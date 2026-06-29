@@ -15,7 +15,7 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Вшивание канонических ссылок и addons.js
+      - name: Безопасное подключение addons.js в папки ботов
         shell: bash
         run: |
           TARGET_FOLDERS=("shoptitans-bot" "bot-dungeon-crusher" "trofei-rybalka2")
@@ -25,20 +25,13 @@ jobs:
               file="./$folder/index.html"
               
               if [ -f "$file" ]; then
-                  # Очищаем старые привязки скрипта
+                  # Очищаем старые привязки
                   sed -i '/addons.js/d' "$file"
-                  # Очищаем старые канонические теги, если они были
                   sed -i '/rel="canonical"/d' "$file"
                   
-                  # 1. Жестко вшиваемaddons.js перед закрывающим тегом </body>
+                  echo "Безопасно подключаем addons.js в папку: $folder"
+                  # Вставляем строго перед закрывающим тегом </body> в самый низ
                   perl -i -pe "s|(<\/body>)|${INJECT_LINE}\1|gi" "$file"
-                  
-                  # 2. Генерируем правильный канонический URL для этой папки
-                  CANONICAL_TAG="<link rel=\"canonical\" href=\"https://github.io{folder}/\" />"
-                  
-                  # 3. Вставляем канонический тег в самое начало блока <head>
-                  perl -i -pe "s|(<head>)|\\1\n    ${CANONICAL_TAG}|gi" "$file"
-                  echo "Настройки успешно вшиты в папку: $folder"
               fi
           done
 
@@ -48,7 +41,7 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Автоматическое вшивание канонических URL и addons.js"
+            git commit -m "Откат к безопасной вставке скриптов"
             git push
           else
             echo "Изменений нет."
