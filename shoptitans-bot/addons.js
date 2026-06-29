@@ -1,40 +1,28 @@
-// 1. Создаем контейнер для чата и кнопок в самом низу страницы
+// Создаем аккуратный блок поддержки в самом низу страницы
 const addonContainer = document.createElement('div');
 addonContainer.style.maxWidth = '800px';
-addonContainer.style.margin = '50px auto';
-addonContainer.style.padding = '20px';
-addonContainer.style.fontFamily = 'sans-serif';
+addonContainer.style.margin = '60px auto';
+addonContainer.style.padding = '25px';
+addonContainer.style.fontFamily = '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif';
 addonContainer.style.textAlign = 'center';
 
 addonContainer.innerHTML = `
-  <!-- Кнопки связи через ТГ / ВК -->
-  <div style="margin-bottom: 40px; padding: 20px; background: #1a1a1e; border-radius: 12px; border: 1px solid #2a2a30; color: #fff;">
-      <h3 style="margin-top: 0; font-size: 1.3rem;">✈️ Нужна активация или помощь?</h3>
-      <p style="color: #a8a8b3; font-size: 0.95rem; margin-bottom: 20px;">После покупки обязательно напишите нам в Telegram или ВКонтакте для мгновенного получения ключа.</p>
+  <div style="padding: 30px; background: #16161a; border-radius: 16px; border: 1px solid #24242b; box-shadow: 0 10px 30px rgba(0,0,0,0.5);">
+      <h3 style="margin-top: 0; margin-bottom: 10px; color: #fff; font-size: 1.4rem; font-weight: 700; letter-spacing: -0.5px;">💡 Нужна активация или помощь?</h3>
+      <p style="color: #a1a1aa; font-size: 0.95rem; margin-bottom: 25px; line-height: 1.5;">После покупки обязательно продублируйте ваши данные в Telegram или ВКонтакте для мгновенного получения ключа.</p>
+      
       <div style="display: flex; justify-content: center; gap: 15px; flex-wrap: wrap;">
-          <a href="https://t.me" target="_blank" style="display: inline-flex; align-items: center; background: #0088cc; color: #fff; text-decoration: none; padding: 12px 24px; font-weight: bold; border-radius: 8px; font-size: 0.95rem;">Написать в Telegram</a>
-          <a href="https://vk.com" target="_blank" style="display: inline-flex; align-items: center; background: #4a76a8; color: #fff; text-decoration: none; padding: 12px 24px; font-weight: bold; border-radius: 8px; font-size: 0.95rem;">Написать во ВКонтакте</a>
+          <!-- Кнопка Telegram -->
+          <a href="https://t.me/+c6TUEr4cOjtiYmIy" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #24A1DE 0%, #1d82b3 100%); color: #fff; text-decoration: none; padding: 14px 28px; font-weight: bold; border-radius: 10px; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(36, 161, 222, 0.3); transition: transform 0.2s;">
+              ✈️ Написать в Telegram
+          </a>
+          
+          <!-- Кнопка ВКонтакте -->
+          <a href="https://vk.com/board215704478" target="_blank" style="display: inline-flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #0077FF 0%, #0055cc 100%); color: #fff; text-decoration: none; padding: 14px 28px; font-weight: bold; border-radius: 10px; font-size: 0.95rem; box-shadow: 0 4px 15px rgba(0, 119, 255, 0.3); transition: transform 0.2s;">
+              🔵 Написать во ВКонтакте
+          </a>
       </div>
-  </div>
-
-  <!-- Блок подгрузки живого чата Telegram -->
-  <div style="padding: 20px; background: #1a1a1e; border-radius: 12px; border: 1px solid #2a2a30; color: #fff; text-align: left;">
-      <h3 style="margin-top: 0; text-align: center; font-size: 1.3rem; margin-bottom: 20px;">💬 Живой чат и отзывы (Вход через Telegram)</h3>
-      <div id="tg-comments"></div>
   </div>
 `;
 
 document.body.appendChild(addonContainer);
-
-// 2. Подключаем официальный скрипт Telegram с вашим ключом группы
-const tgScript = document.createElement('script');
-tgScript.type = 'text/javascript';
-tgScript.src = 'https://telegram.org';
-tgScript.async = true;
-
-tgScript.setAttribute('data-telegram-discussion', 'boty_obsuzhdenie');
-tgScript.setAttribute('data-comments-limit', '5');
-tgScript.setAttribute('data-dark', '1');
-tgScript.setAttribute('data-colorful', '1');
-
-document.getElementById('tg-comments').appendChild(tgScript);
