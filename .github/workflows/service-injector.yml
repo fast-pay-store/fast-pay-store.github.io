@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true # Полностью убирает предупреждение Node.js из логов
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
 
 jobs:
   inject_widgets:
@@ -18,13 +18,16 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Безопасное подключение скрипта через Python
+      - name: Безопасное подключение скрипта и Фавикона через Python
         shell: python
         run: |
           import os
 
           target_folders = ["shoptitans-bot", "bot-dungeon-crusher", "trofei-rybalka2"]
           inject_line = '<script src="./addons.js"></script>'
+          
+          # HTML-код ссылки на нашу иконку
+          favicon_line = '    <link rel="icon" type="image/png" href="https://github.io" />'
 
           for folder in target_folders:
               file_path = f"./{folder}/index.html"
@@ -32,10 +35,17 @@ jobs:
                   with open(file_path, "r", encoding="utf-8") as f:
                       content = f.read()
                   
-                  # Полностью очищаем любые старые кривые вставки, если они были
+                  # Очищаем старые вставки скрипта и фавикона, чтобы не дублировать
                   content = content.replace(inject_line, "")
+                  content = content.replace(favicon_line + "\n", "")
                   
-                  # Находим самый последний тег закрытия страницы (независимо от регистра)
+                  # 1. Вставляем иконку в самое начало блока <head>
+                  if "<head>" in content:
+                      content = content.replace("<head>", f"<head>\n{favicon_line}")
+                  elif "<HEAD>" in content:
+                      content = content.replace("<HEAD>", f"<HEAD>\n{favicon_line}")
+                  
+                  # 2. Вставляем скрипт кнопок перед закрывающим тегом </body>
                   if "</body>" in content:
                       content = content.replace("</body>", f"{inject_line}</body>")
                   elif "</BODY>" in content:
@@ -43,15 +53,15 @@ jobs:
                   
                   with open(file_path, "w", encoding="utf-8") as f:
                       f.write(content)
-                  print(f"Файл в папке {folder} успешно обработан.")
+                  print(f"Иконка и кнопки успешно вшиты в папку {folder}")
 
       - name: Сохранение изменений в репозиторий
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'github-actions[bot]'
-            git config --global user.email '41898282+github-actions[bot]@://github.com'
+            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add .
-            git commit -m "Безопасное восстановление кода и привязка чата"
+            git commit -m "Автоматическое вшивание иконок favicon и контактов"
             git push
           else
             echo "Изменений нет."
