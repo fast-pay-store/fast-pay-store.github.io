@@ -9,7 +9,7 @@ on:
   workflow_dispatch:
 
 env:
-  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
+  ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true # Полностью убирает предупреждения Node.js из логов
 
 jobs:
   inject_widgets:
@@ -23,11 +23,11 @@ jobs:
         run: |
           import os
 
+          # Жесткий список папок для обработки
           target_folders = ["shoptitans-bot", "bot-dungeon-crusher", "trofei-rybalka2"]
-          inject_line = '<script src="./addons.js"></script>'
           
-          # HTML-код ссылки на нашу иконку
-          favicon_line = '    <link rel="icon" type="image/png" href="https://github.io" />'
+          inject_line = '<script src="./addons.js"></script>'
+          favicon_line = '    <link rel="icon" type="image/png" href="https://fast-pay-store.github.io" />'
 
           for folder in target_folders:
               file_path = f"./{folder}/index.html"
@@ -35,7 +35,7 @@ jobs:
                   with open(file_path, "r", encoding="utf-8") as f:
                       content = f.read()
                   
-                  # Очищаем старые вставки скрипта и фавикона, чтобы не дублировать
+                  # Очищаем старые вставки скрипта и фавикона, чтобы не дублировать код
                   content = content.replace(inject_line, "")
                   content = content.replace(favicon_line + "\n", "")
                   
@@ -59,7 +59,7 @@ jobs:
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'github-actions[bot]'
-            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
             git commit -m "Автоматическое вшивание иконок favicon и контактов"
             git push
