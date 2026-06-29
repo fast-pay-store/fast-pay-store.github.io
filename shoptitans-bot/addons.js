@@ -2,6 +2,7 @@
 if (!document.querySelector('link[rel="canonical"]')) {
     const canonicalLink = document.createElement('link');
     canonicalLink.rel = 'canonical';
+    // Исправлено: берем чистый адрес страницы без мусорных хвостов
     canonicalLink.href = window.location.href.split('?')[0].split('#')[0];
     document.head.appendChild(canonicalLink);
 }
@@ -37,7 +38,7 @@ document.body.appendChild(addonContainer);
 // 3. Подключаем официальный скрипт Telegram с вашим ключом группы
 const tgScript = document.createElement('script');
 tgScript.type = 'text/javascript';
-tgScript.src = 'https://telegram.org/js/telegram-widget.js?23';
+tgScript.src = 'https://telegram.org';
 tgScript.async = true;
 
 tgScript.setAttribute('data-telegram-discussion', 'boty_obsuzhdenie');
