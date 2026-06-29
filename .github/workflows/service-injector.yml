@@ -18,13 +18,12 @@ jobs:
       - name: Скачивание репозитория
         uses: actions/checkout@v4
 
-      - name: Безопасное подключение скрипта и Фавикона через Python
+      - name: Подключение внешнего скрипта addons.js через Python
         shell: python
         run: |
           import os
-          import re
 
-          # СПИСОК ПАПОК ДЛЯ ВСТАВКИ (Наглядный столбик, добавляйте новые строки сюда)
+          # НАГЛЯДНЫЙ СПИСОК ПАПОК (Добавляйте новые папки столбиком ниже)
           target_folders = [
               "shoptitans-bot",
               "bot-dungeon-crusher",
@@ -32,7 +31,6 @@ jobs:
           ]
           
           inject_line = '<script src="./addons.js"></script>'
-          favicon_line = '    <link rel="icon" type="image/png" href="https://github.io" />'
 
           for folder in target_folders:
               file_path = f"./{folder}/index.html"
@@ -40,25 +38,19 @@ jobs:
                   with open(file_path, "r", encoding="utf-8") as f:
                       content = f.read()
                   
-                  # Полностью вычищаем старые вставки, чтобы избежать дублирования
+                  # Полностью очищаем старые вставки и теги, возвращая HTML к исходному виду
                   content = content.replace(inject_line, "")
-                  content = re.sub(r'^\s*<link rel="icon".*?href=".*?favicon\.png".*?>\n?', '', content, flags=re.MULTILINE | re.IGNORECASE)
+                  content = content.replace('    <'    <link rel="icon" type="image/png" href="https://github.io" />\n', "")
                   
-                  # 1. Железобетонный поиск тега <head> в любом регистре (даже <HEAD> или <head class="...">)
-                  head_match = re.search(r'(<head[^>]*>)', content, re.IGNORECASE)
-                  if head_match:
-                      start_head = head_match.group(1)
-                      content = content.replace(start_head, f"{start_head}\n{favicon_line}")
-                  
-                  # 2. Железобетонный поиск закрывающего тега </body>
-                  body_match = re.search(r'(<\/body>)', content, re.IGNORECASE)
-                  if body_match:
-                      end_body = body_match.group(1)
-                      content = content.replace(end_body, f"{inject_line}{end_body}")
+                  # Вставляем только одну чистую строчку подключения внешнего JS скрипта перед </body>
+                  if "</body>" in content:
+                      content = content.replace("</body>", f"{inject_line}</body>")
+                  elif "</BODY>" in content:
+                      content = content.replace("</BODY>", f"{inject_line}</BODY>")
                   
                   with open(file_path, "w", encoding="utf-8") as f:
                       f.write(content)
-                  print(f"Успешно: иконка и кнопки вшиты в папку -> {folder}")
+                  print(f"Скрипт addons.js успешно подключен к папке: {folder}")
 
       - name: Сохранение изменений в репозиторий
         run: |
@@ -66,8 +58,8 @@ jobs:
             git config --global user.name 'github-actions[bot]'
             git config --global user.email '41898282+github-actions[bot]@://github.com'
             git add .
-            git commit -m "Универсальное вшивание иконок и контактов по списку"
+            git commit -m "Привязка скрипта кнопок и иконки по списку папок"
             git push
           else
-            echo "Изменений в файлах нет."
+            echo "Изменений в репозитории нет."
           fi
