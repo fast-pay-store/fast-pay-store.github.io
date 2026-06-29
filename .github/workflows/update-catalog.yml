@@ -1,0 +1,84 @@
+name: Update Catalog Links
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'index.html' # Игнорируем изменения самого index.html, чтобы не зациклить сборку
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Даем роботу права на запись изменений в репозиторий
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: '3.x'
+
+    - name: Generate Links
+      run: |
+        python -c '
+        import os
+        import re
+
+        # Список папок, которые скрипт будет игнорировать
+        exclude_dirs = {".git", ".github", "test"}
+        links = []
+
+        # Сканируем все директории в корне репозитория
+        for item in sorted(os.listdir(".")):
+            if os.path.isdir(item) and item not in exclude_dirs:
+                html_path = os.path.join(item, "index.html")
+                if os.path.isfile(html_path):
+                    # Пробуем вытащить красивое имя из <title> страницы
+                    title = item
+                    try:
+                        with open(html_path, "r", encoding="utf-8") as f:
+                            content = f.read()
+                            match = re.search(r"<title>(.*?)</title>", content, re.IGNORECASE | re.DOTALL)
+                            if match:
+                                title = match.group(1).strip()
+                    except Exception:
+                        pass
+                    
+                    # Формируем HTML-строку ссылки
+                    links.append(f"      <li><a href=\"./{item}/\">{title}</a></li>")
+
+        # Читаем текущую главную страницу
+        with open("index.html", "r", encoding="utf-8") as f:
+            main_content = f.read()
+
+        # Собираем новый блок со ссылками
+        new_links_block = "<!-- START_LINKS -->\n    <ul>\n" + "\n".join(links) + "\n    </ul>\n    <!-- END_LINKS -->"
+
+        # Заменяем старый блок на новый с помощью регулярного выражения
+        pattern = r"<!-- START_LINKS -->.*?<!-- END_LINKS -->"
+        updated_content = re.sub(pattern, new_links_block, main_content, flags=re.DOTALL)
+
+        # Сохраняем обновленный файл
+        with open("index.html", "w", encoding="utf-8") as f:
+            f.write(updated_content)
+        '
+
+    - name: Commit and Push changes
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@://github.com"
+        
+        # Проверяем, изменился ли index.html
+        if git diff --exit-code index.html; then
+          echo "Никаких новых страниц не найдено. Каталог актуален."
+        else
+          git add index.html
+          git commit -m "Auto-update catalog links [skip ci]"
+          git push
+        fi
