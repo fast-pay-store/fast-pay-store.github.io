@@ -23,7 +23,7 @@ jobs:
         run: |
           import os
 
-          # НАГЛЯДНЫЙ СПИСОК ПАПОК (Добавляйте новые папки столбиком ниже)
+          # НАГЛЯДНЫЙ ВЕРТИКАЛЬНЫЙ СПИСОК ПАПОК
           target_folders = [
               "shoptitans-bot",
               "bot-dungeon-crusher",
@@ -31,6 +31,7 @@ jobs:
           ]
           
           inject_line = '<script src="./addons.js"></script>'
+          favicon_line = '    <link rel="icon" type="image/png" href="https://fast-pay-store.github.io/favicon.png" />'
 
           for folder in target_folders:
               file_path = f"./{folder}/index.html"
@@ -38,11 +39,11 @@ jobs:
                   with open(file_path, "r", encoding="utf-8") as f:
                       content = f.read()
                   
-                  # Полностью очищаем старые вставки и теги, возвращая HTML к исходному виду
+                  # Полностью очищаем старые версии вставок, возвращая HTML к чистому виду
                   content = content.replace(inject_line, "")
-                  content = content.replace('    <'    <link rel="icon" type="image/png" href="https://github.io" />\n', "")
+                  content = content.replace(favicon_line + "\n", "")
                   
-                  # Вставляем только одну чистую строчку подключения внешнего JS скрипта перед </body>
+                  # Вставляем только строчку подключения внешнего JS скрипта перед </body>
                   if "</body>" in content:
                       content = content.replace("</body>", f"{inject_line}</body>")
                   elif "</BODY>" in content:
@@ -50,15 +51,15 @@ jobs:
                   
                   with open(file_path, "w", encoding="utf-8") as f:
                       f.write(content)
-                  print(f"Скрипт addons.js успешно подключен к папке: {folder}")
+                  print(f"Скрипт addons.js успешно привязан к папке: {folder}")
 
       - name: Сохранение изменений в репозиторий
         run: |
           if [[ `git status --porcelain` ]]; then
             git config --global user.name 'github-actions[bot]'
-            git config --global user.email '41898282+github-actions[bot]@://github.com'
+            git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
             git add .
-            git commit -m "Привязка скрипта кнопок и иконки по списку папок"
+            git commit -m "Привязка скрипта кнопок по чистому списку папок"
             git push
           else
             echo "Изменений в репозитории нет."
