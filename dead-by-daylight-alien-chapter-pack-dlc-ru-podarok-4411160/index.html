@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dead by Daylight - Alien Chapter Pack DLC | ?????? Steam Gift</title>
+<style>
+  :root {
+    --dbd-red: #e53e3e;
+    --dbd-dark-red: #c53030;
+    --bg-dark: #1a1a2e;
+    --card-bg: #16213e;
+    --border-color: #0f3460;
+    --text-main: #eaeaea;
+    --text-muted: #a0aec0;
+    --gold: #ffd700;
+    --green: #48bb78;
+    --shadow: 0 10px 30px rgba(0,0,0,0.4), 0 0 0 1px rgba(229,62,62,0.1);
+    --radius: 20px;
+    --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: linear-gradient(135deg, #0f0c29 0%, #302b63 50%, #24243e 100%); min-height: 100vh; display: flex; justify-content: center; align-items: flex-start; padding: 24px 16px; color: var(--text-main); line-height: 1.6; }
+  .card { width: 100%; max-width: 500px; background: var(--card-bg); border-radius: var(--radius); box-shadow: var(--shadow); border: 1px solid var(--border-color); overflow: hidden; animation: slideUp 0.6s ease-out; }
+  @keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  
+  /* Header / Image Area */
+  .card-header { position: relative; height: 200px; background: linear-gradient(145deg, #1a1a2e 0%, #0f0c29 100%); display: flex; align-items: center; justify-content: center; overflow: hidden; border-bottom: 1px solid var(--border-color); }
+  .card-header::before { content: ""; position: absolute; inset: 0; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cpath fill='%23e53e3e' fill-opacity='0.05' d='M0,0 L100,0 L100,100 Q50,50 0,100 Z'/%3E%3C/svg%3E") center/cover no-repeat; opacity: 0.3; }
+  .game-badge { position: relative; z-index: 1; text-align: center; padding: 0 20px; animation: fadeIn 1s ease 0.2s both; }
+  @keyframes fadeIn { from { opacity: 0; transform: scale(0.9); } to { opacity: 1; transform: scale(1); } }
+  .game-badge .tag { display: inline-block; background: linear-gradient(135deg, var(--dbd-red), #9b2c2c); color: #fff; padding: 6px 14px; border-radius: 50px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; box-shadow: 0 4px 15px rgba(229,62,62,0.4); margin-bottom: 12px; }
+  .game-badge h1 { font-size: clamp(22px, 5vw, 28px); font-weight: 800; line-height: 1.2; text-shadow: 0 2px 10px rgba(0,0,0,0.5); background: linear-gradient(180deg, #fff 0%, #ffd700 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; }
+  .game-badge .dlc-name { font-size: 14px; color: var(--gold); font-weight: 600; margin-top: 4px; display: block; }
+
+  /* Content */
+  .card-body { padding: 24px; }
+  
+  /* Price & Stats */
+  .price-row { display: flex; align-items: center; justify-content: space-between; flex-wrap: wrap; gap: 12px; margin-bottom: 20px; padding-bottom: 20px; border-bottom: 1px dashed var(--border-color); }
+  .price-badge { background: linear-gradient(135deg, var(--dbd-red), #b91c1c); color: white; padding: 10px 22px; border-radius: 12px; font-size: 24px; font-weight: 800; box-shadow: 0 4px 20px rgba(229,62,62,0.3); position: relative; overflow: hidden; }
+  .price-badge::after { content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: linear-gradient(45deg, transparent, rgba(255,255,255,0.15), transparent); transform: rotate(45deg); animation: shine 3s infinite; }
+  @keyframes shine { 0% { transform: translateX(-100%) rotate(45deg); } 100% { transform: translateX(100%) rotate(45deg); } }
+  .stats { display: flex; gap: 16px; flex-wrap: wrap; }
+  .stat-item { background: rgba(255,255,255,0.03); border: 1px solid var(--border-color); padding: 8px 14px; border-radius: 10px; display: flex; align-items: center; gap: 6px; font-size: 13px; color: var(--text-muted); transition: var(--transition); }
+  .stat-item:hover { border-color: var(--dbd-red); color: var(--text-main); transform: translateY(-2px); }
+  .stat-item svg { flex-shrink: 0; }
+  .stat-item .val { font-weight: 700; color: var(--gold); }
+  .stat-item.reviews .val { color: var(--green); }
+
+  /* Features Grid */
+  .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; margin-bottom: 20px; }
+  .feature { background: rgba(15, 52, 96, 0.5); border: 1px solid var(--border-color); border-radius: 12px; padding: 14px 12px; display: flex; align-items: flex-start; gap: 10px; transition: var(--transition); position: relative; overflow: hidden; }
+  .feature::before { content: ""; position: absolute; left: 0; top: 0; bottom: 0; width: 3px; background: var(--dbd-red); transform: scaleY(0); transform-origin: bottom; transition: transform 0.3s ease; }
+  .feature:hover { border-color: var(--dbd-red); background: rgba(229,62,62,0.1); transform: translateY(-2px); box-shadow: 0 8px 20px rgba(0,0,0,0.2); }
+  .feature:hover::before { transform: scaleY(1); transform-origin: top; }
+  .feature-icon { width: 28px; height: 28px; flex-shrink: 0; background: linear-gradient(135deg, var(--dbd-red), #ff6b6b); border-radius: 8px; display: flex; align-items: center; justify-content: center; color: white; font-size: 14px; box-shadow: 0 2px 8px rgba(229,62,62,0.3); }
+  .feature-text { font-size: 12.5px; line-height: 1.5; color: var(--text-main); }
+  .feature-text strong { display: block; margin-bottom: 2px; color: var(--gold); font-size: 12px; }
+
+  /* Info Blocks */
+  .info-section { margin-bottom: 20px; }
+  .info-title { display: flex; align-items: center; gap: 8px; font-size: 14px; font-weight: 700; color: var(--gold); margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+  .info-title svg { color: var(--dbd-red); }
+  .info-list { list-style: none; display: grid; gap: 8px; }
+  .info-list li { font-size: 13px; color: var(--text-muted); display: flex; align-items: flex-start; gap: 10px; padding: 10px 12px; background: rgba(255,255,255,0.02); border-radius: 10px; border: 1px solid transparent; transition: var(--transition); }
+  .info-list li:hover { border-color: var(--border-color); background: rgba(255,255,255,0.05); color: var(--text-main); }
+  .info-list li::before { content: "?"; color: var(--green); font-weight: bold; flex-shrink: 0; margin-top: 1px; font-size: 14px; }
+  .warning-box { background: linear-gradient(135deg, rgba(229,62,62,0.15), rgba(229,62,62,0.05)); border: 1px solid var(--dbd-red); border-radius: 12px; padding: 14px; font-size: 12.5px; color: #ffaaa5; line-height: 1.7; }
+  .warning-box strong { color: var(--gold); display: block; margin-bottom: 6px; font-size: 13px; }
+  
+  /* Gift Promo */
+  .gift-promo { background: linear-gradient(135deg, rgba(255,215,0,0.15), rgba(255,215,0,0.05)); border: 1px solid var(--gold); border-radius: 12px; padding: 16px; margin-bottom: 20px; text-align: center; position: relative; overflow: hidden; }
+  .gift-promo::before { content: "?"; font-size: 40px; position: absolute; top: 50%; right: 16px; transform: translateY(-50%); opacity: 0.15; pointer-events: none; }
+  .gift-promo h3 { font-size: 15px; color: var(--gold); margin-bottom: 8px; font-weight: 700; }
+  .gift-promo p { font-size: 12.5px; color: var(--text-muted); margin-bottom: 4px; }
+  .gift-promo .steps { text-align: left; font-size: 12px; color: var(--text-main); margin-top: 8px; display: grid; gap: 4px; }
+  .gift-promo .steps span { display: flex; gap: 8px; align-items: center; }
+  .gift-promo .steps .num { background: var(--gold); color: #1a1a2e; width: 20px; height: 20px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-weight: 800; font-size: 10px; flex-shrink: 0; }
+
+  /* Buy Button */
+  .buy-btn { display: block; width: 100%; padding: 18px 24px; background: linear-gradient(135deg, var(--dbd-red), #b91c1c); color: white; font-size: 17px; font-weight: 800; text-align: center; text-decoration: none; border-radius: 14px; border: none; cursor: pointer; box-shadow: 0 6px 25px rgba(229,62,62,0.4), inset 0 1px 0 rgba(255,255,255,0.1); transition: var(--transition); position: relative; overflow: hidden; text-transform: uppercase; letter-spacing: 0.5px; }
+  .buy-btn::before { content: ""; position: absolute; inset: 0; background: linear-gradient(135deg, #ff6b
