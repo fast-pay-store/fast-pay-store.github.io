@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Squad КЛЮЧ Steam Россия + ПОДАРОК</title>
+<style>
+:root {
+  --primary: #1b2838;
+  --primary-dark: #0e1a2a;
+  --accent: #66c0f4;
+  --accent-hover: #5aa9d9;
+  --success: #2ecc71;
+  --warning: #f39c12;
+  --bg: #f4f6f8;
+  --card-bg: #ffffff;
+  --text: #2c3e50;
+  --text-muted: #7f8c8d;
+  --border: #e1e8ed;
+  --shadow: 0 4px 20px rgba(0,0,0,0.08);
+  --shadow-hover: 0 8px 30px rgba(0,0,0,0.12);
+  --radius: 16px;
+  --radius-sm: 10px;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 24px 16px;
+}
+.card {
+  width: 100%;
+  max-width: 500px;
+  background: var(--card-bg);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  overflow: hidden;
+  transition: box-shadow 0.3s ease;
+}
+.card:hover { box-shadow: var(--shadow-hover); }
+.header {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+  color: #fff;
+  padding: 24px 20px;
+  position: relative;
+}
+.header::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, var(--accent), #2ecc71);
+}
+.badge-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+  margin-bottom: 12px;
+}
+.title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 70%;
+}
+.price-badge {
+  background: linear-gradient(135deg, #2ecc71, #27ae60);
+  color: #fff;
+  padding: 8px 16px;
+  border-radius: 30px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 2px 8px rgba(46,204,113,0.3);
+}
+.stats {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  opacity: 0.9;
+}
+.stat-item { display: flex; align-items: center; gap: 6px; }
+.stat-item svg { width: 16px; height: 16px; }
+.content { padding: 24px 20px; }
+.section { margin-bottom: 24px; }
+.section:last-child { margin-bottom: 0; }
+.section-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 12px;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--border);
+}
+.section-title svg { width: 20px; height: 20px; color: var(--accent); }
+.section-body {
+  font-size: 0.9rem;
+  color: var(--text);
+  line-height: 1.7;
+}
+.section-body ul { margin: 8px 0 8px 20px; }
+.section-body li { margin: 6px 0; }
+.section-body strong { color: var(--primary); }
+.section-body .highlight {
+  background: linear-gradient(120deg, #fff3cd 0%, #ffeeba 100%);
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: 600;
+}
+.info-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
+  gap: 12px;
+  margin-top: 8px;
+}
+.info-card {
+  background: #f8f9fa;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-sm);
+  padding: 14px 12px;
+  text-align: center;
+}
+.info-card .label {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  letter-spacing: 0.5px;
+  margin-bottom: 4px;
+}
+.info-card .value {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 0.95rem;
+}
+.promo-box {
+  background: linear-gradient(135deg, #fff8e1 0%, #ffecb3 100%);
+  border: 1px solid #ffe082;
+  border-radius: var(--radius-sm);
+  padding: 16px;
+  margin-bottom: 16px;
+}
+.promo-title {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-weight: 700;
+  color: #e65100;
+  margin-bottom: 10px;
+}
+.promo-steps { font-size: 0.85rem; }
+.promo-steps li { margin: 6px 0; padding-left: 4px; }
+.warning-list { font-size: 0.8rem; color: #c62828; margin-top: 10px; }
+.warning-list li { margin: 4px 0; }
+.game-desc { white-space: pre-line; }
+.buy-btn {
+  display: block;
+  width: 100%;
+  background: linear-gradient(135deg, var(--accent) 0%, #1a9ad6 100%);
+  color: #fff;
+  text-align: center;
+  padding: 18px 24px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 14px rgba(102,192,244,0.4);
+  margin-top: 8px;
+}
+.buy-btn:hover {
+  background: linear-gradient(135deg, var(--accent-hover) 0%, #158abf 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(102,192,244,0.5);
+}
+.buy-btn:active { transform: translateY(0); }
+.disclaimer {
+  text-align: center;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  margin-top: 16px;
+  line-height: 1.4;
+}
+@media (max-width: 480px) {
+  .title { max-width: 100%; font-size: 1.1rem; }
+  .badge-row { justify-content: center; text-align: center; }
+  .stats { justify-content: center; }
+  .content { padding: 20px 16px; }
+  .header { padding: 20px 16px; }
+}
+</style>
+</head>
+<body>
+<div class="card">
+  <header class="header">
+    <div class="badge-row">
+      <h1 class="title">❇️Squad КЛЮЧ Steam Россия + ПОДАРОК</h1>
+      <span class="price-badge">639 ₽</span>
+    </div>
+    <div class="stats">
+      <div class="stat-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        <span>Продано: 919</span>
+      </div>
+      <div class="stat-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
+        <span>176 ⭐ / 1 👎</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="content">
+    <section class="section">
+      <h2 class="section-title">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+        О нас
+      </h2>
+      <div class="section-body">
+        <ul>
+          <li>💫 Более <strong>12 лет</strong> на торговой площадке</li>
+          <li>🏆 <strong>2-е место</strong> по рейтингу продавцов Plati</li>
+          <li>💹 <strong>1 000 000+</strong> успешных продаж</li>
+          <li>👍 <strong>50 000+</strong> положительных отзывов</li>
+        </ul>
+        <p style="margin-top:8px; font-size:0.8rem; color:var(--text-muted);">Профиль продавца: <a href="https://plati.market/seller/all-for-gamers/316903/" target="_blank" rel="nofollow" style="color:var(--accent);">plati.market/seller/all-for-gamers/316903/</a></p>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        О наших товарах
+      </h2>
+      <div class="section-body">
+        <ul>
+          <li>🏆 Только <strong>официальный продукт</strong></li>
+          <li>🤩 <strong>Лучшие цены</strong></li>
+          <li>💯 <strong>Безупречное качество</strong></li>
+          <li>✅ <strong>Широкий выбор</strong></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="promo-box">
+        <div class="promo-title">❗️АКЦИЯ❗️</div>
+        <p style="margin-bottom:10px;">🤩 Каждый клиент, который оставит положительный отзыв — получит <strong>случайный ключ недорогой игры в Steam</strong>!</p>
+        <div class="promo-steps">
+          <strong>✅ Чтобы получить ПОДАРОК, нужно:</strong>
+          <ol style="margin:8px 0 0 20px; padding-left:0; list-style: none; counter-reset: step;">
+            <li style="counter-increment: step; margin:6px 0; display:flex; align-items:flex-start; gap:8px;"><span style="background:var(--accent); color:#fff; width:22px; height:22px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:0.7rem; font-weight:700; flex-shrink:0;">1</span> Купить наш товар</li>
+            <li style="counter-increment: step; margin:6px 0; display:flex; align-items:flex-start; gap:8px;"><span style="background:var(--accent); color:#fff; width:22px; height:22
