@@ -1,0 +1,59 @@
+name: Add favicon to all pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - '**/*.html'  # Запускается только при изменении HTML файлов
+
+jobs:
+  add-favicon:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+      
+      - name: Add favicon to HTML files
+        run: |
+          # Находим все HTML файлы в папках products (кроме корневого index.html)
+          find products -name "index.html" -type f | while read file; do
+            echo "Processing: $file"
+            
+            # Проверяем, есть ли уже favicon в файле
+            if ! grep -q "favicon" "$file"; then
+              echo "  Adding favicon..."
+              
+              # Создаём временный файл с favicon
+              # Вставляем после <head> или <meta charset>
+              sed -i '/<head[^>]*>/a \    <link rel="icon" type="image/x-icon" href="/favicon.ico">' "$file"
+              
+              echo "  ✓ Favicon added"
+            else
+              echo "  - Favicon already exists"
+            fi
+          done
+      
+      - name: Check for changes
+        id: git-check
+        run: |
+          git diff --exit-code || echo "changes=true" >> $GITHUB_OUTPUT
+      
+      - name: Commit and push changes
+        if: steps.git-check.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add -A
+          git commit -m "Add favicon to all product pages [automated]"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
