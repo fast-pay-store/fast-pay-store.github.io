@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Доплата за товар</title>
+<style>
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    font-family:system-ui,Arial,sans-serif;
+    background:#f5f7fa;
+    color:#222;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:1rem;
+  }
+  .card{
+    background:#fff;
+    border-radius:16px;
+    box-shadow:0 8px 24px rgba(0,0,0,.12);
+    overflow:hidden;
+    width:100%;
+    max-width:500px;
+  }
+  .header{
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    color:#fff;
+    padding:1.5rem;
+    text-align:center;
+  }
+  .header h1{font-size:1.8rem;margin-bottom:.3rem}
+  .header p{font-size:.95rem;opacity:.9}
+  .content{padding:1.5rem}
+  .price-badge{
+    display:inline-block;
+    background:linear-gradient(135deg,#4facfe,#00f2fe);
+    color:#fff;
+    font-size:2rem;
+    font-weight:bold;
+    padding:.4rem 1rem;
+    border-radius:12px;
+    margin-bottom:1rem;
+  }
+  .description{
+    background:#fafafa;
+    border-left:4px solid #ff9a9e;
+    padding:1rem;
+    margin:1rem 0;
+    border-radius:0 8px 8px 0;
+    font-size:.95rem;
+    line-height:1.5;
+  }
+  .stats{
+    display:flex;
+    justify-content:space-between;
+    font-size:.9rem;
+    color:#555;
+    margin-top:1rem;
+  }
+  .stats div{text-align:center}
+  .stats div span{display:block;font-weight:600;font-size:1.1rem}
+  .buy-btn{
+    display:block;
+    width:100%;
+    background:linear-gradient(135deg,#ff9a9e,#fad0c4);
+    color:#fff;
+    border:none;
+    padding:1rem;
+    font-size:1.1rem;
+    font-weight:600;
+    border-radius:12px;
+    cursor:pointer;
+    transition:transform .2s,box-shadow .2s;
+    margin-top:1.5rem;
+  }
+  .buy-btn:hover{
+    transform:translateY(-2px);
+    box-shadow:0 6px 18px rgba(255,154,158,.4);
+  }
+  .disclaimer{
+    font-size:.75rem;
+    color:#777;
+    text-align:center;
+    margin-top:1rem;
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <h1>Доплата за товар</h1>
+    <p>Для частичной доплаты по товарам продавца <strong>Fursov.Me</strong></p>
+  </div>
+  <div class="content">
+    <div class="price-badge">1 RUR</div>
+    <div class="description">
+      <attention>Этот товар предназначен для доплаты по товарам продавца Fursov.Me.
+
+Ссылка на страницу продавца: https://plati.market/seller/fursov-me/164256/
+
+❗ Используется только при необходимости частичной доплаты — предварительно согласуйте детали в чате с продавцом.
+
+После оплаты вы получите код, который необходимо отправить продавцу в разделе «Переписка с продавцом» на странице покупки.</attention>
+    </div>
+    <div class="stats">
+      <div>
+        <span>667>667</7> шт.
+        <div>Продано</div>
+      </div>
+      <div>
+        <span>14</span>
+        <div>Отзывы <span style="color:#4caf50;">✓</span></div>
+      </div>
+    </div>
+    <button class="buy-btn" href="164256" target="_blank" rel="nofollow sponsored">КУПИТЬ</button>
+    <div class="disclaimer">Переходя по этой ссылке, вы поддерживаете наш проект — спасибо!</div>
+  </div>
+</div>
+</body>
+</html>
