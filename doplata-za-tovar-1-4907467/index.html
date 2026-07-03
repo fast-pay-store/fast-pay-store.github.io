@@ -1,0 +1,51 @@
+<meta charset="UTF-8">
+<style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%); min-height: 100vh; display: flex; justify-content: center; align-items: center; padding: 20px; }
+    .card { max-width: 500px; background: white; border-radius: 20px; overflow: hidden; box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+    .header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 30px; color: white; text-align: center; }
+    .header h1 { font-size: 28px; margin-bottom: 10px; font-weight: 700; }
+    .price-badge { display: inline-block; background: #ff6b6b; color: white; padding: 8px 20px; border-radius: 25px; font-size: 24px; font-weight: 700; margin: 10px 0; box-shadow: 0 4px 15px rgba(0,0,0,0.2); }
+    .body { padding: 30px; }
+    .description { color: #444; line-height: 1.8; margin-bottom: 25px; font-size: 16px; }
+    .description strong { color: #667eea; }
+    .stats { display: flex; justify-content: space-between; align-items: center; margin-bottom: 25px; padding: 15px; background: #f8f9fa; border-radius: 12px; }
+    .sold { font-size: 18px; color: #444; }
+    .sold strong { color: #667eea; font-size: 20px; }
+    .reviews { display: flex; align-items: center; gap: 8px; color: #ffc107; }
+    .reviews strong { color: #444; }
+    .btn { display: block; width: 100%; padding: 18px; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; text-align: center; font-size: 20px; font-weight: 700; text-decoration: none; border-radius: 12px; transition: all 0.3s ease; box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4); border: none; cursor: pointer; }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 25px rgba(102, 126, 234, 0.6); }
+    .disclaimer { font-size: 13px; color: rgba(0,0,0,0.5); text-align: center; margin-top: 15px; margin-bottom: 20px; }
+    .guarantee { padding: 15px; background: #f8f9fa; border-top: 1px solid #eee; border-bottom: 1px solid #eee; display: flex; align-items: center; justify-content: center; gap: 10px; color: #555; font-size: 14px; }
+    .guarantee span { font-size: 18px; }
+    @media (max-width: 480px) {
+        .header h1 { font-size: 24px; }
+        .price-badge { font-size: 22px; }
+        .body { padding: 20px; }
+        .btn { padding: 15px; font-size: 18px; }
+    }
+</style>
+
+<div class="card">
+    <div class="header">
+        <h1>Доплата за товар 1</h1>
+        <div class="price-badge">799 RUR</div>
+    </div>
+    <div class="body">
+        <p class="description">Этот товар предназначен для доплаты по товарам продавца ProSeller.inc<br><br>❗️Данный товар используется только при необходимости частичной доплаты по товару и не может быть использован для полной оплаты.<br><br>После оплаты вы получите код, отправьте его продавцу на странице покупки "переписка c продавцом"</p>
+        <div class="stats">
+            <div class="sold">Продано: <strong>212 шт.</strong></div>
+            <div class="reviews">
+                <span>★★★★★</span>
+                <strong>5</strong>
+            </div>
+        </div>
+        <a href="https://plati.market/itm/4907467?ai=816991" target="_blank" rel="nofollow sponsored" class="btn">Купить</a>
+        <p class="disclaimer">Переходя по этой ссылке, вы поддерживаете наш проект. Цена для вас не изменится. Спасибо!</p>
+    </div>
+    <div class="guarantee">
+        <span>🛡️</span>
+        <span>Безопасная покупка на plati.market — гарант сделки с 2003 года</span>
+    </div>
+</div>
