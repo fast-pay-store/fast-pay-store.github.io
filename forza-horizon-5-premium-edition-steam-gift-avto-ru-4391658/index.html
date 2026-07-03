@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forza Horizon 5 Premium Edition Steam GIFT</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            color: #eee;
+            padding: 20px;
+            min-height: 100vh;
+        }
+        .card {
+            max-width: 500px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.08);
+            border-radius: 20px;
+            padding: 25px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+            backdrop-filter: blur(10px);
+        }
+        .title {
+            font-size: 1.8em;
+            font-weight: 800;
+            text-align: center;
+            margin-bottom: 20px;
+            background: linear-gradient(90deg, #00d4ff, #00ff88);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .badge {
+            display: inline-block;
+            background: linear-gradient(45deg, #ff6b6b, #ee5a5a);
+            color: white;
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-weight: 700;
+            font-size: 1.1em;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(255, 107, 107, 0.4);
+        }
+        .price-section {
+            text-align: center;
+            margin-bottom: 25px;
+        }
+        .price {
+            font-size: 2.5em;
+            font-weight: 900;
+            color: #00ff88;
+            text-shadow: 0 0 20px rgba(0, 255, 136, 0.5);
+        }
+        .price-span {
+            font-size: 0.8em;
+            color: #aaa;
+            margin-left: 5px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+            border-left: 4px solid #00d4ff;
+        }
+        .section-title {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 1.1em;
+            margin-bottom: 12px;
+            color: #00d4ff;
+        }
+        .delivery-info {
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 12px;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        .delivery-item {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin: 8px 0;
+            font-size: 0.95em;
+        }
+        .highlight {
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        .gift-section {
+            background: linear-gradient(135deg, rgba(255, 193, 7, 0.15), rgba(255, 193, 7, 0.05));
+            border: 1px solid #ffc107;
+            border-radius: 12px;
+            padding: 18px;
+            margin: 20px 0;
+        }
+        .gift-title {
+            color: #ffc107;
+            font-weight: 700;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+        .gift-steps {
+            list-style: none;
+            padding-left: 0;
+        }
+        .gift-steps li {
+            padding: 8px 0;
+            border-bottom: 1px dashed rgba(255, 193, 7, 0.3);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .gift-steps li:last-child {
+            border-bottom: none;
+        }
+        .step-number {
+            background: #ffc107;
+            color: #1a1a2e;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.8em;
+        }
+        .warning {
+            background: rgba(255, 107, 107, 0.15);
+            border: 1px solid #ff6b6b;
+            border-radius: 8px;
+            padding: 10px;
+            margin: 10px 0;
+            font-size: 0.9em;
+            line-height: 1.4;
+        }
+        .warning strong {
+            color: #ff6b6b;
+        }
+        .price-warning {
+            color: #ff6b6b;
+            font-size: 0.9em;
+            margin-top: 10px;
+        }
+        .button-container {
+            margin: 25px 0;
+        }
+        .buy-btn {
+            width: 100%;
+            padding: 18px;
+            font-size: 1.3em;
+            font-weight: 800;
+            color: #1a1a2e;
+            background: linear-gradient(45deg, #00d4ff, #00ff88);
+            border: none;
+            border-radius: 15px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: block;
+            text-align: center;
+            box-shadow: 0 10px 25px rgba(0, 212, 255, 0.4);
+        }
+        .buy-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 15px 30px rgba(0, 212, 255, 0.6);
+            background: linear-gradient(45deg, #00c4e6, #00e67a);
+        }
+        .buy-btn:active {
+            transform: translateY(0);
+        }
+        .disclaimer {
+            font-size: 0.85em;
+            color: rgba(200, 200, 200, 0.7);
+            text-align: center;
+            margin-top: 15px;
+            line-height: 1.4;
+        }
+        .reviews {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.2);
+            border-radius: 12px;
+        }
+        .review-item {
+            text-align: center;
+        }
+        .review-number {
+            font-size: 1.8em;
+            font-weight: 800;
+            color: #00ff88;
+        }
+        .review-label {
+            font-size: 0.85em;
+            color: #aaa;
+        }
+        .selling {
+            color: #ffc107;
+            font-weight: 700;
+        }
+        .guarantee {
+            margin-top: 25px;
+            padding-top: 15px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            font-size: 0.9em;
+            color: #aaa;
+        }
+        .guarantee-icon {
+            width: 24px;
+            height: 24px;
+            background: linear-gradient(135deg, #00d4ff, #00ff88);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .guarantee-icon::after {
+            content: "🛡";
+            font-size: 1.2em;
+        }
+        @media (max-width: 480px) {
+            .card {
+                padding: 20px;
+            }
+            .title {
+                font-size: 1.5em;
+            }
+            .price {
+                font-size: 2em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1 class="title">📗Forza Horizon 5 Premium Edition Steam GIFT ⭐Авто⭐RU✅+Подарок</h1>
+        
+        <div class="badge">🔥 В наличии!</div>
+        
+        <div class="price-section">
+            <div class="price">5299<span class="price-span">RUR</span></div>
+            <div class="price-warning">💰 Рекомендуем использовать верхний способ оплаты — тут нет комиссии</div>
+        </div>
+        
+        <div class="delivery-info">
+            <div class="delivery-item">❗️❗️❗️ <span class="highlight">АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7</span> ❗️❗️❗️</div>
+            <div class="delivery-item">📜<strong>О нас:</strong> Более 12 лет на торговой площадке</div>
+            <div class="delivery-item">🏆 На 2 месте в топе продавцов по рейтингу Plati</div>
+            <div class="delivery-item">💹 1 000 000+ успешных продаж</div>
+            <div class="delivery-item">👍50 000+ положительных отзывов</div>
+        </div>
+        
+        <div class="section">
+            <div class="delivery-item"><strong>🧾О наших товарах:</strong></div>
+            <div class="delivery-item">🏆 Только официальный продукт</div>
+            <div class="delivery-item">🤩 Лучшие цены</div>
+            <div class="delivery-item">💯 Безупречное качество</div>
+            <div class="delivery-item">✅ Широкий выбор</div>
+        </div>
+        
+        <div class="gift-section">
+            <div class="gift-title">🎁 ⚠️ АКЦИЯ ⚠️</div>
+            <div class="delivery-item">🤩Каждый клиент, который оставит положительный отзыв - получит случайный ключ недорогой игры в Steam!</div>
+            
+            <ul class="gift-steps">
+                <li><span class="step-number">1</span>Купить наш товар</li>
+                <li><span class="step-number">2</span>После обработки заказа - оставить положительный отзыв</li>
+                <li><span class="step-number">3</span>Написать в &quot;Переписку с продавцом&quot; сообщение &quot;хочу подарок&quot;</li>
+                <li><span class="step-number">4</span>Ожидать отправку ключа Steam оператором</li>
+            </ul>
+            
+            <div class="warning">
+                ⚠️ Подарки выдаются ТОЛЬКО при наличии положительного отзыва.<br>
+                ⚠️ Срок выдачи - до 24 часов после получения от вас сообщения &quot;хочу подарок&quot;<br>
+                ⚠️ За один заказ - вы можете получить один подарок.
+            </div>
+        </div>
+        
+        <div class="section">
+            <div class="delivery-item">🔰После оплаты начнется процесс активации товара на ваш аккаунт</div>
+            <div class="delivery-item">🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут</div>
+            <div class="delivery-item">🔰Крайне редко доставка может быть задержана</div>
+        </div>
+        
+        <div class="section">
+            <div class="delivery-item"><strong>⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️</strong></div>
+            <div class="delivery-item">🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин</div>
+            <div class="delivery-item">✅Скоп
