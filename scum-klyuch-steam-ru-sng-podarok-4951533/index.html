@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SCUM КЛЮЧ Steam РУ/СНГ + ПОДАРОК</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; background: linear-gradient(135deg, #f5f7fa 0%, #e4e8f0 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; line-height: 1.5; color: #1a1a2e; }
+  .card { background: #fff; max-width: 500px; width: 100%; border-radius: 20px; box-shadow: 0 10px 40px rgba(15, 23, 42, 0.1), 0 2px 8px rgba(15, 23, 42, 0.05); overflow: hidden; position: relative; }
+  .header { background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); color: #fff; padding: 24px 20px; text-align: center; position: relative; overflow: hidden; }
+  .header::before { content: ''; position: absolute; top: -50%; right: -50%; width: 100%; height: 200%; background: radial-gradient(circle, rgba(255,215,0,0.1) 0%, transparent 70%); animation: pulse 4s ease-in-out infinite; }
+  @keyframes pulse { 0%,100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 0.8; } }
+  .game-icon { width: 72px; height: 72px; border-radius: 16px; background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%); display: flex; align-items: center; justify-content: center; font-size: 32px; margin: 0 auto 12px; box-shadow: 0 4px 16px rgba(255, 140, 0, 0.4); position: relative; z-index: 1; }
+  .title { font-size: 20px; font-weight: 700; margin-bottom: 4px; position: relative; z-index: 1; line-height: 1.3; }
+  .subtitle { font-size: 13px; opacity: 0.8; position: relative; z-index: 1; }
+  .price-badge { display: inline-flex; align-items: baseline; gap: 4px; background: linear-gradient(135deg, #ffd700 0%, #ff8c00 100%); color: #0f172a; padding: 8px 16px; border-radius: 50px; font-weight: 800; font-size: 14px; margin-top: 12px; box-shadow: 0 4px 12px rgba(255, 140, 0, 0.3); position: relative; z-index: 1; }
+  .price-badge .amount { font-size: 24px; line-height: 1; }
+  .content { padding: 24px 20px; }
+  .section { margin-bottom: 20px; }
+  .section-title { display: flex; align-items: center; gap: 8px; font-size: 15px; font-weight: 700; color: #0f172a; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #e2e8f0; }
+  .section-title svg { flex-shrink: 0; color: #ff8c00; }
+  .features { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .feature { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 12px; display: flex; align-items: flex-start; gap: 10px; transition: transform 0.2s, box-shadow 0.2s; }
+  .feature:hover { transform: translateY(-2px); box-shadow: 0 4px 12px rgba(15, 23, 42, 0.08); }
+  .feature-icon { width: 28px; height: 28px; border-radius: 8px; background: linear-gradient(135deg, #ffd700, #ff8c00); display: flex; align-items: center; justify-content: center; color: #0f172a; font-size: 14px; flex-shrink: 0; margin-top: 2px; }
+  .feature-text { font-size: 13px; color: #334155; line-height: 1.4; }
+  .promo-box { background: linear-gradient(135deg, #fff7ed 0%, #ffedd5 100%); border: 1px solid #fed7aa; border-radius: 14px; padding: 16px; position: relative; overflow: hidden; }
+  .promo-box::before { content: '❗'; position: absolute; top: 12px; right: 16px; font-size: 24px; opacity: 0.3; }
+  .promo-title { font-weight: 700; font-size: 14px; color: #9a3412; margin-bottom: 10px; display: flex; align-items: center; gap: 6px; }
+  .promo-steps { font-size: 13px; color: #7c2d12; line-height: 1.8; }
+  .promo-steps strong { color: #9a3412; }
+  .warning-list { font-size: 12px; color: #b45309; margin-top: 10px; padding-left: 18px; line-height: 1.7; }
+  .warning-list li { list-style: disc; }
+  .info-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+  .info-item { background: #f8fafc; border-radius: 10px; padding: 12px; text-align: center; border: 1px solid #e2e8f0; }
+  .info-label { font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+  .info-value { font-size: 14px; font-weight: 600; color: #0f172a; }
+  .description { font-size: 13px; color: #475569; line-height: 1.6; background: #f8fafc; border-radius: 10px; padding: 14px; border-left: 3px solid #ff8c00; }
+  .stats { display: flex; gap: 16px; justify-content: center; flex-wrap: wrap; padding-top: 16px; margin-top: 16px; border-top: 1px solid #e2e8f0; }
+  .stat { display: flex; align-items: center; gap: 6px; font-size: 13px; color: #475569; background: #f8fafc; padding: 8px 14px; border-radius: 50px; border: 1px solid #e2e8f0; }
+  .stat strong { color: #0f172a; font-size: 15px; }
+  .stat svg { color: #ff8c00; }
+  .buy-btn { display: block; width: 100%; padding: 16px; background: linear-gradient(135deg, #0ea5e9 0%, #0284c7 100%); color: #fff; font-size: 17px; font-weight: 700; text-align: center; text-decoration: none; border-radius: 14px; border: none; cursor: pointer; box-shadow: 0 6px 20px rgba(14, 165, 233, 0.4); transition: transform 0.15s, box-shadow 0.15s, background 0.2s; margin-top: 8px; }
+  .buy-btn:hover { transform: translateY(-2px); box-shadow: 0 10px 28px rgba(14, 165, 233, 0.5); background: linear-gradient(135deg, #0284c7 0%, #0369a1 100%); }
+  .buy-btn:active { transform: translateY(0); box-shadow: 0 4px 12px rgba(14, 165, 233, 0.4); }
+  .disclaimer { text-align: center; font-size: 11px; color: #94a3b8; margin-top: 12px; line-height: 1.4; }
+  .guarantee { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 16px 20px; background: #f8fafc; border-top: 1px solid #e2e8f0; font-size: 12px; color: #64748b; }
+  .guarantee svg { color: #0ea5e9; flex-shrink: 0; }
+  .hidden { display: none; }
+  @media (max-width: 480px) {
+    .features, .info-grid { grid-template-columns: 1fr; }
+    .title { font-size: 18px; }
+    .price-badge .amount { font-size: 22px; }
+    .buy-btn { font-size: 16px; padding: 14px; }
+  }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <div class="game-icon">❇️</div>
+    <h1 class="title">SCUM КЛЮЧ Steam РУ/СНГ* + ПОДАРОК</h1>
+    <p class="subtitle">Активация ключа в Steam | Автоматическая доставка 24/7</p>
+    <div class="price-badge"><span class="amount">789</span> <span>RUR</span></div>
+  </div>
+
+  <div class="content">
+    <div class="section promo-box">
+      <div class="promo-title">❗️ АКЦИЯ: Оставь отзыв — получи случайный Steam-ключ в подарок!</div>
+      <div class="promo-steps">
+        <strong>Как получить подарок:</strong><br>
+        1️⃣ Купить товар<br>
+        2️⃣ После обработки — оставить положительный отзыв<br>
+        3️⃣ Написать в переписку с продавцом: «хочу подарок»<br>
+        4️⃣ Ожидать отправку ключа оператором (до 24ч)
+      </div>
+      <ul class="warning-list">
+        <li>Подарки только при наличии положительного отзыва</li>
+        <li>Срок выдачи — до 24 часов после сообщения</li>
+        <li>За один заказ — один подарок</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+        Почему покупают у нас
+      </h2>
+      <div class="features">
+        <div class="feature"><div class="feature-icon">💫</div><div class="feature-text"><strong>12+ лет</strong> на площадке</div></div>
+        <div class="feature"><div class="feature-icon">🏆</div><div class="feature-text"><strong>Топ-2</strong> по рейтингу Plati</div></div>
+        <div class="feature"><div class="feature-icon">💹</div><div class="feature-text"><strong>1 000 000+</strong> продаж</div></div>
+        <div class="feature"><div class="feature-icon">👍</div><div class="feature-text"><strong>50 000+</strong> положительных отзывов</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="14" rx="2"></rect><path d="M8 21h8"></path><path d="M12 17v4"></path></svg>
+        Гарантии товара
+      </h2>
+      <div class="features">
+        <div class="feature"><div class="feature-icon">🏆</div><div class="feature-text">Только официальный продукт</div></div>
+        <div class="feature"><div class="feature-icon">🤩</div><div class="feature-text">Лучшие цены на рынке</div></div>
+        <div class="feature"><div class="feature-icon">💯</div><div class="feature-text">Безупречное качество</div></div>
+        <div class="feature"><div class="feature-icon">✅</div><div class="feature-text">Широкий выбор игр</div></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
+        Информация о продукте
+      </h2>
+      <div class="info-grid">
+        <div class="info-item"><div class="info-label">Платформа</div><div class="info-value">Steam</div></div>
+        <div class="info-item"><div class="info-label">Тип</div><div class="info-value">Ключ активации 🔑</div></div>
+        <div class="info-item"><div class="info-label">Регион</div><div class="info-value">РУ / СНГ*</div></div>
+        <div class="info-item"><div class="info-label">Доставка</div><div class="info-value">Авто 24/7 ⌛</div></div>
+      </div>
+      <p class="description" style="margin-top: 12px;">Ищите любые способы выжить в дебрях негостеприимного острова, где опасности встречаются на каждом шагу. Невероятные возможности для персонализации и
