@@ -1,0 +1,222 @@
+We need to output only HTML code, no markdown, no explanations. Must include meta charset UTF-8 at beginning. Use inline CSS only. Responsive design, max-width:500px. Include product data: name, description (with attention tags? The description contains <attention> tags; we need to keep emojis but likely need to strip tags? The requirement: "Эмодзи из описания сохранить". So we need to preserve emojis, but the description includes <attention> tags that we should not output as HTML tags (they are not valid). Probably we should treat them as just markers and output the text inside them, preserving line breaks and emojis. So we need to extract the description content: there are multiple <attention> blocks. Let's combine them preserving line breaks.
+
+We have description:
+
+<attention>🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0% </attention>
+<attention>🟢 Об сервисе
+
+🧠 Что такое Suno AI?
+Suno AI — это инновационный сервис, основанный на технологиях нейросетей, который позволяет создавать оригинальные песни в различных жанрах и стилях по текстовым подсказкам.
+
+Основные возможности Suno AI:
+✅ Генерация вокальных треков с нуля
+✅ Продолжение и развитие уже существующих песен
+✅ Создание уникальных мелодий на основе заданного текста
+✅ Выбор музыкального стиля: поп, рок, хип-хоп и десятки других
+✅ Совместное творчество с ИИ
+
+Тарифные планы Suno AI:
+🆓 Free — 50 кредитов в день (до 10 песен)
+💰 Pro — 2500 кредитов в месяц
+💎 Premier — 10 000 кредитов в месяц</attention>
+<attention>🟢 КАК ПРОХОДИТ ПОКУПКА ПОДПИСКИ?
+✅ После оплаты Вы получаете УНИКАЛЬНЫЙ КОД (16 значный). Его нужно сообщить сотруднику в чат "Переписка с продавцом" вместе с данным от аккаунта
+
+🍀Пример:
+Код ХХХХХХХХХХХХХХХХ
+Данные от Вашего аккаунта </attention>
+<attention>🟣 Что мы предлагаем? 
+🔹Оформим подписку на Ваш ранее зарегистрированный аккаунт 
+
+✅ Оплата подписки происходит с личных средств
+✅ Гарантийный срок на весь оплаченный период
+
+Варианты продления/покупки подписки:
+➖ Зайдем по вашим данным (логин:пароль) в аккаунт и оформим подписку
+
+Выбрать вариант получения подписки можно перед покупкой
+</attention>
+<attention>🔴 ВАЖНАЯ ИНФОРМАЦИЯ!
+➖ Для входа из РФ может потребоваться VP*
+➖ Гарантия на весь оплаченный период ❗
+➖ Тарифные планы - 1 месяц</attention>
+
+Also there is additional block: <attention>⏳ Срок выполнения: от 15 минут до 3 часов (в редких случаях — не более 
+⟩ etc. Then another <attention>💯 Оплачивайте банковской картой или через СБП первым способом — комиссия отсутствует! ...</attention> and another <attention>🔝 Популярные товары у нас: ...</attention>
+
+We need to include description (maybe shortened?) but likely we need to include all description content (including the additional blocks). The instruction: "Описание:" then the block with <attention> tags. So we should output the description as plain text (keeping emojis). We'll need to preserve line breaks using <br> or <p>. Use inline CSS.
+
+We also need to include additional info: Дополнительно block (with schedule etc). Probably we should include that as part of description or separate section.
+
+We need to include:
+
+- Название
+- Цена: 999 RUR
+- Продано: 100 шт.
+- Отзывы: 100 положительных, 0 отрицательных
+
+- Блок гарантий: small shield icon and text.
+
+- Кнопка Купить with href exactly "164256", target="_blank", rel="nofollow sponsored". Also need disclaimer under button small semi-transparent.
+
+- Also need info about payment and delivery via plati.market maybe as a small note.
+
+We need to ensure max-width:500px, mobile-first, responsive.
+
+Let's craft HTML:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>SUNO AI PRO Premier подписка</title>
+<style>
+/* reset */
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:Arial,sans-serif;background:#f9f9f9;color:#222;padding:10px}
+.container{max-width:500px;margin:0 auto;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,.15);overflow:hidden}
+.img-placeholder{width:100%;height:200px;background:linear-gradient(135deg,#6a11cb,#2575fc);display:flex;align-items:center;justify-content:center;color:#fff;font-size:1.4em}
+h1{font-size:1.5em;margin:15px;color:#333}
+.price-badge{display:inline-block;background:linear-gradient(to right,#ff416c,#ff4b2b);color:#fff;padding:6px 12px;border-radius:20px;font-weight:bold;font-size:1.3em;margin:0 15px 15px}
+.stats{display:flex;justify-content:space-between;margin:0 15px 10px;font-size:0.9em;color:#555}
+.stats span{background:#eee;padding:3px 8px;border-radius:12px}
+.description{margin:0 15px;padding-bottom:10px;font-size:0.95em;line-height:1.5;color:#333}
+.description p{margin:0 0 8px}
+.guarantee{margin:15px;padding:10px;background:#f0f8ff;border-left:4px solid #4a90e2;border-radius:4px;font-size:0.9em;color:#333}
+.guarantee::before{content:"🛡️";margin-right:6px}
+.button{display:block;width:calc(100% - 30px);margin:15px auto;padding:14px;background:linear-gradient(to right,#ff416c,#ff4b2b);color:#fff;border:none;border-radius:30px;font-size:1.1em;font-weight:bold;cursor:pointer;text-align:center;transition:background .3s,transform .2s}
+.button:hover{background:linear-gradient(to right,#ff4b2b,#ff416c);transform:scale(1.05)}
+.disclaimer{margin:0 15px 15px;font-size:0.8em;color:#777;text-align:center;opacity:0.7}
+.footer-note{margin:0 15px 15px;font-size:0.85em;color:#666}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="img-placeholder">🎶</div>
+<h1>🎶SUNO AI 🧠 ПОДПИСКА PRO | Premier | НА ВАШ АККАУНТ</h1>
+<div class="price-badge">999 RUR</div>
+<div class="stats">
+<span>🛒 Продано: 100 шт.</span>
+<span>⭐ Отзывы: 100 положительных, 0 отрицательных</span>
+</div>
+<div class="description">
+<p>🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМА 0% </p>🟢 Об сервисе ... we need to preserve line breaks. Let's just output the raw text with <br> for line breaks. We'll produce a single string with <br> where line breaks were. For simplicity, we can replace newline with <br>. We'll produce the description as a series of <p> blocks. Let's manually craft. -->
+</div>
+</div>
+</body>
+</html>
+
+But we need to include the full description. Let's extract all text from the <attention> blocks, preserving emojis and line breaks.
+
+We'll concatenate:
+
+Block1: "🔥 ПРЕ? Actually: "🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0% " (note trailing space). We'll keep.
+
+Block2: starts with "🟢 Об сервисе" then blank line then content.
+
+Let's write out:
+
+🟢 Об сервисе
+
+🧠 Что такое Suno AI?
+Suno AI — это инновационный сервис, основанный на технологиях нейросетей, который позволяет создавать оригинальные песни в различных жанрах и стилях по текстовым подсказкам.
+
+Основные возможности Suno AI:
+✅ Генерация вокальных треков с нуля
+✅ Продолжение и развитие уже существующих песен
+✅ Создание уникальных мелодий на основе заданного текста
+✅ Выбор музыкального стиля: поп, рок, хип-хоп и десятки других
+✅ Совместное творчество с ИИ
+
+Тарифные планы Suno AI:
+🆓 Free — 50 кредитов в день (до 10 песен)
+💰 Pro — 2500 кредитов в месяц
+💎 Premier — 10 000 кредитов в месяц
+
+Block3:
+
+🟢 КАК ПРОХОДИТ ПОКУПКА ПОДПИСКИ?
+✅ После оплаты Вы получаете УНИКАЛЬНЫЙ КОД (16 значный). Его нужно сообщить сотруднику в чат "Переписка с продавцом" вместе с данным от аккаунта
+
+🍀Пример:
+Код ХХХХХХХХХХХХХХХХ
+Данные от Вашего аккаунта
+
+Block4:
+
+🟣 Что мы предлагаем? 
+🔹Оформим подписку на Ваш ранее зарегистрированный аккаунт 
+
+✅ Оплата подписки происходит с личных средств
+✅ Гарантийный срок на весь оплаченный период
+
+Варианты продления/покупки подписки:
+➖ Зайдем по вашим данным (логин:пароль) в аккаунт и оформим подписку
+
+Выбрать вариант получения подписки можно перед покупкой
+
+Block5:
+
+🔴 ВАЖНАЯ ИНФОРМАЦИЯ!
+➖ Для входа из РФ может потребоваться VP*
+➖ Гарантия на весь оплаченный период ❗
+➖ Тарифные планы - 1 месяц
+
+Additional block (Дополнительно):
+
+⏳ Срок выполнения: от 15 минут до 3 часов (в редких случаях — не более 24 часов с момента предоставления данных)
+⏳ График работы: ежедневно с 11:00 до 00:00 (МСК)
+⏳ Заказы, оформленные после 00:00 (МСК), будут обработаны на следующий день в рабочее время
+
+💯 Оплачивайте банковской картой или через СБП первым способом — комиссия отсутствует! 
+
+💵 Возврат по инициативе покупателя (если проблема не с нашей стороны) производится с вычетом комиссии площадки и/или платёжной системы — от 7% до 25% в зависимости от способа оплаты. Если же возврат происходит по нашей вине, комиссия не удерживается. 
+
+💥Если у Вас возникнут вопросы, обращайтесь к нам в чат, мы с радостью на них ответим!
+
+Popular products block (🔝 Популярные товары у нас: ...). Probably we can include as a small section.
+
+Given length, we may include a truncated version? But likely they expect full description.
+
+We'll put description inside a div with class "description" and put each paragraph as <p> with line breaks.
+
+We'll need to escape HTML special characters like &, <, >. The text includes "—" (emdash) and quotes. We'll keep as is; they are safe. Also includes "*": we need to escape? Not needed.
+
+Let's construct description HTML:
+
+<div class="description">
+<p>🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0% </p>
+<p>🟢 Об сервисе</p>
+<p>🧠 Что такое Suno AI?</p>
+<p>Suno AI — это инновационный сервис, основанный на технологиях нейросетей, который позволяет создавать оригинальные песни в различных жанрах и стилях по текстовым подсказкам.</p>
+<p>Основные возможности Suno AI:</p>
+<p>✅ Генерация вокальных треков с нуля</p>
+<p>✅ Продолжение и развитие уже существующих песен</p>
+<p>✅ Создание уникальных мелодий на основе заданного текста</p>
+<p>✅ Выбор музыкального стиля: поп, рок, хип-хоп и десятки других</p>
+<p>✅ Совместное творчество с ИИ</p>
+<p>Тарифные планы Suno AI:</p>
+<p>🆓 Free — 50 кредитов в день (до 10 песен)</p>
+<p>💰 Pro — 2500 кредитов в месяц</p>
+<p>💎 Premier — 10 000 кредитов в месяц</p>
+<p>🟢 КАК ПРОХОДИТ ПОКУПКА ПОДПИСКИ?</p>
+<p>✅ После оплаты Вы получаете УНИКАЛЬНЫЙ КОД (16 значный). Его нужно сообщить сотруднику в чат "Переписка с продавцом" вместе с данным от аккаунта</p>
+<p>🍀Пример:</p>
+<p>Код ХХХХХХХХХХХХХХХХ</p>
+<p>Данные от Вашего аккаунта</p>
+<p>🟣 Что мы предлагаем? </p>
+<p>🔹Оформим подписку на Ваш ранее зарегистрированный аккаунт </p>
+<p>✅ Оплата подписки происходит с личных средств</p>
+<p>✅ Гарантийный срок на весь оплаченный период</p>
+<p>Варианты продления/покупки подписки:</p>
+<p>➖ Зайдем по вашим данным (логин:пароль) в аккаунт и оформим подписку</p>
+<p>Выбрать вариант получения подписки можно перед покупкой</p>
+<p>🔴 ВАЖНАЯ ИНФОРМАЦИЯ!</p>
+<p>➖ Для входа из РФ может потребоваться VP*</p> Wait: "VP*" (maybe "VP*"). Keep as is.</p>
+<p>➖ Гарантия на весь оплаченный период ❗</p>
+<p>➖ Тарифные планы - 1 месяц</p>
+<p>⏳ Срок выполнения: от 15 минут до 3 часов (в редких случаях — не более 24 часов с момента предоставления данных)</p>
+<p>⏳ График работы: ежедневно с 11:00 до 00:00 (МСК)</p>
+<p>⏳ Заказы, оформленные после 00:00 (МСК), будут обработаны на следующий день в рабочее время</p>
+<p>💯 Оплачивайте банковской картой или через СБП первым способом — комиссия отсутствует! </p>
+<p>💵 Возврат по инициативе покупателя (если проблема не с нашей стороны) производится с вычетом комиссии площадки и/или платёжной системы — от 7% до 25% в зависимости от способа оплаты. Если же возврат происходит по
