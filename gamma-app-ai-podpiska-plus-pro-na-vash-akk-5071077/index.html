@@ -1,0 +1,186 @@
+We need to output only HTML code, no markdown, no explanations. Must include meta charset UTF-8, inline CSS, responsive, max-width 500px. Use inline CSS within style attribute or a <style> tag? It says only HTML + inline CSS (without external files). Usually you can embed <style> in head as internal CSS; that's still CSS but not external file. Likely acceptable. Use inline CSS for elements as needed. We'll produce a card container with max-width:500px; margin:auto; padding; background; border-radius; box-shadow.
+
+Include title, description (with emojis). Need to preserve emojis from description. The description includes <attention> tags; we need to output the content inside those tags? Likely we need to output the description as plain text preserving emojis and line breaks. The <attention> tags are not HTML; they seem like markup for attention. We should strip them and output the text inside. So we need to extract the description content: It has multiple <attention> sections. We'll combine them preserving line breaks.
+
+Let's parse description:
+
+<attention>🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0% </attention>
+<attention>🟢 Об сервисе
+
+🧠 Gamma AI — создавайте впечатляющие презентации легко и быстро 
+
+Gamma AI — это веб-приложение для мгновенного создания ярких презентаций с текстом, изображениями, анимацией и видео. Независимо от опыта, вы сможете быстро собрать профессиональный проект благодаря удобному интерфейсу и готовым шаблонам.
+
+🎨 Интуитивный интерфейс
+Процесс создания презентаций прост и понятен — даже новички смогут добиться отличного результата без знаний в дизайне.
+
+📊 Мощные инструменты
+Редактируйте текст, добавляйте изображения, видео и анимации — делайте презентации динамичными и привлекательными.
+
+🔍 Готовые шаблоны
+Выбирайте из множества шаблонов и экономьте время, создавая проекты на профессиональной основе.
+
+👥 Совместная работа
+Работайте над презентациями в команде: всё хранится в едином пространстве, обеспечивая удобный доступ и обмен идеями.
+
+🔄 Анимации и переходы
+Добавляйте визуальные эффекты, чтобы удержать внимание аудитории и сделать выступление выразительным.
+
+💾 Хранение и организация
+Создайте аккаунт и рабочее пространство — все проекты будут организованы и всегда под рукой.
+
+Gamma AI — ваш универсальный инструмент для эффектных и удобных презентаций. Попробуйте уже сегодня!
+
+🌟 Gamma AI — просто, быстро, профессионально 🌟</attention>
+<attention>🟢 КАК ПРОХОДИТ ПОКУПКА ПОДПИСКИ?
+✅ После оплаты Вы получаете УНИКАЛЬНЫЙ КОД (16-значный). Его нужно сообщить сотруднику в чат "Переписка с продавцом" вместе с данными от аккаунта или ссылкой на оплату — в зависимости от выбранного варианта оказания услуги
+
+🍀Пример:
+Код ХХХХХХХХХХХХХХХХ
+Данные от аккаунта</attention>
+<attention>🟣 Что мы предлагаем?
+🔹Оформление подписки на уже существующий аккаунт
+🔹Регистрация нового аккаунта на вашу почту
+🔹Регистрация аккаунта + создание почты «под ключ»
+
+❗Услуга выполняется по выбранному параметру, который необходимо выбрать перед оплатой
+
+</attention>
+<attention>🔴 ВАЖНАЯ ИНФОРМАЦИЯ!
+➖ Для входа из РФ может потребоваться VP*
+➖ Тарифные планы - 1 месяц
+
+✅ Оплата подписки происходит с личных средств
+✅ Гарантийный срок на весь оплаченный период❗</attention>
+
+We need to output this as description. Probably we can keep line breaks using <br> or <p>. We'll just wrap in a <div> with line-breaks preserved via <br> tags.
+
+Additionally, we have "Дополнительно:" section with more info (attention tags). Should we include that? The product data includes Дополнительно with attention sections. Likely we need to include that as part of description or separate block? The description field already includes the main description; Дополнительно maybe extra details like срок выполнения etc. We should include them as additional info block.
+
+We also have Popular products list (attention). Probably we can include as a block "Popular items". But not required; maybe we can include as extra.
+
+We need to keep emojis from description; we will keep them as is.
+
+Price: 939 RUR. Show as badge.
+
+Sold: 63 шт.
+
+Reviews: 22 положительных, 0 отрицательных.
+
+We need block with guarantees at bottom small font with shield icon. Use emoji 🛡️ or 🔒.
+
+Button "Купить" with href="164256" target="_blank" rel="nofollow sponsored". Use inline style.
+
+Add disclaimer under button small text semi-transparent.
+
+Make responsive: max-width 500px; width:100%; box-sizing:border-box.
+
+We'll output only HTML.
+
+Let's craft.
+
+We'll include <meta charset="UTF-8"> in head.
+
+We'll add <style> for some basics: body {font-family:system-ui, sans-serif; margin:0; padding:16px; background:#f9f9f9;} .card {background:#fff; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,.1); overflow:hidden; max-width:500px; width:100%; margin:0 auto;} .title {font-size:1.5rem; font-weight:600; padding:16px; background:linear-gradient(135deg,#ff9a9e,#fad0c4); color:#fff;} .price-badge {display:inline-block; background:#ff6b6b; color:#fff; padding:4px 10px; border-radius:12px; font-weight:600; font-size:1.2rem;} .description {padding:16px; line-height:1.5; color:#333;} .stats {display:flex; justify-content:space-between; padding:0 16px 16px; font-size:0.9rem; color:#555;} .button {display:block; width:calc(100% - 32px); margin:0 auto 16px; background:linear-gradient(135deg,#6a11cb,#2575fc); color:#fff; text-align:center; padding:14px; border-radius:12px; font-size:1.1rem; font-weight:600; text-decoration:none;} .button:hover {background:linear-gradient(135deg,#2575fc,#6a11cb);} .disclaimer {font-size:0.75rem; color:#777; text-align:center; margin-bottom:16px;} .guarantees {font-size:0.8rem; color:#555; text-align:center; padding:0 16px 16px;} .guarantees::before {content:"🛡️"; margin-right:6px;} .extra {padding:0 16px 16px; font-size:0.9rem; color:#444;} .extra h3 {margin:0 0 8px; font-size:1rem; color:#222;}
+
+We'll need to embed style in head.
+
+Now fill content.
+
+Title: 🌟 GAMMA APP AI 🧠🤖 ПОДПИСКА ✅ PLUS | PRO ✅ НА ВАШ АКК
+
+Description: We'll combine sections.
+
+Let's create description HTML with <p> tags.
+
+We'll include emojis.
+
+First line: 🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0%
+
+Then blank line then 🟢 Об сервисе ... etc.
+
+We'll just put <p> for each paragraph.
+
+Better to replace double line breaks with </p><p>.
+
+We'll produce something like:
+
+<div class="description">
+<p>🔥 ПРИ ОПЛАТЕ СБП/КАРТА КОМИССИЯ 0%</p>
+<p>🟢 Об сервисе</p>
+<p>🧠 Gamma AI — создавайте впечатляющие презентации легко и быстро</p>
+<p>Gamma AI — это веб-приложение для мгновенного создания ярких презентаций с текстом, изображениями, анимацией и видео. Независимо от опыта, вы сможете быстро собрать профессиональный проект благодаря удобному интерфейсу и готовым шаблонам.</p>
+<p>🎨 Интуитивный интерфейс</p>
+<p>Процесс создания презентаций прост и понятен — даже новички смогут добиться отличного результата без знаний в дизайне.</p>
+<p>📊 Мощные инструменты</p>
+<p>Редактируйте текст, добавляйте изображения, видео и анимации — делайте презентации динамичными и привлекательными.</p>
+<p>🔍 Готовые шаблоны</p>
+<p>Выбирайте из множества шаблонов и экономьте время, создавая проекты на профессиональной основе.</p>
+<p>👥 Совместная работа</p>
+<p>Работайте над презентациями в команде: всё хранится в едином пространстве, обеспечивая удобный доступ и обмен идеями.</p>
+<p>🔄 Анимации и переходы</p>
+<p>Добавляйте визуальные эффекты, чтобы удержать внимание аудитории и сделать выступление выразительным.</p>
+<p>💾 Хранение и организация</p>
+<p>Создайте аккаунт и рабочее пространство — все проекты будут организованы и всегда под рукой.</p>
+<p>Gamma AI — ваш универсальный инструмент для эффектных и удобных презентаций. Попробуйте уже сегодня!</p>
+<p>🌟 Gamma AI — просто, быстро, профессионально 🌟</p>
+<p>🟢 КАК ПРОХОДИТ ПОКУПКА ПОДПИСКИ?</p>
+<p>✅ После оплаты Вы получаете УНИКАЛЬНЫЙ КОД (16-значный). Его нужно сообщить сотруднику в чат "Переписка с продавцом" вместе с данными от аккаунта или ссылкой на оплату — в зависимости от выбранного варианта оказания услуги</p>
+<p>🍀Пример:</p>
+<p>Код ХХХХХХХХХХХХХХХХ</p>
+<p>Данные от аккаунта</p>
+<p>🟣 Что мы предлагаем?</p>
+<p>🔹Оформление подписки на уже существующий аккаунт</p>
+<p>🔹Регистрация нового аккаунта на вашу почту</p>
+<p>🔹Регистрация аккаунта + создание почты «под ключ»</p>
+<p>❗Услуга выполняется по выбранному параметру, который необходимо выбрать перед оплатой</p>
+<p>🔴 ВАЖНАЯ ИНФОРМАЦИЯ!</p>
+<p>➖ Для входа из РФ может потребоваться VP*</p>
+<p>➖ Тарифные планы - 1 месяц</p>
+<p>✅ Оплата подписки происходит с личных средств</p>
+<p>✅ Гарантийный срок на весь оплаченный период❗</p>
+</div>
+
+Then extra info block (Дополнительно). We'll create a div class="extra".
+
+Content:
+
+<attention>⏳ Срок выполнения: от 15 минут до 3 часов (в редких случаях — не более 24 часов с момента предоставления данных).
+⏳ График работы: ежедневно с 11:00 до 00:00 (МСК).
+⏳ Заказы, оформленные после 00:00 (МСК), будут обработаны на следующий день в рабочее время.
+
+💯 Оплачивайте банковской картой или через СБП первым способом — комиссия отсутствует! 
+💵 Возврат по инициативе покупателя (если проблема не с нашей стороны) производится с вычетом комиссии площадки и/или платёжной системы — от 7% до 25% в зависимости от способа оплаты. Если же возврат происходит по нашей вине, комиссия не удерживается. 
+
+💥Если у Вас возникнут вопросы, обращайтесь к нам в чат, мы с радостью на них ответим!</attention>
+
+<attention>🔝 Популярные товары у нас:
+🟢 XBOX GAME PASS ULTIMATE 1-12 МЕСЯЦЕВ - https://plati.market/itm/3853868
+🟣 FORTNITE В-БАКСЫ+CREW⚡1000-54000⚡EPIC/XBOX/PS - https://plati.market/itm/3837381
+🔴 FORTNITE CREW! 1 МЕСЯЦ⚡BATTLE PASS + 1000 V-BUCKS - https://plati.market/itm/3845947
+🟡 FORTNITE Наборы на выбор⚡EPIC/XBOX/PS - https://plati.market/itm/3898279
+🔵 PS PLUS ESS/EXT/DEL/EA 1-12 МЕСЯЦА ТУР / УКР - https://plati.market/itm/3854376
+🟦 СМЕНА РЕГИОНА STEAM КАЗАХСТАН/ТУРЦИЯ/ИНДИЯ/УКРАИНА- https://plati.market/itm/3525355
+🟨 УНИКАЛЬНАЯ КАРТА KZT ДЛЯ СМЕНЫ РЕГ. STEAM КАЗАХСТАН - https://plati.market/itm/3538885
+🟥 АВТОПОПОЛНЕНИЕ -  STEAM💲(RU/KZ/UA)  - https://plati.market/itm/3343799
+🟪 ChatGPT 4 PLUS⚡️ЛИЧНЫЙ АККАУНТ + ПОЧТА - https://plati.market/itm/3859725
+🟩 ChatGPT OpenAI⚡️АККАУНТ + ПОЧТА + БАЛАНС 5$ - https://plati.market/itm/3859725
+⭕ ПОСМОТРЕТЬ ВСЕ ТОВАРЫ - https://fursov.me</attention>
+
+We'll format extra block with headings maybe.
+
+We'll put <h3>Дополнительно</h3> then paragraphs.
+
+We'll keep URLs as plain text; they are not clickable but okay.
+
+Now stats block: sold and reviews.
+
+We'll display: Продано: 63 шт. | Отзывы: 22 положительных, 0 отрицательных
+
+We'll put in .stats with two spans.
+
+Price badge: we can put near title or separate. We'll put price badge after title maybe inside title container.
+
+We'll have title container with title and price badge side by side? Simpler: title then price badge below.
+
+We'll follow structure: <div class="card"> <div class="title">🌟 GAMMA APP AI 🧠🤖 ПОДПИСКА ✅ PLUS | PRO ✅ НА ВАШ АКК</div> <div class="price-badge">939 RUR</div> <div class="description">....</div>
