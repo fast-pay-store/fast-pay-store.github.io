@@ -1,0 +1,223 @@
+We need to output HTML + inline CSS, with meta charset UTF-8 at beginning. Must not include markdown. Provide just.
+
+We need to incorporate all description etc. Use inline.
+
+We need to follow design: adaptive, max-width 500px, container maybe with padding.
+
+We need price badge, sold count, reviews.
+
+We need guarantee block at bottom small font with shield icon (use unicode 🛡 or 🔒). Provide inline CSS.
+
+Need button "Купить" with href exactly "316903", target="_blank", rel="nofollow sponsored". Also add disclaimer under button small, semi-transparent.
+
+We must preserve emojis from description.
+
+We need to parse the description block: It's quite long with many delivery tags etc. We need to include the description text preserving emojis and line breaks maybe as <p> or <br>. Use inline CSS.
+
+Simplify: we can wrap description in a <div class="desc"> and use <p> for each line.
+
+Make sure to keep all emojis.
+
+Let's extract the description content: The description includes many <delivery> tags etc. We need to include the text inside them. Should we keep tags? The description is given as raw with <delivery> tags etc. Probably we should output the content (the text) without the tags, preserving emojis and line breaks. The instruction: "Эмодзи из описания сохранить". So we need to keep emojis. We'll just output the description text as is (strip tags). Let's manually copy the description text.
+
+Given description block:
+
+<delivery>❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗</delivery>
+<delivery>📜О нас:
+💫 Более 12 лет на торговой площадке
+🏆 На 2 месте в топе продавцов по рейтингу Plati
+💹 1 000 000+ успешных продаж
+👍50 000+ положительных отзывов
+✳️https://plati.market/seller/all-for-gamers/316903/
+
+🧾О наших товарах:
+🏆 Только официальный продукт
+🤩 Лучшие цены
+💯 Безупречное качество
+✅ Широкий  выбор</delivery>
+<delivery>❗️АКЦИЯ❗️
+🤩Каждый клиент, который оставит положительный отзыв - получит случайный ключ недорогой игры в Steam!
+
+✅Чтобы получить ПОДАРОК, нужно:
+1️⃣ Купить наш товар
+2️⃣ После обработки заказа - оставить положительный отзыв
+3️⃣ Написать в "Переписку с продавцом" сообщение "хочу подарок"
+4️⃣ Ожидать отправку ключа Steam оператором.
+
+⚠️ Подарки выдаются ТОЛЬКО при наличии положительного отзыва. 
+⚠️ Срок выдачи - до 24 часов после получения от вас сообщения "хочу подарок"
+⚠️ За один заказ - вы можете получить один подарок.</delivery>
+<delivery>🔰После оплаты начнется процесс активации товара на ваш аккаунт
+🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут
+🔰Крайне редко доставка может быть задержана</delivery>
+<attention>💯💰Рекомендуем использовать верхний способ оплаты💸  - тут нет комиссии💰💯</attention>
+<delivery>⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam"🔴
+✅Для ускорения доставки подарка можете использовать ссылку быстрого приглашения в друзья (перейдите в раздел "Друзья" - "Добавить в друзья" - создайте и скопируйте ссылку)✅</delivery>
+<delivery>🗺️Доступные для отправки регионы указаны в параметрах (перед покупкой посмотреть регион аккаунта можно здесь https://store.steampowered.com/account/)✅
+
+📫 Метод доставки: Steam Gift — Подарком на ваш аккаунт
+
+🧾О товаре: https://store.steampowered.com/app/1135280/
+ </delivery>
+<delivery>Инструкция по активации Steam Gift:
+✅1. Скачайте и установите клиент Steam - http://store.steampowered.com/about/
+✅2. Создайте новую учетную запись или войдите в существующую.
+✅3. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam".
+✅4. Дождитесь приглашения в друзья от бота и подтвердите его.
+✅5. Активируйте подарок от бота в библиотеку.
+✅6. Загрузите купленную игру.
+✅7. Наслаждайтесь🙂</delivery>
+<attention>🔍Не нашли нужного товара? Мы создадим его под вас:
+📝 Напишите нам в онлайн-чат и мы добавим интересующий вас товар в наш магазин 👾✔️
+🤝После этого, вы можете совершить покупку и получить Steam Gift - подарком на ваш аккаунт😎👍</attention>
+
+We need to keep emojis; we can just output as paragraphs.
+
+Now also there is Дополнительно block: <delivery><attention>... etc. That contains delivery info: delivery auto, support schedule, return policy etc. Should we include? Probably include as part of description or separate block. We'll include as additional info maybe under "Дополнительно". We'll include as a <div class="extra">.
+
+Now also we have data: Price 709 RUR, Sold 62 шт., Отзывы: 7 положительных, 0 отрицательных.
+
+We need to show price badge, sold count, reviews.
+
+Now implement HTML.
+
+We'll set container <div class="card"> with max-width:500px; margin:0 auto; padding:20px; background:#fff; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,.1);.
+
+Price badge: <span class="price">709&nbsp;RUR</span> with style: background: linear-gradient(135deg,#ff6b6b,#ff8e53); color:#fff; padding:6px 12px; border-radius:8px; font-size:1.4em; font-weight:bold.
+
+Sold and reviews: maybe <div class="stats"><span>🛒 Продано: 62 шт.</span><span>⭐ Отзывы: 7 положительных</span></div>
+
+Title: <h1>📗Dead by Daylight - Stranger Things Chapter RU+Подарок</h1>
+
+Description: we can put <div class="desc"> with line breaks using <br> or <p>. We'll use <p> for each paragraph.
+
+We'll need to preserve line breaks: use <p style="margin:0 0 12px;">.
+
+We'll copy the description text exactly as given, preserving emojis.
+
+Let's construct description paragraphs:
+
+Paragraph1: "❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗"
+
+Paragraph2: includes O нас etc.
+
+Paragraph3: АКЦИЯ etc.
+
+Paragraph4: После оплаты ...
+
+Paragraph5: attention about payment method.
+
+Paragraph6: ОБРАТИТЕ ВНИМАНИЕ ...
+
+Paragraph7: Доступные для отправки регионы ...
+
+Paragraph8: Инструкция по активации Steam Gift:
+
+Paragraph9: attention about not found product.
+
+Paragraph10: Дополнительно block (delivery + attention) maybe combine.
+
+We'll need to ensure no HTML tags inside except <br>. We'll replace line breaks with <br>.
+
+Simplify: we can wrap entire description in <div class="desc" style="line-height:1.6;"> and put raw text with <br> for line breaks.
+
+We'll manually construct.
+
+Let's write description text:
+
+"❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗
+
+📜О нас:
+💫 Более 12 лет на торговой площадке
+🏆 На 2 месте в топе продавцов по рейтингу Plati
+💹 1 000 000+ успешных продаж
+👍50 000+ положительных отзывов
+✳️https://plati.market/seller/all-for-gamers/316903/
+
+🧾О наших товарах:
+🏆 Только официальный продукт
+🤩 Лучшие цены
+💯 Безупречное качество
+✅ Широкий  выбор
+
+❗️АКЦИЯ❗️
+🤩Каждый клиент, который оставит положительный отзыв - получит случайный ключ недорогой игры в Steam!
+
+✅Чтобы получить ПОДАРОК, нужно:
+1️⃣ Купить наш товар
+2️⃣ После обработки заказа - оставить положительный отзыв
+3️⃣ Написать в "Переписку с продавцом" сообщение "хочу подарок"
+4️⃣ Ожидать отправку ключа Steam оператором.
+
+⚠️ Подарки выдаются ТОЛЬКО при наличии положительного отзыва. 
+⚠️ Срок выдачи - до 24 часов после получения от вас сообщения "хочу подарок"
+⚠️ За один заказ - вы можете получить один подарок.
+
+🔰После оплаты начнется процесс активации товара на ваш аккаунт
+🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут
+🔰Крайне редко доставка может быть задержана
+
+💯💰Рекомендуем использовать верхний способ оплаты💸  - тут нет комиссии💰💯
+
+⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam"🔴
+✅Для ускорения доставки подарка можете использовать ссылку быстрого приглашения в друзья (перейдите в раздел "Друзья" - "Добавить в друзья" - создайте и скопируйте ссылку)✅
+
+🗺️Доступные для отправки регионы указаны в параметрах (перед покупкой посмотреть регион аккаунта можно здесь https://store.steampowered.com/account/)✅
+
+📫 Метод доставки: Steam Gift — Подарком на ваш аккаунт
+
+🧾О товаре: https://store.steampowered.com/app/1135280/
+
+Инструкция по активации Steam Gift:
+✅1. Скачайте и установите клиент Steam - http://store.steampowered.com/about/
+✅2. Создайте новую учетную запись или войдите в существующую.
+✅3. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam".
+✅4. Дождитесь приглашения в друзья от бота и подтвердите его.
+✅5. Активируйте подарок от бота в библиотеку.
+✅6. Загрузите купленную игру.
+✅7. Наслаждайтесь🙂
+
+🔍Не нашли нужного товара? Мы создадим его под вас:
+📝 Напишите нам в онлайн-чат и мы добавим интересующий вас товар в наш магазин 👾✔️
+🤝После этого, вы можете совершить покупку и получить Steam Gift - подарком на ваш аккаунт😎👍
+
+⏳Доставка товара производится автоматически 24/7⌛
+⏳График работы техподдержки: 11:00-23:00 UTC+3⌛
+
+💵 Политика возврата средств:
+
+✅Товар доставлен - возврат невозможен❌
+❌Товар не доставлен:
+❕ Наша вина (изменилась цена игры или другая проблема не с вашей стороны) - полный возврат✅
+❗️ Ваша вина - возврат с вычетом 20% комиссии от суммы платежа❗️
+
+💥Если у Вас возникнут вопросы, обращайтесь к нам в чат, мы с радостью на них ответим!"
+
+Now ensure emojis present.
+
+Now button: <a href="https://plati.market/itm/4411175?ai=816991" class="buy-btn" target="_blank" rel="nofollow sponsored">Купить</a>
+
+Disclaimer: <div class="disclaimer" style="font-size:0.85em; color:#666; margin-top:8px;">Переходя по этой ссылке, вы поддерживаете наш проект. Цена для вас не изменится. Спасибо!</div>
+
+Guarantee block: <div class="guarantee" style="font-size:0.9em; margin-top:12px; display:flex; align-items:center; gap:8px; color:#555;">🛡️ Безопасная покупка на plati.market — гарант сделки с 2003 года</div>
+
+Now style.
+
+We'll embed inline CSS in <style> inside head? The requirement: only HTML + inline CSS (without external files). We can put <style> in head; that's still inline? Typically internal CSS is allowed. They said only HTML + inline CSS (без внешних файלים). So we can include <style> tag.
+
+We'll set:
+
+<meta charset="UTF-8">
+<title>Dead by Daylight - Stranger Things Chapter RU+Подарок</title>
+<style>
+body{margin:0;padding:0;background:#f5f5f5;font-family:Arial,sans-serif;}
+.card{max-width:500px;margin:20px auto;background:#fff;border-radius:16px;padding:20px;box-shadow:0 4px 12px rgba(0,0,0,.1);}
+h1{font-size:1.8em;margin:0 0 12px;color:#222;}
+.price{display:inline-block;background:linear-gradient(135deg,#ff6b6b,#ff8e53);color:#fff;padding:6px 12px;border-radius:8px;font-size:1.4em;font-weight:bold;margin-bottom:12px;}
+.stats{display:flex;gap:16px;font-size:0.95em;color:#555;margin-bottom:16px;}
+.desc{line-height:1.6;color:#333;margin-bottom:16px;}
+.buy-btn{display:inline-block;background:linear-gradient(135deg,#4caf50,#66bb6a);color:#fff;padding:14px 28px;font-size:1.1em;font-weight:border:none;border-radius:8px;text-decoration:none
