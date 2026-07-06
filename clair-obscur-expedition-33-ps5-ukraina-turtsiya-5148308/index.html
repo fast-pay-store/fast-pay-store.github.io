@@ -1,0 +1,145 @@
+We need to output only HTML code, no markdown or explanations. Must include meta charset UTF-8. Use inline CSS. Must be adaptive, max-width 500px. Include product data: title with emojis, description (we need to incorporate the given description text, preserving emojis). Need to include price, sold count, reviews. Also include a button "Купить" with href exactly "316903" (the note says href button "Купить" must be exactly that string, not a full URL). We'll add target="_blank" rel="nofollow sponsored". Also add disclaimer under button small, semi-transparent.
+
+Also need a guarantees block at bottom with shield/lock icon and text: "Безопасная покупка на plati.market — гарант сделки с 2003 года". Use inline CSS, maybe use unicode shield emoji 🛡️ or lock 🔒.
+
+We need to embed the description sections (delivery, attention etc). The raw description includes many <delivery> and <attention> tags. We need to output the description preserving emojis and line breaks. Probably we can just output the description as plain text, stripping the tags but keeping content. We'll include line breaks using <br> or <p>. Use inline CSS for styling.
+
+We need to ensure we don't use external CSS. Use style attribute.
+
+We'll create a container div with max-width:500px; margin:0 auto; padding:16px; box-sizing:border-box; font-family: sans-serif.
+
+Title: maybe h1 with large font, gradient background? We'll do inline style: background: linear-gradient(90deg, #ff6a00, #ee0979); -webkit-background-clip: text; -webkit-text-fill-color: transparent; or just color.
+
+Simplify: Title with emojis.
+
+Price badge: maybe span with background: #ff6a00; color: white; padding: 4px 8px; border-radius: 12px; font-weight bold; font-size: 1.2em.
+
+Sold and reviews: maybe a flex row.
+
+Button: display:block; width:100%; padding:12px; background: linear-gradient(90deg, #ff6a00, #ee0979); color:#fff; border:none; border-radius:8px; font-size:1.1em; cursor:pointer; transition: transform .2s; hover: transform:scale(1.05); box-shadow.
+
+Disclaimer: small font, opacity 0.6.
+
+Guarantees block: small font, maybe icon 🛡️.
+
+We need to preserve emojis from description; we can just copy them.
+
+Let's construct description text: The raw includes many sections; we need to output them as is, preserving emojis and line breaks. Let's extract the content between tags but keep line breaks.
+
+We'll produce something like:
+
+<div class="desc" style="line-height:1.5; margin-top:12px;">
+🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️<br><br>
+🔐 БЕЗОПАСНАЯ покупка Clair Obscur: Expedition 33 (любое издание), на Ваш аккаунт PSN<br><br>
+💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉<br><br>
+💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️<br><br>
+✅ 🛒 Инструкция По Покупке 🛒 ✅<br><br>
+〰️ Выберите нужный регион и издание из списка<br>
+〰️ Нажмите кнопку "КУПИТЬ СЕЙЧАС", далее следуйте инструкции по оплате<br>
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел "Переписка с продавцом"<br>
+✳️Пример:<br>
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХ<br>
+⏺︎ Логин - allforgamers@email.com<br>
+⏺︎ Пароль - 123456Qwerty✳️<br>
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки<br><br>
+📮 Заберите промокодокодок со СКИДКОЙ на следующую покупку у нас😎<br><br>
+❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/<br><br>
+🔰ЛОКАЛИЗАЦИИ ИГРЫ🔰<br><br>
+🔵ТУРЦИЯ<br>
+Игра: Русские субтитры<br>
+Интерфейс: На русском языке<br><br>
+🟡УКРАИНА<br>
+Игра: Русские субтитры<br>
+Интерфейс: На русском языке<br><br>
+⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️<br><br>
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:<br>
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)<br>
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)<br><br>
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/<br><br>
+🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721<br><br>
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051<br><br>
+💬ОПИСАНИЕ:<br><br>
+🔹Standard Edition PS5<br>
+Clair Obscur: Expedition 33 — это новая пошаговая ролевая игра с уникальной механикой реального времени, от которой невозможно оторваться. Исследуйте мир, созданный на основе Прекрасной эпохи Франции, и сражайтесь с опасными врагами.<br><br>
+🔹Deluxe Edition PS5<br>
+·Основная игра Clair Obscur: Expedition 33<br>
+·“Цветочная” коллекция – шесть нарядов и причесок, вдохновленных Цветами Люмьера, а также шесть дополнительных вариаций костюмов в стиле “Гоммаж”. По одному на каждого игрового персонажа.<br>
+·“Свет” – Индивидуальный наряд для Маэль<br>
+·“Тень” – Индивидуальный наряд для Гюстава<br><br>
+📜О нас:<br>
+💫Более 10 лет на торговой площадке<br>
+🏆Входим в топ-3 продавцов<br>
+💹500 000+ успешных продаж<br>
+👍Тысячи положительных отзывов<br><br>
+🔝 НАШИ ОТЗЫВЫ<br>
+➡️https://plati.market/seller/all-for-gamers/316903/<br><br>
+</div>
+
+We need to ensure we include the price block, sold, reviews.
+
+Now produce final HTML.
+
+Let's craft:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>Клаир Обскур: Экспедиция 33 PS5</title>
+</head>
+<body style="margin:0; padding:0; background:#fafafa;">
+<div style="max-width:500px; margin:20px auto; background:#fff; border-radius:16px; box-shadow:0 4px 12px rgba(0,0,0,0.1); overflow:hidden; font-family:system-ui, sans-serif;">
+<div style="padding:16px;">
+<h1 style="margin:0 0 8px; font-size:1.8em; background:linear-gradient(90deg,#ff6a00,#ee0979); -webkit-background-clip:text; -webkit-text-fill-color:transparent;">🔵CLAIR OBSCUR: EXPEDITION 33 PS5 УКРАИНА/ТУРЦИЯ БЫСТРО!🎁</h1>
+<div style="display:flex; align-items:center; gap:12px; margin-bottom:12px;">
+<span style="background:#ff6a00; color:#fff; padding:4px 8px; border-radius:12px; font-weight:bold; font-size:1.2em;">3599 RUR</span>
+<span style="color:#555; font-size:0.9em;">Продано: 78 шт. • Отзывы: 21 положительных, 0 отрицательных</span>
+</div>
+<div style="line-height:1.5; color:#333; margin-bottom:16px;">
+🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️<br><br>
+🔐 БЕЗОПАСНАЯ покупка Clair Obscur: Expedition 33 (любое издание), на Ваш аккаунт PSN<br><br>
+💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉<br><br>
+💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️<br><br>
+✅ 🛒 Инструкция По Покупке 🛒 ✅<br><br>
+〰️ Выберите нужный регион и издание из списка<br>
+〰️ Нажмите кнопку "КУПИТЬ СЕЙЧАС", далее следуйте инструкции по оплате<br>
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел "Переписка с продавцом"<br>
+✳️Пример:<br>
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХ<br>
+⏺︎ Логин - allforgamers@email.com<br>
+⏺︎ Пароль - 123456Qwerty✳️<br>
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки<br><br>
+📮 Заберите промокод со СКИДКОЙ на следующую покупку у нас😎<br><br>
+❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/<br><br>
+🔰ЛОКАЛИЗАЦИЯ ИГРЫ🔰<br><br>
+🔵ТУРЦИЯ<br>
+Игра: Русские субтитры<br>
+Интерфейс: На русском языке<br><br>
+🟡УКРАИНА<br>
+Игра: Русские субтитры<br>
+Интерфейс: На русском языке<br><br>
+⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️<br><br>
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:<br>
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)<br>
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)<br><br>
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/<br><br>
+🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721<br><br>
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051<br><br>
+💬ОПИСАНИЕ:<br><br>
+🔹Standard Edition PS5<br>
+Clair Obscur: Expedition 33 — это новая пошаговая ролевая игра с уникальной механикой реального времени, от которой невозможно оторваться. Исследуйте мир, созданный на основе Прекрасной эпохи Франции, и сражайтесь с опасными врагами.<br><br>
+🔹Deluxe Edition PS5<br>
+·Основная игра Clair Obscur: Expedition 33<br>
+·“Цветочная” коллекция – шесть нарядов и причесок, вдохновленных Цветами Люмьера, а также шесть дополнительных вариаций костюмов в стиле “Гоммаж”. По одному на каждого игрового персонажа.<br>
+·“Свет” – Индивидуальный наряд для Маэль<br>
+·“Тень” – Индивидуальный наряд для Гюстава<br><br>
+📜О нас:<br>
+💫Более 10 лет на торговой площадке<br>
+🏆Входим в топ-3 продавцов<br>
+💹500 000+ успешных продаж<br>
+👍Тысячи положительных отзывов<br><br>
+🔝 НАШИ ОТЗЫВЫ<br>
+➡️https://plati.market/seller/all-for-gamers/316903/<br><br>
+</div>
+<button style="width:100%; padding:14px; background:linear-gradient(90deg,#ff6a00,#ee0979); color:#fff; border:none; border-radius:10px; font-size:1.1em; cursor:pointer; transition:transform .2s, box-shadow .2s;" onclick="window.open('316903','_blank')" target="_blank" rel="nofollow sponsored">КУПИТЬ СЕЙЧАС</button>
+<div style
