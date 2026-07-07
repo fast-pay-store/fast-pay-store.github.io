@@ -1,0 +1,207 @@
+<meta charset="UTF-8">
+We need to output HTML with inline CSS only, meta charset, responsive design, max-width 500px, etc.
+
+We need to parse data and embed in card.
+
+We need to include title, description, price, sold count, reviews, etc. Also include emojis from description. The description is long; we need to embed the provided description text (including emojis). Probably we can embed as HTML preserving line breaks via <br> or <p>. Use inline CSS.
+
+Add guarantee block at bottom with shield icon (use unicode shield or lock). Use small font.
+
+Add button with href exactly "316903"? Wait they said href should be exactly that value, not full URL. That seems odd: they want href="316903". That's not a valid URL but they said it's a referral link. We'll follow: href="316903" target="_blank" rel="nofollow sponsored". Add disclaimer below button.
+
+Add guarantee block.
+
+We'll create container div with style: max-width:500px; margin:auto; padding:16px; box-sizing:border-box; font-family: sans-serif; background:#fff; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,.1);
+
+Title: big, maybe gradient background? Use inline style.
+
+Price badge: display:inline-block; background: linear-gradient... etc.
+
+Sold and reviews: small.
+
+Description: we need to include the whole description block with emojis. Could wrap in <div style="line-height:1.5; margin:12px 0;"> and replace newlines with <br>. We'll copy the description as given, but need to escape HTML special characters? Not needed if plain text; but there are quotes etc. We'll just put as is inside a <p>. Ensure we keep emojis.
+
+Also include attention blocks etc. We'll just embed the raw description text (including the tags like <delivery> etc.)? Actually the data includes tags like <delivery> etc. But they said emojis from description preserve. Probably we should strip those tags and just keep the visible text with emojis. The description includes many <delivery> tags with content. We'll extract the content inside each <delivery> and maybe <attention>. For simplicity, we can just include the raw description as given but removing the tags? Might be messy.
+
+We can parse: The description field contains multiple <delivery> and <attention> tags. We'll output the inner text of each tag sequentially, preserving line breaks.
+
+Let's manually extract:
+
+First <delivery>: 
+🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️
+
+Second <delivery>:
+🔐 БЕЗОПАСНАЯ покупка Grand Theft Auto V(любое издание), на Ваш аккаунт PSN
+
+Third:
+💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉
+
+Fourth:
+💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️
+
+Fifth:
+✅ 🛒 Инструкция По Покупке 🛒 ✅
+〰️ Выберите нужный регион и издание из списка
+〰️ Нажмите кнопку ""КУПИТЬ СЕЙЧАС"", далее следуйте инструкции по оплате
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел ""Переписка с продавцом""
+✳️Пример:
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХ
+⏺︎ Логин - allforgamers@email.com
+⏺︎ Пароль - 123456Qwerty✳️
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки
+
+📮 Заберите промокод со СКИДКОЙ на следующую покупку у нас😎
+
+Sixth:
+❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/
+
+Then <attention> block (localization):
+🔰ЛОКАЛИЗАЦИИ ИГРЫ🔰
+        
+🔵ТУРЦИЯ
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+🟡УКРАИНА
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+Then <delivery>:
+⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)
+
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/
+
+Then <delivery>:
+🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721
+
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051
+
+Then <delivery>:
+💬ОПИСАНИЕ:        
+        
+🔹Grand Theft Auto V: Premium 
+Издание включает в себя не только полную сюжетную историю Grand Theft Auto V, но и доступ к постоянно развивающемуся миру Grand Theft Auto Online, всем доступным обновлениям игры и контенту, такому как «Ограбление Кайо Перико», «Казино и курорт Diamond», «Ограбление казино Diamond», «Торговля оружием», и более.
+        
+🔹Grand Theft Auto V PS5 (Русская локализация)
+Включает сюжетный режим и Grand Theft Auto Online.
+Продолжая путешествие по GTA с версией для PS5, вы можете одновременно перенести прогресс в сюжетном режиме и персонажей GTA Online и прогресс на PS5            
+            
+🔹Grand Theft Auto V (PS4 и PS5) (Русская локализация)
+Этот продукт предоставляет доступ к цифровым версиям Grand Theft Auto V для PS4 и PS5 (включая Grand Theft Auto Online)        
+        
+Then <attention> block (О нас):
+📜О нас:
+💫Более 10 лет на торговой площадке
+🏆Входим в топ-3 продавцов
+💹500 000+ успешных продаж
+👍Тысячи положительных отзывов
+
+🔝 НАШИ ОТЗЫВЫ
+➡️https://plati.market/seller/all-for-gamers/316903/
+
+Then <attention> (Другие товары) etc.
+
+Then <attention> (Информация Для Покупателей) etc.
+
+We need to include all that? Probably yes, to preserve content. It's large but okay.
+
+We'll combine all these sections into a description div.
+
+We'll need to escape HTML special characters like quotes etc. But we can just put as plain text inside a <div> and rely on browser to render; there are some HTML tags like <delivery> etc which we removed, but there might be stray < or > inside? Not many. There's a URL with https:// etc, fine.
+
+We'll replace line breaks with <br>.
+
+Simplify: We'll create a variable descriptionText that concatenates all sections with "\n". Then in HTML we can use <pre style="white-space:pre-wrap;"> or <div> with line-breaks via <br>. We'll just put raw text with <br> after each line.
+
+Given time, we can produce HTML with a big <div class="desc"> containing the description text with <br> tags.
+
+We'll need to manually insert <br> after each line. That's tedious but doable for key sections.
+
+Given constraints, maybe we can just wrap the whole description in a <pre> tag which preserves line breaks and spaces. Use <pre style="white-space:pre-wrap; word-break:break-word; background:#f9f9f9; padding:10px; border-radius:8px;">. That will keep formatting.
+
+Thus we can put the raw description (including the tags? We removed tags but we can keep the raw content as we extracted). We'll put the extracted content inside <pre>.
+
+Let's construct description string:
+
+We'll combine sections with double newline.
+
+I'll craft description:
+
+Section1: 🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️
+
+Section2: 🔐 БЕЗОПАСНАЯ покупка Grand Theft Auto V(любое издание), на Ваш аккаунт PSN
+
+Section3: 💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉
+
+Section4: 💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️
+
+Section5: ✅ 🛒 Инструкция По Покупке 🛒 ✅
+〰️ Выберите нужный регион и издание из списка
+〰️ Нажмите кнопку ""КУПИТЬ СЕЙЧАС"", далее следуйте инструкции по оплате
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел ""Переписка с продавцом""
+✳️Пример:
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХХХХХ
+⏺︎ Логин - allforgamers@email.com
+⏺︎ Пароль - 123456Qwerty✳️
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки
+
+📮 Заберите промокод со СКИДКОЙ на следующую покупку у нас😎
+
+Section6: ❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/
+
+Section7: 🔰ЛОКАЛИЗАЦИЯ ИГРЫ🔰
+        
+🔵ТУРЦИЯ
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+🟡УКРАИНА
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+Section8: ⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)
+
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/
+
+Section9: 🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721
+
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051
+
+Section10: 💬ОПИСАНИЕ:        
+        
+🔹Grand Theft Auto V: Premium 
+Издание включает в себя не только полную сюжетную историю Grand Theft Auto V, но и доступ к постоянно развивающемуся миру Grand Theft Auto Online, всем доступным обновлениям игры и контенту, такому как «Ограбление Кайо Перико», «Казино и курорт Diamond», «Ограбление казино Diamond», «Торговля оружием», и более.
+        
+🔹Grand Theft Auto V PS5 (Русская локализация)
+Включает сюжетный режим и Grand Theft Auto Online.
+Продолжая путешествие по GTA с версией для PS5, вы можете одновременно перенести прогресс в сюжетном режиме и персонажей GTA Online и прогресс на PS5            
+            
+🔹Grand Theft Auto V (PS4 и PS5) (Русская локализация)
+Этот продукт предоставляет доступ к цифровым версиям Grand Theft Auto V для PS4 и PS5 (включая Grand Theft Auto Online)        
+        
+
+Section11: 📜О нас:
+💫Более 10 лет на торговой площадке
+🏆Входим в топ-3 продавцов
+💹500 000+ успешных продаж
+👍Тысячи положительных отзывов
+
+🔝 НАШИ ОТЗЫВЫ
+➡️https://plati.market/seller/all-for-gamers/316903/
+
+Section12: <attention>🔼 Другие Товары В Категории PlayStation 🔼
+
+🔵Покупка игр/Пополнение PSN ТУРЦИЯ🎁 ➡️https://plati.market/itm/3420721
+🔵Подключение Подписок PS PLUS/EA PLAY ТУРЦИЯ🎁➡️https://plati.market/itm/3397775
+🔵ТУРЕЦКИЙ аккаунт PSN АВТОДОСТАВКА 24/7🎁 ➡️https://plati.market/itm/5145581
+
+🟡Покупка игр/Пополнение PSN УКРАИНА🎁 ➡️https://plati.market/itm/3595051
+🟡Подключение Подписок PS PLUS/EA PLAY УКРАИНА🎁 ➡️
