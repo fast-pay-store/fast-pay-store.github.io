@@ -1,0 +1,252 @@
+We need to produce HTML code only, no markdown. Must include meta charset, inline CSS, responsive design, max-width 500px. Include product title, description (preserve emojis and formatting). Need to embed the description text as given, but it's quite long with many tags like <delivery>, <attention>. Should we preserve them? The description contains markup tags like <delivery> etc. Probably we should keep them as plain text (they are part of description). We'll include them inside a <p> or <div>. We'll need to escape HTML characters? Since we are outputting raw HTML, we need to ensure that any < and > inside description are escaped as &lt; &gt; to avoid being interpreted as tags. However the instruction says "Эмодзи из описания сохранить". It didn't say to preserve tags; but the description includes tags like <delivery>. Probably they intend those tags to be part of the description text, not actual HTML. Safer to escape them.
+
+Thus we will put description inside a <div class="desc"> and use innerHTML with escaped characters. We'll manually replace < with &lt; and > with &gt;. Also need to preserve line breaks; we can use <br> or white-space: pre-line.
+
+Simplify: Put description inside <pre> to preserve formatting and escape? But <pre> will treat the text as is, including < and > which will be interpreted as tags. Better to escape.
+
+Given time, we can just wrap description in a <div> and replace < and > with &lt; &gt; manually for the whole block. That's tedious but doable for key parts.
+
+Alternatively we can note that the description is mostly plain text with occasional tags like <delivery> etc. We'll escape those.
+
+Let's extract description string from the prompt:
+
+<delivery>🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️</delivery><delivery>🔐 БЕЗОПАСНАЯ покупка Warhammer 40,000: Space Marine 2 (любое издание), на Ваш аккаунт PSN</delivery><delivery>💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉</delivery><delivery>💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️</delivery><delivery>✅ 🛒 Инструкция По Покупке 🛒 ✅
+〰️ Выберите нужный регион и издание из списка
+〰️ Нажмите кнопку ""КУПИТЬ СЕЙЧАС"", далее следуйте инструкции по оплате
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел ""Переписка с продавцом""
+✳️Пример:
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХ
+⏺︎ Логин - allforgamers@email.com
+⏺︎ Пароль - 123456Qwerty✳️
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки
+
+📮 Заберите промокод со СКИДКОЙ на следующую покупку у нас😎</delivery><delivery>❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/</delivery><attention>🔰ЛОКАЛИЗАЦИИ ИГРЫ🔰
+        
+🔵ТУРЦИЯ
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+🟡УКРАИНА
+Игра: Русские субтитры
+Интерфейс: На русском языке</attention><delivery>⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)
+
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/</delivery><delivery>🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721
+
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051</delivery><delivery>💬ОПИСАНИЕ:        
+        
+🔹Standard Edition PS5
+Обретите сверхчеловеческую мощь и мастерство космодесантника, величайшего из воинов Императора. Пустите в ход смертоносные навыки и разрушительное оружие и дайте отпор ужасам Галактики в эпических боях сразу на нескольких планетах. Раскройте мрачные секреты, отбросьте тень вечной ночи и докажите свою преданность человечеству         
+             
+🔹Gold Edition PS5
+Warhammer 40,000: Space Marine 2 Gold Edition включает базовую версию игры Warhammer 40,000: Space Marine 2 и сезонный пропуск       
+               
+🔹Ultra Edition PS5
+Warhammer 40,000: Space Marine 2 Ultra Edition включает базовую версию игры, набор «Чемпион Ультрамаринов» и сезонный пропуск       
+        
+</delivery><attention>📜О нас:
+💫Более 10 лет на торговой площадке
+🏆Входим в топ-3 продавцов
+💹500 000+ успешных продаж
+👍Тысячи положительных отзывов
+
+🔝 НАШИ ОТЗЫВЫ
+➡️https://plati.market/seller/all-for-gamers/316903/</attention>
+
+We need to escape < and >. Let's replace all '<' with '&lt;' and '>' with '&gt;'. Also need to keep emojis.
+
+We'll produce HTML:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>🔵WARHAMMER 40,000: SPACE MARINE 2 PS5 ТУРЦИЯ/УКРАИНА БЫСТРО!🎁</title>
+<style>
+... inline CSS ...
+</style>
+</head>
+<body>
+<div class="card">
+... content ...
+</div>
+</body>
+</html>
+
+We need max-width:500px, margin auto, padding.
+
+Design: gradient background, maybe card with white background, shadow.
+
+Price badge: maybe a span with background linear-gradient, color white.
+
+Button: large, background gradient, hover effect.
+
+Reviews block: show rating stars? We have 12 positive, 0 negative. Could show "⭐️ 12 отзывов".
+
+Sold: 46 шт.
+
+Guarantees block at bottom: small font, shield icon (use emoji 🛡️).
+
+Disclaimer under button: small, semi-transparent.
+
+Let's craft CSS.
+
+We'll use variables.
+
+Implementation:
+
+.card {
+  max-width: 500px;
+  margin: 20px auto;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  overflow: hidden;
+  font-family: system-ui, sans-serif;
+}
+.header {
+  background: linear-gradient(135deg, #ff6a00, #ee0979);
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+.header h1 { margin:0; font-size:1.4em; }
+.price-badge {
+  display:inline-block;
+  background: linear-gradient(135deg, #28a745, #20c997);
+  color:#fff;
+  padding:6px 12px;
+  border-radius:20px;
+  font-weight:bold;
+  font-size:1.2em;
+  margin-top:10px;
+}
+.desc {
+  padding:15px;
+  line-height:1.5;
+  color:#333;
+  white-space: pre-line; /* preserve line breaks */
+}
+.stats {
+  display:flex;
+  justify-content:space-around;
+  background:#f8f9fa;
+  padding:10px 0;
+  font-size:0.9em;
+  color:#555;
+}
+.stats div { text-align:center; }
+.button {
+  display:block;
+  width:80%;
+  margin:20px auto;
+  padding:14px;
+  background:linear-gradient(135deg, #ff6a00, #ee0979);
+  color:#fff;
+  border:none;
+  border-radius:12px;
+  font-size:1.1em;
+  cursor:pointer;
+  transition:transform 0.2s, box-shadow 0.2s;
+}
+.button:hover {
+  transform:translateY(-2px);
+  box-shadow:0 6px 14px rgba(0,0,0,0.2);
+}
+.disclaimer {
+  font-size:0.75em;
+  color:#666;
+  text-align:center;
+  padding:0 10px 10px;
+  opacity:0.7;
+}
+.guarantees {
+  font-size:0.8em;
+  color:#555;
+  text-align:center;
+  padding:10px;
+  border-top:1px solid #eee;
+}
+.guarantees::before { content:"🛡️ "; }
+
+Now fill content.
+
+Title: 🔵WARHAMMER 40,000: SPACE MARINE 2 PS5 ТУРЦИЯ/УКРАИНА БЫСТРО!🎁
+
+Price: 4999 RUR
+
+Sold: 46 шт.
+
+Reviews: 12 положительных, 0 отрицательных -> maybe show "⭐️ 12 отзывов".
+
+Now description: we need escaped version. Let's manually escape a few lines? Could be long but doable.
+
+I'll write a function in my mind: replace < with &lt;, > with &gt;.
+
+I'll produce the description string with those replacements.
+
+Given the length, I'll attempt to produce escaped version.
+
+I'll go through the description block and replace.
+
+Better: I can note that the description contains many HTML-like tags but we can just wrap the whole description in a <code> or <pre> and escape using HTML entities? Actually <pre> will still interpret tags as tags unless we escape. Safer to escape.
+
+I'll manually replace each '<' and '>'.
+
+Let's copy the description text and edit.
+
+I'll write it out.
+
+Start:
+
+🚨 САМЫЙ БЫСТРЫЙ И КАЧЕСТВЕННЫЙ СЕРВИС НА ПЛОЩАДКЕ❗️ У нас нет очереди длиной в день и более❗️ Выполняем заказ в течении 10-15 минут с момента начала обработки вашего заказа❗️ НАЖМИТЕ "КУПИТЬ СЕЙЧАС" И УБЕДИТЕСЬ САМИ❗️
+
+🔐 БЕЗОПАСНАЯ покупка Warhammer 40,000: Space Marine 2 (любое издание), на Ваш аккаунт PSN
+
+💸 Рекомендуем использовать верхний способ оплаты - тут нет комиссии❕😉
+
+💣 Если у Вас нет аккаунта PSN, Вы можете приобрести его перейдя по ссылке ➡️https://plati.market/itm/3544663, или выбрать дополнительной услугой ⬆️
+
+✅ 🛒 Инструкция По Покупке 🛒 ✅
+〰️ Выберите нужный регион и издание из списка
+〰️ Нажмите кнопку ""КУПИТЬ СЕЙЧАС"", далее следуйте инструкции по оплате
+〰️ После покупки вы получаете УНИКАЛЬНЫЙ КОД (https://oplata.info), его вместе с логином (почтой) и паролем от аккаунта, нужно сообщить менеджеру в раздел ""Переписка с продавцом""
+✳️Пример:
+⏺︎ Код - ХХХХХХХХХХХХХХХХХХ
+⏺︎ Логин - allforgamers@email.com
+⏺︎ Пароль - 123456Qwerty✳️
+〰️ Ожидайте ответа от менеджера, в кратчайшие сроки
+
+📮 Заберите промокод со СКИДКОЙ на следующую покупку у нас😎
+
+❗На аккаунте PSN необходимо включить двухфакторную аутентификацию и указать менеджеру 2 резервных кода, для быстрого выполнения заказа ➡️https://www.playstation.com/ru-ru/support/account/2sv-psn-login/
+
+🔰ЛОКАЛИЗАЦИИ ИГРЫ🔰
+        
+🔵ТУРЦИЯ
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+🟡УКРАИНА
+Игра: Русские субтитры
+Интерфейс: На русском языке
+
+⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️
+
+✅ Регион аккаунта должен соответствовать выбранному региону для покупки игры:
+⏹︎ ТУРЦИЯ: Валюта в PS Store - TL (турецкая лира)
+⏹︎ УКРАИНА: Валюта в PS Store - UAH (Украинская гривна)
+
+✅ Все игры будут доступны с любого другого аккаунта - достаточно установить нужный вам аккаунт в качестве основного ➡️https://www.playstation.com/ru-ru/support/account/ps5-console-sharing-offline-play/
+
+🟡 Купить другие игры в Украинском PSN ➡️https://plati.market/itm/3420721
+
+🔵 Купить другие игры в Турецком PSN ➡️https://plati.market/itm/3595051
+
+💬ОПИСАНИЕ:        
+        
+🔹Standard Edition PS5
+Обретите сверхчеловеческую мощь и мастерство космодесантника, величайшего из воинов Императора. Пустите в ход смертоносные навыки и разруши
