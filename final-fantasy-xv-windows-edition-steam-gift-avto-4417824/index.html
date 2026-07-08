@@ -1,0 +1,106 @@
+We need to output only HTML code, no markdown, no explanation. Must include meta charset. Use inline CSS, mobile-first, max-width 500px. Include product title, description (preserve emojis). The description contains HTML tags like <attention> etc. Those are likely markup used in description; we should preserve them as plain text? The description includes tags like <attention> <delivery>. They are not HTML tags; they look like custom markup. We should keep them as text (they will appear as literal characters). However we can treat them as plain text; we could wrap description in a <div> and just output the given description string as is (including the tags). Ensure we escape any HTML special characters? Since we are outputting raw HTML, we need to escape < and > inside description to avoid being interpreted as HTML tags. But the instruction says "Эмодзи из описания сохранить". Likely they want the description as plain text with emojis, but the markup tags like <attention> etc are part of the description and should be displayed as text. To avoid them being interpreted as HTML, we should escape them (replace < with &lt;, > with &gt;). However they might want them to appear as they are (like they used them for styling originally). But given we are outputting HTML, we should escape to show them literally. However the instruction didn't explicitly say to escape. Usually when embedding user-provided description containing HTML-like tags, you would escape. Let's do that.
+
+We also need to include price badge, sold count, reviews, guarantees block.
+
+Button href exactly "316903" with target="_blank" rel="nofollow sponsored". Add disclaimer small text semi-transparent.
+
+We need to use inline CSS only. Provide max-width:500px; margin:0 auto; padding.
+
+Let's craft.
+
+We'll create a container div with style: max-width:500px; width:100%; padding:16px; box-sizing:border-box; font-family:Arial,Helvetica,sans-serif; background:#fff; border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); margin:20px auto.
+
+Title: big, maybe 1.5em, margin bottom 8px.
+
+Price badge: display:inline-block; background:linear-gradient(to right, #ff9a9e, #fad0c4); color:#fff; padding:4px 10px; border-radius:20px; font-weight:bold; font-size:1.2em.
+
+Sold and reviews: maybe flex.
+
+Description: white-space: pre-line; margin:12px 0; font-size:0.95em; color:#333.
+
+Button: display:block; width:100%; padding:14px; background:linear-gradient(to right, #4facfe, #00f2fe); color:#fff; border:none; border-radius:8px; font-size:1.1em; cursor:pointer; transition:background 0.3s; margin-top:12px.
+
+Hover: background:linear-gradient(to right, #00f2fe, #4facfe).
+
+Disclaimer: font-size:0.75em; color:#666; opacity:0.7; margin-top:8px; text-align:center.
+
+Guarantees block: margin-top:12px; font-size:0.85em; color:#555; display:flex; align-items:center; gap:8px; maybe use shield emoji 🛡️ or lock 🔒. Use emoji.
+
+Make sure to escape description: replace < with &lt;, > with &gt;.
+
+Let's construct description string: The provided description includes many tags and line breaks. We'll copy exactly as given but replace < and >.
+
+We'll embed inside a <div> with style white-space:pre-line;.
+
+We'll need to ensure we don't accidentally break HTML due to & etc. We'll just replace < and >.
+
+Let's manually craft escaped description.
+
+Original description:
+
+<attention><delivery>❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗</delivery><delivery>🔰После оплаты начнется процесс активации товара на ваш аккаунт
+🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут
+🔰Крайне редко доставка может быть задержана</delivery><delivery>💯💰Рекомендуем использовать верхний способ оплаты💸  - тут нет комиссии💰💯</delivery></attention><attention>⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️<delivery>🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam"🔴</delivery><delivery>✅Для ускорения доставки подарка можете использовать ссылку быстрого приглашения в друзья (перейдите в раздел "Друзья" - "Добавить в друзья" - создайте и скопируйте ссылку)✅</delivery></attention><delivery><attention>🗺️Регион отправки подарков: ТОЛЬКО Россия (перед покупкой посмотреть регион аккаунта можно здесь https://store.steampowered.com/account/)✅
+📫 Метод доставки: Steam Gift — Подарком на ваш аккаунт</attention><attention>🧾О товаре: https://store.steampowered.com/app/637650/</attention></delivery><delivery>Инструкция по активации Steam Gift:<attention>✅1. Скачайте и установите клиент Steam - http://store.steampowered.com/about/
+✅2. Создайте новую учетную запись или войдите в существующую.
+✅3. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam".
+✅4. Дождитесь приглашения в друзья от бота и подтвердите его.
+✅5. Активируйте подарок от бота в библиотеку.
+✅6. Загрузите купленную игру.
+✅7. Наслаждайтесь🙂</delivery></attention><delivery>🔍Не нашли нужного товара? Мы создадим его под вас:
+📝 Напишите нам в онлайн-чат и мы добавим интересующий вас товар в наш магазин 👾✔️
+🤝После этого, вы можете совершить покупку и получить Steam Gift - подарком на ваш аккаунт😎👍</delivery>
+
+We need to escape < and >. So each < becomes &lt;, > becomes &gt;. Also need to preserve line breaks; we can keep them as is inside the div.
+
+Let's produce escaped string manually? That's tedious but we can approximate by noting that the tags are like <attention>, </attention>, <delivery>, </delivery>. We'll replace each.
+
+Thus the escaped description will start with &lt;attention&gt;&lt;delivery&gt;❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗&lt;/delivery&gt;&lt;delivery&gt;🔰После оплаты начнется процесс активации товара на ваш аккаунт
+🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут
+🔰Крайне редко доставка может быть задержана&lt;/delivery&gt;&lt;delivery&gt;💯💰Рекомендуем использовать верхний способ оплаты💸  - тут нет комиссии💰💯&lt;/delivery&gt;&lt;/attention&gt;&lt;attention&gt;⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️&lt;delivery&gt;🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam"🔴&lt;/delivery&gt;&lt;delivery&gt;✅Для ускорения доставки подарка можете использовать ссылку быстрого приглашения в друзья (перейдите в раздел "Друзья" - "Добавить в друзья" - создайте и скопируйте ссылку)✅&lt;/delivery&gt;&lt;/attention&gt;&lt;delivery&gt;&lt;attention&gt;🗺️Регион отправки подарков: ТОЛЬКО Россия (перед покупкой посмотреть регион аккаунта можно здесь https://store.steampowered.com/account/)✅
+📫 Метод доставки: Steam Gift — Подарком на ваш аккаунт&lt;/attention&gt;&lt;attention&gt;🧾О товаре: https://store.steampowered.com/app/637650/&lt;/attention&gt;&lt;/delivery&gt;&lt;delivery&gt;Инструкция по активации Steam Gift:&lt;attention&gt;✅1. Скачайте и установите клиент Steam - http://store.steampowered.com/about/
+✅2. Создайте новую учетную запись или войдите в существующую.
+✅3. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam".
+✅4. Дождитесь приглашения в друзья от бота и подтвердите его.
+✅5. Активируйте подарок от бота в библиотеку.
+✅6. Загрузите купленную игру.
+✅7. Наслаждайтесь🙂&lt;/delivery&gt;&lt;/attention&gt;&lt;delivery&gt;🔍Не нашли нужного товара? Мы создадим его под вас:
+📝 Напишите нам в онлайн-чат и мы добавим интересующий вас товар в наш магазин 👾✔️
+🤝После этого, вы можете совершить покупку и получить Steam Gift - подарком на ваш аккаунт😎👍&lt;/delivery&gt;
+
+But note we missed some closing tags. Let's just trust that replacing all < with &lt; and > with &gt; will produce correct escaped version.
+
+We'll produce the description inside a <div> with the escaped text.
+
+Now produce final HTML.
+
+Let's write:
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<title>FINAL FANTASY XV WINDOWS EDITION Steam GIFT</title>
+</head>
+<body style="margin:0;padding:0;background:#f5f5f5;">
+<div style="max-width:500px;width:100%;margin:20px auto;padding:16px;background:#fff;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);font-family:Arial,Helvetica,sans-serif;">
+<h1 style="margin:0 0 8px;font-size:1.8em;color:#222;">📙FINAL FANTASY XV WINDOWS EDITION Steam GIFT⭐Авто⭐RU✅</h1>
+<div style="display:inline-block;background:linear-gradient(to right,#ff9a9e,#fad0c4);color:#fff;padding:4px 10px;border-radius:20px;font-weight:bold;font-size:1.2em;margin-bottom:12px;">1799 RUR</div>
+<div style="margin-bottom:12px;font-size:0.9em;color:#555;">
+<span>🛒 Продано: 33 шт.</span> &nbsp; <span>⭐ Отзывы: 3 положительных, 0 отрицательных</span>
+</div>
+<div style="white-space:pre-line;font-size:0.95em;color:#333;margin-bottom:16px;">
+&lt;attention&gt;&lt;delivery&gt;❗❗❗ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 ❗❗❗&lt;/delivery&gt;&lt;delivery&gt;🔰После оплаты начнется процесс активации товара на ваш аккаунт
+🔰Авто-доставку производит бот, она занимает в среднем не более 3 минут
+🔰Крайне редко доставка может быть задержана&lt;/delivery&gt;&lt;delivery&gt;💯💰Рекомендуем использовать верхний способ оплаты💸  - тут нет комиссии💰💯&lt;/delivery&gt;&lt;/attention&gt;&lt;attention&gt;⚠️ ОБРАТИТЕ ВНИМАНИЕ ⚠️&lt;delivery&gt;🔴 Для получения подарка нужно указать ссылку на профиль Steam - НЕ логин. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam"🔴&lt;/delivery&gt;&lt;delivery&gt;✅Для ускорения доставки подарка можете использовать ссылку быстрого приглашения в друзья (перейдите в раздел "Друзья" - "Добавить в друзья" - создайте и скопируйте ссылку)✅&lt;/delivery&gt;&lt;/attention&gt;&lt;delivery&gt;&lt;attention&gt;🗺️Регион отправки подарков: ТОЛЬКО Россия (перед покупкой посмотреть регион аккаунта можно здесь https://store.steampowered.com/account/)✅
+📫 Метод доставки: Steam Gift — Подарком на ваш аккаунт&lt;/attention&gt;&lt;attention&gt;🧾О товаре: https://store.steampowered.com/app/637650/&lt;/attention&gt;&lt;/delivery&gt;&lt;delivery&gt;Инструкция по активации Steam Gift:&lt;attention&gt;✅1. Скачайте и установите клиент Steam - http://store.steampowered.com/about/
+✅2. Создайте новую учетную запись или войдите в существующую.
+✅3. Скопируйте ссылку на ваш профиль (в верхнем правом углу нажмите на свой никнейм, далее - профиль) и введите в поле "ссылка на ваш профиль Steam".
+✅4. Дождитесь приглашения в друзья от бота и подтвердите его.
+✅5. Активируйте подарок от бота в библиотеку.
+✅6. Загрузите купленную игру.
+✅7. Наслаждайтесь🙂&lt;/delivery&gt;&lt;/attention&gt;&lt;delivery&gt;🔍Не нашли нужного товара? Мы создадим его под вас:
+📝 Напишите нам в онлайн-чат и мы добавим интересующий вас товар в наш магазин 👾✔️
+🤝После этого, вы можете совершить покупку и получить Steam Gift - подарком на ваш аккаунт😎👍&lt;/delivery&gt;
+</div>
+<a href="316903" target="_blank" rel="nofollow sponsored" style="display:block;width:100%;padding:14px;background:linear-gradient(to right,#4facfe,#00f2fe);color:#fff;border:none;border-radius:8px;font-size:1.1em;text-align:center;text-decoration:none;cursor:pointer;
