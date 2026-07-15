@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Трофейная рыбалка 2 steam-бот для фарма наживки (демо)</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f2f4f8;
+    color: #1a1a1a;
+    padding: 12px;
+  }
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    background: #ffffff;
+    border-radius: 18px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+    overflow: hidden;
+  }
+  .header {
+    background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
+    padding: 22px 18px;
+    color: #fff;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 19px;
+    line-height: 1.3;
+    font-weight: 700;
+  }
+  .price-badge {
+    display: inline-block;
+    margin-top: 12px;
+    background: #ff4757;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 800;
+    padding: 6px 16px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(255,71,87,0.4);
+  }
+  .body {
+    padding: 18px;
+  }
+  .desc {
+    font-size: 14px;
+    line-height: 1.55;
+    color: #333;
+  }
+  .desc ul {
+    list-style: none;
+    margin: 10px 0;
+    padding-left: 0;
+  }
+  .desc li {
+    margin-bottom: 6px;
+    padding-left: 20px;
+    position: relative;
+  }
+  .desc li:before {
+    content: "🎣";
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+  .stats {
+    display: flex;
+    justify-content: space-between;
+    background: #f7f9fc;
+    border-radius: 12px;
+    padding: 12px;
+    margin: 16px 0;
+    font-size: 13px;
+    text-align: center;
+  }
+  .stats div { flex: 1; }
+  .stats b { display: block; font-size: 16px; color: #11998e; }
+  .note {
+    background: #fff8e1;
+    border-left: 4px solid #ffc107;
+    padding: 10px 12px;
+    font-size: 13px;
+    border-radius: 8px;
+    margin: 12px 0;
+  }
+  .btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(135deg, #ff6a00 0%, #ee0979 100%);
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    padding: 16px;
+    border-radius: 14px;
+    box-shadow: 0 8px 20px rgba(238,9,121,0.35);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 12px 26px rgba(238,9,121,0.5);
+  }
+  .disclaimer {
+    font-size: 11px;
+    color: rgba(0,0,0,0.4);
+    text-align: center;
+    margin-top: 10px;
+  }
+  .guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    font-size: 12px;
+    color: #666;
+    padding: 14px;
+    border-top: 1px solid #eee;
+  }
+  .vk-link {
+    font-size: 13px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  .vk-link a { color: #2a5885; font-weight: 600; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <h1>📦 Трофейная рыбалка 2 steam-бот для фарма наживки (демо)</h1>
+    <div class="price-badge">10 ₽</div>
+  </div>
+  <div class="body">
+    <div class="desc">
+      <p>Trophy Fishing 2 — для steam клиента.</p>
+      <p>Продлить можно на любое количество дней, нажав в боте кнопку "Продлить":<br>
+      <a href="https://plati.market/itm/2563817?ai=816991" target="_blank" rel="nofollow">plati.market</a> или связавшись в ЛС.</p>
+      <p>Работает на 1,2,3 удочки. Работает НЕ в фоне... Запускаем в окне, бот сам сделает нужный размер.</p>
+      <ul>
+        <li>"Клик заброса": кликает заброс или в центре экрана или внизу (для ф8)</li>
+        <li>"Отпускать ЛКМ": выбор отпускания ЛКМ — либо когда шкала заполняется до верха, либо когда появляется/заполняется треугольник (зашкаливает)</li>
+        <li>"Пробел": жать всегда, никогда не жать, кликать раз в сек. (обычно оптимально)</li>
+        <li>"Ремонтировать": ремонтирует уду. Сначала выбираем любую другую не "темную", потом ремонтируем которая ближе к "верху"</li>
+        <li>"Покупать наживки": выбор не покупать или покупать (осторожно!)</li>
+        <li>"Продажа за серебро": продаём только за серебро. "За энергию" — продаём за энергию. "Иногда за энергию" — продажа за энергию если она "стоит" больше и при продаже не превысит 1000 энергии</li>
+        <li>"Наловить и стоп": указываем сколько надо наловить нужной рыбы. Как наловит — напишет в логе, пиликнет и в тг пошлет, если галка стоит</li>
+        <li>"Сообщать в ТГ": отправка сообщений в телеграмм о ремонте, об износе и несколько других</li>
+      </ul>
+      <div class="note">
+        ⚠️ Если бот при запуске зависает, не запускается или ещё как либо не работает = блокировки в интернете. Попробовать через VPN. НЕ все VPN "пробивают" блокировку — пробовать настраивать или использовать другой...
+      </div>
+      <div class="vk-link">
+        🔗 Тестовую версию можно скачать в группе ВК: <a href="https://plati.market/itm/2563817?ai=816991" target="_blank" rel="nofollow">vk.com/public213229333</a>
+      </div>
+    </div>
+
+    <div class="stats">
+      <div>Продано<b>21 шт.</b></div>
+      <div>Отзывы<b>0+</b></div>
+      <div>Отзывы<b>0-</b></div>
+    </div>
+
+    <a class="btn" href="https://plati.market/itm/2563817?ai=816991" target="_blank" rel="nofollow sponsored">🛒 КУПИТЬ СЕЙЧАС</a>
+    <div class="disclaimer">Переходя по этой ссылке, вы поддерживаете наш проект. Цена для вас не изменится. Спасибо!</div>
+
+    <div class="guarantee">
+      🛡️ Безопасная покупка на plati.market — гарант сделки с 2003 года
+    </div>
+  </div>
+</div>
+</body>
+</html>
