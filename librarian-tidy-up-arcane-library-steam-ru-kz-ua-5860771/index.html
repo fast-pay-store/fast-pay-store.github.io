@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Librarian: Tidy Up the Arcane Library!</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: #f0f2f5;
+    padding: 16px;
+    color: #1a1a1a;
+  }
+  .card {
+    max-width: 500px;
+    margin: 0 auto;
+    background: linear-gradient(145deg, #ffffff, #f8f9ff);
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.12);
+    overflow: hidden;
+  }
+  .header {
+    background: linear-gradient(135deg, #6a5acd, #8a2be2);
+    color: #fff;
+    padding: 24px 20px;
+    text-align: center;
+  }
+  .header h1 {
+    font-size: 22px;
+    line-height: 1.3;
+    margin-bottom: 12px;
+    font-weight: 700;
+  }
+  .price-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, #ffd700, #ff8c00);
+    color: #000;
+    font-size: 26px;
+    font-weight: 800;
+    padding: 8px 18px;
+    border-radius: 50px;
+    box-shadow: 0 4px 12px rgba(255,140,0,0.4);
+  }
+  .content { padding: 20px; }
+  .section {
+    background: #f5f6ff;
+    border-left: 4px solid #8a2be2;
+    border-radius: 12px;
+    padding: 14px 16px;
+    margin-bottom: 14px;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .section strong { color: #6a5acd; }
+  .stats {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 18px 0;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .stat {
+    background: #fff;
+    border-radius: 14px;
+    padding: 12px 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.06);
+    flex: 1 1 120px;
+  }
+  .stat .num { font-size: 20px; font-weight: 700; color: #8a2be2; }
+  .stat .lbl { font-size: 12px; color: #666; margin-top: 4px; }
+  .steam-link {
+    display: block;
+    text-align: center;
+    margin: 14px 0;
+    font-size: 14px;
+  }
+  .steam-link a { color: #1b95e0; text-decoration: none; word-break: break-all; }
+  .desc {
+    font-size: 14px;
+    line-height: 1.6;
+    background: #fff;
+    border-radius: 12px;
+    padding: 14px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+    margin-bottom: 16px;
+  }
+  .buy-btn {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background: linear-gradient(135deg, #00c853, #009624);
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px;
+    border-radius: 16px;
+    text-decoration: none;
+    box-shadow: 0 6px 18px rgba(0,200,83,0.45);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .buy-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 10px 24px rgba(0,200,83,0.6);
+  }
+  .disclaimer {
+    font-size: 11px;
+    color: rgba(0,0,0,0.45);
+    text-align: center;
+    margin-top: 10px;
+    line-height: 1.4;
+  }
+  .guarantee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    font-size: 12px;
+    color: #555;
+    margin-top: 18px;
+    padding-top: 14px;
+    border-top: 1px solid #eee;
+  }
+  .guarantee span { font-size: 18px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <h1>Librarian: Tidy Up the Arcane Library! STEAM RU/KZ/UA/СНГ</h1>
+    <div class="price-badge">261 ₽</div>
+  </div>
+  <div class="content">
+    <div class="section">
+      ✅ <strong>АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7</strong><br>
+      Автоматическая выдача товара осуществляется с помощью бота и занимает не более 3-ех минут. В редких случаях доставка товара может занять более 3-ех минут.<br><br>
+      ⚠️ Перед покупкой внимательно прочитайте описание на странице товара и ознакомьтесь с имеющимися инструкциями.
+    </div>
+    <div class="section">
+      🚀 <strong>Метод получения:</strong> Steam Gift — подарком на ваш аккаунт Steam. Товар остается на вашем аккаунте НАВСЕГДА.
+    </div>
+    <div class="section">
+      🌍 Активация возможна на аккаунты со страной Россия, а также на другие при наличии выбора.<br>
+      🌍 Инструкция. Как узнать регион Вашего аккаунта Steam: https://clck.ru/3LApi7
+    </div>
+    <div class="section">
+      💳 Инструкция. Процесс оплаты и получения товара: https://clck.ru/3Pugq3<br>
+      📄 Инструкция. Как узнать свою ссылку на быстрое добавление в друзья в Steam: https://clck.ru/3LAqDk
+    </div>
+    <div class="section">
+      🤑 После покупки Вы можете оставить положительный отзыв и бесплатно получить ключ от игры стоимостью от 30 до 300 руб
+    </div>
+    <div class="stats">
+      <div class="stat"><div class="num">16</div><div class="lbl">Продано, шт.</div></div>
+      <div class="stat"><div class="num">2 👍</div><div class="lbl">0 👎 Отзывы</div></div>
+    </div>
+    <div class="steam-link">
+      📜 Товар в Steam:<br>
+      <a href="https://plati.market/itm/5860771?ai=816991" target="_blank" rel="nofollow">https://store.steampowered.com/app/4197610/Librarian_Tidy_Up_the_Arcane_Library</a>
+    </div>
+    <div class="desc">
+      📜 <strong>Описание:</strong> Librarian: Tidy Up the Arcane Library! is a single-player simulation. You need return scattered books to proper places in an Arcane Library. As completed rows of bookshelves, you can learn ability to improve your efficiency. Use your skills and strategies to shelve 3,072 books as quick as you can.
+    </div>
+    <div class="section">
+      ⚠️ <strong>О ВОЗВРАТЕ ДЕНЕЖНЫХ СРЕДСТВ:</strong><br>
+      • Товар доставлен на аккаунт получателя — возврат не осуществляется.<br>
+      • Товар не доставлен по вине продавца — полный возврат.<br>
+      • Товар не доставлен по вине покупателя или отказ от получения — возврат с удержанием 25% комиссии.
+    </div>
+    <a href="https://plati.market/itm/5860771?ai=816991" class="buy-btn" target="_blank" rel="nofollow sponsored">КУПИТЬ СЕЙЧАС</a>
+    <div class="disclaimer">Переходя по этой ссылке, вы поддерживаете наш проект. Цена для вас не изменится. Спасибо!</div>
+    <div class="guarantee">
+      <span>🛡️</span> Безопасная покупка на plati.market — гарант сделки с 2003 года
+    </div>
+  </div>
+</div>
+</body>
+</html>
