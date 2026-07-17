@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dead by Daylight - The Walking Dead Chapter | Авто-доставка Steam Gift</title>
+<style>
+:root {
+  --primary: #6a11cb;
+  --primary-end: #2575fc;
+  --accent: #ff6b35;
+  --accent-end: #f7b733;
+  --success: #00b09b;
+  --success-end: #96c93d;
+  --bg: #f4f6f9;
+  --card-bg: #ffffff;
+  --text: #1a1a2e;
+  --text-muted: #6c757d;
+  --border: #e9ecef;
+  --shadow: 0 10px 30px rgba(106, 17, 203, 0.1), 0 4px 12px rgba(0,0,0,0.05);
+  --shadow-hover: 0 20px 40px rgba(106, 17, 203, 0.15), 0 8px 16px rgba(0,0,0,0.08);
+  --radius: 20px;
+  --radius-sm: 12px;
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px 16px; }
+.card { width: 100%; max-width: 500px; background: var(--card-bg); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; transition: var(--transition); border: 1px solid var(--border); }
+.card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.header { position: relative; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-end) 100%); color: white; padding: 28px 24px; text-align: center; overflow: hidden; }
+.header::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%); animation: pulse 8s infinite ease-in-out; pointer-events: none; }
+@keyframes pulse { 0%, 100% { transform: scale(1); opacity: 0.5; } 50% { transform: scale(1.1); opacity: 0.8; } }
+.badge-auto { display: inline-flex; align-items: center; gap: 6px; background: rgba(255,255,255,0.2); backdrop-filter: blur(10px); padding: 6px 14px; border-radius: 30px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; border: 1px solid rgba(255,255,255,0.3); }
+.title { font-size: 22px; font-weight: 800; line-height: 1.3; text-shadow: 0 2px 8px rgba(0,0,0,0.2); position: relative; z-index: 1; }
+.price-block { display: flex; align-items: center; justify-content: space-between; padding: 20px 24px; background: linear-gradient(180deg, rgba(106,17,203,0.03) 0%, transparent 100%); border-bottom: 1px solid var(--border); flex-wrap: wrap; gap: 12px; }
+.price-badge { background: linear-gradient(135deg, var(--accent) 0%, var(--accent-end) 100%); color: white; padding: 10px 22px; border-radius: 16px; font-size: 28px; font-weight: 800; box-shadow: 0 4px 16px rgba(255,107,53,0.4); white-space: nowrap; }
+.stats { display: flex; gap: 16px; font-size: 13px; color: var(--text-muted); align-items: center; }
+.stat-item { display: flex; align-items: center; gap: 6px; font-weight: 600; }
+.stat-item svg { width: 16px; height: 16px; stroke: var(--accent); }
+.content { padding: 24px; }
+.section { margin-bottom: 24px; }
+.section:last-child { margin-bottom: 0; }
+.section-title { display: flex; align-items: center; gap: 10px; font-size: 15px; font-weight: 700; color: var(--text); margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid var(--border); text-transform: uppercase; letter-spacing: 0.3px; }
+.section-title svg { width: 20px; height: 20px; stroke: var(--primary); flex-shrink: 0; }
+.details { border: 1px solid var(--border); border-radius: var(--radius-sm); overflow: hidden; background: #fafbfc; }
+summary { list-style: none; cursor: pointer; padding: 14px 18px; font-weight: 600; color: var(--text); display: flex; justify-content: space-between; align-items: center; transition: var(--transition); background: white; border-bottom: 1px solid var(--border); }
+summary::-webkit-details-marker { display: none; }
+summary::after { content: ''; width: 20px; height: 20px; background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%236a11cb' stroke-width='2.5' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpolyline points='6 9 12 15 18 9'%3E%3C/polyline%3E%3C/svg%3E") center/contain no-repeat; transition: transform 0.3s ease; flex-shrink: 0; }
+details[open] summary::after { transform: rotate(180deg); }
+details[open] summary { border-bottom-color: transparent; background: linear-gradient(90deg, rgba(106,17,203,0.05), transparent); }
+.detail-content { padding: 18px; font-size: 14px; line-height: 1.7; color: var(--text-muted); white-space: pre-wrap; word-wrap: break-word; }
+.detail-content strong { color: var(--text); font-weight: 700; }
+.detail-content a { color: var(--primary); text-decoration: none; font-weight: 600; }
+.detail-content a:hover { text-decoration: underline; }
+.warning-box { background: linear-gradient(135deg, #fff3e0 0%, #ffe0b2 100%); border: 1px solid #ffcc80; border-radius: var(--radius-sm); padding: 16px; margin-top: 12px; font-size: 13px; line-height: 1.7; color: #e65100; position: relative; }
+.warning-box::before { content: '⚠️'; margin-right: 8px; font-size: 16px; vertical-align: middle; }
+.buy-btn { display: block; width: 100%; padding: 18px 24px; background: linear-gradient(135deg, var(--success) 0%, var(--success-end) 100%); color: white; font-size: 18px; font-weight: 800; text-align: center; text-decoration: none; border-radius: var(--radius-sm); border: none; cursor: pointer; box-shadow: 0 6px 20px rgba(0,176,155,0.4); transition: var(--transition); position: relative; overflow: hidden; letter-spacing: 0.5px; text-transform: uppercase; }
+.buy-btn::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s ease; }
+.buy-btn:hover { transform: translateY(-3px); box-shadow: 0 12px 30px rgba(0,176,155,0.5); }
+.buy-btn:hover::before { left: 100%; }
+.buy-btn:active { transform: translateY(0) scale(0.99); box-shadow: 0 4px 12px rgba(0,176,155,0.4); }
+.disclaimer { text-align: center; margin-top: 16px; font-size: 11px; color: var(--text-muted); opacity: 0.7; line-height: 1.5; }
+.guarantee { display: flex; align-items: center; gap: 12px; padding: 16px 24px 24px; background: linear-gradient(180deg, transparent, rgba(106,17,203,0.02)); border-top: 1px solid var(--border); margin-top: 8px; }
+.guarantee-icon { width: 40px; height: 40px; background: linear-gradient(135deg, var(--primary) 0%, var(--primary-end) 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; box-shadow: 0 4px 12px rgba(106,17,203,0.3); }
+.guarantee-icon svg { width: 22px; height: 22px; stroke: white; }
+.guarantee-text { font-size: 12px; color: var(--text-muted); line-height: 1.4; }
+.guarantee-text strong { color: var(--text); display: block; margin-bottom: 2px; font-size: 13px; }
+@media (max-width: 480px) {
+  .card { border-radius: 16px; }
+  .header { padding: 24px 18px; border-radius: 16px 16px 0 0; }
+  .title { font-size: 19px; }
+  .price-block { padding: 16px 18px; }
+  .price-badge { font-size: 24px; padding: 8px 18px; }
+  .content { padding: 18px; }
+  .buy-btn { padding: 16px 18px; font-size: 16px; border-radius: 12px; }
+  .guarantee { padding: 14px 18px 18px; }
+}
+</style>
+</head>
+<body>
+<article class="card">
+  <header class="header">
+    <div class="badge-auto">🤖 Авто-доставка 24/7 💧 RU</div>
+    <h1 class="title">Dead by Daylight — The Walking Dead Chapter</h1>
+  </header>
+
+  <div class="price-block">
+    <span class="price-badge">449 ₽</span>
+    <div class="stats">
+      <div class="stat-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path><circle cx="12" cy="7" r="4"></circle></svg>
+        Продано: 11
+      </div>
+      <div class="stat-item">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon></svg>
+        ★★★★★ 1 отзыв
+      </div>
+    </div>
+  </div>
+
+  <div class="content">
+    <section class="section">
+      <h2 class="section-title">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></pol
