@@ -1,0 +1,88 @@
+<meta charset="UTF-8">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; max-width: 500px; margin: 20px auto; background: linear-gradient(145deg, #1e1e2e 0%, #2a2a3e 100%); border-radius: 20px; box-shadow: 0 10px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.05); overflow: hidden; color: #e4e4e7; border: 1px solid rgba(255,255,255,0.08);">
+  
+  <!-- Header / Badge -->
+  <div style="padding: 20px 20px 0; display: flex; justify-content: space-between; align-items: flex-start; flex-wrap: wrap; gap: 12px;">
+    <div style="flex: 1; min-width: 0;">
+      <span style="display: inline-block; background: linear-gradient(90deg, #6366f1, #a855f7); color: white; padding: 4px 10px; border-radius: 6px; font-size: 11px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 10px;">DLC / Дополнение</span>
+      <h1 style="margin: 0; font-size: 22px; font-weight: 700; line-height: 1.3; color: #fff; background: linear-gradient(90deg, #fff, #c4b5fd); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">Risk of Rain 2 — Survivors of the Void</h1>
+    </div>
+    <div style="background: linear-gradient(135deg, #22c55e, #16a34a); color: white; padding: 10px 16px; border-radius: 12px; font-size: 22px; font-weight: 800; white-space: nowrap; box-shadow: 0 4px 15px rgba(34, 197, 94, 0.3); flex-shrink: 0;">
+      204 ₽
+    </div>
+  </div>
+
+  <!-- Steam Link & Stats -->
+  <div style="padding: 12px 20px 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 8px; font-size: 13px; color: #9ca3af;">
+    <a href="https://plati.market/itm/5133751?ai=816991" target="_blank" rel="noopener" style="color: #6366f1; text-decoration: none; font-weight: 600; display: flex; align-items: center; gap: 6px; transition: color 0.2s;" onmouseover="this.style.color='#a855f7'" onmouseout="this.style.color='#6366f1'">
+      <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-1-13h2v6h-2zm0 8h2v2h-2z"/></svg>
+      Страница в Steam
+    </a>
+    <div style="display: flex; gap: 16px; color: #6b7280;">
+      <span style="display: flex; align-items: center; gap: 4px;">📦 <b>4</b> продано</span>
+      <span style="display: flex; align-items: center; gap: 4px;">⭐ <b>0</b> отзывов</span>
+    </div>
+  </div>
+
+  <!-- Delivery Method Badge -->
+  <div style="margin: 16px 20px 0; padding: 12px 16px; background: rgba(99, 102, 241, 0.15); border: 1px solid rgba(99, 102, 241, 0.3); border-radius: 12px; display: flex; align-items: center; gap: 10px;">
+    <div style="width: 36px; height: 36px; background: linear-gradient(135deg, #6366f1, #8b5cf6); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 16px; flex-shrink: 0;">🎁</div>
+    <div>
+      <div style="font-weight: 700; font-size: 14px; color: #c4b5fd;">Автоматическая доставка 24/7</div>
+      <div style="font-size: 12px; color: #9ca3af;">Steam Gift — подарок на аккаунт навсегда. Выдача до 3 минут.</div>
+    </div>
+  </div>
+
+  <!-- Description Accordion/Tabs -->
+  <div style="padding: 0 20px;">
+    <div style="border-radius: 12px; overflow: hidden; background: rgba(0,0,0,0.2); border: 1px solid rgba(255,255,255,0.05);">
+      <div style="display: flex; border-bottom: 1px solid rgba(255,255,255,0.05);">
+        <button onclick="showTab(this, 'desc')" style="flex: 1; padding: 12px; background: transparent; border: none; color: #e4e4e7; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s; position: relative;" data-active="true">
+          📜 Описание
+          <span style="position: absolute; bottom: -1px; left: 50%; transform: translateX(-50%); width: 0; height: 2px; background: linear-gradient(90deg, #6366f1, #a855f7); transition: width 0.2s;"></span>
+        </button>
+        <button onclick="showTab(this, 'delivery')" style="flex: 1; padding: 12px; background: transparent; border: none; color: #6b7280; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s; position: relative;">
+          🚀 Доставка
+          <span style="position: absolute; bottom: -1px; left: 50%; transform: translateX(-50%); width: 0; height: 2px; background: linear-gradient(90deg, #6366f1, #a855f7); transition: width 0.2s;"></span>
+        </button>
+        <button onclick="showTab(this, 'refund')" style="flex: 1; padding: 12px; background: transparent; border: none; color: #6b7280; font-size: 13px; font-weight: 600; cursor: pointer; display: flex; align-items: center; justify-content: center; gap: 6px; transition: all 0.2s; position: relative;">
+          ⚠️ Возврат
+          <span style="position: absolute; bottom: -1px; left: 50%; transform: translateX(-50%); width: 0; height: 2px; background: linear-gradient(90deg, #6366f1, #a855f7); transition: width 0.2s;"></span>
+        </button>
+      </div>
+      
+      <div id="tab-desc" class="tab-content" style="padding: 16px; display: block;">
+        <p style="margin: 0 0 12px; line-height: 1.6; font-size: 14px; color: #d1d5db;">Постигайте Пустоту, которая захватывает Петрикор V, в первом дополнении для Risk of Rain 2! Новые выжившие, монстры, уровни и новый класс предметов помогут вам отбросить крабов в их родное измерение.</p>
+        <div style="font-size: 13px; color: #9ca3af; line-height: 1.8;">
+          <div style="margin-bottom: 8px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">✅</span> Требуется базовая игра <b>Risk of Rain 2</b></div>
+          <div style="margin-bottom: 8px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">🌍</span> Активация: Россия и другие регионы (см. инструкцию)</div>
+          <div style="margin-bottom: 8px; padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #22c55e;">🔗</span> Метод: <b>Steam Gift</b> (подарок в друзья)</div>
+          <div style="padding-left: 20px; position: relative;"><span style="position: absolute; left: 0; color: #fbbf24;">🎁</span> Бонус: положительный отзыв = ключ от игры (30–300 руб)</div>
+        </div>
+      </div>
+      
+      <div id="tab-delivery" class="tab-content" style="padding: 16px; display: none;">
+        <div style="font-size: 13px; color: #d1d5db; line-height: 1.8;">
+          <div style="margin-bottom: 10px; padding: 10px; background: rgba(34, 197, 94, 0.1); border-radius: 8px; border-left: 3px solid #22c55e;"><b>⚡ Автовыдача 24/7</b> — бот выдает товар за ≤ 3 минут.</div>
+          <div style="margin-bottom: 10px;"><b>📋 Инструкции (кликните для открытия):</b></div>
+          <a href="https://plati.market/itm/5133751?ai=816991" target="_blank" rel="noopener" style="display: block; color: #6366f1; margin-bottom: 6px; text-decoration: none; font-size: 13px;">🌍 Как узнать регион аккаунта Steam</a>
+          <a href="https://plati.market/itm/5133751?ai=816991" target="_blank" rel="noopener" style="display: block; color: #6366f1; margin-bottom: 6px; text-decoration: none; font-size: 13px;">💳 Процесс оплаты и получения товара</a>
+          <a href="https://plati.market/itm/5133751?ai=816991" target="_blank" rel="noopener" style="display: block; color: #6366f1; margin-bottom: 6px; text-decoration: none; font-size: 13px;">📄 Ссылка на быстрое добавление в друзья</a>
+        </div>
+      </div>
+      
+      <div id="tab-refund" class="tab-content" style="padding: 16px; display: none;">
+        <div style="font-size: 13px; color: #d1d5db; line-height: 1.8;">
+          <div style="margin-bottom: 8px; padding: 10px; background: rgba(239, 68, 68, 0.1); border-radius: 8px; border-left: 3px solid #ef4444;"><b>❌ Товар доставлен</b> — возврат не осуществляется.</div>
+          <div style="margin-bottom: 8px; padding: 10px; background: rgba(34, 197, 94, 0.1); border-radius: 8px; border-left: 3px solid #22c55e;"><b>✅ Вина продавца</b> (не доставлен) — полный возврат.</div>
+          <div style="padding: 10px; background: rgba(249, 115, 22, 0.1); border-radius: 8px; border-left: 3px solid #f97316;"><b>⚠️ Вина покупателя / отказ</b> — возврат минус 25% комиссии.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Buy Button -->
+  <div style="padding: 20px;">
+    <a href="https://plati.market/itm/5133751?ai=816991" target="_blank" rel="nofollow sponsored" style="display: block; width: 100%; box-sizing: border-box; padding: 18px 24px; background: linear-gradient(135deg, #f59e0b 0%, #f97316 100%); color: #fff; font-size: 17px; font-weight: 800; text-align: center; text-decoration: none; border-radius: 14px; box-shadow: 0 6px 20px rgba(249, 115, 22, 0.4), inset 0 1px 0 rgba(255,255,255,0.2); transition: all 0.2s ease; position: relative; overflow: hidden;" onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 10px 30px rgba(249, 115, 22, 0.5), inset 0 1px 0 rgba(255,255,255,0.2)'" onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 6px 20px rgba(249, 115, 22, 0.4), inset 0 1px 0 rgba(255,255,255,0.2)'">
+      <span style="position: relative; z-index: 1; display: flex; align-items: center; justify-content: center; gap: 10px;">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="flex-shrink: 0;"><circle cx="9" cy="21" r="1"></circle><circle cx="20" cy="21" r="1"></circle><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0
