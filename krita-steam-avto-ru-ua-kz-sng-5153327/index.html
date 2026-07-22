@@ -1,0 +1,111 @@
+<meta charset="UTF-8">
+<div style="font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif; max-width: 500px; margin: 20px auto; background: linear-gradient(135deg, #1e1e2e 0%, #2a2a3e 100%); border-radius: 20px; overflow: hidden; box-shadow: 0 20px 40px rgba(0,0,0,0.4), 0 0 0 1px rgba(255,255,255,0.05); color: #e0e0e0; position: relative;">
+  
+  <!-- Top Accent Bar -->
+  <div style="height: 4px; background: linear-gradient(90deg, #00d4aa, #00a3e0, #8b5cf6);"></div>
+
+  <!-- Product Header -->
+  <div style="padding: 24px 24px 16px; text-align: center;">
+    <div style="display: inline-flex; align-items: center; gap: 8px; background: rgba(0, 212, 170, 0.15); border: 1px solid rgba(0, 212, 170, 0.3); padding: 6px 14px; border-radius: 30px; font-size: 12px; font-weight: 600; color: #00d4aa; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 16px;">
+      <span style="width: 8px; height: 8px; background: #00d4aa; border-radius: 50%; animation: pulse 2s infinite;"></span>
+      Steam Gift • Автовыдача 24/7
+    </div>
+    <h1 style="margin: 0 0 8px; font-size: 24px; font-weight: 700; line-height: 1.3; background: linear-gradient(135deg, #fff 0%, #00d4aa 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;">
+      Krita
+    </h1>
+    <p style="margin: 0; font-size: 14px; color: #888; font-weight: 400;">Цифровое искусство • Анимация • Концепт-арт</p>
+  </div>
+
+  <!-- Price & Stats Bar -->
+  <div style="display: flex; justify-content: space-between; align-items: center; padding: 16px 24px; background: rgba(0,0,0,0.2); border-top: 1px solid rgba(255,255,255,0.05); border-bottom: 1px solid rgba(255,255,255,0.05); flex-wrap: wrap; gap: 12px;">
+    <div style="background: linear-gradient(135deg, #00d4aa 0%, #00a3e0 100%); padding: 10px 20px; border-radius: 14px; box-shadow: 0 4px 20px rgba(0, 212, 170, 0.3);">
+      <div style="font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; opacity: 0.9;">Цена</div>
+      <div style="font-size: 28px; font-weight: 800; line-height: 1;">245 ₽</div>
+    </div>
+    <div style="display: flex; gap: 20px; text-align: center;">
+      <div>
+        <div style="font-size: 20px; font-weight: 700; color: #00d4aa;">4</div>
+        <div style="font-size: 11px; color: #888; text-transform: uppercase;">Продано</div>
+      </div>
+      <div style="position: relative;">
+        <div style="font-size: 20px; font-weight: 700; color: #fff;">0</div>
+        <div style="font-size: 11px; color: #888; text-transform: uppercase;">Отзывов</div>
+      </div>
+      <div>
+        <div style="font-size: 20px; font-weight: 700; color: #8b5cf6;">100%</div>
+        <div style="font-size: 11px; color: #888; text-transform: uppercase;">Успех</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Description Tabs/Sections -->
+  <div style="padding: 20px 24px;">
+    <div style="display: flex; gap: 8px; margin-bottom: 16px; overflow-x: auto; padding-bottom: 8px;">
+      <button class="tab-btn active" data-tab="delivery" style="background: linear-gradient(135deg, #00d4aa, #00a3e0); color: #0a0a12; border: none; padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; box-shadow: 0 2px 8px rgba(0,212,170,0.3);">🚀 Доставка</button>
+      <button class="tab-btn" data-tab="details" style="background: rgba(255,255,255,0.05); color: #aaa; border: 1px solid rgba(255,255,255,0.1); padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;">📜 Описание</button>
+      <button class="tab-btn" data-tab="instructions" style="background: rgba(255,255,255,0.05); color: #aaa; border: 1px solid rgba(255,255,255,0.1); padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;">📋 Инструкции</button>
+      <button class="tab-btn" data-tab="refund" style="background: rgba(255,255,255,0.05); color: #aaa; border: 1px solid rgba(255,255,255,0.1); padding: 8px 16px; border-radius: 10px; font-size: 12px; font-weight: 600; cursor: pointer; white-space: nowrap; transition: all 0.2s;">⚠️ Возврат</button>
+    </div>
+
+    <!-- Tab Content: Delivery -->
+    <div id="tab-delivery" class="tab-content" style="display: block;">
+      <div style="background: rgba(0, 212, 170, 0.1); border: 1px solid rgba(0, 212, 170, 0.2); border-radius: 12px; padding: 16px; margin-bottom: 12px;">
+        <div style="font-weight: 700; color: #00d4aa; margin-bottom: 8px; font-size: 14px;">✅ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7</div>
+        <div style="font-size: 13px; line-height: 1.6; color: #ccc;">
+          Автоматическая выдача товара осуществляется с помощью бота и занимает не более <b>3-х минут</b>.<br>
+          В редких случаях доставка может занять более 3-х минут.
+        </div>
+      </div>
+      <div style="background: rgba(139, 92, 246, 0.1); border: 1px solid rgba(139, 92, 246, 0.2); border-radius: 12px; padding: 16px; margin-bottom: 12px;">
+        <div style="font-weight: 700; color: #8b5cf6; margin-bottom: 8px; font-size: 14px;">🎁 Метод получения: Steam Gift</div>
+        <div style="font-size: 13px; line-height: 1.6; color: #ccc;">
+          Игра приходит <b>подарком на ваш аккаунт Steam</b>. Товар остается на аккаунте <b>НАВСЕГДА</b>.
+        </div>
+      </div>
+      <div style="background: rgba(0, 163, 224, 0.1); border: 1px solid rgba(0, 163, 224, 0.2); border-radius: 12px; padding: 16px;">
+        <div style="font-weight: 700; color: #00a3e0; margin-bottom: 8px; font-size: 14px;">🌍 Регион активации</div>
+        <div style="font-size: 13px; line-height: 1.6; color: #ccc;">
+          Активация возможна на аккаунты со страной <b>Россия</b>, а также на другие при наличии выбора.<br>
+          <a href="https://plati.market/itm/5153327?ai=816991" target="_blank" rel="noopener" style="color: #00a3e0; text-decoration: none; font-weight: 600;">🔗 Как узнать регион аккаунта →</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Tab Content: Details -->
+    <div id="tab-details" class="tab-content" style="display: none;">
+      <div style="background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.7; color: #ddd;">
+        <p style="margin: 0 0 12px;"><b>Krita</b> — это мощный инструмент цифрового искусства с открытым исходным кодом, созданный сообществом для иллюстраторов, концепт-дизайнеров, аниматоров, художников комиксов, разработчиков игр и всех тех, кто хочет выразить себя через создание визуального искусства.</p>
+        <a href="https://plati.market/itm/5153327?ai=816991" target="_blank" rel="noopener" style="display: inline-block; margin-top: 8px; color: #00a3e0; text-decoration: none; font-weight: 600; font-size: 12px;">📜 Смотреть в магазине Steam →</a>
+      </div>
+    </div>
+
+    <!-- Tab Content: Instructions -->
+    <div id="tab-instructions" class="tab-content" style="display: none;">
+      <div style="display: flex; flex-direction: column; gap: 10px;">
+        <a href="https://plati.market/itm/5153327?ai=816991" target="_blank" rel="noopener" class="inst-link" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: #ddd; font-size: 13px; transition: all 0.2s;">💳 Процесс оплаты и получения товара</a>
+        <a href="https://plati.market/itm/5153327?ai=816991" target="_blank" rel="noopener" class="inst-link" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: #ddd; font-size: 13px; transition: all 0.2s;">📄 Как узнать свою ссылку на быстрое добавление в друзья</a>
+        <a href="https://plati.market/itm/5153327?ai=816991" target="_blank" rel="noopener" class="inst-link" style="display: flex; align-items: center; gap: 10px; background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.05); border-radius: 10px; padding: 12px 14px; text-decoration: none; color: #ddd; font-size: 13px; transition: all 0.2s;">🌍 Как узнать регион Вашего аккаунта Steam</a>
+      </div>
+      <style>
+        .inst-link:hover { background: rgba(0, 212, 170, 0.1) !important; border-color: rgba(0, 212, 170, 0.3) !important; color: #00d4aa !important; transform: translateX(4px); }
+      </style>
+    </div>
+
+    <!-- Tab Content: Refund -->
+    <div id="tab-refund" class="tab-content" style="display: none;">
+      <div style="background: rgba(255, 100, 100, 0.1); border: 1px solid rgba(255, 100, 100, 0.2); border-radius: 12px; padding: 16px; font-size: 13px; line-height: 1.7; color: #ffcccc;">
+        <div style="font-weight: 700; color: #ff6b6b; margin-bottom: 10px;">⚠️ УСЛОВИЯ ВОЗВРАТА СРЕДСТВ</div>
+        <ul style="margin: 0; padding-left: 18px;">
+          <li style="margin-bottom: 6px;"><b>Товар доставлен на аккаунт получателя</b> — возврат не осуществляется.</li>
+          <li style="margin-bottom: 6px;"><b>Товар не доставлен по вине продавца</b> — полный возврат.</li>
+          <li><b>Товар не доставлен по вине покупателя / отказ от получения</b> — возврат с удержанием <b>25% комиссии</b>.</li>
+        </ul>
+        <div style="margin-top: 12px; padding-top: 12px; border-top: 1px solid rgba(255,100,100,0.2); font-size: 12px; color: #aaa;">
+          💡 <b>Бонус:</b> После покупки оставьте положительный отзыв и получите ключ от игры (30–300 руб) бесплатно!
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Platform Trust Badges -->
+  <div style="padding: 0 24px 20px
