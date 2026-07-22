@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Divinity II Developer's Cut | STEAM АВТО RU/UA/KZ/СНГ</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; color: #eaeaea; line-height: 1.6; }
+  .card { background: rgba(22, 33, 62, 0.95); backdrop-filter: blur(10px); border: 1px solid rgba(255, 255, 255, 0.1); border-radius: 20px; max-width: 500px; width: 100%; overflow: hidden; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05) inset; animation: fadeInUp 0.6s ease-out; }
+  @keyframes fadeInUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+  .header { background: linear-gradient(135deg, #e94560 0%, #ff6b6b 100%); padding: 20px; text-align: center; position: relative; overflow: hidden; }
+  .header::before { content: ""; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%); animation: shine 3s infinite linear; }
+  @keyframes shine { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
+  .badge-auto { position: relative; z-index: 1; display: inline-block; background: rgba(0,0,0,0.3); color: #fff; padding: 6px 14px; border-radius: 20px; font-size: 12px; font-weight: 700; letter-spacing: 0.5px; text-transform: uppercase; box-shadow: 0 2px 10px rgba(0,0,0,0.2); }
+  .title { position: relative; z-index: 1; margin-top: 12px; font-size: 22px; font-weight: 800; color: #fff; text-shadow: 0 2px 4px rgba(0,0,0,0.3); line-height: 1.3; }
+  .content { padding: 24px; }
+  .price-block { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+  .price { background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%); color: #0a1a15; padding: 14px 28px; border-radius: 14px; font-size: 28px; font-weight: 900; box-shadow: 0 8px 25px rgba(0, 212, 170, 0.3), 0 0 0 1px rgba(255,255,255,0.1) inset; letter-spacing: -0.5px; }
+  .stats { display: flex; gap: 16px; flex-wrap: wrap; }
+  .stat-item { background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.08); padding: 10px 16px; border-radius: 10px; font-size: 13px; display: flex; align-items: center; gap: 6px; color: #b0b8c9; }
+  .stat-item strong { color: #fff; font-weight: 700; }
+  .delivery-method { background: linear-gradient(135deg, rgba(233, 69, 96, 0.15), rgba(255, 107, 107, 0.1)); border: 1px solid rgba(233, 69, 96, 0.3); border-radius: 12px; padding: 16px; margin-bottom: 20px; display: flex; align-items: flex-start; gap: 12px; }
+  .delivery-icon { font-size: 24px; flex-shrink: 0; margin-top: 2px; }
+  .delivery-text { font-size: 14px; color: #ffb3b3; line-height: 1.5; }
+  .delivery-text strong { color: #ff6b6b; }
+  .features { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; margin-bottom: 20px; }
+  .feature { background: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.06); border-radius: 10px; padding: 12px; font-size: 12px; text-align: center; transition: transform 0.2s, border-color 0.2s; }
+  .feature:hover { transform: translateY(-2px); border-color: rgba(0, 212, 170, 0.5); }
+  .feature .emoji { font-size: 20px; display: block; margin-bottom: 6px; }
+  .feature .label { color: #8892a6; font-weight: 600; text-transform: uppercase; letter-spacing: 0.3px; }
+  .desc-block { background: rgba(0,0,0,0.2); border-radius: 12px; padding: 16px; margin-bottom: 20px; border-left: 3px solid #00d4aa; font-size: 13px; color: #c8d0e0; line-height: 1.7; }
+  .desc-block a { color: #00d4aa; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+  .desc-block a:hover { color: #00ffcc; text-decoration: underline; }
+  .warning { background: rgba(255, 193, 7, 0.1); border: 1px solid rgba(255, 193, 7, 0.3); border-radius: 10px; padding: 12px; margin-bottom: 24px; font-size: 12px; color: #ffe082; line-height: 1.6; }
+  .warning strong { color: #ffc107; }
+  .buy-btn { display: block; width: 100%; background: linear-gradient(135deg, #00d4aa 0%, #00b894 100%); color: #0a1a15; border: none; border-radius: 14px; padding: 18px; font-size: 18px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 10px 30px rgba(0, 212, 170, 0.4), 0 0 0 1px rgba(255,255,255,0.1) inset; position: relative; overflow: hidden; }
+  .buy-btn::before { content: ""; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.3), transparent); transition: left 0.5s ease; }
+  .buy-btn:hover { transform: translateY(-3px); box-shadow: 0 15px 35px rgba(0, 212, 170, 0.5), 0 0 0 1px rgba(255,255,255,0.2) inset; }
+  .buy-btn:hover::before { left: 100%; }
+  .buy-btn:active { transform: translateY(-1px); box-shadow: 0 5px 15px rgba(0, 212, 170, 0.4); }
+  .disclaimer { text-align: center; margin-top: 14px; font-size: 11px; color: rgba(255,255,255,0.45); line-height: 1.5; }
+  .guarantee { margin-top: 24px; padding-top: 20px; border-top: 1px solid rgba(255,255,255,0.08); display: flex; align-items: center; justify-content: center; gap: 10px; font-size: 12px; color: rgba(255,255,255,0.55); }
+  .guarantee svg { flex-shrink: 0; color: #00d4aa; }
+  @media (max-width: 480px) { .title { font-size: 19px; } .price { font-size: 24px; padding: 12px 20px; } .content { padding: 20px 16px; } .features { grid-template-columns: 1fr 1fr; } }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="header">
+    <span class="badge-auto">🤖 Автовыдача 24/7</span>
+    <h1 class="title">Divinity II Developer's Cut</h1>
+  </div>
+  <div class="content">
+    <div class="price-block">
+      <div class="price">74 ₽</div>
+      <div class="stats">
+        <div class="stat-item">🛒 Продано: <strong>4</strong></div>
+        <div class="stat-item">⭐ Отзывы: <strong>0</strong> / <strong>0</strong></div>
+      </div>
+    </div>
+
+    <div class="delivery-method">
+      <span class="delivery-icon">🎁</span>
+      <div class="delivery-text"><strong>Метод получения:</strong> Steam Gift — подарок на ваш аккаунт. Игра остается у вас <strong>НАВСЕГДА</strong>.</div>
+    </div>
+
+    <div class="features">
+      <div class="feature"><span class="emoji">🌍</span><span class="label">Регион активации</span></div>
+      <div class="feature"><span class="emoji">⚡</span><span class="label">Доставка до 3 мин</span></div>
+      <div class="feature"><span class="emoji">🛡️</span><span class="label">Гарант Plati.Market</span></div>
+      <div class="feature"><span class="emoji">💳</span><span class="label">Любая оплата</span></div>
+    </div>
+
+    <div class="desc-block">
+      <strong>Описание:</strong> Драконы: на них охотились, их убивали, но настал их час — пришла пора нанести ответный удар.
+      <br><br>
+      🔗 <a href="https://plati.market/itm/5154879?ai=816991" target="_blank" rel="noopener">Страница в Steam</a><br>
+      📖 <a href="https://plati.market/itm/5154879?ai=816991" target="_blank" rel="noopener">Как узнать регион аккаунта</a><br>
+      💳 <a href="https://plati.market/itm/5154879?ai=816991" target="_blank" rel="noopener">Инструкция по оплате</a><br>
+      👥 <a href="https://plati.market/itm/5154879?ai=816991" target="_blank" rel="noopener">Ссылка для добавления в друзья</a>
+    </div>
+
+    <div class="warning">
+      <strong>⚠️ Важно о возврате:</strong> Товар доставлен — возврат невозможен. Не доставлен по вине продавца — полный возврат. Не доставлен по вине покупателя/отказ — удержание 25% комиссии.
+    </div>
+
+    <a href="https://plati.market/itm/5154879?ai=816991" target="_blank" rel="nofollow sponsored" class="buy-btn">Купить за 74 ₽</a>
+    <p class="disclaimer">Переходя по этой ссылке, вы поддерживаете наш проект. Цена для вас не изменится. Спасибо!</p>
+
+    <div class="guarantee">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"></path></svg>
+      <span>Безопасная покупка на plati.market — гарант сделки с 2003 года</span>
+    </div>
+  </div>
+</div>
+</body>
+</html>
