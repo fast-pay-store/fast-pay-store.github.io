@@ -1,0 +1,123 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyDockFinder — Купить Steam Gift</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f0f23 100%); min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 20px; color: #eaeaea; line-height: 1.6; }
+    .card { width: 100%; max-width: 500px; background: rgba(22, 27, 45, 0.95); border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0,0,0,0.5), 0 0 0 1px rgba(255,255,255,0.05); overflow: hidden; backdrop-filter: blur(10px); border: 1px solid rgba(255,255,255,0.08); }
+    .card-header { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 24px; position: relative; overflow: hidden; }
+    .card-header::before { content: ''; position: absolute; inset: 0; background: url('data:image/svg+xml,%3Csvg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg"%3E%3Cpath d="M0 0h100v100H0z" fill="%23fff" opacity="0.03"/%3E%3C/svg%3E'); opacity: 0.5; }
+    .badges { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; position: relative; z-index: 1; }
+    .badge { font-size: 11px; font-weight: 700; padding: 4px 10px; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .badge-steam { background: #1b2838; color: #66c0f4; border: 1px solid #66c0f4; }
+    .badge-auto { background: #2ecc71; color: #fff; }
+    .badge-region { background: #e74c3c; color: #fff; }
+    .title { font-size: 22px; font-weight: 800; color: #fff; margin-bottom: 4px; position: relative; z-index: 1; text-shadow: 0 2px 8px rgba(0,0,0,0.3); }
+    .subtitle { font-size: 13px; color: rgba(255,255,255,0.7); position: relative; z-index: 1; }
+    .price-block { padding: 24px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    .price-badge { background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%); color: #fff; font-size: 28px; font-weight: 800; padding: 12px 24px; border-radius: 14px; box-shadow: 0 8px 24px rgba(243,156,18,0.3), inset 0 1px 0 rgba(255,255,255,0.2); }
+    .stats { display: flex; gap: 16px; flex-wrap: wrap; }
+    .stat { background: rgba(255,255,255,0.05); padding: 10px 16px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.06); }
+    .stat-value { font-size: 16px; font-weight: 700; color: #f39c12; }
+    .stat-label { font-size: 11px; color: rgba(255,255,255,0.5); text-transform: uppercase; letter-spacing: 0.5px; }
+    .section { padding: 20px 24px; border-bottom: 1px solid rgba(255,255,255,0.04); }
+    .section:last-of-type { border-bottom: none; }
+    .section-title { display: flex; align-items: center; gap: 10px; font-size: 14px; font-weight: 700; color: #66c0f4; margin-bottom: 12px; text-transform: uppercase; letter-spacing: 0.5px; }
+    .section-title::before { content: ''; width: 4px; height: 18px; background: linear-gradient(180deg, #667eea, #764ba2); border-radius: 2px; }
+    .desc-block { background: rgba(255,255,255,0.03); border-radius: 12px; padding: 16px; margin-bottom: 12px; border: 1px solid rgba(255,255,255,0.04); font-size: 13px; color: rgba(255,255,255,0.85); }
+    .desc-block:last-child { margin-bottom: 0; }
+    .desc-block strong { color: #f39c12; }
+    .desc-block a { color: #66c0f4; text-decoration: none; border-bottom: 1px dashed transparent; transition: border-color 0.2s; }
+    .desc-block a:hover { border-bottom-color: #66c0f4; }
+    .refund-block { background: linear-gradient(135deg, rgba(231,76,60,0.15) 0%, rgba(192,57,43,0.1) 100%); border-color: rgba(231,76,60,0.3); }
+    .refund-block strong { color: #e74c3c; }
+    .buy-btn { display: block; width: 100%; padding: 18px 24px; margin: 24px; font-size: 18px; font-weight: 800; color: #fff; text-align: center; text-decoration: none; background: linear-gradient(135deg, #27ae60 0%, #2ecc71 100%); border-radius: 14px; box-shadow: 0 10px 30px rgba(46,204,113,0.4), inset 0 1px 0 rgba(255,255,255,0.2); transition: transform 0.15s ease, box-shadow 0.15s ease, filter 0.15s ease; border: none; cursor: pointer; }
+    .buy-btn:hover { transform: translateY(-2px); box-shadow: 0 14px 40px rgba(46,204,113,0.5), inset 0 1px 0 rgba(255,255,255,0.25); filter: brightness(1.05); }
+    .buy-btn:active { transform: translateY(0); box-shadow: 0 4px 12px rgba(46,204,113,0.4), inset 0 1px 0 rgba(255,255,255,0.15); }
+    .disclaimer { text-align: center; font-size: 11px; color: rgba(255,255,255,0.35); padding: 0 24px 16px; line-height: 1.5; }
+    .guarantee { display: flex; align-items: center; justify-content: center; gap: 10px; padding: 16px 24px 24px; background: rgba(255,255,255,0.02); border-top: 1px solid rgba(255,255,255,0.04); margin-top: auto; }
+    .guarantee-icon { font-size: 20px; }
+    .guarantee-text { font-size: 12px; color: rgba(255,255,255,0.55); font-weight: 500; }
+    .steam-link { display: inline-block; margin-top: 8px; font-size: 12px; color: #66c0f4; text-decoration: none; border-bottom: 1px dashed #66c0f4; transition: opacity 0.2s; }
+    .steam-link:hover { opacity: 0.8; }
+    @media (max-width: 480px) {
+      .card { border-radius: 16px; }
+      .card-header { padding: 20px; }
+      .title { font-size: 20px; }
+      .price-badge { font-size: 24px; padding: 10px 20px; }
+      .section { padding: 16px 20px; }
+      .buy-btn { margin: 16px 20px; padding: 16px 20px; font-size: 16px; }
+      .guarantee { padding: 12px 20px 20px; }
+    }
+  </style>
+</head>
+<body>
+  <article class="card">
+    <header class="card-header">
+      <div class="badges">
+        <span class="badge badge-steam">✅ STEAM</span>
+        <span class="badge badge-auto">✅ АВТО</span>
+        <span class="badge badge-region">🌍 RU/UA/KZ/СНГ</span>
+      </div>
+      <h1 class="title">MyDockFinder</h1>
+      <p class="subtitle">Программа для быстрого запуска и управления системой просмотра</p>
+    </header>
+
+    <div class="price-block">
+      <span class="price-badge">297 RUR</span>
+      <div class="stats">
+        <div class="stat">
+          <div class="stat-value">3</div>
+          <div class="stat-label">Продано</div>
+        </div>
+        <div class="stat">
+          <div class="stat-value">0 / 0</div>
+          <div class="stat-label">Отзывы +/−</div>
+        </div>
+      </div>
+    </div>
+
+    <section class="section">
+      <h2 class="section-title">🚀 Способ получения</h2>
+      <div class="desc-block">
+        <strong>Steam Gift</strong> — подарком на ваш аккаунт Steam. Товар остаётся на аккаунте <strong>НАВСЕГДА</strong>.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🌍 Регион активации</h2>
+      <div class="desc-block">
+        Активация возможна на аккаунты со страной <strong>Россия</strong>, а также на другие при наличии выбора.<br>
+        <a href="https://plati.market/itm/5123517?ai=816991" target="_blank" rel="noopener">📖 Инструкция: как узнать регион аккаунта Steam</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">⚡ Автодоставка 24/7</h2>
+      <div class="desc-block">
+        Автоматическая выдача товара ботом занимает <strong>не более 3 минут</strong>.<br>
+        В редких случаях доставка может занять больше времени.
+      </div>
+      <div class="desc-block">
+        <a href="https://plati.market/itm/5123517?ai=816991" target="_blank" rel="noopener">💳 Инструкция: процесс оплаты и получения товара</a>
+      </div>
+      <div class="desc-block">
+        <a href="https://plati.market/itm/5123517?ai=816991" target="_blank" rel="noopener">📄 Инструкция: ссылка на быстрое добавление в друзья Steam</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">🎁 Бонус за отзыв</h2>
+      <div class="desc-block">
+        После покупки оставьте положительный отзыв и <strong>бесплатно получите ключ от игры стоимостью 30–300 руб</strong>.
+      </div>
+    </section>
+
+    <section class="section">
+      <h2 class="section-title">📜 Описание из Steam</h2>
+      <div class="desc-block">
+        MyDockFinder
