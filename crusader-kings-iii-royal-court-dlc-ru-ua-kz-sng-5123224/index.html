@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Crusader Kings III: Royal Court DLC | plati.market</title>
+<style>
+  /* Reset & Base */
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; background: #f4f6f8; color: #1a1a2e; line-height: 1.6; min-height: 100vh; display: flex; justify-content: center; align-items: flex-start; padding: 24px 16px; }
+
+  /* Card Container */
+  .card { width: 100%; max-width: 500px; background: #ffffff; border-radius: 20px; box-shadow: 0 10px 30px rgba(15, 23, 42, 0.08), 0 4px 12px rgba(15, 23, 42, 0.05); overflow: hidden; border: 1px solid rgba(148, 163, 184, 0.15); }
+
+  /* Header / Image Placeholder */
+  .card-header { position: relative; height: 200px; background: linear-gradient(135deg, #1e293b 0%, #334155 50%, #0f172a 100%); display: flex; flex-direction: column; justify-content: flex-end; padding: 20px; overflow: hidden; }
+  .card-header::before { content: ''; position: absolute; top: -50%; left: -50%; width: 200%; height: 200%; background: radial-gradient(circle at 30% 30%, rgba(139, 92, 246, 0.15) 0%, transparent 50%), radial-gradient(circle at 80% 80%, rgba(236, 72, 153, 0.1) 0%, transparent 40%); pointer-events: none; }
+  .card-header::after { content: '👑'; position: absolute; top: 20px; right: 20px; font-size: 60px; opacity: 0.15; transform: rotate(-15deg); z-index: 1; }
+  .badge-dlc { position: relative; z-index: 2; display: inline-block; background: rgba(255,255,255,0.15); backdrop-filter: blur(8px); border: 1px solid rgba(255,255,255,0.2); color: #fff; padding: 6px 14px; border-radius: 30px; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 12px; width: fit-content; }
+  .card-header h1 { position: relative; z-index: 2; color: #fff; font-size: 24px; font-weight: 700; line-height: 1.3; text-shadow: 0 2px 10px rgba(0,0,0,0.3); max-width: 90%; }
+
+  /* Price & Stats Bar */
+  .price-stats { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 12px; padding: 20px; background: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%); border-bottom: 1px solid #e2e8f0; }
+  .price-badge { background: linear-gradient(135deg, #7c3aed 0%, #a855f7 100%); color: #fff; padding: 10px 20px; border-radius: 14px; font-size: 22px; font-weight: 800; box-shadow: 0 4px 14px rgba(124, 58, 237, 0.3); display: flex; align-items: baseline; gap: 4px; }
+  .price-badge span { font-size: 14px; font-weight: 600; opacity: 0.9; }
+  .stats { display: flex; gap: 16px; font-size: 13px; color: #64748b; }
+  .stat-item { display: flex; align-items: center; gap: 6px; font-weight: 500; }
+  .stat-item svg { width: 16px; height: 16px; stroke: currentColor; fill: none; }
+  .stat-positive { color: #16a34a; }
+  .stat-neutral { color: #64748b; }
+
+  /* Content Sections */
+  .content { padding: 20px; }
+  .section { margin-bottom: 24px; }
+  .section:last-of-type { margin-bottom: 0; }
+  .section-title { display: flex; align-items: center; gap: 10px; font-size: 16px; font-weight: 700; color: #1e293b; margin-bottom: 12px; padding-bottom: 8px; border-bottom: 2px solid #f1f5f9; }
+  .section-title svg { width: 20px; height: 20px; stroke: #7c3aed; fill: none; flex-shrink: 0; }
+  
+  .desc-block { background: #f8fafc; border: 1px solid #e2e8f0; border-radius: 12px; padding: 16px; font-size: 14px; color: #334155; line-height: 1.7; }
+  .desc-block p { margin-bottom: 10px; }
+  .desc-block p:last-child { margin-bottom: 0; }
+  .desc-block strong { color: #1e293b; }
+  .desc-block a { color: #7c3aed; text-decoration: none; font-weight: 600; transition: color 0.2s; }
+  .desc-block a:hover { color: #5b21b6; text-decoration: underline; }
+  .attention { background: #fef3c7 !important; border-color: #fcd34d !important; color: #92400e; }
+  .attention strong { color: #b45309; }
+
+  .feature-list { list-style: none; display: grid; gap: 10px; }
+  .feature-list li { display: flex; gap: 10px; padding: 12px 14px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; font-size: 13px; color: #475569; transition: all 0.2s; }
+  .feature-list li:hover { border-color: #c4b5fd; background: #faf5ff; transform: translateX(4px); }
+  .feature-list svg { width: 20px; height: 20px; stroke: #16a34a; fill: none; flex-shrink: 0; margin-top: 2px; }
+
+  /* Links Grid */
+  .links-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(140px, 1fr)); gap: 10px; }
+  .link-btn { display: flex; align-items: center; justify-content: center; gap: 8px; padding: 12px; background: #fff; border: 1px solid #e2e8f0; border-radius: 10px; font-size: 13px; font-weight: 600; color: #475569; text-decoration: none; transition: all 0.2s; }
+  .link-btn:hover { border-color: #7c3aed; color: #7c3aed; background: #faf5ff; }
+  .link-btn svg { width: 18px; height: 18px; stroke: currentColor; fill: none; }
+
+  /* Buy Button */
+  .buy-wrapper { padding: 0 20px 20px; }
+  .btn-buy { display: block; width: 100%; padding: 18px 24px; background: linear-gradient(135deg, #16a34a 0%, #15803d 100%); color: #fff; font-size: 18px; font-weight: 700; text-align: center; text-decoration: none; border-radius: 14px; border: none; cursor: pointer; box-shadow: 0 6px 20px rgba(22, 163, 74, 0.35); transition: transform 0.15s ease, box-shadow 0.15s ease, background 0.2s; position: relative; overflow: hidden; }
+  .btn-buy::before { content: ''; position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent); transition: left 0.5s ease; }
+  .btn-buy:hover { background: linear-gradient(135deg, #15803d 0%, #166534 100%); box-shadow: 0 8px 25px rgba(22, 163, 74, 0.45); transform: translateY(-2px); }
+  .btn-buy:hover::before { left: 100%; }
+  .btn-buy:active { transform: translateY(0) scale(0.99); box-shadow: 0 4px 12px rgba(22, 163, 74, 0.3); }
+  .btn-buy:focus-visible { outline: 3px solid #86efac; outline-offset: 3px; }
+
+  .disclaimer { text-align: center; margin-top: 12px; font-size: 11px; color: #94a3b8; opacity: 0.8; line-height: 1.5; }
+
+  /* Guarantees Footer */
+  .guarantees { background: #f8fafc; border-top: 1px solid #e2e8f0; padding: 16px 20px; display: flex; align-items: center; gap: 12px; }
+  .guarantees-icon { width: 40px; height: 40px; background: linear-gradient(135deg, #dbeafe 0%, #bfdbfe 100%); border-radius: 12px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+  .guarantees-icon svg { width: 22px; height: 22px; stroke: #2563eb; fill: none; }
+  .guarantees-text { font-size: 12px; color: #475569; line-height: 1.4; }
+  .guarantees-text strong { color: #1e293b; display: block; margin-bottom: 2px; }
+
+  /* Responsive */
+  @media (max-width: 480px) {
+    .card-header h1 { font-size: 20px; }
+    .price-badge { font-size: 20px; padding: 8px 16px; }
+    .stats { font-size: 12px; gap: 12px; }
+    .btn-buy { font-size: 16px; padding: 16px 20px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="card">
+  <!-- Header -->
+  <header class="card-header">
+    <span class="badge-dlc">DLC / Дополнение</span>
+    <h1>Crusader Kings III: Royal Court</h1>
+  </header>
+
+  <!-- Price & Stats -->
+  <div class="price-stats">
+    <div class="price-badge">933 <span>RUR</span></div>
+    <div class="stats">
+      <div class="stat-item">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L12 18L4 12"/></svg>
+        <span class="stat-positive">Продано: 3</span>
+      </div>
+      <div class="stat-item">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+        <span class="stat-neutral">Отзывы: 0 / 0</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Content -->
+  <div class="content">
+    <!-- Delivery Info -->
+    <section class="section">
+      <h2 class="section-title">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+        Доставка и получение
+      </h2>
+      <div class="desc-block attention">
+        <p><strong>✅ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7</strong></p>
+        <p>Автоматическая выдача товара осуществляется с помощью бота и занимает не более 3-х минут. В редких случаях доставка может занять более 3-х минут.</p>
+        <p><strong>⚠️ Перед покупкой внимательно прочитайте описание и ознакомьтесь с инструкциями.</strong></p>
+      </div>
+    </section>
+
+    <!-- Important Conditions -->
+    <section class="section">
+      <h2 class="section-title">
+        <svg viewBox="0 0 24 24" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+        Важные условия
+      </h2>
+      <div class="desc-block attention">
+        <p><strong>⚠️ Это дополнение (DLC).</strong> Для покупки обязательным условием является наличие базовой игры <strong>Crusader Kings III</strong> на аккаунте получателя.</p>
+      </div>
+      <ul class="feature-list">
+        <li><svg viewBox="0 0 24 24" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
