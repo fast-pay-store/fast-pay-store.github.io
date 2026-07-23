@@ -1,0 +1,269 @@
+<meta charset="UTF-8">
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Need for Speed Unbound - Vol.3 Customs Pack DLC</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+      color: #eaeaea;
+      line-height: 1.6;
+    }
+    .card {
+      max-width: 500px;
+      width: 100%;
+      background: rgba(22, 28, 45, 0.95);
+      border-radius: 20px;
+      box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5), 0 0 0 1px rgba(255, 255, 255, 0.05);
+      overflow: hidden;
+      backdrop-filter: blur(10px);
+    }
+    .header {
+      background: linear-gradient(135deg, #ff6b35 0%, #f7931a 100%);
+      padding: 24px;
+      text-align: center;
+      position: relative;
+    }
+    .header::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 4px;
+      background: linear-gradient(90deg, transparent, #fff3, transparent);
+    }
+    .title {
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 0 2px 8px rgba(0,0,0,0.3);
+      line-height: 1.3;
+    }
+    .badge-row {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 20px 24px;
+      border-bottom: 1px solid rgba(255,255,255,0.08);
+    }
+    .price-badge {
+      background: linear-gradient(135deg, #00d4aa 0%, #00a3e0 100%);
+      color: #0a1a2a;
+      padding: 10px 20px;
+      border-radius: 50px;
+      font-size: 1.3rem;
+      font-weight: 800;
+      box-shadow: 0 4px 15px rgba(0, 212, 170, 0.4);
+    }
+    .stats {
+      display: flex;
+      gap: 16px;
+      color: #8892a6;
+      font-size: 0.85rem;
+      align-items: center;
+    }
+    .stat-item { display: flex; align-items: center; gap: 6px; }
+    .content {
+      padding: 24px;
+    }
+    .section {
+      margin-bottom: 20px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: #ffd700;
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid rgba(255,215,0,0.2);
+    }
+    .section-title::before {
+      content: '';
+      width: 4px;
+      height: 4px;
+      background: #ffd700;
+      border-radius: 50%;
+    }
+    .desc-list {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .desc-item {
+      display: flex;
+      gap: 12px;
+      padding: 12px 14px;
+      background: rgba(255,255,255,0.03);
+      border-radius: 12px;
+      border: 1px solid rgba(255,255,255,0.04);
+      transition: all 0.2s ease;
+    }
+    .desc-item:hover {
+      background: rgba(255,255,255,0.06);
+      border-color: rgba(255,107,53,0.3);
+      transform: translateX(4px);
+    }
+    .desc-icon {
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .desc-text {
+      font-size: 0.85rem;
+      color: #c8d0e0;
+      line-height: 1.5;
+    }
+    .desc-text a {
+      color: #ff6b35;
+      text-decoration: none;
+      border-bottom: 1px dashed transparent;
+      transition: border-color 0.2s;
+    }
+    .desc-text a:hover { border-bottom-color: #ff6b35; }
+    .steam-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      margin-top: 8px;
+      padding: 10px 16px;
+      background: linear-gradient(135deg, #1b2838 0%, #2a475e 100%);
+      border-radius: 10px;
+      color: #66c0f4;
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border: 1px solid rgba(102,192,244,0.2);
+      transition: all 0.2s;
+    }
+    .steam-link:hover {
+      background: linear-gradient(135deg, #2a475e 0%, #1b2838 100%);
+      border-color: #66c0f4;
+      transform: translateY(-1px);
+    }
+    .buy-btn {
+      display: block;
+      width: 100%;
+      padding: 18px 24px;
+      margin: 8px 0 12px;
+      background: linear-gradient(135deg, #ff6b35 0%, #ff9f1a 100%);
+      color: #fff;
+      font-size: 1.1rem;
+      font-weight: 700;
+      text-align: center;
+      text-decoration: none;
+      border: none;
+      border-radius: 14px;
+      cursor: pointer;
+      box-shadow: 0 6px 20px rgba(255, 107, 53, 0.4), inset 0 1px 0 rgba(255,255,255,0.2);
+      transition: all 0.2s ease;
+      position: relative;
+      overflow: hidden;
+    }
+    .buy-btn::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: -100%;
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+      transition: left 0.5s ease;
+    }
+    .buy-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 10px 30px rgba(255, 107, 53, 0.5), inset 0 1px 0 rgba(255,255,255,0.3);
+    }
+    .buy-btn:hover::before { left: 100%; }
+    .buy-btn:active { transform: translateY(0); }
+    .disclaimer {
+      text-align: center;
+      font-size: 0.7rem;
+      color: rgba(200,208,224,0.5);
+      margin-top: -8px;
+      margin-bottom: 16px;
+      line-height: 1.4;
+    }
+    .guarantee {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 16px;
+      background: rgba(0, 212, 170, 0.08);
+      border-radius: 12px;
+      border: 1px solid rgba(0, 212, 170, 0.15);
+      margin-top: 8px;
+    }
+    .guarantee-icon { font-size: 1.3rem; }
+    .guarantee-text {
+      font-size: 0.75rem;
+      color: #00d4aa;
+      font-weight: 500;
+    }
+    @media (max-width: 480px) {
+      .title { font-size: 1.3rem; }
+      .price-badge { font-size: 1.1rem; padding: 8px 16px; }
+      .content { padding: 20px 16px; }
+      .desc-item { padding: 10px 12px; }
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="header">
+      <h1 class="title">Need for Speed Unbound — Vol.3 Customs Pack DLC ✅ STEAM</h1>
+    </div>
+    <div class="badge-row">
+      <span class="price-badge">397 RUR</span>
+      <div class="stats">
+        <span class="stat-item">🛒 Продано: <strong>3</strong> шт.</span>
+        <span class="stat-item">⭐ Отзывы: <strong>0</strong>+/<strong>0</strong>−</span>
+      </div>
+    </div>
+    <div class="content">
+      <div class="section">
+        <div class="section-title">🚀 Автоматическая доставка 24/7</div>
+        <ul class="desc-list">
+          <li class="desc-item"><span class="desc-icon">⚡</span><span class="desc-text">Автоматическая выдача товара ботом — не более <strong>3 минут</strong>. В редких случаях может занять чуть больше времени.</span></li>
+          <li class="desc-item"><span class="desc-icon">⚠️</span><span class="desc-text"><strong>Внимательно читайте описание</strong> на странице товара и ознакомьтесь с инструкциями перед покупкой.</span></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="section-title">🎮 Важно: это DLC (дополнение)</div>
+        <ul class="desc-list">
+          <li class="desc-item"><span class="desc-icon">🔑</span><span class="desc-text">Для покупки <strong>обязательно наличие базовой игры</strong> Need for Speed Unbound на аккаунте получателя.</span></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="section-title">🎁 Способ получения: Steam Gift</div>
+        <ul class="desc-list">
+          <li class="desc-item"><span class="desc-icon">🚀</span><span class="desc-text">Товар отправляется <strong>подарком (Steam Gift)</strong> на ваш аккаунт. Остаётся у вас <strong>НАВСЕГДА</strong>.</span></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="section-title">🌍 Регион активации</div>
+        <ul class="desc-list">
+          <li class="desc-item"><span class="desc-icon">🇷🇺</span><span class="desc-text">Активация возможна на аккаунты со страной <strong>Россия</strong>, а также на другие — при наличии выбора региона.</span></li>
+          <li class="desc-item"><span class="desc-icon">📋</span><span class="desc-text"><a href="https://plati.market/itm/5123189?ai=816991" target="_blank" rel="noopener">Инструкция: как узнать регион своего аккаунта Steam</a></span></li>
+        </ul>
+      </div>
+      <div class="section">
+        <div class="section-title">📖 Полезные инструкции</div>
+        <ul class="desc-list">
+          <li class="desc-item"><span class="desc-icon">💳</span><span class="desc-text"><a href="https://plati.market/itm/5123189?ai=816991" target="_blank" rel="noopener">Процесс оплаты и получения товара</a></span></li>
+          <li class="desc-item"><span class="desc-icon">👥</span><span class="desc-text"><a href="https://clck.ru/3LAqD
