@@ -1,0 +1,376 @@
+{
+ "date": "2026-09-02",
+ "changed": [
+  {
+   "goods_id": "672298",
+   "slug": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-pri-672298",
+   "changes": [
+    "цена: 173.07 -> 173.81"
+   ]
+  },
+  {
+   "goods_id": "3270899",
+   "slug": "xbox-game-pass-ultimate-premium-pc-1-12-months-reliable-3270899",
+   "changes": [
+    "цена: 119.0 -> 99.0"
+   ]
+  },
+  {
+   "goods_id": "1440095",
+   "slug": "auto-delivery-apple-itunes-gift-card-russia-500-25000-r-1440095",
+   "changes": [
+    "цена: 819.74 -> 779.91"
+   ]
+  },
+  {
+   "goods_id": "1065234",
+   "slug": "us-eu-card-5-10000-works-everywhere-low-price-1065234",
+   "changes": [
+    "цена: 1114.29 -> 1119.11"
+   ]
+  },
+  {
+   "goods_id": "2147595",
+   "slug": "steam-wallet-gift-card-5-no-global-description-2147595",
+   "changes": [
+    "цена: 476.77 -> 478.84"
+   ]
+  }
+ ],
+ "gone": [],
+ "ok": [
+  "3300218",
+  "3245484",
+  "6048877",
+  "3525355",
+  "3427397",
+  "4339002",
+  "4362367",
+  "3183854",
+  "3420721",
+  "3362540",
+  "4339392",
+  "3348219",
+  "3397775",
+  "3947567",
+  "3497807"
+ ],
+ "new_candidates": [
+  {
+   "goods_id": "3403743",
+   "name": "🚀АВТО⚫STEAM🔴ТУРЦИЯ🔵КЗ🟡США КАРТА ПОПОЛНЕНИЯ СТИМ ЮСД",
+   "price_rur": "99",
+   "agency_fee": "1,00",
+   "cnt_sell": "408501",
+   "seller_id": "1086347",
+   "name_translit": "auto-steam-usd-turkey-usa-kazakhstan-popoln-gift-kod"
+  },
+  {
+   "goods_id": "3339119",
+   "name": "🚀СМЕНА РЕГИОНА СТИМ КАЗАХСТАН/УКРАИНА/ИНДИЯ 🚀",
+   "price_rur": "100",
+   "agency_fee": "16,00",
+   "cnt_sell": "89970",
+   "seller_id": "962561",
+   "name_translit": "change-steam-region-kazakhstan-ukraine-india"
+  },
+  {
+   "goods_id": "3843545",
+   "name": "⚡ ПОПОЛНЕНИЕ STEAM ⚡СНГ⚡RUB KZT UAH⚡",
+   "price_rur": "23",
+   "agency_fee": "1,00",
+   "cnt_sell": "60264",
+   "seller_id": "876867",
+   "name_translit": "top-up-steam-cis-rub-kzt-uah"
+  },
+  {
+   "goods_id": "3164785",
+   "name": "Battlefield™ 2042 +ВЫБОР STEAM•RU ⚡️АВТОДОСТАВКА 💳0%",
+   "price_rur": "2985",
+   "agency_fee": "1,00",
+   "cnt_sell": "39722",
+   "seller_id": "392951",
+   "name_translit": "battlefield-2042-select-steam-ru-autodelivery-0"
+  },
+  {
+   "goods_id": "2983343",
+   "name": "Red Dead Redemption 2 STANDARD\\ULTIMATE STEAM•RU⚡️",
+   "price_rur": "998",
+   "agency_fee": "1,00",
+   "cnt_sell": "38360",
+   "seller_id": "392951",
+   "name_translit": "red-dead-redemption-2-standard-ultimate-steam-ru"
+  },
+  {
+   "goods_id": "2985549",
+   "name": "Grand Theft Auto V Enhanced + Legacy (GTA 5) RU STEAM⚡️",
+   "price_rur": "2269",
+   "agency_fee": "1,00",
+   "cnt_sell": "32757",
+   "seller_id": "392951",
+   "name_translit": "grand-theft-auto-v-enhanced-legacy-gta-5-ru-steam"
+  },
+  {
+   "goods_id": "4306654",
+   "name": "🚨[АВТОВЫДАЧА] | ChatGPT 5.6 PLUS | PRO X5 - X20 | GO | 1 МЕСЯЦ | ПОДПИСКА | CODEX",
+   "price_rur": "699",
+   "agency_fee": "1,00",
+   "cnt_sell": "43509",
+   "seller_id": "164256",
+   "name_translit": "auto-issue-chatgpt-5-6-plus-pro-x5-x20-go-1-month-subscription-code"
+  },
+  {
+   "goods_id": "4313142",
+   "name": "[АВТО 24/7] ChatGPT 5.6 PLUS 1M | GO | PRO | CODEX | ПОДПИСКА 🚀",
+   "price_rur": "777",
+   "agency_fee": "10,00",
+   "cnt_sell": "33110",
+   "seller_id": "1037798",
+   "name_translit": "auto-24-7-chatgpt-5-6-plus-1m-go-pro-codex-subscription"
+  },
+  {
+   "goods_id": "3636620",
+   "name": "24/7 | ChatGPT 5.6 | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
+   "price_rur": "1399",
+   "agency_fee": "10,00",
+   "cnt_sell": "26755",
+   "seller_id": "1137274",
+   "name_translit": "24-7-auto-chat-gpt-5-6-plus-pro-codex-personal-acc"
+  },
+  {
+   "goods_id": "3859725",
+   "name": "ChatGPT 5.6 PLUS / PRO / GO⚡️ЛИЧНЫЙ АККАУНТ",
+   "price_rur": "749",
+   "agency_fee": "1,00",
+   "cnt_sell": "15671",
+   "seller_id": "164256",
+   "name_translit": "chatgpt-5-6-plus-pro-go-personal-account"
+  },
+  {
+   "goods_id": "3534754",
+   "name": "God of War: Ragnarok Ps 5/КЛЮЧ🔑 на РФ аккаунт /РУ ЗВУК",
+   "price_rur": "4890",
+   "agency_fee": "1,00",
+   "cnt_sell": "222",
+   "seller_id": "999416",
+   "name_translit": "god-of-war-ragnarok-ps-5-key-on-ru-account-ru-sound"
+  },
+  {
+   "goods_id": "3066413",
+   "name": "XBOX GAME PASS ULTIMATE 7 дней Конвертация + Продление",
+   "price_rur": "1099",
+   "agency_fee": "1,00",
+   "cnt_sell": "47439",
+   "seller_id": "889182",
+   "name_translit": "xbox-game-pass-ultimate-7-days-conversion-renewal"
+  },
+  {
+   "goods_id": "3489813",
+   "name": "🟡XBOX GAME PASS ULTIMATE🟡 | PC | БЫСТРО 1-2-3-4-5-7-9-12 МЕСЯЦЕВ | 7Д ESSENTIAL",
+   "price_rur": "70",
+   "agency_fee": "1,00",
+   "cnt_sell": "47244",
+   "seller_id": "1106267",
+   "name_translit": "fast-xbox-game-pass-ultimate-pc-7-d-essential-1-3-4-5-7-9-12-months"
+  },
+  {
+   "goods_id": "3043219",
+   "name": "1-12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE PREMIUM PC",
+   "price_rur": "129",
+   "agency_fee": "2,00",
+   "cnt_sell": "46596",
+   "seller_id": "720892",
+   "name_translit": "1-12-months-xbox-game-pass-ultimate-premium-pc"
+  },
+  {
+   "goods_id": "3330991",
+   "name": "🧡FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
+   "price_rur": "399",
+   "agency_fee": "1,00",
+   "cnt_sell": "43939",
+   "seller_id": "325919",
+   "name_translit": "fortnite-crew-1-month-battle-pass-1000-v-bucks"
+  },
+  {
+   "goods_id": "3351134",
+   "name": "🎟📱Подарочная карта Apple на 500руб (AppStore,iTunes)",
+   "price_rur": "1140",
+   "agency_fee": "1,00",
+   "cnt_sell": "21388",
+   "seller_id": "131801",
+   "name_translit": "itunes-gift-card-rub-500-appstore-code-500"
+  },
+  {
+   "goods_id": "3406059",
+   "name": "🍏Подарочная карта Apple iTunes &amp; AppStore 500 руб. 🔥",
+   "price_rur": "1611",
+   "agency_fee": "1,00",
+   "cnt_sell": "18773",
+   "seller_id": "1089039",
+   "name_translit": "apple-itunes-gift-card-500-rubles"
+  },
+  {
+   "goods_id": "6078010",
+   "name": "🍏ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
+   "price_rur": "22",
+   "agency_fee": "1,00",
+   "cnt_sell": "18653",
+   "seller_id": "325919",
+   "name_translit": "apple-itunes-gift-card-10-5000-tl-tr-turkey"
+  },
+  {
+   "goods_id": "3794317",
+   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
+   "price_rur": "239",
+   "agency_fee": "1,00",
+   "cnt_sell": "15503",
+   "seller_id": "27402",
+   "name_translit": "turkey-apple-app-store-100-250-500-1000-1250-1500-try"
+  },
+  {
+   "goods_id": "3470508",
+   "name": "🎮 ПОКУПКА ИГР PS4/PS5 | ПОПОЛНЕНИЕ PSN STORE🎁 ТУРЦИЯ GTA 6",
+   "price_rur": "594",
+   "agency_fee": "1,00",
+   "cnt_sell": "50084",
+   "seller_id": "1081110",
+   "name_translit": "buy-games-subs-gta-6-ps-plus-top-up"
+  },
+  {
+   "goods_id": "3894402",
+   "name": "🟨PS PLUS ЛЮКС ЭКСТРА ОСНОВНАЯ 1-12 EA PLAY УКРАИНА БЫСТРО!🎁",
+   "price_rur": "10",
+   "agency_fee": "2,00",
+   "cnt_sell": "30610",
+   "seller_id": "316903",
+   "name_translit": "ps-plus-deluxe-extra-essential-ea-play-1-12-ukraine-fast"
+  },
+  {
+   "goods_id": "3533183",
+   "name": "🎮ПОДПИСКА УКРАИНА PS PLUS/EA PLAY ОЧЕНЬ БЫСТРО🎮 🇺🇦",
+   "price_rur": "10",
+   "agency_fee": "1,00",
+   "cnt_sell": "30575",
+   "seller_id": "1091922",
+   "name_translit": "subscription-ukraine-ps-plus-ea-play-very-fast"
+  },
+  {
+   "goods_id": "3472165",
+   "name": "⚫ПОКУПКА ИГР/ПОПОЛНЕНИЕ КОДАМИ/ПОДПИСКИ PSN ТУРЦИЯ ⚫",
+   "price_rur": "275",
+   "agency_fee": "1,00",
+   "cnt_sell": "29274",
+   "seller_id": "1060044",
+   "name_translit": "purchase-game-top-up-ps-plus-turkey-playstation-ps4-ps5"
+  },
+  {
+   "goods_id": "3322922",
+   "name": "🔥КАРТ РЕГИОН СМЕНА КАЗАХСТАН/ТУРЦИЯ/УКРАИН СТИМ🔥 АВТО",
+   "price_rur": "975",
+   "agency_fee": "10,00",
+   "cnt_sell": "49192",
+   "seller_id": "1066108",
+   "name_translit": "card-region-change-kazakhstan-ukraine-steam-auto"
+  },
+  {
+   "goods_id": "3742476",
+   "name": "🟢🚀АВТО 1-12 SPOTIFY PREMIUM ЛИЧНАЯ💃ДУО👯‍♂️СЕМЬЯ🟢",
+   "price_rur": "139",
+   "agency_fee": "15,00",
+   "cnt_sell": "28422",
+   "seller_id": "1066686",
+   "name_translit": "auto-1-12-spotify-premium-person-duo-family"
+  },
+  {
+   "goods_id": "4009731",
+   "name": "🎵🟢 SPOTIFY PREMIUM 🔥 1/3/6/12 МЕСЯЦЕВ✅РФ + МИР🚀",
+   "price_rur": "249",
+   "agency_fee": "1,00",
+   "cnt_sell": "26054",
+   "seller_id": "164256",
+   "name_translit": "spotify-premium-1-3-6-12-months-ru-world"
+  },
+  {
+   "goods_id": "3340779",
+   "name": "🔥 СТИМ СМЕНА РЕГИОН 🔥 ТУРЦИЯ & КАЗАХСТАН (БЫСТРО) 🔥",
+   "price_rur": "775",
+   "agency_fee": "18,00",
+   "cnt_sell": "17610",
+   "seller_id": "1066108",
+   "name_translit": "steam-change-region-turkey-kazakhstan-fast"
+  },
+  {
+   "goods_id": "672117",
+   "name": "✅US Card Worldwide 10$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅",
+   "price_rur": "1431",
+   "agency_fee": "2,00",
+   "cnt_sell": "33323",
+   "seller_id": "97839",
+   "name_translit": "us-card-worldwide-10-for-google-apple-other-price"
+  },
+  {
+   "goods_id": "3367060",
+   "name": "⚡️🔥Турецкая платежная карта (600-30.000TL)+Udemy+Др⚡️",
+   "price_rur": "2415",
+   "agency_fee": "1,00",
+   "cnt_sell": "18597",
+   "seller_id": "874639",
+   "name_translit": "turkish-payment-card-600-30-000tl-udemy-other"
+  },
+  {
+   "goods_id": "3342822",
+   "name": "✅5-10000$ Карта US/EU 💥ОПЛАТИТ ВСЁ💥| БЕЗ КОМИССИИ",
+   "price_rur": "1319",
+   "agency_fee": "1,00",
+   "cnt_sell": "17264",
+   "seller_id": "1066566",
+   "name_translit": "5-9000-us-eu-card-will-pay-for-everything"
+  },
+  {
+   "goods_id": "3744584",
+   "name": "🔮MIDJOURNEY V8 БЕЗЛИМИТ🔥ПОДПИСКА⚙️+🎁ПОДАРОК",
+   "price_rur": "100",
+   "agency_fee": "30,00",
+   "cnt_sell": "15239",
+   "seller_id": "810469",
+   "name_translit": "midjourney-v8-unlimited-subscribe-all-functional"
+  },
+  {
+   "goods_id": "5181482",
+   "name": "Я.Плюс | 5 МЕСЯЦЕВ | ИНВАЙТ | СЕМЬЯ",
+   "price_rur": "250",
+   "agency_fee": "5,00",
+   "cnt_sell": "12546",
+   "seller_id": "905271",
+   "name_translit": "jandeks-pljus-invite-to-any-account-until-150-days"
+  },
+  {
+   "goods_id": "3227693",
+   "name": "🔥ПРОМОКОД Я+ Мульти на 12 месяцев 🔥💳0",
+   "price_rur": "3390",
+   "agency_fee": "2,00",
+   "cnt_sell": "3604",
+   "seller_id": "115936",
+   "name_translit": "y-multi-subscription-for-12-months-0"
+  },
+  {
+   "goods_id": "5596513",
+   "name": "Я Плюс Промокод Мульти на 12 месяцев 4 человека",
+   "price_rur": "2780",
+   "agency_fee": "1,00",
+   "cnt_sell": "1916",
+   "seller_id": "1413640",
+   "name_translit": "y-plus-promo-code-multi-for-12-months-4-people"
+  },
+  {
+   "goods_id": "3275094",
+   "name": "✅ Я ПЛЮС +  НА 3 МЕСЯЦА / 90 ДНЕЙ КИНОПОИСК МУЗЫКА 🎁",
+   "price_rur": "108",
+   "agency_fee": "1,00",
+   "cnt_sell": "1618",
+   "seller_id": "828276",
+   "name_translit": "ya-y-plus-for-3-months-90-days-kinopoisk-music"
+  }
+ ],
+ "errors": []
+}

@@ -210,17 +210,6 @@
     ]
    },
    {
-    "name": "Turkish Bank Card",
-    "code": "turkey-card",
-    "hide": 0,
-    "currencies": [
-     {
-      "currency": "USD",
-      "code": "SFT"
-     }
-    ]
-   },
-   {
     "name": "Litecoin",
     "code": "litecoin",
     "hide": 1,
@@ -296,23 +285,23 @@
   ],
   "discounts": [
    {
-    "summa": 215948.0,
+    "summa": 216882.0,
     "percent": 5.0
    },
    {
-    "summa": 129569.0,
+    "summa": 130130.0,
     "percent": 4.0
    },
    {
-    "summa": 86379.0,
+    "summa": 86753.0,
     "percent": 3.0
    },
    {
-    "summa": 17276.0,
+    "summa": 17351.0,
     "percent": 2.0
    },
    {
-    "summa": 86.0,
+    "summa": 87.0,
     "percent": 1.0
    }
   ],
@@ -439,7 +428,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 88907,
+   "sales": 88910,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

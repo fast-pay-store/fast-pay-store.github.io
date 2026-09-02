@@ -69,19 +69,19 @@
   "prices": {
    "initial": {
     "RUB": 249.0,
-    "USD": 3.03,
+    "USD": 3.01,
     "EUR": 2.48,
-    "UAH": 128.35,
+    "UAH": 127.59,
     "mBTC": 0.04,
-    "mLTC": 75.81
+    "mLTC": 76.94
    },
    "default": {
     "RUB": 249.0,
-    "USD": 3.03,
+    "USD": 3.01,
     "EUR": 2.48,
-    "UAH": 128.35,
+    "UAH": 127.59,
     "mBTC": 0.14,
-    "mLTC": 76.11
+    "mLTC": 77.24
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 295.16,
+      "price": 293.55,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 298.0,
+      "price": 296.37,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 310.8,
+      "price": 309.08,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -166,7 +166,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 4.09
+      "price": 4.07
      },
      {
       "currency": "mBTC",
@@ -176,12 +176,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 75.81
+      "price": 76.94
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.03
+      "price": 3.01
      }
     ]
    },
@@ -193,7 +193,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.03,
+      "price": 3.01,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -210,7 +210,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 4.09,
+      "price": 4.07,
       "limit": {
        "max": 300.0
       }
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 75.81,
+      "price": 76.94,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 76.11
+      "price": 77.24
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.38
+      "price": 1.41
      }
     ]
    },
@@ -303,7 +303,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 4.09
+      "price": 4.07
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 4.09
+      "price": 4.07
      },
      {
       "currency": "mBTC",
@@ -342,22 +342,6 @@
        "min": 10.0,
        "max": 200000.0,
        "currency": "RUB"
-      }
-     }
-    ]
-   },
-   {
-    "name": "Turkish Bank Card",
-    "code": "turkey-card",
-    "hide": 0,
-    "currencies": [
-     {
-      "currency": "USD",
-      "code": "SFT",
-      "price": 3.28,
-      "limit": {
-       "max": 250.0,
-       "currency": "USD"
       }
      }
     ]
@@ -555,11 +539,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 72117,
+   "sales": 72149,
    "sales_hidden": 0,
    "refunds": 76,
    "refunds_hidden": 0,
-   "good_reviews": 23582,
+   "good_reviews": 23590,
    "good_reviews_hidden": 0,
    "bad_reviews": 4,
    "bad_reviews_hidden": 0
