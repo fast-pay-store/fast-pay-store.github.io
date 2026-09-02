@@ -1,3 +1,3 @@
 {"ts": "2026-09-01T22:41:29+0300", "event": "snapshot", "hash": "53e0419e59262db63ec2eb9dcf1ebabb215fcf818137c5118e61c396f076dcf2"}
-{"ts": "2026-09-02", "hash": "93051894023b1a4457fb92b3fce16aef8773865030814d062846e68c406b5ddf", "changes": ["цена: 819.74 -> 779.91"]}
-{"ts": "2026-09-02", "changes": []}
+{"ts": "2026-09-02T15:07:03+0300", "event": "snapshot", "hash": "ed8d07225c3203d1da3842e4457aa1d05d3d9edf448c69e43ff8afadf0130e13"}
+{"ts": "2026-09-02T17:59:24+0300", "event": "snapshot", "hash": "df022f3ea55e110158913c41f17a667f40906753e02039cf12846da1181ceeb3"}
