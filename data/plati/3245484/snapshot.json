@@ -213,6 +213,17 @@
     ]
    },
    {
+    "name": "Turkish Bank Card",
+    "code": "turkey-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USD",
+      "code": "SFT"
+     }
+    ]
+   },
+   {
     "name": "Litecoin",
     "code": "litecoin",
     "hide": 1,
@@ -286,13 +297,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 403303,
+   "sales": 402985,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 27056,
+   "good_reviews": 27039,
    "good_reviews_hidden": 0,
-   "bad_reviews": 0,
+   "bad_reviews": 2,
    "bad_reviews_hidden": 0
   },
   "seller": {
