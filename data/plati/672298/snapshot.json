@@ -19,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 1,
+  "num_in_lock": 0,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -32,7 +32,7 @@
     "EUR": 1.63,
     "UAH": 89.9,
     "mBTC": 0.04,
-    "mLTC": 38.38
+    "mLTC": 38.19
    },
    "default": {
     "RUB": 173.81,
@@ -40,7 +40,7 @@
     "EUR": 1.63,
     "UAH": 89.9,
     "mBTC": 0.14,
-    "mLTC": 38.68
+    "mLTC": 38.49
    }
   },
   "payment_methods": [
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 38.38
+      "price": 38.19
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 38.68
+      "price": 38.49
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 38.38,
+      "price": 38.19,
       "limit": {
        "max": 7.3
       }
@@ -455,7 +455,7 @@
       "modify_value_default": 20.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 2178805,
@@ -609,7 +609,7 @@
       "modify_value_default": 438.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178819,
@@ -682,11 +682,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 663750,
+   "sales": 663869,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3337,
+   "good_reviews": 3338,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 100.0,
-    "USD": 1.16,
+    "USD": 1.15,
     "EUR": 0.99,
-    "UAH": 51.55,
+    "UAH": 51.24,
     "mBTC": 0.02,
-    "mLTC": 28.99
+    "mLTC": 28.91
    },
    "default": {
     "RUB": 100.0,
-    "USD": 1.16,
+    "USD": 1.15,
     "EUR": 0.99,
-    "UAH": 51.55,
+    "UAH": 51.24,
     "mBTC": 0.12,
-    "mLTC": 29.29
+    "mLTC": 29.21
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 114.09,
+      "price": 113.23,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 118.98,
+      "price": 118.09,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -192,28 +192,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 28.99
+      "price": 28.91
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 1.16
-     }
-    ]
-   },
-   {
-    "name": "Turkish Bank Card",
-    "code": "turkey-card",
-    "hide": 0,
-    "currencies": [
-     {
-      "currency": "USD",
-      "code": "SFT",
-      "price": 1.26,
-      "limit": {
-       "max": 250.0,
-       "currency": "USD"
-      }
+      "price": 1.15
      }
     ]
    },
@@ -254,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 28.99,
+      "price": 28.91,
       "limit": {
        "max": 7.3
       }
@@ -294,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 113.0,
+      "price": 112.15,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -311,7 +295,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 1.16,
+      "price": 1.15,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -328,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 29.29
+      "price": 29.21
      }
     ]
    },
@@ -423,7 +407,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 86379.0,
+    "summa": 86753.0,
     "percent": 1.0
    }
   ],
@@ -483,13 +467,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 195379,
+   "sales": 195456,
    "sales_hidden": 0,
    "refunds": 726,
    "refunds_hidden": 0,
-   "good_reviews": 92254,
+   "good_reviews": 92291,
    "good_reviews_hidden": 0,
-   "bad_reviews": 0,
+   "bad_reviews": 1,
    "bad_reviews_hidden": 0
   },
   "seller": {

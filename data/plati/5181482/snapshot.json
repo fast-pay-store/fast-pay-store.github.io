@@ -57,9 +57,9 @@
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
-  "is_available": 0,
+  "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 1,
+  "num_in_lock": 0,
   "owner": 1,
   "section_id": 35151,
   "pwyw": 0,
@@ -72,7 +72,7 @@
     "EUR": 2.49,
     "UAH": 128.11,
     "mBTC": 0.04,
-    "mLTC": 58.51
+    "mLTC": 58.23
    },
    "default": {
     "RUB": 250.0,
@@ -80,7 +80,7 @@
     "EUR": 2.49,
     "UAH": 128.11,
     "mBTC": 0.14,
-    "mLTC": 58.81
+    "mLTC": 58.53
    }
   },
   "payment_methods": [
@@ -136,7 +136,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 58.51
+      "price": 58.23
      },
      {
       "currency": "WMT",
@@ -195,7 +195,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 58.51,
+      "price": 58.23,
       "limit": {
        "max": 7.3
       }
@@ -335,7 +335,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 58.81
+      "price": 58.53
      }
     ]
    },
@@ -368,6 +368,10 @@
   ],
   "type_good": 1,
   "type": "text",
+  "text": {
+   "date": "02.09.2026 20:39:18",
+   "size": null
+  },
   "category_id": 0,
   "breadcrumbs": [],
   "gift_commiss": 15.0,

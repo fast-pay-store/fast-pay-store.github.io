@@ -72,7 +72,7 @@
     "EUR": 0.97,
     "UAH": 50.23,
     "mBTC": 0.01,
-    "mLTC": 21.11
+    "mLTC": 21.0
    },
    "default": {
     "RUB": 69.59,
@@ -80,7 +80,7 @@
     "EUR": 0.97,
     "UAH": 50.23,
     "mBTC": 0.11,
-    "mLTC": 21.41
+    "mLTC": 21.3
    }
   },
   "payment_methods": [
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 21.41
+      "price": 21.3
      }
     ]
    },
@@ -267,7 +267,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.11,
+      "price": 21.0,
       "limit": {
        "max": 7.3
       }
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.11
+      "price": 21.0
      },
      {
       "currency": "WMT",
@@ -339,16 +339,16 @@
   },
   "preview_imgs": [
    {
-    "id": 10391899,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10391899",
-    "width": 1254,
-    "height": 1254
-   },
-   {
     "id": 10746016,
     "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10746016",
     "width": 751,
     "height": 751
+   },
+   {
+    "id": 10391899,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10391899",
+    "width": 1254,
+    "height": 1254
    },
    {
     "id": 5225855,
@@ -372,7 +372,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.09.2026 08:55:39",
+   "date": "02.09.2026 20:20:31",
    "size": 16
   },
   "category_id": 0,
@@ -645,11 +645,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47462,
+   "sales": 47472,
    "sales_hidden": 0,
    "refunds": 8,
    "refunds_hidden": 0,
-   "good_reviews": 16603,
+   "good_reviews": 16605,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

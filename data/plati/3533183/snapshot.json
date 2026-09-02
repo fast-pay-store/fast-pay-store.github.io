@@ -72,7 +72,7 @@
     "EUR": 0.1,
     "UAH": 5.12,
     "mBTC": 0.0,
-    "mLTC": 3.12
+    "mLTC": 3.11
    },
    "default": {
     "RUB": 10.0,
@@ -80,22 +80,10 @@
     "EUR": 0.1,
     "UAH": 5.12,
     "mBTC": 0.0,
-    "mLTC": 3.42
+    "mLTC": 3.41
    }
   },
   "payment_methods": [
-   {
-    "name": "API",
-    "code": "api",
-    "hide": 1,
-    "currencies": [
-     {
-      "currency": "RUB",
-      "code": "API",
-      "price": 10.0
-     }
-    ]
-   },
    {
     "name": "PayPalych",
     "code": "palych",
@@ -133,7 +121,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.12
+      "price": 3.11
      },
      {
       "currency": "WMT",
@@ -184,7 +172,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.42
+      "price": 3.41
      }
     ]
    },
@@ -225,7 +213,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.12,
+      "price": 3.11,
       "limit": {
        "max": 7.3
       }
@@ -564,11 +552,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 30612,
+   "sales": 30620,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9805,
+   "good_reviews": 9808,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
