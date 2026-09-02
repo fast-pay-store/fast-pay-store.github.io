@@ -1,0 +1,604 @@
+{
+ "search": {
+  "id": "6078010",
+  "name": "🍏ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
+  "name_eng": "🍏APPLE ITUNES GIFT CARD 10-5000 TL✦TR✦TURKEY🔑",
+  "name_translit": "apple-itunes-gift-card-10-5000-tl-tr-turkey",
+  "name_translit_eng": "apple-itunes-gift-card-10-5000-tl-tr-turkey",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "325919",
+  "owner_id": "1",
+  "idr": "22781",
+  "seller_name": "forYou97",
+  "owner_name": "Plati",
+  "seller_rating": "7079,7210",
+  "cnt_sell": "18654",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "342",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "1",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "01.09.2026 16:31:50",
+  "last_sale": "02.09.2026 17:12:28",
+  "url": "https://plati.market/itm/6078010",
+  "weight": "56725,15",
+  "true_weight": "54859,75",
+  "sales_form": "guid",
+  "pay_adv": "0,00",
+  "price_usd": "0,25",
+  "price_rur": "22",
+  "price_eur": "0,22",
+  "price_uah": "11,27",
+  "sale_info": null,
+  "ticks_last_change": 841666128
+ },
+ "product": {
+  "id": 6078010,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "🍏ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
+  "price": 22.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/6078010",
+  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />Моментальная выдача цифрового кода сразу после оплаты<br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br />➖ Работает только с балансом в TRY<br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />⏰ АКТИВАЦИЯ:<br />Через приложение App Store → Аккаунт<br /></attention></delivery><delivery><attention><br />💎 ПРЕИМУЩЕСТВА:<br />➡️ Большой выбор номиналов подарочных карт<br />➡️ Гарантия замены или возврата при проблеме на стороне продавца<br />➡️ Акции и скидки для клиентов<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br /><br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
+  "add_info": "<delivery><attention><br />⏳ Доставка товара — автоматически, 24/7<br />🕙 Техподдержка: 10:00–23:00 МСК<br /><br />💵 Возврат средств:<br />✅ Товар доставлен — возврат невозможен<br />❌ Товар не доставлен:<br /> ❕ Наша вина — полный возврат<br /> ❗ Ваша вина — возврат за вычетом 25% комиссии<br /></attention></delivery><delivery><attention><br />💥 Есть вопросы? Пишите в чат — с радостью ответим!<br /></attention></delivery>",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 0.22,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 22781,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 22.0,
+    "USD": 0.25,
+    "EUR": 0.22,
+    "UAH": 11.27,
+    "mBTC": 0.04,
+    "mLTC": 5.15
+   },
+   "default": {
+    "RUB": 22.0,
+    "USD": 0.25,
+    "EUR": 0.22,
+    "UAH": 11.27,
+    "mBTC": 0.14,
+    "mLTC": 5.45
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 22.0
+     }
+    ]
+   },
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 23.97
+     }
+    ]
+   },
+   {
+    "name": "KASSA",
+    "code": "freekassa",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "FKA",
+      "price": 24.49
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 24.61,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.14
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 5.45
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 0.12
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 0.34
+     },
+     {
+      "currency": "WME",
+      "code": "WME",
+      "price": 0.29
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.04
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 5.15
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 0.25
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 29.26,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 0.34,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "WME",
+      "code": "PRE",
+      "price": 0.29,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 5.15,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.04,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 22.0
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 0.34
+     },
+     {
+      "currency": "EUR",
+      "code": "PPE",
+      "price": 0.29
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 22.0
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 0.34
+     },
+     {
+      "currency": "EUR",
+      "code": "GCE",
+      "price": 0.29
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.04
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 22.0
+     }
+    ]
+   }
+  ],
+  "unique_code_verification": {
+   "automatic": 1,
+   "deliver_url": "https://keyfory.com/digiseller-delivery",
+   "has_params": 0
+  },
+  "preview_imgs": [
+   {
+    "id": 10763591,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763591",
+    "width": 1254,
+    "height": 1254
+   },
+   {
+    "id": 10763593,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763593",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "id": 10763594,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763594",
+    "width": 800,
+    "height": 800
+   },
+   {
+    "id": 10763589,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763589",
+    "width": 769,
+    "height": 769
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "02.09.2026 12:08:48",
+   "size": 16
+  },
+  "category_id": 0,
+  "breadcrumbs": [],
+  "discounts": [
+   {
+    "summa": 43376.0,
+    "percent": 1.0
+   }
+  ],
+  "gift_commiss": 1.0,
+  "options": [
+   {
+    "id": 6104703,
+    "name": "option_radio_6104703",
+    "label": "Apple iTunes Gift Card",
+    "comment": "",
+    "type": "radio",
+    "separate_content": 1,
+    "required": 1,
+    "modifier_visible": 0,
+    "variants": [
+     {
+      "value": 29923977,
+      "text": "10 TL (TRY)",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923978,
+      "text": "25 TL (TRY)",
+      "default": 0,
+      "modify": "+43 RUB",
+      "modify_value": 43.0,
+      "modify_value_default": 43.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923979,
+      "text": "50 TL (TRY)",
+      "default": 0,
+      "modify": "+103 RUB",
+      "modify_value": 103.0,
+      "modify_value_default": 103.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923980,
+      "text": "100 TL (TRY)",
+      "default": 0,
+      "modify": "+213 RUB",
+      "modify_value": 213.0,
+      "modify_value_default": 213.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923981,
+      "text": "150 TL (TRY)",
+      "default": 0,
+      "modify": "+323 RUB",
+      "modify_value": 323.0,
+      "modify_value_default": 323.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923982,
+      "text": "200 TL (TRY)",
+      "default": 0,
+      "modify": "+433 RUB",
+      "modify_value": 433.0,
+      "modify_value_default": 433.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923983,
+      "text": "250 TL (TRY)",
+      "default": 0,
+      "modify": "+533 RUB",
+      "modify_value": 533.0,
+      "modify_value_default": 533.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923984,
+      "text": "300 TL (TRY)",
+      "default": 0,
+      "modify": "+633 RUB",
+      "modify_value": 633.0,
+      "modify_value_default": 633.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923985,
+      "text": "400 TL (TRY)",
+      "default": 0,
+      "modify": "+883 RUB",
+      "modify_value": 883.0,
+      "modify_value_default": 883.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923986,
+      "text": "500 TL (TRY)",
+      "default": 0,
+      "modify": "+983 RUB",
+      "modify_value": 983.0,
+      "modify_value_default": 983.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923987,
+      "text": "600 TL (TRY)",
+      "default": 0,
+      "modify": "+1283 RUB",
+      "modify_value": 1283.0,
+      "modify_value_default": 1283.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923988,
+      "text": "700 TL (TRY)",
+      "default": 0,
+      "modify": "+1583 RUB",
+      "modify_value": 1583.0,
+      "modify_value_default": 1583.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923989,
+      "text": "800 TL (TRY)",
+      "default": 0,
+      "modify": "+1783 RUB",
+      "modify_value": 1783.0,
+      "modify_value_default": 1783.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923990,
+      "text": "900 TL (TRY)",
+      "default": 0,
+      "modify": "+1983 RUB",
+      "modify_value": 1983.0,
+      "modify_value_default": 1983.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923991,
+      "text": "1000 TL (TRY)",
+      "default": 0,
+      "modify": "+2283 RUB",
+      "modify_value": 2283.0,
+      "modify_value_default": 2283.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923992,
+      "text": "2000 TL (TRY)",
+      "default": 0,
+      "modify": "+4483 RUB",
+      "modify_value": 4483.0,
+      "modify_value_default": 4483.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 29923993,
+      "text": "3000 TL (TRY)",
+      "default": 0,
+      "modify": "+6483 RUB",
+      "modify_value": 6483.0,
+      "modify_value_default": 6483.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 0
+     },
+     {
+      "value": 29923994,
+      "text": "4000 TL (TRY)",
+      "default": 0,
+      "modify": "+8483 RUB",
+      "modify_value": 8483.0,
+      "modify_value_default": 8483.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 0
+     },
+     {
+      "value": 29923995,
+      "text": "5000 TL (TRY)",
+      "default": 0,
+      "modify": "+10483 RUB",
+      "modify_value": 10483.0,
+      "modify_value_default": 10483.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 0
+     }
+    ]
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 18654,
+   "sales_hidden": 0,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 342,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 325919,
+   "name": "forYou97"
+  }
+ },
+ "reviews": []
+}
