@@ -1,0 +1,475 @@
+{
+ "search": {
+  "id": "2985549",
+  "name": "Grand Theft Auto V Enhanced + Legacy (GTA 5) RU STEAM⚡️",
+  "name_eng": "Grand Theft Auto V Enhanced + Legacy (GTA 5) RU STEAM⚡️",
+  "name_translit": "grand-theft-auto-v-enhanced-legacy-gta-5-ru-steam",
+  "name_translit_eng": "grand-theft-auto-v-enhanced-legacy-gta-5-ru-steam",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "392951",
+  "owner_id": "1",
+  "idr": "20884",
+  "seller_name": "DarkAwe",
+  "owner_name": "Plati",
+  "seller_rating": "22252,6574",
+  "cnt_sell": "32759",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "3251",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "27.09.2020 14:10:53",
+  "last_sale": "02.09.2026 17:39:14",
+  "url": "https://plati.market/itm/2985549",
+  "weight": "452909,3",
+  "true_weight": "54633,6",
+  "sales_form": "guid",
+  "pay_adv": "3,95",
+  "price_usd": "26,15",
+  "price_rur": "2269",
+  "price_eur": "23,23",
+  "price_uah": "1162,64",
+  "sale_info": null,
+  "ticks_last_change": 841417655
+ },
+ "product": {
+  "id": 2985549,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "Grand Theft Auto V Enhanced + Legacy (GTA 5) RU STEAM⚡️",
+  "price": 2269.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/2985549",
+  "info": "<delivery>⚡️ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />⠀После оплаты начнется процесс активации товара на ваш аккаунт<br /><br />⏱️ Авто-доставка происходит через бота и занимает в среднем не более 3 минут<br />⠀В очень редких случаях доставка может быть задержана</delivery><br /><attention>💡В данный товар входит онлайн режим и сюжетный режим.</attention><br /><attention>📦 Метод доставки<br />⠀Steam Gift — Подарком на ваш аккаунт<br /> <br />📜 Подробнее о товаре<br />⠀https://store.steampowered.com/app/271590<br /></attention><attention>🌍 Активация возможна на аккаунты со страной<br />⠀Россия, а так же других, при наличии выбора<br /><br />🔍 Проверить страну вашего аккаунта<br />⠀https://store.steampowered.com/account</attention><br /><delivery>🛒 Как проходит покупка<br />⠀https://dub.sh/HowItWorks<br /><br />🔗 Как узнать ссылку на профиль Steam<br />⠀https://dub.sh/SteamLink</delivery>",
+  "add_info": "<delivery>📝 Не нашли нужного товара? Пишите! <br />⠀По запросу добавим почти любую игру из Steam</delivery><delivery>🛡 Гарантии<br />⠀• Один из крупнейших магазинов на площадке<br />⠀• Более 1 000 000 продаж и 200 000 положительных отзывов<br />⠀• Регистрация с 2014 года, отсутствие отрицательных отзывов<br />⠀• Гарантируем помощь в случае возникновения любой проблемы</delivery><attention>↩️ О возврате<br />⠀&gt; Товар получен —  Возврат невозможен<br />⠀&gt; Товар не получен<br />⠀⠀• Наша вина — Полный возврат<br />⠀⠀• Ваша вина — Возврат с 20% комиссией</attention>",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 22.69,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 20884,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 2269.0,
+    "USD": 26.15,
+    "EUR": 23.23,
+    "UAH": 1162.69,
+    "mBTC": 0.39,
+    "mLTC": 684.03
+   },
+   "default": {
+    "RUB": 2269.0,
+    "USD": 26.15,
+    "EUR": 23.23,
+    "UAH": 1162.64,
+    "mBTC": 0.49,
+    "mLTC": 684.33
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 2269.0
+     }
+    ]
+   },
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 2269.0
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 36.62
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.39
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 684.03
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 26.15
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 2269.0
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 36.62
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.39
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 2269.0
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 36.62
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 3176.6,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 36.62,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 684.03,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.39,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 2550.25,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 2574.77,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "USD",
+      "code": "PS1",
+      "price": 2.2
+     },
+     {
+      "currency": "EUR",
+      "code": "PS2",
+      "price": 1.9
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 26.15,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "SberPay",
+    "code": "sber-bank",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "SMS",
+      "price": 2685.22,
+      "limit": {
+       "min": 1.0,
+       "max": 500000.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.49
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 684.33
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 12.05
+     }
+    ]
+   },
+   {
+    "name": "LAVA",
+    "code": "lava",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "LVA",
+      "price": 2269.0
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 2269.0
+     }
+    ]
+   }
+  ],
+  "unique_code_verification": {
+   "automatic": 1,
+   "deliver_url": "https://darkawe.com/delivery/game",
+   "has_params": 0
+  },
+  "preview_imgs": [
+   {
+    "id": 5977988,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5977988",
+    "width": 460,
+    "height": 460
+   },
+   {
+    "id": 2614945,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=2614945",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 2614944,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=2614944",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 2614942,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=2614942",
+    "width": 1920,
+    "height": 1080
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "30.08.2026 15:07:35",
+   "size": 16
+  },
+  "category_id": 0,
+  "breadcrumbs": [],
+  "options": [
+   {
+    "id": 128996,
+    "name": "option_text_128996",
+    "label": "Cсылка на ваш профиль steam",
+    "comment": "Инструкция как получить ссылку есть в описании.",
+    "type": "text",
+    "separate_content": 0,
+    "required": 1
+   },
+   {
+    "id": 385218,
+    "name": "option_radio_385218",
+    "label": "Выберите регион вашего аккаунта Steam",
+    "comment": "",
+    "type": "radio",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 728968,
+      "text": "Россия",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 728969,
+      "text": "Беларусь+СНГ",
+      "default": 0,
+      "modify": "-215 RUB",
+      "modify_value": -215.0,
+      "modify_value_default": -215.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 728970,
+      "text": "Казахстан",
+      "default": 0,
+      "modify": "-426 RUB",
+      "modify_value": -426.0,
+      "modify_value_default": -426.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 3640676,
+      "text": "Украина",
+      "default": 0,
+      "modify": "-64 RUB",
+      "modify_value": -64.0,
+      "modify_value_default": -64.0,
+      "modify_type": "RUB",
+      "visible": 1
+     }
+    ]
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 32793,
+   "sales_hidden": 0,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 3255,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 392951,
+   "name": "DarkAwe"
+  }
+ },
+ "reviews": []
+}
