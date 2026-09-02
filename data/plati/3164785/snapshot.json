@@ -1,0 +1,515 @@
+{
+ "search": {
+  "id": "3164785",
+  "name": "Battlefield™ 2042 +ВЫБОР STEAM•RU ⚡️АВТОДОСТАВКА 💳0%",
+  "name_eng": "Battlefield™ 2042 +SELECT STEAM•RU ⚡️AUTODELIVERY 💳0%",
+  "name_translit": "battlefield-2042-select-steam-ru-autodelivery-0",
+  "name_translit_eng": "battlefield-2042-select-steam-ru-autodelivery-0",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "392951",
+  "owner_id": "1",
+  "idr": "20887",
+  "seller_name": "DarkAwe",
+  "owner_name": "Plati",
+  "seller_rating": "22252,6574",
+  "cnt_sell": "39722",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "4719",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "09.06.2021 19:00:55",
+  "last_sale": "24.08.2026 9:39:44",
+  "url": "https://plati.market/itm/3164785",
+  "weight": "58605,8",
+  "true_weight": "54633,6",
+  "sales_form": "guid",
+  "pay_adv": "0,00",
+  "price_usd": "34,41",
+  "price_rur": "2985",
+  "price_eur": "30,56",
+  "price_uah": "1529,51",
+  "sale_info": null,
+  "ticks_last_change": 840502271
+ },
+ "product": {
+  "id": 3164785,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "Battlefield™ 2042 +ВЫБОР STEAM•RU ⚡️АВТОДОСТАВКА 💳0%",
+  "price": 2985.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/3164785",
+  "info": "<delivery>⚡️ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />⠀После оплаты начнется процесс активации товара на ваш аккаунт<br /><br />⏱️ Авто-доставка происходит через бота и занимает в среднем не более 3 минут<br />⠀В очень редких случаях доставка может быть задержана</delivery><br /><attention>💡 Доступен выбор изданий<br />⠀Выберите желаемое издание из списка доступных</attention><br /><attention>📦 Метод доставки<br />⠀Steam Gift — Подарком на ваш аккаунт<br /> <br />📜 Подробнее о товаре<br />⠀https://store.steampowered.com/app/1517290<br /></attention><attention>🌍 Активация возможна на аккаунты со страной<br />⠀Россия, а так же других, при наличии выбора<br /><br />🔍 Проверить страну вашего аккаунта<br />⠀https://store.steampowered.com/account</attention><br /><delivery>🛒 Как проходит покупка<br />⠀https://dub.sh/HowItWorks<br /><br />🔗 Как узнать ссылку на профиль Steam<br />⠀https://dub.sh/SteamLink</delivery>",
+  "add_info": "<delivery>📝 Не нашли нужного товара? Пишите! <br />⠀По запросу добавим почти любую игру из Steam</delivery><delivery>🛡 Гарантии<br />⠀• Один из крупнейших магазинов на площадке<br />⠀• Более 1 000 000 продаж и 200 000 положительных отзывов<br />⠀• Регистрация с 2014 года, отсутствие отрицательных отзывов<br />⠀• Гарантируем помощь в случае возникновения любой проблемы</delivery><attention>↩️ О возврате<br />⠀&gt; Товар получен —  Возврат невозможен<br />⠀&gt; Товар не получен<br />⠀⠀• Наша вина — Полный возврат<br />⠀⠀• Ваша вина — Возврат с 20% комиссией</attention>",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 29.85,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 20887,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 2985.0,
+    "USD": 34.41,
+    "EUR": 30.56,
+    "UAH": 1529.59,
+    "mBTC": 0.52,
+    "mLTC": 899.88
+   },
+   "default": {
+    "RUB": 2985.0,
+    "USD": 34.41,
+    "EUR": 30.56,
+    "UAH": 1529.51,
+    "mBTC": 0.62,
+    "mLTC": 900.18
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 2985.0
+     }
+    ]
+   },
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 2985.0
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 48.17
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.52
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 899.88
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 34.41
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 2985.0
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 48.17
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.52
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 2985.0
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 48.17
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 4179.0,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 48.17,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 899.88,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.52,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 3355.79,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 3388.06,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "USD",
+      "code": "PS1",
+      "price": 2.89
+     },
+     {
+      "currency": "EUR",
+      "code": "PS2",
+      "price": 2.49
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 34.41,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "SberPay",
+    "code": "sber-bank",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "SMS",
+      "price": 3533.4,
+      "limit": {
+       "min": 1.0,
+       "max": 500000.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.62
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 900.18
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 15.86
+     }
+    ]
+   },
+   {
+    "name": "LAVA",
+    "code": "lava",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "LVA",
+      "price": 2985.0
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 2985.0
+     }
+    ]
+   }
+  ],
+  "unique_code_verification": {
+   "automatic": 1,
+   "deliver_url": "https://darkawe.com/delivery/game",
+   "has_params": 0
+  },
+  "preview_imgs": [
+   {
+    "id": 5978169,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5978169",
+    "width": 460,
+    "height": 460
+   },
+   {
+    "id": 3112742,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=3112742",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 3112740,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=3112740",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 3112741,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=3112741",
+    "width": 1920,
+    "height": 1080
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "20.08.2026 00:51:11",
+   "size": 16
+  },
+  "category_id": 0,
+  "breadcrumbs": [],
+  "options": [
+   {
+    "id": 168286,
+    "name": "option_text_168286",
+    "label": "Cсылка на ваш профиль steam",
+    "comment": "Инструкция как получить ссылку есть в описании.",
+    "type": "text",
+    "separate_content": 0,
+    "required": 1
+   },
+   {
+    "id": 168288,
+    "name": "option_radio_168288",
+    "label": "Выберите Издание и Регион вашего аккаунта Steam",
+    "comment": "",
+    "type": "radio",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 233946,
+      "text": "Battlefield™ 2042 (Россия)",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 1621331,
+      "text": "Battlefield™ 2042 (Украина)",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 1621332,
+      "text": "Battlefield™ 2042 (Казахстан)",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 1621333,
+      "text": "Battlefield™ 2042 (Беларусь+СНГ+Турция+Аргентина)",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 233949,
+      "text": "Battlefield™ 2042 Elite Edition (Россия)",
+      "default": 0,
+      "modify": "+1790 RUB",
+      "modify_value": 1790.0,
+      "modify_value_default": 1790.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 1621334,
+      "text": "Battlefield™ 2042 Elite Edition (Украина)",
+      "default": 0,
+      "modify": "+1790 RUB",
+      "modify_value": 1790.0,
+      "modify_value_default": 1790.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 1621335,
+      "text": "Battlefield™ 2042 Elite Edition (Казахстан)",
+      "default": 0,
+      "modify": "+1790 RUB",
+      "modify_value": 1790.0,
+      "modify_value_default": 1790.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 1621336,
+      "text": "Battlefield™ 2042 Elite Edition (Беларусь+СНГ+Турция+Аргентина)",
+      "default": 0,
+      "modify": "+1790 RUB",
+      "modify_value": 1790.0,
+      "modify_value_default": 1790.0,
+      "modify_type": "RUB",
+      "visible": 1
+     }
+    ]
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 39757,
+   "sales_hidden": 0,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 4723,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 392951,
+   "name": "DarkAwe"
+  }
+ },
+ "reviews": []
+}
