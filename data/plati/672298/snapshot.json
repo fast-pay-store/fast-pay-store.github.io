@@ -1,45 +1,5 @@
 {
- "search": {
-  "id": "672298",
-  "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "name_eng": "[AUTO-DELIVERY] Apple iTunes Gift Card (USA) 2-1000$. LOW PRICE",
-  "name_translit": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-price",
-  "name_translit_eng": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-price",
-  "snippet1": "",
-  "snippet2": "",
-  "seller_id": "97839",
-  "owner_id": "1",
-  "idr": "22243",
-  "seller_name": "x-sale",
-  "owner_name": "Plati",
-  "seller_rating": "17888,3426",
-  "cnt_sell": "436627",
-  "cnt_sell_hidden": "",
-  "cnt_bad_responses": "0",
-  "cnt_bad_responses_hidden": "0",
-  "cnt_good_responses": "3333",
-  "cnt_good_responses_hidden": "0",
-  "cnt_return": "28",
-  "cnt_return_hidden": "0",
-  "hide_sales": "",
-  "cnt_preview": "4",
-  "discount": "0",
-  "credit_price": null,
-  "agency_fee": "1,00",
-  "date_create": "03.01.2009 9:51:47",
-  "last_sale": "01.09.2026 22:37:34",
-  "url": "https://plati.market/itm/672298",
-  "weight": "35775590",
-  "true_weight": "54928,86",
-  "sales_form": "text",
-  "pay_adv": "356,77",
-  "price_usd": "1,89",
-  "price_rur": "174",
-  "price_eur": "1,62",
-  "price_uah": "90,04",
-  "sale_info": null,
-  "ticks_last_change": 841617411
- },
+ "search": {},
  "product": {
   "id": 672298,
   "id_prev": 0,
@@ -59,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 0,
+  "num_in_lock": 1,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -72,7 +32,7 @@
     "EUR": 1.63,
     "UAH": 89.9,
     "mBTC": 0.04,
-    "mLTC": 38.29
+    "mLTC": 38.38
    },
    "default": {
     "RUB": 173.81,
@@ -80,7 +40,7 @@
     "EUR": 1.63,
     "UAH": 89.9,
     "mBTC": 0.14,
-    "mLTC": 38.59
+    "mLTC": 38.68
    }
   },
   "payment_methods": [
@@ -136,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 38.29
+      "price": 38.38
      },
      {
       "currency": "WMT",
@@ -187,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 38.59
+      "price": 38.68
      }
     ]
    },
@@ -248,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 38.29,
+      "price": 38.38,
       "limit": {
        "max": 7.3
       }
@@ -495,7 +455,7 @@
       "modify_value_default": 20.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178805,
@@ -722,7 +682,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 663794,
+   "sales": 663750,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
