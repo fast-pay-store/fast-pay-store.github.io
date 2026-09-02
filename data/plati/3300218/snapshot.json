@@ -229,6 +229,17 @@
     ]
    },
    {
+    "name": "Turkish Bank Card",
+    "code": "turkey-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USD",
+      "code": "SFT"
+     }
+    ]
+   },
+   {
     "name": "Карта",
     "code": "credit-card",
     "hide": 0,
@@ -307,7 +318,7 @@
   ],
   "options_check": 1,
   "statistics": {
-   "sales": 1333271,
+   "sales": 1333097,
    "sales_hidden": 0,
    "refunds": 49,
    "refunds_hidden": 0,
