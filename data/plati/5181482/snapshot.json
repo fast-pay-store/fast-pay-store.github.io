@@ -1,0 +1,391 @@
+{
+ "search": {
+  "id": "5181482",
+  "name": "Я.Плюс | 5 МЕСЯЦЕВ | ИНВАЙТ | СЕМЬЯ",
+  "name_eng": "Яндекс Плюс🟡Invite to any Account until🟡150 days",
+  "name_translit": "jandeks-pljus-invite-to-any-account-until-150-days",
+  "name_translit_eng": "jandeks-pljus-invite-to-any-account-until-150-days",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "905271",
+  "owner_id": "1",
+  "idr": "35151",
+  "seller_name": "Софт-ПРО",
+  "owner_name": "Plati",
+  "seller_rating": "48,6044",
+  "cnt_sell": "12561",
+  "cnt_sell_hidden": "100",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "361",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "2",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "5,00",
+  "date_create": "23.05.2025 22:31:04",
+  "last_sale": "02.09.2026 17:52:04",
+  "url": "https://plati.market/itm/5181482",
+  "weight": "1744029",
+  "true_weight": "2775,748",
+  "sales_form": "text",
+  "pay_adv": "17,40",
+  "price_usd": "2,88",
+  "price_rur": "250",
+  "price_eur": "2,49",
+  "price_uah": "128,11",
+  "sale_info": null,
+  "ticks_last_change": 841533714
+ },
+ "product": {
+  "id": 5181482,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "Я.Плюс | 5 МЕСЯЦЕВ | ИНВАЙТ | СЕМЬЯ",
+  "price": 250.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/5181482",
+  "info": "<attention>🚀 После покупки вы АВТОМАТИЧЕСКИ получите ссылку-приглашение, перейдя по которой сможете вступить в семейную подписку. (1 приглашение - 1 аккаунт)</attention><br /><attention>🛡 Это не общий аккаунт. Подпиской вы будете пользоваться на своём аккаунте. Ваша личная информация никому не видна. Никакой синхронизации, все ваши плейлисты, Кино и другие сервисы, будут индивидуальны ТОЛЬКО ДЛЯ ВАС!</attention><br /><attention>🛡Гарантия на вступление в семью по ссылке: 48 часов с момента покупки. (после этого времени ссылка становится не работоспособной)</attention><br /><attention>⛔️ Срок подписки может отличаться от заявленного на 1-2 дня. ⛔️</attention><br /><attention>✅ Карту к аккаунту привязывать не нужно, по истечению подписки списаний не будет!</attention><br /><attention>✅ Работает при наличии активной подписки, она отложится, и по истечению семейной подписки продолжится.</attention><br /><attention>📖 Возможности подписки:<br />• Доступ ко всем функциям Я.Музыки, включая прослушивание офлайн и высокое качество.<br />• Скидка 10% от Я.Такси на поездки по тарифам «Комфорт», «Комфорт+» и «Бизнес».<br />• Бесплатная доставка при покупке товаров от 500 рублей на новом маркетплейсе Я.Маркета в 30 крупнейших городах России.<br />• Скидка 5% на поездки в Я.Драйве и бесплатное бронирование машину на более длительное время.<br />• Просмотр фильмов и сериалов без рекламы в десктопной версии КиноПоиска.<br />• Дополнительные 10 гигабайт на Я.Диске.</attention>",
+  "add_info": "",
+  "release_date": "",
+  "agency_fee": 5.0,
+  "agency_sum": 12.5,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 0,
+  "show_rest": 0,
+  "num_in_lock": 1,
+  "owner": 1,
+  "section_id": 35151,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 250.0,
+    "USD": 2.88,
+    "EUR": 2.49,
+    "UAH": 128.11,
+    "mBTC": 0.04,
+    "mLTC": 58.51
+   },
+   "default": {
+    "RUB": 250.0,
+    "USD": 2.88,
+    "EUR": 2.49,
+    "UAH": 128.11,
+    "mBTC": 0.14,
+    "mLTC": 58.81
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 250.0
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 250.0,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 2.88
+     },
+     {
+      "currency": "WME",
+      "code": "WME",
+      "price": 2.49
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.04
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 58.51
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 2.88
+     }
+    ]
+   },
+   {
+    "name": "SberPay",
+    "code": "sber-bank",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "SMS",
+      "price": 295.73,
+      "limit": {
+       "min": 1.0,
+       "max": 500000.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 2.88,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 250.0,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WME",
+      "code": "PRE",
+      "price": 2.49,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 58.51,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.04,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 250.0,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "USD",
+      "code": "PS1",
+      "price": 0.25
+     },
+     {
+      "currency": "EUR",
+      "code": "PS2",
+      "price": 0.21
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 2.88,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.14
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 1.33
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 250.0
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 2.88
+     },
+     {
+      "currency": "EUR",
+      "code": "PPE",
+      "price": 2.49
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 250.0
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 2.88
+     },
+     {
+      "currency": "EUR",
+      "code": "GCE",
+      "price": 2.49
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.04
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 58.81
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 250.0
+     }
+    ]
+   }
+  ],
+  "preview_imgs": [
+   {
+    "id": 10214456,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10214456",
+    "width": 1056,
+    "height": 976
+   },
+   {
+    "id": 8684598,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=8684598",
+    "width": 1024,
+    "height": 1024
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "category_id": 0,
+  "breadcrumbs": [],
+  "gift_commiss": 15.0,
+  "options_check": 0,
+  "statistics": {
+   "sales": 100,
+   "sales_hidden": 1,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 100,
+   "good_reviews_hidden": 1,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 905271,
+   "name": "Софт-ПРО"
+  }
+ },
+ "reviews": []
+}
