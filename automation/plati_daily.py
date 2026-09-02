@@ -1,10 +1,12 @@
 # -*- coding: utf-8 -*-
-# plati_daily.py — v2. Ежедневный прогон на GitHub Actions.
-# САМ: API-сверка отслеживаемых товаров, авто-приборка сайта (удаление невалидного,
-# починка битых CTA), аудит уникальности/тонкого контента, список кандидатов (≤30).
-# НЕ делает: создание/пересоздание страниц — это ИИ по отчёту reports/plati/YYYY-MM-DD.md.
+# plati_daily.py — v3. Ежедневный прогон на GitHub Actions.
+# Следит за ВСЕМ сайтом: API-сверка товаров Plati, авто-приборка (удаление снятого,
+# папок-сирот, починка битых CTA), аудит ВСЕХ html-страниц: тонкий контент, дубли
+# title/description/текста, страницы без кнопки покупки. Кандидаты на новые (≤30).
+# НЕ делает: создание/пересоздание страниц — это ИИ по отчёту reports/plati/YYYY-MM-DD.md
+# (дубликат отчёта всегда лежит в reports/plati/LATEST.md).
 # Env: PLATI_API_KEY, PLATI_SELLER_ID
-import json, os, re, time, hashlib, urllib.request
+import json, os, re, time, hashlib, urllib.request, urllib.parse, shutil
 
 API = "https://api.digiseller.ru"
 KEY = os.environ["PLATI_API_KEY"]
@@ -22,6 +24,8 @@ MIN_SALES = 50
 PER_QUERY = 3
 MAX_CANDIDATES = 30
 PARTNER = SELLER  # партнёрский id = seller id
+THIN_LEN = 500
+SKIP_DIRS = {".git", ".github", "data", "reports", "automation", "test", "Proverka"}
 
 def http(url, method="GET", payload=None, timeout=40):
     data = json.dumps(payload).encode() if payload is not None else None
@@ -48,7 +52,9 @@ def to_float(s):
     except Exception: return 0.0
 
 def strip_html(s):
-    s = re.sub(r"<br\s*/?>", " ", s or "")
+    s = re.sub(r"<script[\s\S]*?</script>", " ", s or "", flags=re.I)
+    s = re.sub(r"<style[\s\S]*?</style>", " ", s, flags=re.I)
+    s = re.sub(r"<br\s*/?>", " ", s)
     s = re.sub(r"<[^>]+>", " ", s)
     return re.sub(r"\s+", " ", s).strip()
 
@@ -59,6 +65,13 @@ def similarity(a, b):
     if not wa or not wb:
         return 0.0
     return len(wa & wb) / max(1, min(len(wa), len(wb)))
+
+def norm(s):
+    return re.sub(r"\s+", " ", (s or "").lower()).strip()
+
+def meta(html, pattern):
+    m = re.search(pattern, html, re.I | re.S)
+    return norm(m.group(1)) if m else ""
 
 def compare(old, new):
     changes = []
@@ -73,55 +86,99 @@ def compare(old, new):
         changes.append(f"комиссия: {oi.get('agency_fee')} -> {ni.get('agency_fee')}")
     return changes
 
-def cleanup_and_audit(pages, report):
-    """Приборка сайта: битые CTA, сироты, тонкий/дубль-контент. Работает по файлам репо."""
-    fixed_cta, orphans, audit = 0, 0, []
-    skip = {".git", ".github", "data", "reports", "automation", "test", "Proverka"}
-    tracked_slugs = {p["slug"]: p for p in pages}
+def collect_pages():
+    """Все html-страницы сайта: папки с index.html + html в корне. -> [(slug, путь_к_файлу)]"""
+    pages = []
+    for item in sorted(os.listdir(ROOT)):
+        p = os.path.join(ROOT, item)
+        if os.path.isdir(p) and item not in SKIP_DIRS and not item.startswith("."):
+            idx = os.path.join(p, "index.html")
+            if os.path.exists(idx):
+                pages.append((item, idx))
+        elif os.path.isfile(p) and item.endswith(".html") and not item.startswith("_"):
+            pages.append((item[:-5] or "index", p))
+    return pages
+
+def cleanup_and_audit(pages_tracked, report):
+    """Приборка и аудит ВСЕХ страниц сайта. Авто-правит только безопасное, остальное — в отчёт."""
+    fixed_cta, orphans = 0, 0
+    tracked_slugs = {p["slug"]: p for p in pages_tracked}
+    # удалить папки без index.html
     for item in sorted(os.listdir(ROOT)):
         d = os.path.join(ROOT, item)
-        if not os.path.isdir(d) or item in skip or item.startswith("."):
-            continue
-        idx = os.path.join(d, "index.html")
-        if not os.path.exists(idx):
-            # папка без страницы — сирота
-            import shutil
-            shutil.rmtree(d, ignore_errors=True)
-            orphans += 1
-            report["cleanup"].append({"dir": item, "action": "удалена папка без index.html"})
-            continue
-        html = open(idx, encoding="utf-8", errors="replace").read()
-        changed = False
-        # 1. битая кнопка href='816991' -> нормальная реф-ссылка по id из имени папки
+        if os.path.isdir(d) and item not in SKIP_DIRS and not item.startswith("."):
+            if not os.path.exists(os.path.join(d, "index.html")):
+                shutil.rmtree(d, ignore_errors=True)
+                orphans += 1
+                report["cleanup"].append({"dir": item, "action": "удалена папка без index.html"})
+    infos = {}
+    for slug, path in collect_pages():
+        html = open(path, encoding="utf-8", errors="replace").read()
+        # 1. битая кнопка href='816991' -> реф-ссылка по id из имени папки
         if "href='816991'" in html or 'href="816991"' in html:
-            m = re.search(r"-(\d{5,})$", item)
+            m = re.search(r"-(\d{5,})$", slug)
             if m:
                 good = f"https://plati.market/itm/{m.group(1)}?ai={PARTNER}"
                 html = re.sub(r"window\.location\.href='816991'", f"window.location.href='{good}'", html)
                 html = html.replace('href="816991"', f'href="{good}"')
-                changed = True
+                open(path, "w", encoding="utf-8").write(html)
                 fixed_cta += 1
-                report["cleanup"].append({"dir": item, "action": "починена кнопка КУПИТЬ"})
-        if changed:
-            open(idx, "w", encoding="utf-8").write(html)
-        # 2. аудит контента (только информируем)
+                report["cleanup"].append({"dir": slug, "action": "починена кнопка КУПИТЬ"})
         text = strip_html(html)
-        if len(text) < 500:
-            audit.append({"slug": item, "issue": "тонкий контент", "len": len(text)})
-        # 3. дубль с источником: для отслеживаемых — сравнить с описанием Plati
-        if item in tracked_slugs:
-            pid = str(tracked_slugs[item]["goods_id"])
+        infos[slug] = {
+            "title": meta(html, r"<title[^>]*>(.*?)</title>"),
+            "desc": meta(html, r'<meta[^>]+name=["\']description["\'][^>]+content=["\'](.*?)["\']'),
+            "len": len(text),
+            "hash": hashlib.md5(norm(text).encode()).hexdigest(),
+            "text": text,
+            "has_plati": "plati.market" in html or "plati.ru" in html,
+            "has_vk": "vk.ru" in html or "vk.com" in html,
+        }
+    # 2. аудит каждой страницы
+    for slug, i in infos.items():
+        if i["len"] < THIN_LEN:
+            report["audit"].append({"slug": slug, "issue": f"тонкий контент ({i['len']} зн.)"})
+        if not i["title"]:
+            report["audit"].append({"slug": slug, "issue": "нет <title>"})
+        if not i["desc"]:
+            report["audit"].append({"slug": slug, "issue": "нет meta description"})
+        if not i["has_plati"] and not i["has_vk"] and slug != "index":
+            report["audit"].append({"slug": slug, "issue": "нет кнопки покупки (ни plati, ни vk)"})
+    # 3. дубли между страницами
+    def dupes(key, minlen):
+        groups = {}
+        for slug, i in infos.items():
+            v = i[key]
+            if v and len(v) >= minlen:
+                groups.setdefault(v, []).append(slug)
+        return {v: s for v, s in groups.items() if len(s) > 1}
+    for v, slugs in dupes("title", 10).items():
+        report["dupes"].append({"type": "title", "value": v[:80], "pages": slugs})
+    for v, slugs in dupes("desc", 30).items():
+        report["dupes"].append({"type": "description", "value": v[:80], "pages": slugs})
+    hgroups = {}
+    for slug, i in infos.items():
+        if i["len"] >= THIN_LEN:
+            hgroups.setdefault(i["hash"], []).append(slug)
+    for h, slugs in hgroups.items():
+        if len(slugs) > 1:
+            report["dupes"].append({"type": "текст-идентичен", "value": h[:8], "pages": slugs})
+    # 4. дубль с источником Plati (только отслеживаемые)
+    for slug, i in infos.items():
+        if slug in tracked_slugs:
+            pid = str(tracked_slugs[slug]["goods_id"])
             sp = os.path.join(DATA, pid, "snapshot.json")
             if os.path.exists(sp):
                 snap = json.load(open(sp, encoding="utf-8"))
                 src = strip_html(str(snap.get("product", {}).get("info", "")))
-                sim = similarity(text, src)
+                sim = similarity(i["text"], src)
                 if sim > 0.85:
-                    audit.append({"slug": item, "issue": f"дубль источника {sim:.2f}"})
+                    report["audit"].append({"slug": slug, "issue": f"дубль источника {sim:.2f}"})
     report["stats"]["fixed_cta"] = fixed_cta
     report["stats"]["orphans_removed"] = orphans
-    report["audit"] = audit
-    return fixed_cta, orphans
+    report["stats"]["site_pages"] = len(infos)
+    report["stats"]["dupes"] = len(report["dupes"])
+    report["stats"]["audit_issues"] = len(report["audit"])
 
 def main():
     tok = token()
@@ -129,9 +186,9 @@ def main():
     pages_file = os.path.join(DATA, "pages.json")
     pages = json.load(open(pages_file, encoding="utf-8")) if os.path.exists(pages_file) else []
     report = {"date": date, "changed": [], "gone": [], "ok": [], "new_candidates": [],
-              "errors": [], "cleanup": [], "audit": [], "stats": {}}
+              "errors": [], "cleanup": [], "audit": [], "dupes": [], "stats": {}}
 
-    # 1. сверка отслеживаемых
+    # 1. сверка отслеживаемых товаров с API
     alive = []
     for p in pages:
         pid, sid = str(p["goods_id"]), str(p.get("seller_id", ""))
@@ -164,19 +221,16 @@ def main():
         time.sleep(1.2)
 
     # авто-приборка: удаляем страницы снятых товаров
-    import shutil
-    removed_dirs = []
     for g in report["gone"]:
         d = os.path.join(ROOT, g["slug"])
         if os.path.isdir(d):
             shutil.rmtree(d, ignore_errors=True)
-            removed_dirs.append(g["slug"])
             report["cleanup"].append({"dir": g["slug"], "action": "удалена (товар снят)"})
     pages = alive
     json.dump(pages, open(pages_file, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     report["stats"]["pages_tracked"] = len(pages)
 
-    # 2. приборка и аудит всех страниц сайта
+    # 2. приборка и аудит ВСЕГО сайта
     cleanup_and_audit(pages, report)
 
     # 3. кандидаты (≤30)
@@ -211,28 +265,35 @@ def main():
         time.sleep(1.3)
     report["new_candidates"] = report["new_candidates"][:MAX_CANDIDATES]
 
-    # 4. отчёты
+    # 4. сжатый отчёт для ИИ
     json.dump(report, open(os.path.join(REPORTS, f"{date}.json"), "w", encoding="utf-8"),
               ensure_ascii=False, indent=1)
     s = report["stats"]
-    md = [f"# Plati daily — {date}",
-          f"Отслеживается: {s.get('pages_tracked', 0)} | OK: {len(report['ok'])} | изменено: {len(report['changed'])} | снято(удалено): {len(report['gone'])}",
-          f"Приборка: починено CTA {s.get('fixed_cta', 0)}, удалено папок-сирот {s.get('orphans_removed', 0)} | кандидатов: {len(report['new_candidates'])}", ""]
+    md = [f"# Отчёт сайта — {date}",
+          f"Страниц на сайте: {s.get('site_pages', 0)} | Товаров отслеживается: {s.get('pages_tracked', 0)} "
+          f"(OK {len(report['ok'])}, изменено {len(report['changed'])}, снято {len(report['gone'])})",
+          f"Авто-приборка: CTA починено {s.get('fixed_cta', 0)}, папок-сирот удалено {s.get('orphans_removed', 0)} "
+          f"| Дублей: {s.get('dupes', 0)} | Замечаний аудита: {s.get('audit_issues', 0)} | Кандидатов: {len(report['new_candidates'])}", ""]
     if report["changed"]:
-        md += ["## ТРЕБУЕТ ПЕРЕСОЗДАНИЯ СТРАНИЦЫ"] + \
+        md += ["## РЕШЕНИЕ: пересоздать страницы (изменились данные)"] + \
               [f"- `{c['slug']}` (id {c['goods_id']}): " + "; ".join(c["changes"]) for c in report["changed"]] + [""]
     if report["gone"]:
         md += ["## УДАЛЕНО АВТОМАТИЧЕСКИ (товар снят)"] + \
               [f"- `{g['slug']}` (id {g['goods_id']}): {g['reason']}" for g in report["gone"]] + [""]
+    if report["dupes"]:
+        md += ["## РЕШЕНИЕ: дубли (оставить одну / переписать)"] + \
+              [f"- {d['type']}: {', '.join('`'+p+'`' for p in d['pages'])} ({d['value']})" for d in report["dupes"][:25]] + [""]
     if report["audit"]:
-        md += ["## АУДИТ (проверить/пересоздать)"] + \
-              [f"- `{a['slug']}`: {a['issue']}" for a in report["audit"][:40]] + [""]
+        md += ["## РЕШЕНИЕ: аудит (проверить/пересоздать/удалить)"] + \
+              [f"- `{a['slug']}`: {a['issue']}" for a in report["audit"][:60]] + [""]
     if report["new_candidates"]:
-        md += ["## Кандидаты на новые страницы (макс 30/день)"] + \
+        md += ["## РЕШЕНИЕ: создать новые страницы (макс 30/день)"] + \
               [f"- id {c['goods_id']} | {c['price_rur']}₽ | fee {c['agency_fee']}% | продаж {c['cnt_sell']} | {c['name']}"
                for c in report["new_candidates"]]
-    open(os.path.join(REPORTS, f"{date}.md"), "w", encoding="utf-8").write("\n".join(md) + "\n")
-    print("\n".join(md[:10]))
+    text = "\n".join(md) + "\n"
+    open(os.path.join(REPORTS, f"{date}.md"), "w", encoding="utf-8").write(text)
+    open(os.path.join(REPORTS, "LATEST.md"), "w", encoding="utf-8").write(text)
+    print("\n".join(md[:12]))
 
 if __name__ == "__main__":
     main()
