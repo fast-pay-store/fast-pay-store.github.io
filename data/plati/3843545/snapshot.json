@@ -1,0 +1,296 @@
+{
+ "search": {
+  "id": "3843545",
+  "name": "⚡ ПОПОЛНЕНИЕ STEAM ⚡СНГ⚡RUB KZT UAH⚡",
+  "name_eng": "⚡TOP-UP STEAM ⚡CIS⚡RUB KZT UAH⚡",
+  "name_translit": "top-up-steam-cis-rub-kzt-uah",
+  "name_translit_eng": "top-up-steam-cis-rub-kzt-uah",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "876867",
+  "owner_id": "1",
+  "idr": "28455",
+  "seller_name": "Dessly",
+  "owner_name": "Plati",
+  "seller_rating": "142,2631",
+  "cnt_sell": "60264",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "18",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "1535",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "2",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "07.08.2023 18:00:16",
+  "last_sale": "23.12.2025 14:11:01",
+  "url": "https://plati.market/itm/3843545",
+  "weight": "60756,61",
+  "true_weight": "54730,21",
+  "sales_form": "guid",
+  "pay_adv": "0,00",
+  "price_usd": "0,29",
+  "price_rur": "23",
+  "price_eur": "0,25",
+  "price_uah": "12,41",
+  "sale_info": null,
+  "ticks_last_change": 818537695
+ },
+ "product": {
+  "id": 3843545,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "⚡ ПОПОЛНЕНИЕ STEAM ⚡СНГ⚡RUB KZT UAH⚡",
+  "price": 23.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/3843545",
+  "info": "<delivery><attention><br />Пополнение подходит для аккаунтов России, Казахстана, Беларуси, Украины, Узбекистана 🇷🇺🇧🇾🇰🇿🇺🇦🇺🇿<br /></attention></delivery><br /><delivery><attention><br />►В случае успешной оплаты на неверно указанный логин оплата не возвращается, это так же прописано в доп. условии - УКАЖИТЕ ЛОГИН, претензии по таким случаям не принимаем, услуга оказана в полном объеме. По этому перед оплатой рекомендуем убедиться в правильности введения данных.<br /><br />►Если регион вашего аккаунта отличается от указанных в описании, возврат невозможен, пожалуйста читайте описание внимательно.<br /><br />► ВНИМАНИЕ! ► Если у вас аккаунт, который никогда не пополнялся (новый), то не советуем покупать пополнение БЕЗ СМЕНЫ РЕГИОНА, т.к. steam может сменить вам регион на СНГ в валюте USD (цены будут не в рублях и выше) . Регион обратно на РФ сменить не выйдет (санкции), отменить такой платеж мы не сможем, поэтому РЕКОМЕНДУЕМ предварительно заказ услугу смены региона на Казахстан или Украину<br /><br />►Если вы проигнорировали требования к аккаунту и все же попытались отправить себе средства, то они не дойдут. В случае если регион аккаунта не Россия (Рубли), Беларусь (Беларусские рубли), Казахстан (Тенге) возврат невозможен по причине невозможности возврата денежных средств платёжной системой.<br /></attention></delivery><br /><delivery><attention><br />🌏  ПОПОЛНЯЕМ КРЫМ, ЛНР И ДНР, для этого нужно будет за 20-25 минут до оплаты закрыть клиент на ПК и отключить мобильный интернет на смартфон или перевести его в авиарежиме, произвести оплату, после получения успешного статуса на нашем сайте можно открыть стим, также можно отслеживать по почте, от стима придет письмо о пополнении счета. Стим блокирует отправку платежа при активной сессии из крыма, лнр и днр, без впн или офлайна не выйдет пополнить счет 🌏<br /></attention></delivery><br /><delivery><attention><br />►Рекомендуемый суточный лимит для пополнения - 31000 рублей в сутки по поясу GMT! Можем пополнить и больше, но для этого обратитесь в нашу поддержку<br />►Пожалуйста, дробите крупные суммы по 12к баланса за платеж.<br /></attention>💡 В случае ошибки по нашей вине возвращаем полную сумму. Если проблема не с нашей стороны — возврат осуществляется с удержанием 25%.</delivery>",
+  "add_info": "",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 0.23,
+  "agency_id": 0,
+  "collection": "unit",
+  "propertygood": 2,
+  "is_available": 0,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 28455,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "payment_methods": [
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API"
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1"
+     }
+    ]
+   },
+   {
+    "name": "SberPay",
+    "code": "sber-bank",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "SMS"
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USD",
+      "code": "GCZ"
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX"
+     }
+    ]
+   },
+   {
+    "name": "PAYMER",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USD",
+      "code": "PPZ"
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ"
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX"
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML"
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT"
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "PRZ"
+     },
+     {
+      "currency": "WMR",
+      "code": "PRR"
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL"
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX"
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM"
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH"
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC"
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC"
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB"
+     }
+    ]
+   }
+  ],
+  "prices_unit": {
+   "unit_name": "STEAM RUB",
+   "unit_amount": 23.0,
+   "unit_amount_desc": "RUR",
+   "unit_currency": "RUR",
+   "unit_cnt": 20,
+   "unit_cnt_min": 20,
+   "unit_cnt_max": 20,
+   "unit_cnt_desc": "",
+   "unit_only_int": 1
+  },
+  "preview_imgs": [
+   {
+    "id": 5187341,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5187341",
+    "width": 400,
+    "height": 400
+   },
+   {
+    "id": 5403863,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5403863",
+    "width": 960,
+    "height": 960
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "08.12.2025 19:34:55",
+   "size": 16
+  },
+  "category_id": 0,
+  "breadcrumbs": [],
+  "units": {
+   "desc": "1 STEAM RUB",
+   "price": 1.15
+  },
+  "gift_commiss": 1.0,
+  "options": [
+   {
+    "id": 4289616,
+    "name": "option_text_4289616",
+    "label": "Steam логин",
+    "comment": "",
+    "type": "text",
+    "separate_content": 0,
+    "required": 1
+   }
+  ],
+  "options_check": 1,
+  "statistics": {
+   "sales": 60716,
+   "sales_hidden": 0,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 1540,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 18,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 876867,
+   "name": "Dessly"
+  }
+ },
+ "reviews": []
+}
