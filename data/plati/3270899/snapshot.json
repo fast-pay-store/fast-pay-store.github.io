@@ -1,45 +1,5 @@
 {
- "search": {
-  "id": "3270899",
-  "name": "🍀 XBOX GAME PASS ULTIMATE/Premium/PC 1-12 МЕСЯЦЕВ + НАДЕЖНО",
-  "name_eng": "🍀 XBOX  GAME PASS ULTIMATE/Premium/PC 1-12 MONTHS + RELIABLE",
-  "name_translit": "xbox-game-pass-ultimate-premium-pc-1-12-months-reliable",
-  "name_translit_eng": "xbox-game-pass-ultimate-premium-pc-1-12-months-reliable",
-  "snippet1": "",
-  "snippet2": "",
-  "seller_id": "316903",
-  "owner_id": "1",
-  "idr": "33080",
-  "seller_name": "All for Gamers",
-  "owner_name": "Plati",
-  "seller_rating": "31634,2610",
-  "cnt_sell": "204563",
-  "cnt_sell_hidden": "",
-  "cnt_bad_responses": "0",
-  "cnt_bad_responses_hidden": "0",
-  "cnt_good_responses": "76522",
-  "cnt_good_responses_hidden": "0",
-  "cnt_return": "2",
-  "cnt_return_hidden": "0",
-  "hide_sales": "",
-  "cnt_preview": "2",
-  "discount": "1",
-  "credit_price": null,
-  "agency_fee": "1,00",
-  "date_create": "15.01.2022 16:06:38",
-  "last_sale": "01.09.2026 22:03:05",
-  "url": "https://plati.market/itm/3270899",
-  "weight": "14875270",
-  "true_weight": "54816,99",
-  "sales_form": "guid",
-  "pay_adv": "148,00",
-  "price_usd": "1,38",
-  "price_rur": "119",
-  "price_eur": "1,18",
-  "price_uah": "61,34",
-  "sale_info": null,
-  "ticks_last_change": 841536578
- },
+ "search": {},
  "product": {
   "id": 3270899,
   "id_prev": 0,
@@ -73,7 +33,7 @@
     "EUR": 0.98,
     "UAH": 50.73,
     "mBTC": 0.02,
-    "mLTC": 30.84
+    "mLTC": 30.91
    },
    "default": {
     "RUB": 99.0,
@@ -81,7 +41,7 @@
     "EUR": 0.98,
     "UAH": 50.73,
     "mBTC": 0.12,
-    "mLTC": 31.14
+    "mLTC": 31.21
    }
   },
   "payment_methods": [
@@ -188,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 30.84
+      "price": 30.91
      },
      {
       "currency": "WMT",
@@ -222,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 30.84,
+      "price": 30.91,
       "limit": {
        "max": 7.3
       }
@@ -296,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 31.14
+      "price": 31.21
      }
     ]
    },
@@ -614,11 +574,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 204676,
+   "sales": 204665,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76556,
+   "good_reviews": 76555,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
