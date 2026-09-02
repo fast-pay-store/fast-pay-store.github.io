@@ -1,0 +1,740 @@
+{
+ "search": {
+  "id": "672298",
+  "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
+  "name_eng": "[AUTO-DELIVERY] Apple iTunes Gift Card (USA) 2-1000$. LOW PRICE",
+  "name_translit": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-price",
+  "name_translit_eng": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-price",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "97839",
+  "owner_id": "1",
+  "idr": "22243",
+  "seller_name": "x-sale",
+  "owner_name": "Plati",
+  "seller_rating": "17888,3426",
+  "cnt_sell": "436627",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "3333",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "28",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "03.01.2009 9:51:47",
+  "last_sale": "01.09.2026 22:37:34",
+  "url": "https://plati.market/itm/672298",
+  "weight": "35775590",
+  "true_weight": "54928,86",
+  "sales_form": "text",
+  "pay_adv": "356,77",
+  "price_usd": "1,89",
+  "price_rur": "174",
+  "price_eur": "1,62",
+  "price_uah": "90,04",
+  "sale_info": null,
+  "ticks_last_change": 841617411
+ },
+ "product": {
+  "id": 672298,
+  "id_prev": 0,
+  "id_next": 1440095,
+  "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
+  "price": 173.07,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/672298",
+  "info": "<delivery>✅Надежный продавец с 2008г. (см. дату создания профиля). Более 18 лет (!) на площадке.<br />🚀АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />👑Лидер по количеству продаж подарочных карт iTunes США<br />🥇Входим в топ-10 продавцов данной торговой площадки.<br />🍎Большой выбор номиналов, выбери свой⬆️<br /></delivery><attention>⚠️ВНИМАНИЕ: Мы продаем только официальные карты, приобретенные в авторизованных точках продаж продукции Apple. Их происхождение абсолютно легально. Приобретение нашей легальной подарочной карты iTunes даст Вам возможность воспользоваться всеми возможностями App Store без возникновения каких бы то ни было затруднений.</attention><delivery>Apple iTunes Gift Card для пополнения Apple ID, зарегистрированного на адрес в США. Ваш баланс счета должен быть в валюте Доллары США.</delivery><delivery>💯МГНОВЕННАЯ АВТОМАТИЧЕСКАЯ ДОСТАВКА. После оплаты Вы сразу получаете код подарочной карты в цифровом виде.<br />💯ГАРАНТИЯ ВОЗВРАТА ИЛИ ЗАМЕНЫ если будут проблемы с кодом по нашей вине.</delivery><delivery>Официальная инструкция активации подарочной карты Apple:<br />http://support.apple.com/kb/HT1574</delivery><attention>❗Карта работает только для аккаунтов, зарегистрированных на США.<br />❗Мы не несем ответственности за любые ограничения Вашего аккаунта со стороны Apple из-за частого применения подарочных карт либо любых других Ваших действий, которые Apple сочтет подозрительными.<br />❗В случае ошибки при активации (\"код уже активирован\") мы всегда попытаемся выяснить возможные причины этого на нашей стороне и решить проблему. Но если причин появления этой ошибки мы не обнаружим, покупатель обязан предоставить в качестве доказательств видео-фиксацию своей покупки (с начала нажатия на кнопку \"Купить\" и до попытки активации карты, без склеек), либо видео переписки с поддержкой Apple (где будут указаны дата и время погашения карты), самостоятельно связавшись с ней.<br />❗Товар может быть выдан несколькими кодами.<br /><br />🇷🇺Если Вам требуется подарочная карта Apple iTunes для региона РФ (в рублях):<br />https://plati.market/itm/1440095</attention>",
+  "add_info": "<delivery>🇪🇺Подарочные карты Apple iTunes для стран Евросоюза: <br />https://plati.market/itm/3995170<br /><attention>Карты US Card для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 18 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 1.63,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 22243,
+  "pwyw": 0,
+  "label": "top",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 163.26,
+    "USD": 1.89,
+    "EUR": 1.62,
+    "UAH": 90.04,
+    "mBTC": 0.04,
+    "mLTC": 38.11
+   },
+   "default": {
+    "RUB": 173.07,
+    "USD": 1.89,
+    "EUR": 1.62,
+    "UAH": 90.04,
+    "mBTC": 0.14,
+    "mLTC": 38.41
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 1.89
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 184.11,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 2.51
+     },
+     {
+      "currency": "WME",
+      "code": "WME",
+      "price": 2.16
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.04
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 38.11
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 1.89
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 1.89,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 185.88,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 38.41
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.14
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 0.86
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 2.51,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 217.13,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WME",
+      "code": "PRE",
+      "price": 2.16,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 38.11,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.04,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 163.26
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 2.51
+     },
+     {
+      "currency": "EUR",
+      "code": "PPE",
+      "price": 2.16
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 163.26
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 2.51
+     },
+     {
+      "currency": "EUR",
+      "code": "GCE",
+      "price": 2.16
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.04
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 173.07
+     }
+    ]
+   }
+  ],
+  "preview_imgs": [
+   {
+    "id": 10433852,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10433852",
+    "width": 669,
+    "height": 669
+   },
+   {
+    "id": 7416345,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=7416345",
+    "width": 500,
+    "height": 500
+   },
+   {
+    "id": 7416346,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=7416346",
+    "width": 500,
+    "height": 500
+   },
+   {
+    "id": 6042599,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=6042599",
+    "width": 800,
+    "height": 600
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "17.04.2026 23:52:24",
+   "size": null
+  },
+  "category_id": 6502,
+  "breadcrumbs": [
+   {
+    "id": 6502,
+    "name": "Apple iTunes",
+    "products_cnt": 4
+   }
+  ],
+  "options": [
+   {
+    "id": 809849,
+    "name": "option_radio_809849",
+    "label": "Сумма на карте (моментальная доставка)",
+    "comment": "После оплаты карта выдается Вам в цифровом виде автоматически и моментально!",
+    "type": "radio",
+    "separate_content": 1,
+    "required": 1,
+    "modifier_visible": 0,
+    "variants": [
+     {
+      "value": 2178794,
+      "text": "2$ (USD)",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178795,
+      "text": "3$ (USD)",
+      "default": 0,
+      "modify": "+1,80 USD",
+      "modify_value": 1.8,
+      "modify_value_default": 1.8,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178796,
+      "text": "4$ (USD)",
+      "default": 0,
+      "modify": "+2,90 USD",
+      "modify_value": 2.9,
+      "modify_value_default": 2.9,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178797,
+      "text": "5$ (USD)",
+      "default": 0,
+      "modify": "+4 USD",
+      "modify_value": 4.0,
+      "modify_value_default": 4.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178798,
+      "text": "6$ (USD)",
+      "default": 0,
+      "modify": "+5,10 USD",
+      "modify_value": 5.1,
+      "modify_value_default": 5.1,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178799,
+      "text": "7$ (USD)",
+      "default": 0,
+      "modify": "+6,16 USD",
+      "modify_value": 6.16,
+      "modify_value_default": 6.16,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178800,
+      "text": "8$ (USD)",
+      "default": 0,
+      "modify": "+7,30 USD",
+      "modify_value": 7.3,
+      "modify_value_default": 7.3,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178801,
+      "text": "9$ (USD)",
+      "default": 0,
+      "modify": "+8,46 USD",
+      "modify_value": 8.46,
+      "modify_value_default": 8.46,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178802,
+      "text": "10$ (USD)",
+      "default": 0,
+      "modify": "+9 USD",
+      "modify_value": 9.0,
+      "modify_value_default": 9.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178803,
+      "text": "15$ (USD)",
+      "default": 0,
+      "modify": "+14,50 USD",
+      "modify_value": 14.5,
+      "modify_value_default": 14.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178804,
+      "text": "20$ (USD)",
+      "default": 0,
+      "modify": "+20 USD",
+      "modify_value": 20.0,
+      "modify_value_default": 20.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178805,
+      "text": "25$ (USD)",
+      "default": 0,
+      "modify": "+25,50 USD",
+      "modify_value": 25.5,
+      "modify_value_default": 25.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178806,
+      "text": "30$ (USD)",
+      "default": 0,
+      "modify": "+31 USD",
+      "modify_value": 31.0,
+      "modify_value_default": 31.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178807,
+      "text": "40$ (USD)",
+      "default": 0,
+      "modify": "+42 USD",
+      "modify_value": 42.0,
+      "modify_value_default": 42.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178808,
+      "text": "50$ (USD)",
+      "default": 0,
+      "modify": "+53 USD",
+      "modify_value": 53.0,
+      "modify_value_default": 53.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178809,
+      "text": "60$ (USD)",
+      "default": 0,
+      "modify": "+64 USD",
+      "modify_value": 64.0,
+      "modify_value_default": 64.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178810,
+      "text": "70$ (USD)",
+      "default": 0,
+      "modify": "+75 USD",
+      "modify_value": 75.0,
+      "modify_value_default": 75.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178811,
+      "text": "80$ (USD)",
+      "default": 0,
+      "modify": "+86 USD",
+      "modify_value": 86.0,
+      "modify_value_default": 86.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178812,
+      "text": "90$ (USD)",
+      "default": 0,
+      "modify": "+97 USD",
+      "modify_value": 97.0,
+      "modify_value_default": 97.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178813,
+      "text": "100$ (USD)",
+      "default": 0,
+      "modify": "+108 USD",
+      "modify_value": 108.0,
+      "modify_value_default": 108.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178814,
+      "text": "150$ (USD)",
+      "default": 0,
+      "modify": "+163 USD",
+      "modify_value": 163.0,
+      "modify_value_default": 163.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178815,
+      "text": "200$ (USD)",
+      "default": 0,
+      "modify": "+218 USD",
+      "modify_value": 218.0,
+      "modify_value_default": 218.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178816,
+      "text": "250$ (USD)",
+      "default": 0,
+      "modify": "+273 USD",
+      "modify_value": 273.0,
+      "modify_value_default": 273.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178817,
+      "text": "300$ (USD)",
+      "default": 0,
+      "modify": "+328 USD",
+      "modify_value": 328.0,
+      "modify_value_default": 328.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178818,
+      "text": "400$ (USD)",
+      "default": 0,
+      "modify": "+438 USD",
+      "modify_value": 438.0,
+      "modify_value_default": 438.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2178819,
+      "text": "500$ (USD)",
+      "default": 0,
+      "modify": "+548 USD",
+      "modify_value": 548.0,
+      "modify_value_default": 548.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 19074343,
+      "text": "600$ (USD)",
+      "default": 0,
+      "modify": "+658 USD",
+      "modify_value": 658.0,
+      "modify_value_default": 658.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 19074354,
+      "text": "800$ (USD)",
+      "default": 0,
+      "modify": "+878 USD",
+      "modify_value": 878.0,
+      "modify_value_default": 878.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 19074368,
+      "text": "1000$ (USD)",
+      "default": 0,
+      "modify": "+1098 USD",
+      "modify_value": 1098.0,
+      "modify_value_default": 1098.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     }
+    ]
+   },
+   {
+    "id": 821126,
+    "name": "option_checkbox_821126",
+    "label": "Я внимательно прочитал описание товара и",
+    "comment": "",
+    "type": "checkbox",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 2210762,
+      "text": "Полностью принимаю его, а также отдельно подтверждаю, что мой аккаунт Apple относится к региону США",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     }
+    ]
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 663301,
+   "sales_hidden": 0,
+   "refunds": 28,
+   "refunds_hidden": 0,
+   "good_reviews": 3335,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 97839,
+   "name": "x-sale"
+  }
+ },
+ "reviews": []
+}

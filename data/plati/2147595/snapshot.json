@@ -1,0 +1,406 @@
+{
+ "search": {
+  "id": "2147595",
+  "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
+  "name_eng": "STEAM WALLET GIFT CARD 5$ NO GLOBAL (DESCRIPTION)",
+  "name_translit": "steam-wallet-gift-card-5-no-global-description",
+  "name_translit_eng": "steam-wallet-gift-card-5-no-global-description",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "172340",
+  "owner_id": "1",
+  "idr": "22611",
+  "seller_name": "BEST-PRICE",
+  "owner_name": "Plati",
+  "seller_rating": "1043,3246",
+  "cnt_sell": "74618",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "793",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "1",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "1",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "14.06.2016 23:14:30",
+  "last_sale": "01.09.2026 18:36:54",
+  "url": "https://plati.market/itm/2147595",
+  "weight": "62101,46",
+  "true_weight": "54649,96",
+  "sales_form": "text",
+  "pay_adv": "0,00",
+  "price_usd": "5,12",
+  "price_rur": "477",
+  "price_eur": "4,40",
+  "price_uah": "227,97",
+  "sale_info": null,
+  "ticks_last_change": 841102255
+ },
+ "product": {
+  "id": 2147595,
+  "id_prev": 2147588,
+  "id_next": 2147599,
+  "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
+  "price": 476.77,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/2147595",
+  "info": "!!МГНОВЕННАЯ ДОСТАВКА СРАЗУ ПОСЛЕ ПОДТВЕРЖДЕНИЯ ВАМИ ОПЛАТЫ!! <br /><br /><attention>ВНИМАНИЕ! НА ДАННЫЙ МОМЕНТ КОД НЕЛЬЗЯ АКТИВИРОВАТЬ НА АККАУНТАХ РОССИИ, США, КОЛУМБИИ, АРГЕНТИНЫ, ТУРЦИИ, ЮЖНОЙ АФРИКИ, Азербайджана, Белоруссии, Узбекистана, Молдовы, Грузии, Нигерии, Бангладеш, в том числе ключ не работает на всех аккаунтах с валютой доллар США!<br />Во всех остальных странах пока еще работает, но лучше уточняйте через переписку, если есть сомнения!</attention><br /><br /><attention>Данная карта не долларовая, мы продаем Steam Wallet gift карты абсолютно разных мировых валют.<br />Steam ввел некоторые изменения в политику активации данных кодов:<br />https://support.steampowered.com/kb_article.php?ref=1122-RTSC-0478<br />(Каждая учетная запись пользователя Steam связана с определенной валютой, которую вы можете увидеть в правом верхнем углу клиента Steam. В дальнейшем вы можете столкнуться с ошибкой, если попытаетесь активировать код кошелька Steam, выпущенный в валюте, отличной от валюты вашей учетной записи Steam.)<br />Просьба ознакомится с данной информацией перед покупкой, и принять решение, нужны ли вам такие риски.<br />В данный момент проблем с активацией данных кодов нету, но они могу возникнуть в любой момент, просьба это учитывать.<br />После продажи мы не сможем принимать претензии в случае возникновения проблем, связанных с данными изменениями.<br /><br />После оплаты заказа система автоматически (без нашего участия) мгновенно отправит Вам на почту ссылку для доступа к официальному ключу пополнения баланса аккаунта (Wallet Balance) в Steam на 5$ (5 долларов США) - это эквивалент, изначально карта не долларовая! Если Ваш аккаунт в другой валюте, данная сумма будет конвертирована по текущему курсу обмена.</attention>",
+  "add_info": "Активация: <br />- Войдите в свою учетную запись Steam <br />https://store.steampowered.com/account/redeemwalletcode <br />- Нажмите ссылку на аккаунт «Ваше имя пользователя» в верхнем правом углу и будете направлены на ваш счет. <br />- На правой стороне вашей страницы о Данных Пользователя есть синяя коробка, которая отображает текущее состояние Wallet Balance. <br />- Непосредственно под Wallet Balance, есть ссылка для ввода кода с карты и зачисления на Ваш кошелек Steam <br /><br />Наша надежность проверена годами: <br />* более 12 лет на рынке! <br />* более 350 000 продаж, более 12 000 положительных отзывов! <br />* бизнес уровень Webmoney (BL) выше 750! <br />* все наши ключи только от официальных дистрибьюторов! <br />* мы несем полную ответственность за продаваемые нами товары и даём 100% гарантию качества!",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 4.42,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 22611,
+  "pwyw": 0,
+  "label": "top",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 442.26,
+    "USD": 5.12,
+    "EUR": 4.4,
+    "UAH": 227.97,
+    "mBTC": 0.07,
+    "mLTC": 124.43
+   },
+   "default": {
+    "RUB": 476.77,
+    "USD": 5.12,
+    "EUR": 4.4,
+    "UAH": 227.97,
+    "mBTC": 0.17,
+    "mLTC": 124.73
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "Enot.io",
+    "code": "enot",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ENT",
+      "price": 476.77,
+      "limit": {
+       "min": 40.0
+      }
+     }
+    ]
+   },
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 495.37
+     }
+    ]
+   },
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 5.12
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 6.71
+     },
+     {
+      "currency": "WME",
+      "code": "WME",
+      "price": 5.76
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.07
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 124.43
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 5.12
+     }
+    ]
+   },
+   {
+    "name": "KASSA",
+    "code": "freekassa",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "FKA",
+      "price": 559.73
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 498.76,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 503.56,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 5.12,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 442.26
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 6.71
+     },
+     {
+      "currency": "EUR",
+      "code": "PPE",
+      "price": 5.76
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 442.26
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 6.71
+     },
+     {
+      "currency": "EUR",
+      "code": "GCE",
+      "price": 5.76
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.07
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.17
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 124.73
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 6.71,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 579.36,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WME",
+      "code": "PRE",
+      "price": 5.76,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 124.43,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.07,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 2.34
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 476.77
+     }
+    ]
+   }
+  ],
+  "preview_imgs": [
+   {
+    "id": 1273833,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=1273833",
+    "width": 758,
+    "height": 298
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "26.08.2026 23:30:55",
+   "size": null
+  },
+  "category_id": 55908,
+  "breadcrumbs": [
+   {
+    "id": 55908,
+    "name": "STEAM",
+    "products_cnt": 113
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 74641,
+   "sales_hidden": 0,
+   "refunds": 1,
+   "refunds_hidden": 0,
+   "good_reviews": 797,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 172340,
+   "name": "BEST-PRICE"
+  }
+ },
+ "reviews": []
+}

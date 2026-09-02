@@ -1,0 +1,481 @@
+{
+ "search": {
+  "id": "3947567",
+  "name": "HELLDIVERS 2 STEAM ⚡️АВТОДОСТАВКА 💳0%",
+  "name_eng": "HELLDIVERS 2 STEAM ⚡️AUTODELIVERY 💳0%",
+  "name_translit": "helldivers-2-steam-autodelivery-0",
+  "name_translit_eng": "helldivers-2-steam-autodelivery-0",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "392951",
+  "owner_id": "1",
+  "idr": "20887",
+  "seller_name": "DarkAwe",
+  "owner_name": "Plati",
+  "seller_rating": "22236,4147",
+  "cnt_sell": "58251",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "8607",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "0",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "06.10.2023 16:55:53",
+  "last_sale": "01.09.2026 13:08:45",
+  "url": "https://plati.market/itm/3947567",
+  "weight": "60459,72",
+  "true_weight": "54634,62",
+  "sales_form": "guid",
+  "pay_adv": "0,00",
+  "price_usd": "27,66",
+  "price_rur": "2389",
+  "price_eur": "24,47",
+  "price_uah": "1231,53",
+  "sale_info": null,
+  "ticks_last_change": 840628202
+ },
+ "product": {
+  "id": 3947567,
+  "id_prev": 0,
+  "id_next": 0,
+  "name": "HELLDIVERS 2 STEAM ⚡️АВТОДОСТАВКА 💳0%",
+  "price": 2389.0,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/3947567",
+  "info": "<delivery>⚡️ АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />⠀После оплаты начнется процесс активации товара на ваш аккаунт<br />⏱️ Авто-доставка происходит через бота и занимает в среднем не более 3 минут<br />⠀В очень редких случаях доставка может быть задержана</delivery><br /><delivery>📦 Метод доставки<br />⠀Steam Gift — Подарком на ваш аккаунт<br />📜 Подробнее о товаре<br />⠀https://store.steampowered.com/app/553850</delivery><br /><delivery>🌍 Активация возможна на аккаунты со страной<br />🔍 Проверить страну вашего аккаунта<br />⠀https://store.steampowered.com/account</delivery><br /><delivery>🛒 Как проходит покупка<br />⠀https://dub.sh/HowItWorks<br />🔗 Как узнать ссылку на профиль Steam<br />⠀https://dub.sh/SteamLink</delivery><br />",
+  "add_info": "<delivery>📝 Не нашли нужного товара? Пишите! <br />⠀По запросу добавим почти любую игру из Steam<br /><br />🛡 Гарантии<br />⠀• Один из крупнейших магазинов на площадке<br />⠀• Более 1 000 000 продаж и 200 000 положительных отзывов<br />⠀• Регистрация с 2014 года, отсутствие отрицательных отзывов<br />⠀• Гарантируем помощь в случае возникновения любой проблемы<br /><br />↩️ О возврате<br />⠀&gt; Товар получен —  Возврат невозможен<br />⠀&gt; Товар не получен<br />⠀⠀• Наша вина — Полный возврат<br />⠀⠀• Ваша вина — Возврат с 20% комиссией</delivery><br />",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 23.89,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 0,
+  "owner": 1,
+  "section_id": 20887,
+  "pwyw": 0,
+  "label": "",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 2389.0,
+    "USD": 27.66,
+    "EUR": 24.47,
+    "UAH": 1231.44,
+    "mBTC": 0.41,
+    "mLTC": 718.33
+   },
+   "default": {
+    "RUB": 2389.0,
+    "USD": 27.66,
+    "EUR": 24.47,
+    "UAH": 1231.53,
+    "mBTC": 0.51,
+    "mLTC": 718.63
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "PayPalych",
+    "code": "palych",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GRN",
+      "price": 2389.0
+     }
+    ]
+   },
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 2389.0
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 38.72
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.41
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 718.33
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 27.66
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 2389.0
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 38.72
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.41
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 2389.0
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 38.72
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 3344.6,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 38.72,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 718.33,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.41,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 2694.45,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 2720.36,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "USD",
+      "code": "PS1",
+      "price": 2.33
+     },
+     {
+      "currency": "EUR",
+      "code": "PS2",
+      "price": 2.0
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 27.66,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Turkish Bank Card",
+    "code": "turkey-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USD",
+      "code": "SFT",
+      "price": 29.91,
+      "limit": {
+       "max": 250.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "SberPay",
+    "code": "sber-bank",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "SMS",
+      "price": 2837.17,
+      "limit": {
+       "min": 1.0,
+       "max": 500000.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.51
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 718.63
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 12.63
+     }
+    ]
+   },
+   {
+    "name": "LAVA",
+    "code": "lava",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "LVA",
+      "price": 2389.0
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 2389.0
+     }
+    ]
+   }
+  ],
+  "unique_code_verification": {
+   "automatic": 1,
+   "deliver_url": "https://darkawe.com/delivery/game",
+   "has_params": 0
+  },
+  "preview_imgs": [
+   {
+    "id": 5987187,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5987187",
+    "width": 460,
+    "height": 460
+   },
+   {
+    "id": 5121926,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5121926",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 5121925,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5121925",
+    "width": 1920,
+    "height": 1080
+   },
+   {
+    "id": 5121924,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=5121924",
+    "width": 1920,
+    "height": 1080
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "21.08.2026 11:50:02",
+   "size": 16
+  },
+  "category_id": 0,
+  "breadcrumbs": [],
+  "options": [
+   {
+    "id": 5913827,
+    "name": "option_radio_5913827",
+    "label": "Выберите вариант",
+    "comment": "",
+    "type": "radio",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 28224489,
+      "text": "HELLDIVERS 2 (Казахстан)",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 28224490,
+      "text": "HELLDIVERS 2 (СНГ - НЕ ДЛЯ РФ И РБ)",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 28224491,
+      "text": "HELLDIVERS 2 (Украина)",
+      "default": 0,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     }
+    ]
+   },
+   {
+    "id": 494323,
+    "name": "option_text_494323",
+    "label": "Cсылка на ваш профиль steam",
+    "comment": "Инструкция как получить ссылку есть в описании.",
+    "type": "text",
+    "separate_content": 0,
+    "required": 1
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 58285,
+   "sales_hidden": 0,
+   "refunds": 0,
+   "refunds_hidden": 0,
+   "good_reviews": 8611,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 392951,
+   "name": "DarkAwe"
+  }
+ },
+ "reviews": []
+}

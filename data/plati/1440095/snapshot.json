@@ -1,0 +1,669 @@
+{
+ "search": {
+  "id": "1440095",
+  "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (Россия) 500-25000 руб. НИЗКАЯ ЦЕНА",
+  "name_eng": "[AUTO-DELIVERY] Apple iTunes Gift Card (Russia) 500-25000 rub. LOW PRICE",
+  "name_translit": "auto-delivery-apple-itunes-gift-card-russia-500-25000-rub-low-price",
+  "name_translit_eng": "auto-delivery-apple-itunes-gift-card-russia-500-25000-rub-low-price",
+  "snippet1": "",
+  "snippet2": "",
+  "seller_id": "97839",
+  "owner_id": "1",
+  "idr": "22257",
+  "seller_name": "x-sale",
+  "owner_name": "Plati",
+  "seller_rating": "17888,3426",
+  "cnt_sell": "151324",
+  "cnt_sell_hidden": "",
+  "cnt_bad_responses": "0",
+  "cnt_bad_responses_hidden": "0",
+  "cnt_good_responses": "4089",
+  "cnt_good_responses_hidden": "0",
+  "cnt_return": "2",
+  "cnt_return_hidden": "0",
+  "hide_sales": "",
+  "cnt_preview": "4",
+  "discount": "0",
+  "credit_price": null,
+  "agency_fee": "1,00",
+  "date_create": "08.01.2013 4:51:58",
+  "last_sale": "01.09.2026 22:40:13",
+  "url": "https://plati.market/itm/1440095",
+  "weight": "15272050",
+  "true_weight": "54917,09",
+  "sales_form": "text",
+  "pay_adv": "152,02",
+  "price_usd": "9,49",
+  "price_rur": "820",
+  "price_eur": "8,15",
+  "price_uah": "452,12",
+  "sale_info": null,
+  "ticks_last_change": 841617543
+ },
+ "product": {
+  "id": 1440095,
+  "id_prev": 672298,
+  "id_next": 3995170,
+  "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (Россия) 500-25000 руб. НИЗКАЯ ЦЕНА",
+  "price": 819.74,
+  "currency": "RUB",
+  "url": "",
+  "card_url": "https://plati.market/itm/1440095",
+  "info": "<delivery>✅Надежный продавец с 2008г. (см. дату создания профиля).<br />🚀АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />👑Лидер по количеству продаж подарочных карт iTunes Россия<br />🥇Входим в топ-10 продавцов данной торговой площадки.<br />🍎Большой выбор номиналов, выбери свой⬆️<br /></delivery><attention>⚠️ВНИМАНИЕ: Мы продаем только официальные карты, приобретенные в авторизованных точках продаж продукции Apple. Их происхождение абсолютно легально. Приобретение нашей легальной подарочной карты iTunes даст Вам возможность воспользоваться всеми возможностями App Store без возникновения каких бы то ни было затруднений.</attention><delivery>Подарочная карта iTunes Gift Card (Russia) для пополнения Apple ID, зарегистрированного на адрес в РФ. Ваш баланс счета должен быть в валюте Рубли.</delivery><delivery>💯МГНОВЕННАЯ АВТОМАТИЧЕСКАЯ ДОСТАВКА. После оплаты Вы сразу получаете код подарочной карты в цифровом виде.<br />💯ГАРАНТИЯ ВОЗВРАТА ИЛИ ЗАМЕНЫ если будут проблемы с кодом по нашей вине.</delivery><delivery>Официальная инструкция активации подарочной карты Apple:<br />http://support.apple.com/kb/HT1574</delivery><br />❗Все коды поставляются от официальных дистрибьюторов (API) и не могут быть активированными и/или недействительными, если сомневаетесь - делайте запись видео покупки и активации (одним кадром). Без данной записи претензии могут быть не приняты.",
+  "add_info": "<delivery>🌍Подарочные карты Apple для других регионов:<br />🇺🇸 США: https://plati.market/itm/1454822<br />🇪🇺 Страны Евросоюза: https://plati.market/itm/3995170<br /><attention>Карты Visa USD Worldwide для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 15 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
+  "release_date": "",
+  "agency_fee": 1.0,
+  "agency_sum": 8.2,
+  "agency_id": 0,
+  "collection": "pins",
+  "propertygood": 2,
+  "is_available": 1,
+  "show_rest": 0,
+  "num_in_lock": 2,
+  "owner": 1,
+  "section_id": 22257,
+  "pwyw": 0,
+  "label": "top",
+  "no_cart": 0,
+  "prices": {
+   "initial": {
+    "RUB": 819.74,
+    "USD": 9.49,
+    "EUR": 8.15,
+    "UAH": 452.12,
+    "mBTC": 0.12,
+    "mLTC": 191.36
+   },
+   "default": {
+    "RUB": 819.74,
+    "USD": 9.49,
+    "EUR": 8.15,
+    "UAH": 452.12,
+    "mBTC": 0.22,
+    "mLTC": 191.66
+   }
+  },
+  "payment_methods": [
+   {
+    "name": "Карта",
+    "code": "itpay",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CLK",
+      "price": 819.74,
+      "limit": {
+       "min": 10.0,
+       "max": 200000.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "API",
+    "code": "api",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 9.49
+     }
+    ]
+   },
+   {
+    "name": "СБП",
+    "code": "sbp",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "ATM",
+      "price": 924.46,
+      "limit": {
+       "min": 100.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "WebMoney",
+    "code": "webmoney",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "WMZ",
+      "price": 12.62
+     },
+     {
+      "currency": "WME",
+      "code": "WME",
+      "price": 10.84
+     },
+     {
+      "currency": "mBTC",
+      "code": "WMX",
+      "price": 0.12
+     },
+     {
+      "currency": "mLTC",
+      "code": "WML",
+      "price": 191.36
+     },
+     {
+      "currency": "WMT",
+      "code": "WMT",
+      "price": 9.49
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "p2p-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "USDT",
+      "code": "BNK",
+      "price": 9.49,
+      "limit": {
+       "min": 5.0,
+       "max": 100.0,
+       "currency": "USD"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Карта",
+    "code": "credit-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "CL1",
+      "price": 933.35,
+      "limit": {
+       "min": 10.0,
+       "max": 24500.0,
+       "currency": "RUB"
+      }
+     }
+    ]
+   },
+   {
+    "name": "Litecoin",
+    "code": "litecoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mLTC",
+      "code": "LTC",
+      "price": 191.66
+     }
+    ]
+   },
+   {
+    "name": "Bitcoin",
+    "code": "bitcoin",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "mBTC",
+      "code": "BTC",
+      "price": 0.22
+     }
+    ]
+   },
+   {
+    "name": "Ethereum",
+    "code": "ethereum",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "ETH",
+      "code": "GMH",
+      "price": 4.33
+     }
+    ]
+   },
+   {
+    "name": "Digiseller",
+    "code": "digiseller",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "WMZ",
+      "code": "PRZ",
+      "price": 12.62,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "WMR",
+      "code": "PRR",
+      "price": 1090.25,
+      "limit": {
+       "max": 30000.0,
+       "currency": "RUB"
+      }
+     },
+     {
+      "currency": "WME",
+      "code": "PRE",
+      "price": 10.84,
+      "limit": {
+       "max": 300.0
+      }
+     },
+     {
+      "currency": "mLTC",
+      "code": "PRL",
+      "price": 191.36,
+      "limit": {
+       "max": 7.3
+      }
+     },
+     {
+      "currency": "mBTC",
+      "code": "PRX",
+      "price": 0.12,
+      "limit": {
+       "max": 0.03
+      }
+     }
+    ]
+   },
+   {
+    "name": "чек PAYMER (WM-карта)",
+    "code": "wm-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "PPR",
+      "price": 819.74
+     },
+     {
+      "currency": "USD",
+      "code": "PPZ",
+      "price": 12.62
+     },
+     {
+      "currency": "EUR",
+      "code": "PPE",
+      "price": 10.84
+     }
+    ]
+   },
+   {
+    "name": "Подарочная карта",
+    "code": "gift-card",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "GCR",
+      "price": 819.74
+     },
+     {
+      "currency": "USD",
+      "code": "GCZ",
+      "price": 12.62
+     },
+     {
+      "currency": "EUR",
+      "code": "GCE",
+      "price": 10.84
+     },
+     {
+      "currency": "mBTC",
+      "code": "GCX",
+      "price": 0.12
+     }
+    ]
+   },
+   {
+    "name": "Терминалы",
+    "code": "terminals",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "RUB",
+      "price": 819.74
+     }
+    ]
+   }
+  ],
+  "preview_imgs": [
+   {
+    "id": 8898743,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=8898743",
+    "width": 1024,
+    "height": 1024
+   },
+   {
+    "id": 8219654,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=8219654",
+    "width": 500,
+    "height": 500
+   },
+   {
+    "id": 8219659,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=8219659",
+    "width": 500,
+    "height": 500
+   },
+   {
+    "id": 8219683,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=8219683",
+    "width": 746,
+    "height": 595
+   }
+  ],
+  "type_good": 1,
+  "type": "text",
+  "text": {
+   "date": "20.08.2026 13:38:12",
+   "size": null
+  },
+  "category_id": 6502,
+  "breadcrumbs": [
+   {
+    "id": 6502,
+    "name": "Apple iTunes",
+    "products_cnt": 4
+   }
+  ],
+  "options": [
+   {
+    "id": 780269,
+    "name": "option_radio_780269",
+    "label": "Сумма на карте (моментальная доставка)",
+    "comment": "После оплаты карта выдается Вам в цифровом виде автоматически и моментально!",
+    "type": "radio",
+    "separate_content": 1,
+    "required": 1,
+    "modifier_visible": 0,
+    "variants": [
+     {
+      "value": 2041610,
+      "text": "500 руб.",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041611,
+      "text": "600 руб.",
+      "default": 0,
+      "modify": "+1,90 USD",
+      "modify_value": 1.9,
+      "modify_value_default": 1.9,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041612,
+      "text": "700 руб.",
+      "default": 0,
+      "modify": "+3,80 USD",
+      "modify_value": 3.8,
+      "modify_value_default": 3.8,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041613,
+      "text": "800 руб.",
+      "default": 0,
+      "modify": "+5,70 USD",
+      "modify_value": 5.7,
+      "modify_value_default": 5.7,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041614,
+      "text": "900 руб.",
+      "default": 0,
+      "modify": "+7,60 USD",
+      "modify_value": 7.6,
+      "modify_value_default": 7.6,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041615,
+      "text": "1000 руб.",
+      "default": 0,
+      "modify": "+9,50 USD",
+      "modify_value": 9.5,
+      "modify_value_default": 9.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041616,
+      "text": "1500 руб.",
+      "default": 0,
+      "modify": "+19 USD",
+      "modify_value": 19.0,
+      "modify_value_default": 19.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041631,
+      "text": "2000 руб.",
+      "default": 0,
+      "modify": "+28,50 USD",
+      "modify_value": 28.5,
+      "modify_value_default": 28.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041632,
+      "text": "2500 руб.",
+      "default": 0,
+      "modify": "+38 USD",
+      "modify_value": 38.0,
+      "modify_value_default": 38.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041633,
+      "text": "3000 руб.",
+      "default": 0,
+      "modify": "+47,50 USD",
+      "modify_value": 47.5,
+      "modify_value_default": 47.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041634,
+      "text": "3500 руб.",
+      "default": 0,
+      "modify": "+57 USD",
+      "modify_value": 57.0,
+      "modify_value_default": 57.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041635,
+      "text": "4000 руб.",
+      "default": 0,
+      "modify": "+66,50 USD",
+      "modify_value": 66.5,
+      "modify_value_default": 66.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041636,
+      "text": "4500 руб.",
+      "default": 0,
+      "modify": "+76 USD",
+      "modify_value": 76.0,
+      "modify_value_default": 76.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041637,
+      "text": "5000 руб.",
+      "default": 0,
+      "modify": "+85,50 USD",
+      "modify_value": 85.5,
+      "modify_value_default": 85.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041674,
+      "text": "6000 руб.",
+      "default": 0,
+      "modify": "+104,50 USD",
+      "modify_value": 104.5,
+      "modify_value_default": 104.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041677,
+      "text": "7000 руб.",
+      "default": 0,
+      "modify": "+123,50 USD",
+      "modify_value": 123.5,
+      "modify_value_default": 123.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041678,
+      "text": "8000 руб.",
+      "default": 0,
+      "modify": "+142,50 USD",
+      "modify_value": 142.5,
+      "modify_value_default": 142.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041679,
+      "text": "9000 руб.",
+      "default": 0,
+      "modify": "+161,50 USD",
+      "modify_value": 161.5,
+      "modify_value_default": 161.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041680,
+      "text": "10000 руб.",
+      "default": 0,
+      "modify": "+175,50 USD",
+      "modify_value": 175.5,
+      "modify_value_default": 175.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2251311,
+      "text": "12500 руб.",
+      "default": 0,
+      "modify": "+223 USD",
+      "modify_value": 223.0,
+      "modify_value_default": 223.0,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2041681,
+      "text": "15000 руб.",
+      "default": 0,
+      "modify": "+270,50 USD",
+      "modify_value": 270.5,
+      "modify_value_default": 270.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2193166,
+      "text": "20000 руб.",
+      "default": 0,
+      "modify": "+360,50 USD",
+      "modify_value": 360.5,
+      "modify_value_default": 360.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 2042299,
+      "text": "25000 руб.",
+      "default": 0,
+      "modify": "+455,50 USD",
+      "modify_value": 455.5,
+      "modify_value_default": 455.5,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     }
+    ]
+   }
+  ],
+  "options_check": 0,
+  "statistics": {
+   "sales": 151592,
+   "sales_hidden": 0,
+   "refunds": 2,
+   "refunds_hidden": 0,
+   "good_reviews": 4098,
+   "good_reviews_hidden": 0,
+   "bad_reviews": 0,
+   "bad_reviews_hidden": 0
+  },
+  "seller": {
+   "id": 97839,
+   "name": "x-sale"
+  }
+ },
+ "reviews": []
+}
