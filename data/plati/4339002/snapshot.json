@@ -57,7 +57,7 @@
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
-  "is_available": 1,
+  "is_available": 0,
   "show_rest": 0,
   "num_in_lock": -1,
   "owner": 1,
@@ -70,17 +70,17 @@
     "RUB": 100.0,
     "USD": 1.15,
     "EUR": 0.99,
-    "UAH": 51.24,
+    "UAH": 51.28,
     "mBTC": 0.04,
-    "mLTC": 23.29
+    "mLTC": 22.71
    },
    "default": {
     "RUB": 879.0,
-    "USD": 10.13,
-    "EUR": 8.73,
-    "UAH": 450.42,
+    "USD": 10.1,
+    "EUR": 8.72,
+    "UAH": 450.73,
     "mBTC": 0.14,
-    "mLTC": 23.59
+    "mLTC": 23.01
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 23.29,
+      "price": 22.71,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 23.29
+      "price": 22.71
      },
      {
       "currency": "WMT",
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 23.59
+      "price": 23.01
      }
     ]
    },
@@ -439,23 +439,23 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 173506.0,
+    "summa": 173993.0,
     "percent": 5.0
    },
    {
-    "summa": 130130.0,
+    "summa": 130494.0,
     "percent": 4.0
    },
    {
-    "summa": 86753.0,
+    "summa": 86996.0,
     "percent": 3.0
    },
    {
-    "summa": 43376.0,
+    "summa": 43498.0,
     "percent": 2.0
    },
    {
-    "summa": 4338.0,
+    "summa": 4350.0,
     "percent": 1.0
    }
   ],

@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 3800882,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 238.57,
+  "price": 239.24,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 238.57,
+    "RUB": 239.24,
     "USD": 2.75,
     "EUR": 2.37,
-    "UAH": 122.25,
+    "UAH": 122.67,
     "mBTC": 0.04,
-    "mLTC": 66.46
+    "mLTC": 64.98
    },
    "default": {
-    "RUB": 238.57,
+    "RUB": 239.24,
     "USD": 2.75,
     "EUR": 2.37,
-    "UAH": 122.25,
+    "UAH": 122.68,
     "mBTC": 0.14,
-    "mLTC": 66.76
+    "mLTC": 65.28
    }
   },
   "payment_methods": [
@@ -155,7 +155,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 238.57
+      "price": 239.24
      },
      {
       "currency": "USD",
@@ -172,7 +172,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 238.57
+      "price": 239.24
      },
      {
       "currency": "USD",
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 310.14,
+      "price": 311.01,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 66.46,
+      "price": 64.98,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 66.46
+      "price": 64.98
      },
      {
       "currency": "WMT",
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 66.76
+      "price": 65.28
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 238.57
+      "price": 239.24
      }
     ]
    }
@@ -363,15 +363,15 @@
   ],
   "discounts": [
    {
-    "summa": 86753.0,
+    "summa": 86996.0,
     "percent": 3.0
    },
    {
-    "summa": 43376.0,
+    "summa": 43498.0,
     "percent": 2.0
    },
    {
-    "summa": 8675.0,
+    "summa": 8700.0,
     "percent": 1.0
    }
   ],
@@ -450,14 +450,14 @@
       "modify_value_default": 38.56,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      }
     ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15677,
+   "sales": 15688,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

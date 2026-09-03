@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🟡XBOX GAME PASS ULTIMATE🟡 | PC | БЫСТРО 1-2-3-4-5-7-9-12 МЕСЯЦЕВ | 7Д ESSENTIAL",
-  "price": 69.59,
+  "price": 89.31,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3489813",
@@ -53,7 +53,7 @@
   "add_info": "",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 0.64,
+  "agency_sum": 0.82,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 63.85,
-    "USD": 1.13,
-    "EUR": 0.97,
-    "UAH": 50.23,
-    "mBTC": 0.01,
-    "mLTC": 21.0
+    "RUB": 81.93,
+    "USD": 1.45,
+    "EUR": 1.25,
+    "UAH": 64.68,
+    "mBTC": 0.02,
+    "mLTC": 26.35
    },
    "default": {
-    "RUB": 69.59,
-    "USD": 1.13,
-    "EUR": 0.97,
-    "UAH": 50.23,
-    "mBTC": 0.11,
-    "mLTC": 21.3
+    "RUB": 89.31,
+    "USD": 1.45,
+    "EUR": 1.25,
+    "UAH": 64.68,
+    "mBTC": 0.12,
+    "mLTC": 26.65
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "ENT",
-      "price": 69.59,
+      "price": 89.3,
       "limit": {
        "min": 40.0
       }
@@ -107,7 +107,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 70.43
+      "price": 90.37
      }
     ]
    },
@@ -119,7 +119,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 1.13,
+      "price": 1.45,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -136,7 +136,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 116.03,
+      "price": 148.89,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -153,7 +153,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 111.26,
+      "price": 142.77,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -163,12 +163,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.1
+      "price": 0.13
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.09
+      "price": 0.11
      }
     ]
    },
@@ -180,7 +180,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 110.21,
+      "price": 141.41,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -197,7 +197,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.13
+      "price": 1.45
      }
     ]
    },
@@ -209,12 +209,12 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.13
+      "price": 1.45
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.01
+      "price": 0.02
      }
     ]
    },
@@ -226,7 +226,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.11
+      "price": 0.12
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 21.3
+      "price": 26.65
      }
     ]
    },
@@ -250,7 +250,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 63.85,
+      "price": 81.93,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -259,7 +259,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.13,
+      "price": 1.45,
       "limit": {
        "max": 300.0
       }
@@ -267,7 +267,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.0,
+      "price": 26.35,
       "limit": {
        "max": 7.3
       }
@@ -275,7 +275,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.01,
+      "price": 0.02,
       "limit": {
        "max": 0.03
       }
@@ -290,7 +290,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.52
+      "price": 0.67
      }
     ]
    },
@@ -302,22 +302,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.13
+      "price": 1.45
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.01
+      "price": 0.02
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.0
+      "price": 26.35
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 1.13
+      "price": 1.45
      }
     ]
    },
@@ -329,7 +329,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 69.59
+      "price": 89.31
      }
     ]
    }
@@ -339,16 +339,16 @@
   },
   "preview_imgs": [
    {
-    "id": 10746016,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10746016",
-    "width": 751,
-    "height": 751
-   },
-   {
     "id": 10391899,
     "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10391899",
     "width": 1254,
     "height": 1254
+   },
+   {
+    "id": 10746016,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10746016",
+    "width": 751,
+    "height": 751
    },
    {
     "id": 5225855,
@@ -372,7 +372,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.09.2026 20:20:31",
+   "date": "03.09.2026 09:20:35",
    "size": 16
   },
   "category_id": 0,
@@ -392,9 +392,9 @@
       "value": 7891406,
       "text": "1 МЕСЯЦ ULTIMATE (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+15,59 USD",
-      "modify_value": 15.59,
-      "modify_value_default": 15.59,
+      "modify": "+15,27 USD",
+      "modify_value": 15.27,
+      "modify_value_default": 15.27,
       "modify_type": "USD",
       "visible": 1
      },
@@ -402,9 +402,9 @@
       "value": 19551299,
       "text": "2 МЕСЯЦА ULTIMATE (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+31,34 USD",
-      "modify_value": 31.34,
-      "modify_value_default": 31.34,
+      "modify": "+31,02 USD",
+      "modify_value": 31.02,
+      "modify_value_default": 31.02,
       "modify_type": "USD",
       "visible": 1
      },
@@ -412,9 +412,9 @@
       "value": 7891620,
       "text": "3 МЕСЯЦА ULTIMATE (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+39,46 USD",
-      "modify_value": 39.46,
-      "modify_value_default": 39.46,
+      "modify": "+39,14 USD",
+      "modify_value": 39.14,
+      "modify_value_default": 39.14,
       "modify_type": "USD",
       "visible": 1
      },
@@ -422,9 +422,9 @@
       "value": 11767844,
       "text": "5 МЕСЯЦА ULTIMATE (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+62,20 USD",
-      "modify_value": 62.2,
-      "modify_value_default": 62.2,
+      "modify": "+61,87 USD",
+      "modify_value": 61.87,
+      "modify_value_default": 61.87,
       "modify_type": "USD",
       "visible": 1
      },
@@ -432,9 +432,9 @@
       "value": 15589453,
       "text": "7 МЕСЯЦЕВ ULTIMATE (Любой аккаунт без активной подписки) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+71,94 USD",
-      "modify_value": 71.94,
-      "modify_value_default": 71.94,
+      "modify": "+71,62 USD",
+      "modify_value": 71.62,
+      "modify_value_default": 71.62,
       "modify_type": "USD",
       "visible": 1
      },
@@ -442,9 +442,9 @@
       "value": 1461731,
       "text": "9 МЕСЯЦЕВ ULTIMATE  (Любой аккаунт без активной подписки) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+84,93 USD",
-      "modify_value": 84.93,
-      "modify_value_default": 84.93,
+      "modify": "+84,61 USD",
+      "modify_value": 84.61,
+      "modify_value_default": 84.61,
       "modify_type": "USD",
       "visible": 1
      },
@@ -452,9 +452,9 @@
       "value": 15271909,
       "text": "11 МЕСЯЦЕВ ULTIMATE  (Любой аккаунт без активной подписки) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+109,29 USD",
-      "modify_value": 109.29,
-      "modify_value_default": 109.29,
+      "modify": "+108,97 USD",
+      "modify_value": 108.97,
+      "modify_value_default": 108.97,
       "modify_type": "USD",
       "visible": 1
      },
@@ -462,9 +462,9 @@
       "value": 20133005,
       "text": "12 МЕСЯЦЕВ ULTIMATE  (Любой аккаунт без активной подписки) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+117,41 USD",
-      "modify_value": 117.41,
-      "modify_value_default": 117.41,
+      "modify": "+117,09 USD",
+      "modify_value": 117.09,
+      "modify_value_default": 117.09,
       "modify_type": "USD",
       "visible": 1
      },
@@ -472,9 +472,9 @@
       "value": 5443904,
       "text": "12 МЕСЯЦЕВ + 1 МЕСЯЦ БОНУС ULTIMATE (Любой аккаунт без активной подписки) - АКЦИЯ ДНЯ",
       "default": 0,
-      "modify": "+122,28 USD",
-      "modify_value": 122.28,
-      "modify_value_default": 122.28,
+      "modify": "+121,96 USD",
+      "modify_value": 121.96,
+      "modify_value_default": 121.96,
       "modify_type": "USD",
       "visible": 1
      },
@@ -482,9 +482,9 @@
       "value": 8475345,
       "text": "2 МЕСЯЦА ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок)",
       "default": 0,
-      "modify": "+18,35 USD",
-      "modify_value": 18.35,
-      "modify_value_default": 18.35,
+      "modify": "+18,03 USD",
+      "modify_value": 18.03,
+      "modify_value_default": 18.03,
       "modify_type": "USD",
       "visible": 1
      },
@@ -492,9 +492,9 @@
       "value": 2328371,
       "text": "4 МЕСЯЦА ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок)",
       "default": 0,
-      "modify": "+38,65 USD",
-      "modify_value": 38.65,
-      "modify_value_default": 38.65,
+      "modify": "+38,33 USD",
+      "modify_value": 38.33,
+      "modify_value_default": 38.33,
       "modify_type": "USD",
       "visible": 1
      },
@@ -502,9 +502,9 @@
       "value": 15589464,
       "text": "6 МЕСЯЦЕВ ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+60,57 USD",
-      "modify_value": 60.57,
-      "modify_value_default": 60.57,
+      "modify": "+60,25 USD",
+      "modify_value": 60.25,
+      "modify_value_default": 60.25,
       "modify_type": "USD",
       "visible": 1
      },
@@ -512,9 +512,9 @@
       "value": 2328376,
       "text": "8 МЕСЯЦЕВ ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+67,07 USD",
-      "modify_value": 67.07,
-      "modify_value_default": 67.07,
+      "modify": "+66,75 USD",
+      "modify_value": 66.75,
+      "modify_value_default": 66.75,
       "modify_type": "USD",
       "visible": 1
      },
@@ -522,9 +522,9 @@
       "value": 5445999,
       "text": "10 МЕСЯЦЕВ ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+88,18 USD",
-      "modify_value": 88.18,
-      "modify_value_default": 88.18,
+      "modify": "+87,86 USD",
+      "modify_value": 87.86,
+      "modify_value_default": 87.86,
       "modify_type": "USD",
       "visible": 1
      },
@@ -532,9 +532,9 @@
       "value": 20133006,
       "text": "12 МЕСЯЦЕВ ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок) - АКЦИЯ ДНЯ",
       "default": 0,
-      "modify": "+104,42 USD",
-      "modify_value": 104.42,
-      "modify_value_default": 104.42,
+      "modify": "+104,09 USD",
+      "modify_value": 104.09,
+      "modify_value_default": 104.09,
       "modify_type": "USD",
       "visible": 1
      },
@@ -542,9 +542,9 @@
       "value": 25773956,
       "text": "12 МЕСЯЦЕВ + 1 МЕСЯЦ БОНУС ULTIMATE НОВЫЙ АККАУНТ (Не  было подписок) - СУПЕР ЦЕНА",
       "default": 0,
-      "modify": "+117,41 USD",
-      "modify_value": 117.41,
-      "modify_value_default": 117.41,
+      "modify": "+117,09 USD",
+      "modify_value": 117.09,
+      "modify_value_default": 117.09,
       "modify_type": "USD",
       "visible": 1
      },
@@ -552,9 +552,9 @@
       "value": 19848575,
       "text": "3 МЕСЯЦА ТОЛЬКО ДЛЯ ПК (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+25,66 USD",
-      "modify_value": 25.66,
-      "modify_value_default": 25.66,
+      "modify": "+25,34 USD",
+      "modify_value": 25.34,
+      "modify_value_default": 25.34,
       "modify_type": "USD",
       "visible": 1
      },
@@ -562,9 +562,9 @@
       "value": 19848577,
       "text": "6 МЕСЯЦА ТОЛЬКО ДЛЯ ПК (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+44,33 USD",
-      "modify_value": 44.33,
-      "modify_value_default": 44.33,
+      "modify": "+44,01 USD",
+      "modify_value": 44.01,
+      "modify_value_default": 44.01,
       "modify_type": "USD",
       "visible": 1
      },
@@ -572,9 +572,9 @@
       "value": 19848578,
       "text": "9 МЕСЯЦА ТОЛЬКО ДЛЯ ПК (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+62,20 USD",
-      "modify_value": 62.2,
-      "modify_value_default": 62.2,
+      "modify": "+61,87 USD",
+      "modify_value": 61.87,
+      "modify_value_default": 61.87,
       "modify_type": "USD",
       "visible": 1
      },
@@ -582,9 +582,9 @@
       "value": 19848579,
       "text": "12 МЕСЯЦА ТОЛЬКО ДЛЯ ПК (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+86,56 USD",
-      "modify_value": 86.56,
-      "modify_value_default": 86.56,
+      "modify": "+86,23 USD",
+      "modify_value": 86.23,
+      "modify_value_default": 86.23,
       "modify_type": "USD",
       "visible": 1
      },
@@ -592,9 +592,9 @@
       "value": 19848581,
       "text": "4 МЕСЯЦА ТОЛЬКО ДЛЯ ПК НОВЫЙ АККАУНТ (Не  было подписок)",
       "default": 0,
-      "modify": "+27,28 USD",
-      "modify_value": 27.28,
-      "modify_value_default": 27.28,
+      "modify": "+26,96 USD",
+      "modify_value": 26.96,
+      "modify_value_default": 26.96,
       "modify_type": "USD",
       "visible": 1
      },
@@ -602,9 +602,9 @@
       "value": 19848582,
       "text": "7 МЕСЯЦЕВ ТОЛЬКО ДЛЯ ПК НОВЫЙ АККАУНТ (Не  было подписок)",
       "default": 0,
-      "modify": "+50,83 USD",
-      "modify_value": 50.83,
-      "modify_value_default": 50.83,
+      "modify": "+50,51 USD",
+      "modify_value": 50.51,
+      "modify_value_default": 50.51,
       "modify_type": "USD",
       "visible": 1
      },
@@ -645,11 +645,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47472,
+   "sales": 47487,
    "sales_hidden": 0,
    "refunds": 8,
    "refunds_hidden": 0,
-   "good_reviews": 16605,
+   "good_reviews": 16608,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

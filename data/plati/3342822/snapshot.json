@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "✅5-10000$ Карта US/EU 💥ОПЛАТИТ ВСЁ💥| БЕЗ КОМИССИИ",
-  "price": 1318.65,
+  "price": 1322.34,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3342822",
@@ -53,7 +53,7 @@
   "add_info": "<attention> Больше товаров Вы можете найти у нас в магазине - http://furfur.plati.market <br />10$ US CARD - https://plati.io/itm/3326799<br />20$ US CARD - https://plati.io/itm/3369887<br />30$ US CARD - https://plati.io/itm/3321547<br />50$ US CARD - https://plati.io/itm/3321629<br />75$ US CARD - https://plati.io/itm/3363694<br />100$ US CARD - https://plati.io/itm/3321635<br />200$ US CARD - https://plati.io/itm/3322769<br />500$ US CARD - https://plati.io/itm/3369894 </attention><br /><br /><br />",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 13.19,
+  "agency_sum": 13.22,
   "agency_id": 0,
   "collection": "unit",
   "propertygood": 2,
@@ -253,7 +253,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD",
-   "unit_amount": 1318.65,
+   "unit_amount": 1322.34,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -291,58 +291,58 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 433765.0,
+    "summa": 434982.0,
     "percent": 5.0
    },
    {
-    "summa": 260259.0,
+    "summa": 260989.0,
     "percent": 4.0
    },
    {
-    "summa": 86753.0,
+    "summa": 86996.0,
     "percent": 3.0
    },
    {
-    "summa": 43376.0,
+    "summa": 43498.0,
     "percent": 2.0
    },
    {
-    "summa": 434.0,
+    "summa": 435.0,
     "percent": 1.0
    }
   ],
   "units": {
    "desc": "1 USD",
-   "price": 131.86456,
+   "price": 132.234376,
    "discounts": [
     {
      "desc": "25 USD",
      "percent": 1.0,
-     "price": 130.5459,
+     "price": 130.912,
      "cnt": 25.0
     },
     {
      "desc": "50 USD",
      "percent": 2.0,
-     "price": 129.2273,
+     "price": 129.5897,
      "cnt": 50.0
     },
     {
      "desc": "75 USD",
      "percent": 3.0,
-     "price": 127.9086,
+     "price": 128.2673,
      "cnt": 75.0
     },
     {
      "desc": "100 USD",
      "percent": 4.0,
-     "price": 126.59,
+     "price": 126.945,
      "cnt": 100.0
     },
     {
      "desc": "300 USD",
      "percent": 5.0,
-     "price": 125.2713,
+     "price": 125.6227,
      "cnt": 300.0
     }
    ]

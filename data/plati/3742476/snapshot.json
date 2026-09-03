@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 139.0,
-    "USD": 1.91,
-    "EUR": 1.62,
-    "UAH": 71.23,
+    "USD": 1.9,
+    "EUR": 1.61,
+    "UAH": 71.27,
     "mBTC": 0.03,
-    "mLTC": 47.85
+    "mLTC": 46.65
    },
    "default": {
     "RUB": 139.0,
-    "USD": 1.91,
-    "EUR": 1.62,
-    "UAH": 71.23,
+    "USD": 1.9,
+    "EUR": 1.61,
+    "UAH": 71.27,
     "mBTC": 0.13,
-    "mLTC": 48.15
+    "mLTC": 46.95
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 186.27,
+      "price": 185.3,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 196.13,
+      "price": 195.1,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -150,7 +150,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 1.91,
+      "price": 1.9,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -167,7 +167,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 188.06,
+      "price": 187.08,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -177,7 +177,7 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.17
+      "price": 0.16
      },
      {
       "currency": "EUR",
@@ -206,7 +206,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 48.15
+      "price": 46.95
      }
     ]
    },
@@ -255,7 +255,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 47.85,
+      "price": 46.65,
       "limit": {
        "max": 7.3
       }
@@ -293,12 +293,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 47.85
+      "price": 46.65
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 1.91
+      "price": 1.9
      }
     ]
    },
@@ -426,11 +426,11 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 8675.0,
+    "summa": 8700.0,
     "percent": 3.0
    },
    {
-    "summa": 4338.0,
+    "summa": 4350.0,
     "percent": 2.0
    },
    {

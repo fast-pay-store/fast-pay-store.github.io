@@ -284,19 +284,19 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 173506.0,
+    "summa": 173993.0,
     "percent": 5.0
    },
    {
-    "summa": 130130.0,
+    "summa": 130494.0,
     "percent": 4.0
    },
    {
-    "summa": 86753.0,
+    "summa": 86996.0,
     "percent": 3.0
    },
    {
-    "summa": 43376.0,
+    "summa": 43498.0,
     "percent": 2.0
    },
    {
@@ -462,7 +462,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 50099,
+   "sales": 50100,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

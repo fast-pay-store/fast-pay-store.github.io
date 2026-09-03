@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 173.81,
+  "price": 174.29,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 163.96,
+    "RUB": 164.42,
     "USD": 1.89,
     "EUR": 1.63,
-    "UAH": 89.9,
+    "UAH": 90.21,
     "mBTC": 0.04,
-    "mLTC": 38.19
+    "mLTC": 37.34
    },
    "default": {
-    "RUB": 173.81,
+    "RUB": 174.29,
     "USD": 1.89,
     "EUR": 1.63,
-    "UAH": 89.9,
+    "UAH": 90.21,
     "mBTC": 0.14,
-    "mLTC": 38.49
+    "mLTC": 37.64
    }
   },
   "payment_methods": [
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 38.19
+      "price": 37.34
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 38.49
+      "price": 37.64
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 218.07,
+      "price": 218.68,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 38.19,
+      "price": 37.34,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 163.96
+      "price": 164.42
      },
      {
       "currency": "USD",
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 163.96
+      "price": 164.42
      },
      {
       "currency": "USD",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 173.81
+      "price": 174.29
      }
     ]
    }
@@ -609,7 +609,7 @@
       "modify_value_default": 438.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 2178819,
@@ -682,11 +682,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 663869,
+   "sales": 664301,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3338,
+   "good_reviews": 3340,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

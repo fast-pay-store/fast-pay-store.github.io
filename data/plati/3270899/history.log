@@ -2,3 +2,4 @@
 {"ts": "2026-09-02T15:07:01+0300", "event": "snapshot", "hash": "c3551ab58acbc6193f246bf00475ef7f68fa74b4b2fcf0fcdad37645bba4a115"}
 {"ts": "2026-09-02T17:59:22+0300", "event": "snapshot", "hash": "47524de9392f71167d6dcae02f82cd7cf0403770683caec521f5a863a3a41857"}
 {"ts": "2026-09-02", "changes": []}
+{"ts": "2026-09-03", "changes": ["цена: 99.0 -> 89.0"]}
