@@ -70,24 +70,36 @@
     "RUB": 10.0,
     "USD": 0.12,
     "EUR": 0.1,
-    "UAH": 5.13,
+    "UAH": 5.15,
     "mBTC": 0.0,
-    "mLTC": 3.03
+    "mLTC": 3.0
    },
    "default": {
     "RUB": 10.0,
-    "USD": 0.11,
+    "USD": 0.12,
     "EUR": 0.1,
-    "UAH": 5.13,
+    "UAH": 5.15,
     "mBTC": 0.0,
-    "mLTC": 3.33
+    "mLTC": 3.3
    }
   },
   "payment_methods": [
    {
+    "name": "API",
+    "code": "api",
+    "hide": 1,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "API",
+      "price": 10.0
+     }
+    ]
+   },
+   {
     "name": "PayPalych",
     "code": "palych",
-    "hide": 0,
+    "hide": 1,
     "currencies": [
      {
       "currency": "RUB",
@@ -121,7 +133,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.03
+      "price": 3.0
      },
      {
       "currency": "WMT",
@@ -172,7 +184,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.33
+      "price": 3.3
      }
     ]
    },
@@ -184,7 +196,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.06
+      "price": 0.05
      }
     ]
    },
@@ -213,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.03,
+      "price": 3.0,
       "limit": {
        "max": 7.3
       }
@@ -290,28 +302,28 @@
    {
     "id": 142151,
     "name": "Playstation",
-    "products_cnt": 60
+    "products_cnt": 67
    }
   ],
   "discounts": [
    {
-    "summa": 86996.0,
+    "summa": 86887.0,
     "percent": 5.0
    },
    {
-    "summa": 60897.0,
+    "summa": 60821.0,
     "percent": 4.0
    },
    {
-    "summa": 43498.0,
+    "summa": 43444.0,
     "percent": 3.0
    },
    {
-    "summa": 17399.0,
+    "summa": 17377.0,
     "percent": 2.0
    },
    {
-    "summa": 8700.0,
+    "summa": 8689.0,
     "percent": 1.0
    }
   ],
@@ -552,11 +564,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 30627,
+   "sales": 30644,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9809,
+   "good_reviews": 9812,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

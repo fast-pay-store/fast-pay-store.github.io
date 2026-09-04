@@ -5,7 +5,7 @@
   "id_prev": 1042194,
   "id_next": 1071271,
   "name": "✅US/EU Card 5-10000$ | ПРОЙДЕТ ВЕЗДЕ | НИЗКАЯ ЦЕНА",
-  "price": 1122.25,
+  "price": 1120.84,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/1065234",
@@ -13,7 +13,7 @@
   "add_info": "<delivery>❓ КАК КУПИТЬ:<br />1 - Укажите желаемый баланс карты - поле \"USD\".<br />2 - Оплатите удобным способом.<br />3 - В открывшемся окне отметьте галочку \"Да, я хочу сразу отправить уникальный код продавцу\", затем нажмите \"Сохранить\".<br />4 - Ожидайте доставки (при заказе днем - обычно в пределах часа, ночью - с утра. Гарантированный срок доставки - 8 часов).</delivery><attention>Пополнение: ДА (https://plati.market/itm/4091488)<br />Подтверждение операций: ДА (коды подтверждения автоматически приходят в телеграм канал)<br />Конвертация: ДА<br />Возврат: ТОЛЬКО НОМИНАЛ<br />Выписка и баланс: ДА (свяжитесь с нами)</attention><delivery>⬇️Другие готовые номиналы (автоматическая выдача реквизитов без ожидания):<br />10$   https://plati.io/itm/672117<br />15$   https://plati.io/itm/679333<br />20$   https://plati.io/itm/679337<br />25$  https://plati.io/itm/679339<br />30$  https://plati.io/itm/679341<br />35$  https://plati.io/itm/687068<br />40$  https://plati.io/itm/689186<br />45$  https://plati.io/itm/689188<br />50$  https://plati.io/itm/992598<br />60$  https://plati.io/itm/1042193<br />75$  https://plati.io/itm/992600<br />90$  https://plati.io/itm/1041325<br />100$ https://plati.io/itm/992599<br />125$ https://plati.io/itm/3012652<br />150$ https://plati.io/itm/1071271<br />175$ https://plati.io/itm/787321<br />200$ https://plati.io/itm/1042194<br />250$  https://plati.io/itm/711591<br />300$ https://plati.io/itm/756437<br />350$ https://plati.io/itm/1071302<br />400$  https://plati.io/itm/811824<br />450$ https://plati.io/itm/1110501<br />500$  https://plati.io/itm/806608<br />700$ https://plati.io/itm/1071301</delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 15 лет (!) на площадке.<br /><br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 11.22,
+  "agency_sum": 11.21,
   "agency_id": 0,
   "collection": "unit",
   "propertygood": 2,
@@ -213,7 +213,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD",
-   "unit_amount": 1122.25,
+   "unit_amount": 1120.84,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -259,53 +259,53 @@
    {
     "id": 107242,
     "name": "Visa, US Bank, AUTO 3DS, USD",
-    "products_cnt": 25
+    "products_cnt": 27
    }
   ],
   "units": {
    "desc": "1 USD",
-   "price": 112.225227,
+   "price": 112.084488,
    "discounts": [
     {
      "desc": "150 USD",
      "percent": 2.0,
-     "price": 109.9807,
+     "price": 109.8428,
      "cnt": 150.0
     },
     {
      "desc": "200 USD",
      "percent": 3.0,
-     "price": 108.8585,
+     "price": 108.722,
      "cnt": 200.0
     },
     {
      "desc": "250 USD",
      "percent": 4.0,
-     "price": 107.7362,
+     "price": 107.6011,
      "cnt": 250.0
     },
     {
      "desc": "350 USD",
      "percent": 5.0,
-     "price": 106.614,
+     "price": 106.4803,
      "cnt": 350.0
     },
     {
      "desc": "400 USD",
      "percent": 6.0,
-     "price": 105.4917,
+     "price": 105.3594,
      "cnt": 400.0
     },
     {
      "desc": "450 USD",
      "percent": 7.0,
-     "price": 104.3695,
+     "price": 104.2386,
      "cnt": 450.0
     },
     {
      "desc": "500 USD",
      "percent": 8.0,
-     "price": 103.2472,
+     "price": 103.1177,
      "cnt": 500.0
     }
    ]

@@ -70,17 +70,17 @@
     "RUB": 81.93,
     "USD": 1.45,
     "EUR": 1.25,
-    "UAH": 64.68,
-    "mBTC": 0.02,
-    "mLTC": 26.35
+    "UAH": 64.85,
+    "mBTC": 0.01,
+    "mLTC": 26.07
    },
    "default": {
     "RUB": 89.31,
     "USD": 1.45,
     "EUR": 1.25,
-    "UAH": 64.68,
-    "mBTC": 0.12,
-    "mLTC": 26.65
+    "UAH": 64.85,
+    "mBTC": 0.11,
+    "mLTC": 26.37
    }
   },
   "payment_methods": [
@@ -136,7 +136,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 148.89,
+      "price": 148.86,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -153,7 +153,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 142.77,
+      "price": 142.74,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -180,7 +180,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 141.41,
+      "price": 141.38,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -214,7 +214,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.02
+      "price": 0.01
      }
     ]
    },
@@ -226,7 +226,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.12
+      "price": 0.11
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 26.65
+      "price": 26.37
      }
     ]
    },
@@ -267,7 +267,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 26.35,
+      "price": 26.07,
       "limit": {
        "max": 7.3
       }
@@ -275,7 +275,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.02,
+      "price": 0.01,
       "limit": {
        "max": 0.03
       }
@@ -290,7 +290,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.67
+      "price": 0.64
      }
     ]
    },
@@ -307,12 +307,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.02
+      "price": 0.01
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 26.35
+      "price": 26.07
      },
      {
       "currency": "WMT",
@@ -372,7 +372,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "03.09.2026 09:20:35",
+   "date": "03.09.2026 22:33:24",
    "size": 16
   },
   "category_id": 0,
@@ -645,11 +645,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47487,
+   "sales": 47519,
    "sales_hidden": 0,
    "refunds": 8,
    "refunds_hidden": 0,
-   "good_reviews": 16608,
+   "good_reviews": 16616,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

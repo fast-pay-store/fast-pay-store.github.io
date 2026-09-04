@@ -70,18 +70,18 @@
    "initial": {
     "RUB": 249.0,
     "USD": 3.01,
-    "EUR": 2.47,
-    "UAH": 127.68,
+    "EUR": 2.48,
+    "UAH": 128.18,
     "mBTC": 0.04,
-    "mLTC": 73.74
+    "mLTC": 73.04
    },
    "default": {
     "RUB": 249.0,
     "USD": 3.01,
-    "EUR": 2.47,
-    "UAH": 127.68,
+    "EUR": 2.48,
+    "UAH": 128.18,
     "mBTC": 0.14,
-    "mLTC": 74.04
+    "mLTC": 73.34
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 293.55,
+      "price": 293.48,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 296.37,
+      "price": 296.3,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 309.08,
+      "price": 309.02,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -176,7 +176,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 73.74
+      "price": 73.04
      },
      {
       "currency": "WMT",
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 73.74,
+      "price": 73.04,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 74.04
+      "price": 73.34
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.39
+      "price": 1.32
      }
     ]
    },
@@ -455,6 +455,16 @@
       "visible": 1
      },
      {
+      "value": 29589145,
+      "text": "1 МЕСЯЦ ИНДИВИДУАЛЬНОЙ",
+      "default": 0,
+      "modify": "+100 RUB",
+      "modify_value": 100.0,
+      "modify_value_default": 100.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
       "value": 16315978,
       "text": "1 МЕСЯЦ PLATINUM ПРЕМИУМ",
       "default": 0,
@@ -529,11 +539,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 72200,
+   "sales": 72266,
    "sales_hidden": 0,
    "refunds": 76,
    "refunds_hidden": 0,
-   "good_reviews": 23599,
+   "good_reviews": 23606,
    "good_reviews_hidden": 0,
    "bad_reviews": 4,
    "bad_reviews_hidden": 0

@@ -1,0 +1,6264 @@
+{
+ "date": "2026-09-04",
+ "changed": [
+  {
+   "goods_id": "672298",
+   "slug": "auto-delivery-apple-itunes-gift-card-usa-2-1000-low-pri-672298",
+   "changes": [
+    "цена: 174.29 -> 174.08"
+   ]
+  },
+  {
+   "goods_id": "1440095",
+   "slug": "auto-delivery-apple-itunes-gift-card-russia-500-25000-r-1440095",
+   "changes": [
+    "цена: 782.1 -> 694.23"
+   ]
+  },
+  {
+   "goods_id": "1065234",
+   "slug": "us-eu-card-5-10000-works-everywhere-low-price-1065234",
+   "changes": [
+    "цена: 1122.25 -> 1120.84"
+   ]
+  },
+  {
+   "goods_id": "2147595",
+   "slug": "steam-wallet-gift-card-5-no-global-description-2147595",
+   "changes": [
+    "цена: 480.19 -> 479.58"
+   ]
+  },
+  {
+   "goods_id": "3043219",
+   "slug": "1-12-months-xbox-game-pass-ultimate-premium-pc-3043219",
+   "changes": [
+    "цена: 89.0 -> 88.0"
+   ]
+  },
+  {
+   "goods_id": "672117",
+   "slug": "us-card-worldwide-10-for-google-apple-other-price-672117",
+   "changes": [
+    "цена: 1434.48 -> 1432.69"
+   ]
+  },
+  {
+   "goods_id": "2985549",
+   "slug": "grand-theft-auto-v-enhanced-legacy-gta-5-ru-steam-2985549",
+   "changes": [
+    "цена: 2229.0 -> 2159.0"
+   ]
+  },
+  {
+   "goods_id": "3367060",
+   "slug": "turkish-payment-card-600-30-000tl-udemy-other-3367060",
+   "changes": [
+    "цена: 2421.12 -> 2418.09"
+   ]
+  },
+  {
+   "goods_id": "3342822",
+   "slug": "5-9000-us-eu-card-will-pay-for-everything-3342822",
+   "changes": [
+    "цена: 1322.34 -> 1320.69"
+   ]
+  },
+  {
+   "goods_id": "3794317",
+   "slug": "turkey-apple-app-store-100-250-500-1000-1250-1500-try-3794317",
+   "changes": [
+    "цена: 239.24 -> 238.94"
+   ]
+  }
+ ],
+ "gone": [],
+ "ok": [
+  "3300218",
+  "3245484",
+  "6048877",
+  "3270899",
+  "3525355",
+  "3427397",
+  "4339002",
+  "4362367",
+  "3183854",
+  "3420721",
+  "3362540",
+  "4339392",
+  "3348219",
+  "3397775",
+  "3947567",
+  "3497807",
+  "3339119",
+  "3843545",
+  "3470508",
+  "3322922",
+  "3066413",
+  "3489813",
+  "3330991",
+  "4306654",
+  "3164785",
+  "2983343",
+  "4313142",
+  "3894402",
+  "3533183",
+  "3472165",
+  "3742476",
+  "3636620",
+  "4009731",
+  "3351134",
+  "3406059",
+  "6078010",
+  "3340779",
+  "3859725",
+  "3744584",
+  "5181482"
+ ],
+ "new_candidates": [
+  {
+   "goods_id": "3403743",
+   "name": "🚀АВТО⚫STEAM🔴ТУРЦИЯ🔵КЗ🟡США КАРТА ПОПОЛНЕНИЯ СТИМ ЮСД",
+   "price_rur": "99",
+   "agency_fee": "1,00",
+   "cnt_sell": "408501",
+   "seller_id": "1086347",
+   "name_translit": "auto-steam-usd-turkey-usa-kazakhstan-popoln-gift-kod"
+  },
+  {
+   "goods_id": "6087516",
+   "name": "🟢Minecraft: Java & Bedrock для ПК Ключ ВСЕ СТРАНЫ + ПОДАРОК",
+   "price_rur": "1549",
+   "agency_fee": "1,00",
+   "cnt_sell": "55124",
+   "seller_id": "316903",
+   "name_translit": "minecraft-java-bedrock-for-pc-key-global-podarok"
+  },
+  {
+   "goods_id": "5422295",
+   "name": "ChatGPT 5 Plus 1 месяц (личный аккаунт,только для вас)",
+   "price_rur": "200",
+   "agency_fee": "5,00",
+   "cnt_sell": "13475",
+   "seller_id": "1411132",
+   "name_translit": "chatgpt-5-plus-1-month-personal-account-private-use"
+  },
+  {
+   "goods_id": "3646842",
+   "name": "ChatGPT (GPT 5)  Личный аккаунт и ПОЧТА",
+   "price_rur": "100",
+   "agency_fee": "35,00",
+   "cnt_sell": "12597",
+   "seller_id": "432546",
+   "name_translit": "chat-gpt-gpt-5-personal-account-mail"
+  },
+  {
+   "goods_id": "5481303",
+   "name": "24/7 Без Входа | ChatGPT Plus Go PRO CODEX| Код активации | Автовыдача",
+   "price_rur": "749",
+   "agency_fee": "1,00",
+   "cnt_sell": "11279",
+   "seller_id": "1137274",
+   "name_translit": "24-7-no-login-chat-gpt-plus-go-pro-codex-activation-code-auto-delivery"
+  },
+  {
+   "goods_id": "3534754",
+   "name": "God of War: Ragnarok Ps 5/КЛЮЧ🔑 на РФ аккаунт /РУ ЗВУК",
+   "price_rur": "4890",
+   "agency_fee": "1,00",
+   "cnt_sell": "222",
+   "seller_id": "999416",
+   "name_translit": "god-of-war-ragnarok-ps-5-key-on-ru-account-ru-sound"
+  },
+  {
+   "goods_id": "3747603",
+   "name": "XBOX GAME PASS ULTIMATE | ESSENTIAL | PREMIUM БЫСТРАЯ ДОСТАВКА",
+   "price_rur": "59",
+   "agency_fee": "1,00",
+   "cnt_sell": "34105",
+   "seller_id": "928496",
+   "name_translit": "xbox-game-pass-ultimate-essential-premium-fast-shipping"
+  },
+  {
+   "goods_id": "3113850",
+   "name": "XBOX GAME PASS ULTIMATE / PREMIUM / ESSENTIAL / PC | 1–2–3–6–9–12 МЕС | БЫСТРО",
+   "price_rur": "1150",
+   "agency_fee": "1,00",
+   "cnt_sell": "27937",
+   "seller_id": "890463",
+   "name_translit": "xbox-game-pass-ultimate-premium-essential-pc-1-2-3-6-9-12-month-fast"
+  },
+  {
+   "goods_id": "3853868",
+   "name": "❌БЕЗ КОМИССИИ❌XBOX GAME PASS ULTIMATE/PREMIUM/PC🟢1м-12м🚀",
+   "price_rur": "799",
+   "agency_fee": "1,00",
+   "cnt_sell": "26778",
+   "seller_id": "164256",
+   "name_translit": "no-commission-xbox-game-pass-ultimate-premium-pc-1m-12m"
+  },
+  {
+   "goods_id": "3351499",
+   "name": "🎟📱Подарочная карта Apple на 1000руб (AppStore,iTunes)",
+   "price_rur": "2280",
+   "agency_fee": "1,00",
+   "cnt_sell": "14302",
+   "seller_id": "131801",
+   "name_translit": "itunes-gift-card-rub-1000-appstore-code-1100"
+  },
+  {
+   "goods_id": "3658694",
+   "name": "Подарочная Карта Apple App Store iTunes 2-100 USD США + ПОДАРОК",
+   "price_rur": "159",
+   "agency_fee": "1,00",
+   "cnt_sell": "12796",
+   "seller_id": "808751",
+   "name_translit": "gift-card-apple-app-store-itunes-2-100-usd-usa-gift"
+  },
+  {
+   "goods_id": "6078009",
+   "name": "🍏СКИДКИ! Подарочная карта Apple iTunes 2-200$ (США)",
+   "price_rur": "169",
+   "agency_fee": "1,00",
+   "cnt_sell": "11382",
+   "seller_id": "325919",
+   "name_translit": "apple-itunes-gift-card-2-200-usd-usa-us"
+  },
+  {
+   "goods_id": "3460192",
+   "name": "🎮 ПОДПИСКА PS PLUS+ | EA PLAY 1-12 МЕСЯЦЕВ + 🎁 ТУРЦИЯ + СКИДКИ👍",
+   "price_rur": "10",
+   "agency_fee": "1,00",
+   "cnt_sell": "27554",
+   "seller_id": "1081110",
+   "name_translit": "playstation-essential-extra-deluxe-1-12-turkey-discounts"
+  },
+  {
+   "goods_id": "3544663",
+   "name": "🔷Турецкий/Украинский/Индийский аккаунт PSN БЫСТРО🎁",
+   "price_rur": "100",
+   "agency_fee": "1,00",
+   "cnt_sell": "24969",
+   "seller_id": "316903",
+   "name_translit": "turkish-account-ps-ps4-ps5-registration-playstation"
+  },
+  {
+   "goods_id": "3465318",
+   "name": "ПОКУПКА ИГР | PS4/PS5 | ПОПОЛНЕНИЕ БАЛАНСА PSN | Турция",
+   "price_rur": "3",
+   "agency_fee": "1,00",
+   "cnt_sell": "21735",
+   "seller_id": "953855",
+   "name_translit": "playstation-games-tl-turkey-ps-plus-gta-6"
+  },
+  {
+   "goods_id": "3594150",
+   "name": "1/3/6/12MONTH 🟢SPOTIFY PREMIUM + AI DJ | РАБОТАЕТ В РОССИИ",
+   "price_rur": "149",
+   "agency_fee": "2,00",
+   "cnt_sell": "16797",
+   "seller_id": "1017126",
+   "name_translit": "1-3-6-12month-spotify-premium-ai-dj-russia-world"
+  },
+  {
+   "goods_id": "3435314",
+   "name": "🟢⚫️🟢SPOTIFY PREMIUM 1-12 МЕСЯЦЕВ🟢⚫️🟢",
+   "price_rur": "240",
+   "agency_fee": "18,00",
+   "cnt_sell": "12880",
+   "seller_id": "1092784",
+   "name_translit": "spotify-premium-1-12-month"
+  },
+  {
+   "goods_id": "3603737",
+   "name": "💎SPOTIFY ПРЕМИУМ 1^3^6^12 РАБОТАЕТ В РФ+МИР🌎БЫСТРО🎁",
+   "price_rur": "279",
+   "agency_fee": "5,00",
+   "cnt_sell": "7250",
+   "seller_id": "316903",
+   "name_translit": "spotify-premium-individual-1-3-6-12-months-global"
+  },
+  {
+   "goods_id": "679337",
+   "name": "✅US Card Worldwide 20$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅",
+   "price_rur": "2867",
+   "agency_fee": "1,00",
+   "cnt_sell": "14333",
+   "seller_id": "97839",
+   "name_translit": "us-card-worldwide-20-for-google-apple-other-price"
+  },
+  {
+   "goods_id": "4694359",
+   "name": "🌍 US Card 5-9999$ 📟 ЕСТЬ 3DS КОД🛡️ПЛАТЕЖНАЯ КАРТА США | ГАРАНТИЯ 1 МЕСЯЦ",
+   "price_rur": "561",
+   "agency_fee": "3,00",
+   "cnt_sell": "13545",
+   "seller_id": "1081110",
+   "name_translit": "us-card-5-10k-0-fee-payment-card-usa-1-month-guarantee"
+  },
+  {
+   "goods_id": "679333",
+   "name": "✅US Card Worldwide 15$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅",
+   "price_rur": "2150",
+   "agency_fee": "1,00",
+   "cnt_sell": "12778",
+   "seller_id": "97839",
+   "name_translit": "us-card-worldwide-15-for-google-apple-other-price"
+  },
+  {
+   "goods_id": "3227693",
+   "name": "🔥ПРОМОКОД Я+ Мульти на 12 месяцев 🔥💳0",
+   "price_rur": "3390",
+   "agency_fee": "2,00",
+   "cnt_sell": "3604",
+   "seller_id": "115936",
+   "name_translit": "y-multi-subscription-for-12-months-0"
+  },
+  {
+   "goods_id": "5596513",
+   "name": "Я Плюс Промокод Мульти на 12 месяцев 4 человека",
+   "price_rur": "2780",
+   "agency_fee": "1,00",
+   "cnt_sell": "1922",
+   "seller_id": "1413640",
+   "name_translit": "y-plus-promo-code-multi-for-12-months-4-people"
+  },
+  {
+   "goods_id": "3275094",
+   "name": "✅ Я ПЛЮС +  НА 3 МЕСЯЦА / 90 ДНЕЙ КИНОПОИСК МУЗЫКА 🎁",
+   "price_rur": "108",
+   "agency_fee": "1,00",
+   "cnt_sell": "1618",
+   "seller_id": "828276",
+   "name_translit": "ya-y-plus-for-3-months-90-days-kinopoisk-music"
+  },
+  {
+   "goods_id": "2185872",
+   "name": "Invasion (Steam key/Region free)",
+   "price_rur": "29",
+   "agency_fee": "1,00",
+   "cnt_sell": "506",
+   "seller_id": "39459",
+   "name_translit": "invasion-steam-key-region-free"
+  },
+  {
+   "goods_id": "2045011",
+   "name": "Invasion STEAM KEY REGION GLOBAL+РОССИЯ ЛИЦЕНЗИЯ",
+   "price_rur": "49",
+   "agency_fee": "2,00",
+   "cnt_sell": "193",
+   "seller_id": "319113",
+   "name_translit": "invasion-steam-key-region-free-global"
+  },
+  {
+   "goods_id": "1918800",
+   "name": "GTA 5 V Premium Online Edition (Сюжетная игра + Online + Enhanced + Legacy) + ПОДАРОК",
+   "price_rur": "1299",
+   "agency_fee": "1,00",
+   "cnt_sell": "21089",
+   "seller_id": "89827",
+   "name_translit": "gta-5-grand-theft-auto-v-premium-online-key-pc"
+  },
+  {
+   "goods_id": "3595051",
+   "name": "🟨ПОПОЛНЕНИЕ PSN/ПОКУПКА ИГР/ПОДПИСКИ PS PLUS PLUS УКРАИНА GTA 6 BLACK FLAG БЫСТРО🎁",
+   "price_rur": "3",
+   "agency_fee": "2,00",
+   "cnt_sell": "18914",
+   "seller_id": "316903",
+   "name_translit": "purchase-games-ps-plus-top-up-playstation-ps4-ps5-ukraine-gta-6-black-flag-fast"
+  },
+  {
+   "goods_id": "5034101",
+   "name": "🔑КАРТА|КОД ПОПОЛНЕНИ БАЛАНС PSN PLAYSTATION PS 1000-2000-2500-3000-4000-5000 TL ТУРЦ",
+   "price_rur": "489",
+   "agency_fee": "1,00",
+   "cnt_sell": "16938",
+   "seller_id": "261076",
+   "name_translit": "gift-code-tl-playstation-gta-6-podpiska-ps-plus-deluxe-extra-ess-ea-play-psn-turcija"
+  },
+  {
+   "goods_id": "2519758",
+   "name": "FORZA HORIZON 4 ULT +ВСЕ DLC+ FH3 ULT АВТОАКТИВАЦИЯ",
+   "price_rur": "300",
+   "agency_fee": "25,00",
+   "cnt_sell": "31885",
+   "seller_id": "429992",
+   "name_translit": "forza-horizon-4-ult-all-dlc-fh3u-autoactivation"
+  }
+ ],
+ "errors": [],
+ "cleanup": [],
+ "audit": [
+  {
+   "slug": "007-first-light-ps5-vybor-regiona-bystro-5875078",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "007-first-light-ps5-vybor-regiona-bystro-5875078",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "24-7-cursor-ai-podpiska-pro-pro-ultra-novyy-5430337",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "24-7-cursor-ai-podpiska-pro-pro-ultra-novyy-5430337",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "404",
+   "issue": "тонкий контент (238 зн.)"
+  },
+  {
+   "slug": "404",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "404",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "abiotic-factor-temple-of-stone-dlc-steam-ru-kz-ua-5526360",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "abyssus-steam-avto-ru-ua-kz-sng-5355002",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "abyssus-steam-avto-ru-ua-kz-sng-5355002",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-ii-2013-forgotten-dlc-steam-avto-5183346",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-ii-de-chronicles-alexander-great-5428047",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-ii-definitive-mountain-royals-5133585",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-ii-definitive-victors-vanquished-5123257",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "age-of-empires-ii-definitive-victors-vanquished-5123257",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-iii-definitive-edition-base-game-5166358",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-iv-digital-deluxe-upgrade-pack-dlc-5146913",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "age-of-empires-iv-digital-deluxe-upgrade-pack-dlc-5146913",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-empires-iv-dynasties-of-east-dlc-steam-5364583",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "age-of-empires-iv-dynasties-of-east-dlc-steam-5364583",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-mythology-retold-expansion-pass-dlc-steam-5606566",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-mythology-retold-expansion-pass-dlc-steam-5606566",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "age-of-mythology-retold-new-gods-pack-demeter-dlc-5839929",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-mythology-retold-steam-gift-avto-ru-5061267",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "age-of-mythology-retold-steam-gift-avto-ru-5061267",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "age-of-mythology-retold-steam-gift-ru-podarok-4620198",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "age-of-mythology-retold-steam-gift-ru-podarok-4620198",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ai-podpiski-oplata-neyrosetey-na-vash-akkaunt-5419932",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "airport-security-sucks-steam-ru-kz-ua-sng-5929014",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "airport-security-sucks-steam-ru-kz-ua-sng-5929014",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "aktivatsiya-lyubyh-klyuchey-dlya-igr-podpisok-xbox-3493956",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "aktivatsiya-lyubyh-klyuchey-dlya-igr-podpisok-xbox-4685243",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "among-us-3d-steam-avto-ru-ua-kz-sng-5151597",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "among-us-3d-steam-avto-ru-ua-kz-sng-5151597",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-117-pax-romana-marvellous-mosaic-pack-dlc-5714095",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-117-pax-romana-prophecies-of-ash-dlc-steam-ru-5860722",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-botanica-dlc-steam-avto-ru-ua-kz-sng-5183742",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-empire-of-skies-pack-dlc-steam-avto-5183764",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "anno-1800-empire-of-skies-pack-dlc-steam-avto-5183764",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-high-life-dlc-steam-avto-ru-ua-kz-sng-5183758",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-land-of-lions-dlc-steam-avto-ru-ua-kz-5183748",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "anno-1800-land-of-lions-dlc-steam-avto-ru-ua-kz-5183748",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-season-pass-dlc-steam-avto-ru-ua-kz-sng-5183691",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-tourist-season-dlc-steam-avto-ru-ua-kz-5183754",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-year-2-pass-dlc-steam-avto-ru-ua-kz-sng-5183689",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-year-3-pass-dlc-steam-avto-ru-ua-kz-sng-5183686",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "anno-1800-year-3-pass-dlc-steam-avto-ru-ua-kz-sng-5183686",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "anno-1800-year-4-season-pass-dlc-steam-ru-ua-kz-5183683",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arc-raiders-deluxe-edition-steam-kz-ua-sng-5436296",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arc-raiders-ps5-vybor-regiona-skidka-5470452",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arc-raiders-steam-avtodostavka-kz-ua-sng-5436294",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arma-3-apex-dlc-steam-gift-avto-ru-podarok-4908615",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "arma-3-apex-dlc-steam-gift-avto-ru-podarok-4908615",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arma-3-apex-dlc-steam-gift-avto-ru-podarok-4908615",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "arma-3-creator-dlc-reaction-forces-steam-ru-ua-kz-5146878",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arma-3-steam-gift-avto-ru-5060853",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "arma-3-steam-gift-avto-ru-5060853",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arma-reforger-steam-gift-avto-ru-5060848",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "arma-reforger-steam-gift-avto-ru-podarok-4908568",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "arma-reforger-steam-gift-avto-ru-podarok-4908568",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-3-remastered-edition-steam-ru-ua-5133864",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-black-flag-gold-edition-steam-5134508",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-black-flag-gold-edition-steam-5134508",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-black-flag-resynced-ps5-vybor-5950604",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-black-flag-resynced-ps5-vybor-5950604",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-bratstvo-krovi-steam-gift-avto-ru-4393322",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-chyornyy-flag-gold-steam-gift-5061256",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-chyornyy-flag-gold-steam-ru-4393334",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-director-s-cut-steam-gif-avto-ru-4393320",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-director-s-cut-steam-gif-avto-ru-4393320",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-director-s-cut-steam-gifavto-ru-5061265",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-edinstvo-steam-gift-ru-podarok-4393336",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-edinstvo-steam-gift-ru-podarok-4393336",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-ii-steam-gift-avto-ru-5061263",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-ii-steam-gift-avto-ru-5061263",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-ii-steam-gift-ru-podarok-4393321",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-iii-remastered-steam-gift-avto-ru-5061251",
+   "issue": "тонкий контент (365 зн.)"
+  },
+  {
+   "slug": "assassin-s-creed-iii-remastered-steam-gift-avto-ru-5061251",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-iii-remastered-steam-gift-avto-ru-5061251",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "assassin-s-creed-iii-remastered-steam-gift-ru-4393333",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-istoki-gold-steam-gift-ru-podarok-4394686",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-istoki-standard-steam-gift-ru-4393341",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-celestial-weapons-pack-dlc-5546642",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-celestial-weapons-pack-dlc-5546642",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-deluxe-edition-ru-podarok-5035761",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-deluxe-edition-ru-podarok-5035761",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-desert-scorpion-pack-dlc-5546633",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-map-pack-dlc-ru-ua-kz-sng-5124176",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-map-pack-dlc-ru-ua-kz-sng-5124176",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-steam-gift-avto-ru-5061272",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-steam-gift-avto-ru-5061272",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-mirage-steam-ru-podarok-5035710",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-odisseya-standard-steam-gift-avto-5061209",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-odisseya-standard-steam-gift-ru-4393342",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-odisseya-ultimate-steam-gift-ru-4394689",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-odisseya-ultimate-steam-gift-ru-4394689",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-odisseya-ultimate-steam-gift-ru-4394689",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "assassin-s-creed-odyssey-fate-of-atlantis-dlc-5134435",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-odyssey-season-pass-dlc-steam-5135877",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-origins-season-pass-dlc-steam-5166068",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-otkroveniya-steam-gift-avto-ru-5061259",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-otkroveniya-steam-gift-avto-ru-5061259",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-otkroveniya-steam-gift-ru-podarok-4393323",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-shadows-deluxe-steam-ru-podarok-5065628",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-shadows-ps5-ukraina-turtsiya-4634145",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-shadows-steam-gift-avto-ru-5065640",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-shadows-steam-ru-podarok-5065611",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-sindikat-steam-gift-avto-ru-5061247",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-sindikat-steam-gift-avto-ru-5061247",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-sindikat-steam-gift-ru-podarok-4393339",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-syndicate-dreadful-crimes-dlc-5137660",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-syndicate-jack-ripper-dlc-steam-5135888",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassin-s-creed-syndicate-jack-ripper-dlc-steam-5135888",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-unity-revolutionary-armaments-5183633",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-unity-secrets-of-revolution-dlc-5146918",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-valgalla-complete-steam-gift-ru-4394692",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-valgalla-standard-steam-gift-ru-4393343",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-valhalla-dawn-of-ragnar-k-dlc-5147074",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassin-s-creed-valhalla-wrath-of-druids-dlc-5137652",
+   "issue": "тонкий контент (364 зн.)"
+  },
+  {
+   "slug": "assassin-s-creed-valhalla-wrath-of-druids-dlc-5137652",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassins-creed-valhalla-season-pass-dlc-steam-5135811",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassins-creed-valhalla-season-pass-dlc-steam-5135811",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assassins-creed-valhalla-siege-of-paris-dlc-steam-5137650",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "assassins-creed-valhalla-siege-of-paris-dlc-steam-5137650",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assetto-corsa-japanese-pack-dlc-steam-ru-ua-kz-sng-5153934",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "assetto-corsa-klyuch-steam-ru-sng-5075790",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "astroneer-megatech-dlc-steam-avtodostavka-ru-kz-ua-5551580",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-deluxe-edition-steam-gift-avto-ru-5079084",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-deluxe-edition-steam-ru-podarok-5079076",
+   "issue": "тонкий контент (484 зн.)"
+  },
+  {
+   "slug": "atomfall-deluxe-edition-steam-ru-podarok-5079076",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-deluxe-upgrade-dlc-steam-avto-ru-ua-kz-5208395",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "atomfall-deluxe-upgrade-dlc-steam-avto-ru-ua-kz-5208395",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-steam-gift-avto-ru-5079099",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-steam-ru-podarok-5079091",
+   "issue": "тонкий контент (21 зн.)"
+  },
+  {
+   "slug": "atomfall-steam-ru-podarok-5079091",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "atomfall-steam-ru-podarok-5079091",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-steam-ru-podarok-5079091",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "atomfall-story-expansion-pack-red-strain-dlc-steam-5426278",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "atomfall-story-expansion-pack-wicked-isle-dlc-5208397",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "atomfall-story-expansion-pack-wicked-isle-dlc-5208397",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avatar-frontiers-of-pandora-secrets-of-spires-dlc-5123757",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avatar-frontiers-of-pandora-sky-breaker-dlc-steam-5192480",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avowed-steam-podarok-4947469",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "avowed-steam-podarok-4947469",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avto-24-7-bez-bana-novyy-akkaunt-claude-ai-pro-max-5817327",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avto-24-7-chatgpt-5-5-plus-1m-go-pro-codex-4313142",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avto-24-7-grok-ai-xai-supergrok-4-1-heavy-podpiska-5030891",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avto-24-7-grok-ai-xai-supergrok-4-1-heavy-podpiska-5030891",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "avtovydacha-24-7-chatgpt-5-5-plus-go-kod-5912754",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avtovydacha-24-7-chatgpt-5-5-plus-pro-go-1-mesyats-5896950",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avtovydacha-24-7-claude-ai-pro-podpiska-na-1-5916503",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "avtovydacha-24-7-claude-ai-pro-podpiska-na-1-5916503",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avtovydacha-24-7-supergrok-4-3-xai-podpiska-1-5926069",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "avtovydacha-chatgpt-5-5-plus-pro-x5-x20-go-1-4306654",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "avtovydacha-chatgpt-5-5-plus-pro-x5-x20-go-1-4306654",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "backrooms-escape-together-steam-avto-ru-ua-kz-sng-5148067",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "backrooms-escape-together-steam-avto-ru-ua-kz-sng-5148067",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bad-cheese-steam-avto-ru-ua-kz-sng-5403343",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "baldur-s-gate-3-ps5-turtsiya-ukraina-bystro-3883280",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "baldur-s-gate-3-steam-avto-ru-ua-kz-sng-5122581",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "baldur-s-gate-3-steam-gift-avto-ru-5064684",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "baldurs-gate-3-steam-gift-avto-ru-podarok-4381184",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ball-x-pit-steam-avto-ru-ua-kz-sng-5490832",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "banner-saga-3-standard-edition-steam-ru-5133481",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battle-brothers-beasts-exploration-dlc-steam-avto-5166458",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battle-brothers-beasts-exploration-dlc-steam-avto-5166458",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battle-brothers-warriors-of-north-dlc-steam-avto-5166411",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battle-brothers-warriors-of-north-dlc-steam-avto-5166411",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battle-net-popolnenie-pokupka-igr-ukraina-uah-5609556",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battle-net-popolnenie-pokupka-igr-ukraina-uah-5609556",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "battlefield-1-revolution-steam-gift-avto-ru-4924348",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battlefield-1-revolution-steam-gift-avto-ru-4924348",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-1-revolution-steam-gift-avto-ru-5062612",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-1-shortcut-kit-scout-bundle-dlc-steam-5123639",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-1-shortcut-kit-ultimate-bundle-dlc-5123237",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battlefield-1-shortcut-kit-ultimate-bundle-dlc-5123237",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-2042-elite-edition-steam-gift-avto-ru-4924358",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-2042-elite-edition-steam-gift-avto-ru-5062650",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-3-premium-edition-steam-gift-avto-ru-5062682",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-3-premium-edition-steam-ru-podarok-4924349",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-4-premium-edition-steam-gift-avto-ru-5062700",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-4-premium-edition-steam-ru-podarok-4924351",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-6-ps5-vybor-regiona-bystro-5470326",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-6-standard-phantom-xbox-series-x-s-5475828",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battlefield-6-standard-phantom-xbox-series-x-s-5475828",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-hardline-ultimate-steam-gift-avto-ru-5062571",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "battlefield-hardline-ultimate-steam-gift-avto-ru-5062571",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-hardline-ultimate-steam-ru-podarok-4924347",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "battlefield-v-definitive-edition-steam-ru-podarok-4924354",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "beamng-drive-steam-gift-avto-ru-podarok-4416747",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "beyond-good-evil-20th-anniversary-steam-ru-podarok-4456234",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bez-komissii-chatgpt-pro-prodlenie-bez-vhoda-4814793",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "binding-of-isaac-afterbirth-dlc-steam-avto-5152679",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "binding-of-isaac-afterbirth-dlc-steam-avto-5152679",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "binding-of-isaac-afterbirth-dlc-steam-avto-5152679",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "black-book-battle-mode-dlc-steam-avto-ru-ua-kz-sng-5154587",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "black-book-battle-mode-dlc-steam-avto-ru-ua-kz-sng-5154587",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "black-desert-steam-avto-ru-ua-kz-sng-5148209",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "black-myth-wukong-ps5-turtsiya-ukraina-bystro-4580058",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "black-myth-wukong-ps5-turtsiya-ukraina-bystro-4580058",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "black-myth-wukong-ps5-turtsiya-ukraina-bystro-4580058",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "black-myth-wukong-steam-gift-avto-ru-podarok-4433589",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "black-myth-wukong-steam-gift-avto-ru-podarok-4433589",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "blasphemous-2-mea-culpa-dlc-steam-avto-ru-ua-kz-5166432",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "blasphemous-2-mea-culpa-dlc-steam-avto-ru-ua-kz-5166432",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "blasphemous-2-mea-culpa-edition-steam-ru-ua-kz-sng-5123018",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "blasphemous-alloy-of-sin-character-skin-dlc-steam-5166153",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bodycam-steam-gift-avto-ru-4424274",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bodycam-steam-gift-avto-ru-podarok-4422241",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "borderlands-3-designer-s-cut-dlc-steam-ru-ua-kz-5133776",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "borderlands-3-designer-s-cut-dlc-steam-ru-ua-kz-5133776",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "borderlands-3-director-s-cut-dlc-steam-ru-ua-kz-5133847",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "borderlands-3-season-pass-2-dlc-steam-ru-ua-kz-sng-5134582",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "borderlands-3-steam-gift-avto-ru-podarok-4419229",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "borderlands-goty-enhanced-steam-gift-ru-podarok-4419806",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bot-dungeon-crusher",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "brawlhalla-ezio-starter-pack-dlc-steam-ru-ua-kz-5123046",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "buckshot-roulette-steam-gift-avto-ru-podarok-4908997",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "buckshot-roulette-steam-gift-avto-ru-podarok-4908997",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bully-scholarship-edition-steam-gift-avto-ru-5062637",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bully-scholarship-edition-steam-gift-ru-podarok-4908561",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bylina-steam-avtodostavka-ru-kz-ua-sng-5837659",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-amazon-tr-podarochnaya-karta-75-5000-try-3870110",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "bystro-amazon-tr-podarochnaya-karta-75-5000-try-3870110",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-amazon-tr-podarochnaya-karta-75-5000-try-3870110",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "bystro-amazon-uk-podarochnaya-karta-1-2000-gbp-3870105",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-amazon-yaponiya-podarochnaya-karta-jpy-3675419",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "bystro-amazon-yaponiya-podarochnaya-karta-jpy-3675419",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-avtopopolnenie-steam-garantii-tsena-3096206",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-ebay-usa-podarochnaya-karta-5-200-tsena-3968418",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-karta-best-walmart-target-5-500-3974858",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-meta-quest-gift-card-oculus-15-100-tsena-4531870",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-ozon-podarochnaya-karta-300-100000-rub-3885613",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-podarochnaya-karta-airbnb-usa-25-500-tsena-2196609",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-podarochnaya-karta-airbnb-usa-25-500-tsena-2196609",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "bystro-podarochnaya-karta-eneba-5-200-eur-tsena-3975711",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "bystro-popolnenie-wot-zoloto-mir-tankov-tsena-1930146",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-4-mw-2007-steam-gift-avto-ru-5062792",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-4-mw-2007-steam-gift-avto-ru-podarok-4437361",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "call-of-duty-4-mw-2007-steam-gift-avto-ru-podarok-4437361",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-black-ops-1-klyuch-steam-ru-sng-5707844",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "call-of-duty-black-ops-1-klyuch-steam-ru-sng-5707844",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-black-ops-6-steam-gift-avto-sng-4437380",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-black-ops-6-steam-gift-avto-sng-5062794",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-black-ops-7-ps4-ps5-vybor-regiona-5513277",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "call-of-duty-black-ops-7-ps4-ps5-vybor-regiona-5513277",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-black-ops-iii-nuk3town-klyuch-steam-5705151",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-modern-warfare-ii-steam-avto-ua-5063650",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "call-of-duty-modern-warfare-ii-steam-avto-ua-5063650",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "call-of-duty-modern-warfare-ii-steam-ua-podarok-4437378",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "captain-of-industry-trains-expansion-dlc-steam-ru-5779335",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "captain-of-industry-trains-expansion-dlc-steam-ru-5779335",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "captain-of-industry-trains-expansion-dlc-steam-ru-5779335",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "car-mechanic-simulator-2021-bmw-dlc-steam-avto-5154420",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "car-mechanic-simulator-2021-steam-gift-ru-podarok-4416751",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "car-repair-steam-avtodostavka-ru-kz-ua-sng-5918074",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "car-repair-steam-avtodostavka-ru-kz-ua-sng-5918074",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "carmageddon-rogue-shift-steam-avtodostavka-ru-kz-5683323",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "carmageddon-rogue-shift-steam-avtodostavka-ru-kz-5683323",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "casting-of-frank-stone-deluxe-gift-avto-ru-podarok-4620193",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "casting-of-frank-stone-deluxe-gift-avto-ru-podarok-4620193",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "casting-of-frank-stone-steam-gift-avto-ru-podarok-4620185",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "castle-story-steam-avto-ru-ua-kz-sng-5153942",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "castle-story-steam-avto-ru-ua-kz-sng-5153942",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "catacombs-world-bot-kliker-dlya-bluestacks-68142966",
+   "issue": "тонкий контент (487 зн.)"
+  },
+  {
+   "slug": "chained-together-steam-gift-avto-ru-podarok-4518977",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chatgpt-4o-o3-plus-sora-nakastore-5100061",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chatgpt-5-5-plus-pro-go-lichnyy-akkaunt-3859725",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chatgpt-plus-gpt-5-sora-1-mesyats-podpiski-5363353",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "chatgpt-plus-gpt-5-sora-1-mesyats-podpiski-5363353",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chatgpt-popolnenie-api-balansa-3986427",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chernobyl-liquidators-steam-gift-avto-ru-podarok-4418383",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "chernobyl-liquidators-steam-gift-avto-ru-podarok-4418383",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "chivalry-2-steam-gift-avto-ru-podarok-4912634",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "chivalry-2-steam-gift-avto-ru-podarok-4912634",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cine-tracer-steam-avto-ru-ua-kz-sng-5154370",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cities-skylines-ii-bridges-ports-dlc-steam-ru-sng-5517560",
+   "issue": "тонкий контент (351 зн.)"
+  },
+  {
+   "slug": "cities-skylines-ii-bridges-ports-dlc-steam-ru-sng-5517560",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "cities-skylines-ii-bridges-ports-dlc-steam-ru-sng-5517560",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cities-skylines-ii-creator-pack-skyscrapers-dlc-5575310",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cities-skylines-ii-creator-pack-supply-chains-dlc-5575335",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "clair-obscur-expedition-33-deluxe-edition-upgrade-5131744",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "clair-obscur-expedition-33-deluxe-edition-upgrade-5131744",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "clair-obscur-expedition-33-ps5-ukraina-turtsiya-5148308",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "claude-ai-podpiska-ai-pro-na-vash-akkaunt-1-mes-5479179",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cleared-hot-steam-avtodostavka-ru-kz-ua-sng-5551293",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "company-of-heroes-3-endure-defy-dlc-steam-ru-kz-ua-5564889",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "company-of-heroes-3-endure-defy-dlc-steam-ru-kz-ua-5564889",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "control-ultimate-edition-steam-avto-ru-ua-kz-sng-5123422",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crashout-crew-steam-avtodostavka-ru-kz-ua-sng-5918076",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "crashout-crew-steam-avtodostavka-ru-kz-ua-sng-5918076",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-rc-frenzy-pack-dlc-steam-ru-kz-ua-5871075",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "crew-motorfest-rc-frenzy-pack-dlc-steam-ru-kz-ua-5871075",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-triple-bike-pack-dlc-steam-ru-kz-ua-5763474",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-welcome-pack-dlc-ru-ua-kz-sng-5133455",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-year-1-pass-dlc-steam-ru-5133588",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "crew-motorfest-year-1-pass-dlc-steam-ru-5133588",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-year-2-pass-dlc-steam-avto-5177108",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "crew-motorfest-year-2-pass-dlc-steam-avto-5177108",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crew-motorfest-year-3-pass-dlc-steam-ru-kz-ua-sng-5530515",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crimson-desert-ps5-turtsiya-ukraina-bystro-5792348",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crimson-desert-vybor-izdaniya-xbox-series-x-s-5791058",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crusader-kings-3-content-creator-pack-medieval-5159134",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crusader-kings-3-content-creator-pack-west-slavic-5159139",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crusader-kings-iii-content-creator-pack-arctic-5159136",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crusader-kings-iii-royal-court-dlc-ru-ua-kz-sng-5123224",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "crysis-3-remastered-steam-avto-ru-ua-kz-sng-5183239",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "crysis-3-remastered-steam-avto-ru-ua-kz-sng-5183239",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cult-of-lamb-cultist-pack-dlc-steam-ru-ua-kz-sng-5153321",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cult-of-lamb-steam-gift-avto-ru-podarok-4382687",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "cult-of-lamb-steam-gift-avto-ru-podarok-4382687",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cuphead-delicious-last-course-dlc-steam-avto-5148086",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cuphead-steam-gift-avto-ru-podarok-4391574",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "cuphead-steam-gift-avto-ru-podarok-4391574",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cursor-ai-podpiska-pro-pro-ultra-5070972",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cursor-ai-podpiska-pro-pro-ultra-5070972",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "cyberpunk-2077-dlc-phantom-liberty-epic-pc-3948708",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "cyberpunk-2077-dlc-phantom-liberty-epic-pc-3948708",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cyberpunk-2077-prizrachnaya-svoboda-dlc-gift-avto-4381088",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "cyberpunk-2077-prizrachnaya-svoboda-dlc-ru-ua-kz-5147174",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "cyberpunk-2077-prizrachnaya-svoboda-dlc-ru-ua-kz-5147174",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dark-pals-1st-floor-steam-avtodostavka-ru-kz-ua-5869100",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dark-pals-1st-floor-steam-avtodostavka-ru-kz-ua-5869100",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "darkest-dungeon-ii-steam-gift-avto-ru-podarok-4895902",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "days-gone-steam-gift-avto-ru-podarok-4393781",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dayz-steam-gift-avto-ru-kz-podarok-4389607",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-alien-chapter-pack-dlc-avto-ru-5060835",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-alien-chapter-pack-dlc-ru-podarok-4411160",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-all-things-wicked-chapter-dlc-5122240",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-all-things-wicked-chapter-dlc-5122240",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-castlevania-chapter-dlc-ru-4610043",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-chucky-chapter-dlc-ru-ua-kz-sng-5122378",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-dungeons-dragons-dlc-gift-avto-ru-5060809",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-dungeons-dragons-dlc-ru-podarok-4411010",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-endless-hunt-pack-gift-avto-ru-5060868",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-endless-hunt-pack-gift-avto-ru-5060868",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-endless-hunt-pack-gift-ru-podarok-4411203",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-dlc-steam-5225606",
+   "issue": "тонкий контент (458 зн.)"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-dlc-steam-5225606",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-dlc-steam-5225606",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-ru-5222207",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-ru-5222207",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-ru-podarok-5222205",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-five-nights-freddy-s-ru-podarok-5222205",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-ghostface-dlc-ru-ua-kz-sng-5122501",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-ghostface-dlc-ru-ua-kz-sng-5122501",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-leatherface-dlc-ru-ua-kz-sng-5122459",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-leatherface-dlc-ru-ua-kz-sng-5122459",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-nicolas-cage-chapter-pack-avto-ru-5060854",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-nicolas-cage-chapter-packru-4411193",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-nicolas-cage-chapter-packru-4411193",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-chapter-dlc-avto-ru-5060825",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-chapter-dlc-ru-4411153",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-chapter-dlc-steam-5122446",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-project-w-chapter-5060794",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-project-w-chapter-5060794",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-project-w-chapter-5122230",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-resident-evil-project-w-podarok-4390406",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-sadako-rising-chapter-dlc-steam-5122437",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-sadako-rising-chapter-dlc-steam-5122437",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-saw-chapter-dlc-ru-ua-kz-sng-5123265",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-silent-hill-chapter-dlc-steam-5122754",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-sinister-grace-dlc-avto-ru-5438153",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-sinister-grace-dlc-ru-podarok-5438152",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-steady-pulse-steam-ru-podarok-5151919",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-steam-gift-avto-ru-5060727",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-by-daylight-steam-gift-avto-ru-5060727",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-steam-ru-podarok-4390397",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter-2-dlc-5665220",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter-avto-ru-5062561",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter-ru-4411175",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter2-ru-5665175",
+   "issue": "тонкий контент (120 зн.)"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter2-ru-5665175",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-stranger-things-chapter2-ru-5665175",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "dead-by-daylight-tokyo-ghoul-chapter-ru-5086248",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-tokyo-ghoul-chapter-ru-podarok-5086238",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-tomb-raider-dlc-gift-avto-ru-5060881",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-tomb-raider-dlc-steam-ru-podarok-4504368",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-walking-dead-chapter-avto-ru-5327177",
+   "issue": "тонкий контент (178 зн.)"
+  },
+  {
+   "slug": "dead-by-daylight-walking-dead-chapter-avto-ru-5327177",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-by-daylight-walking-dead-chapter-avto-ru-5327177",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "dead-by-daylight-walking-dead-chapterru-podarok-5327170",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-island-2-character-pack-cyber-slayer-amy-dlc-5183482",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-island-2-character-pack-cyber-slayer-amy-dlc-5183482",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-island-2-standard-ultimate-klyuch-steam-ru-5075833",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-island-definitive-edition-collection-klyuch-5694802",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-island-riptide-definitive-edition-klyuch-5695923",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-awakened-dlc-steam-ru-ua-kz-sng-5123442",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-awakened-dlc-steam-ru-ua-kz-sng-5123442",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "dead-space-3-bot-accelerator-dlc-steam-ru-ua-kz-5133696",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-space-3-bot-accelerator-dlc-steam-ru-ua-kz-5133696",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-bot-capacity-upgrade-dlc-ru-ua-kz-sng-5123575",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-space-3-bot-capacity-upgrade-dlc-ru-ua-kz-sng-5123575",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-bot-personality-pack-dlc-ru-ua-kz-sng-5123739",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-eg-900-smg-dlc-steam-avto-ru-ua-kz-5147413",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-enervator-dlc-steam-avto-ru-ua-kz-sng-5147358",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-first-contact-pack-dlc-ru-ua-kz-sng-5123636",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-marauder-pack-dlc-steam-avto-ru-5133539",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-sharpshooter-pack-dlc-steam-ru-5133537",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-space-3-sharpshooter-pack-dlc-steam-ru-5133537",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-tau-volantis-survival-kit-dlc-steam-5123493",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-space-3-tau-volantis-survival-kit-dlc-steam-5123493",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dead-space-3-witness-truth-pack-dlc-steam-avto-5123159",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dead-space-3-witness-truth-pack-dlc-steam-avto-5123159",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "deadzone-rogue-steam-avto-ru-ua-kz-sng-5141312",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "deadzone-rogue-steam-avto-ru-ua-kz-sng-5141312",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "death-stranding-2-beach-ps5-vybor-regiona-5153309",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "deathloop-standard-deluxe-klyuch-steam-ru-sng-5576158",
+   "issue": "тонкий контент (163 зн.)"
+  },
+  {
+   "slug": "deathloop-standard-deluxe-klyuch-steam-ru-sng-5576158",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "deathloop-standard-deluxe-klyuch-steam-ru-sng-5576158",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "deep-rock-galactic-steam-gift-avto-ru-podarok-4912558",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "deltarune-soundtrack-dlc-steam-avto-ru-ua-kz-sng-5204657",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "deus-ex-mankind-divided-dlc-season-pass-steam-5122527",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "devil-of-plague-steam-avtodostavka-ru-kz-ua-sng-5860753",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "diablo-iv-lord-of-hatred-deluxe-edition-dlc-steam-5589864",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "diablo-iv-lord-of-hatred-ps4-ps5-turtsiya-ukraina-5591430",
+   "issue": "тонкий контент (106 зн.)"
+  },
+  {
+   "slug": "diablo-iv-lord-of-hatred-ps4-ps5-turtsiya-ukraina-5591430",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "diablo-iv-lord-of-hatred-ps4-ps5-turtsiya-ukraina-5591430",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "diablo-iv-lord-of-hatred-ps4-ps5-turtsiya-ukraina-5591430",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "diablo-iv-ps4-ps5-ukraina-turtsiya-bystro-3775767",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "diablo-iv-xbox-platina-500-1000-2800-5700-11500-4186882",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "diablo-iv-xbox-platina-500-1000-2800-5700-11500-4186882",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "diplomatskie-regalii-morskoy-peny-klyuch-ru-eu-3702377",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "diplomatskie-regalii-morskoy-peny-klyuch-ru-eu-3702377",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dirt-rally-2-0-colin-mcrae-flat-out-pack-dlc-steam-5166571",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dirt-rally-2-0-colin-mcrae-flat-out-pack-dlc-steam-5166571",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dirt-rally-2-0-deluxe-2-0-season3-4-dlc-steam-avto-5134939",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dirt-rally-2-0-deluxe-2-0-season3-4-dlc-steam-avto-5134939",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dirt-rally-2-0-finland-rally-location-dlc-steam-5146891",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dirt-rally-2-0-wales-rally-dlc-steam-ru-ua-kz-sng-5166407",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dirt-rally-2-0-wales-rally-dlc-steam-ru-ua-kz-sng-5166407",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "disciples-iii-reincarnation-steam-avto-ru-ua-kz-5183630",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "disciples-iii-reincarnation-steam-avto-ru-ua-kz-5183630",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dishonored-death-of-outsider-steam-ru-sng-podarok-5576156",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "divinity-ii-developer-s-cut-steam-avto-ru-ua-kz-5154879",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "divinity-original-sin-2-steam-avto-ru-ua-kz-sng-5135476",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dlya-patreon-us-card-rabotaet-dlya-patreon-5076737",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dlya-servisov-18-us-card-rabotaet-dlya-adult-18-2196603",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doom-eternal-ancient-gods-chast-2-steam-5122449",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doom-eternal-standard-edition-steam-ru-ua-kz-sng-5133785",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-tovar-1-4907467",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "doplata-za-tovar-1-4907467",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-tovar-2-5054309",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-tovar-3-5151498",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-tovar-5457373",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-tovar-ggsel-5457847",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "doplata-za-zamenu-us-eu-card-5273839",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dsx-virtual-dualsense-emulation-dlc-steam-avto-5148207",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "duel-corp-steam-avtodostavka-ru-kz-ua-sng-5658020",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dune-awakening-season-pass-dlc-steam-ru-ua-kz-sng-5215403",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dungeons-of-sundaria-steam-avto-ru-ua-kz-sng-5154534",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dungeons-of-sundaria-steam-avto-ru-ua-kz-sng-5154534",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-2-reloaded-edition-steam-avto-ru-ua-kz-5147193",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-astronaut-bundle-dlc-steam-ru-ua-kz-5134622",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-classified-operation-bundle-dlc-steam-5134932",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dying-light-classified-operation-bundle-dlc-steam-5134932",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-dieselpunk-bundle-dlc-steam-ru-ua-kz-5134545",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-gun-psycho-bundle-dlc-steam-ru-ua-kz-5166148",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dying-light-gun-psycho-bundle-dlc-steam-ru-ua-kz-5166148",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-harran-ranger-bundle-dlc-ru-ua-kz-sng-5134573",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-harran-tactical-unit-bundle-dlc-steam-5134901",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-hellraid-dlc-steam-ru-ua-kz-sng-5122970",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dying-light-hellraid-dlc-steam-ru-ua-kz-sng-5122970",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-savvy-gamer-bundle-dlc-steam-ru-ua-kz-5135325",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-van-crane-bundle-dlc-steam-ru-ua-kz-5135319",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "dying-light-van-crane-bundle-dlc-steam-ru-ua-kz-5135319",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "dying-light-volkan-combat-armor-bundle-dlc-steam-5134479",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ea-sports-fc-26-fifa-26-xbox-series-x-s-one-5437360",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "ea-sports-fc-26-fifa-26-xbox-series-x-s-one-5437360",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ea-sports-fc-26-ps4-ps5-vybor-regiona-skidka-5296083",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ea-sports-fc-26-ultimate-klyuch-xbox-one-x-s-3866835",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elden-ring-shadow-of-erdtree-dlc-gift-ru-kz-4391348",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elden-ring-shadow-of-erdtree-dlc-turtsiya-ukraina-4433599",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "elden-ring-shadow-of-erdtree-dlc-turtsiya-ukraina-4433599",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remaster-steam-podarok-5127263",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remaster-steam-podarok-5127263",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remastered-deluxe-5127275",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remastered-deluxe-5127275",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remastered-deluxe-5127280",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-iv-oblivion-remastered-steam-avto-5127270",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-v-skyrim-anniversary-upgrade-dlc-5135809",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "elder-scrolls-v-skyrim-anniversary-upgrade-dlc-5135809",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elder-scrolls-v-skyrim-special-edition-steam-avto-5133780",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elevenlabs-ai-podpiski-na-vash-akkaunt-5358880",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "elite-dangerous-deluxe-edition-steam-avto-ru-ua-kz-5135882",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "enshrouded-steam-gift-avto-ru-podarok-4388131",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "eternal-afternoon-steam-avtodostavka-ru-kz-ua-sng-5758625",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "eternal-afternoon-steam-avtodostavka-ru-kz-ua-sng-5758625",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "eur-uk-card-20-5000-games-hosting-others-tsena-1085650",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "eur-uk-card-20-5000-games-hosting-others-tsena-1085650",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "euro-truck-simulator-2-steam-gift-avto-ru-5060640",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "euro-truck-simulator-2-steam-gift-avto-ru-5060640",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "euro-truck-simulator-2-steam-gift-avto-ru-podarok-4392799",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "euro-truck-simulator-2-steam-gift-avto-ru-podarok-4392799",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "evil-within-2-klyuch-steam-ru-sng-podarok-5660493",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "evil-within-assignment-dlc-ru-ua-kz-sng-5123253",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "f1-manager-2024-deluxe-edition-steam-ru-podarok-4519065",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "f1-manager-2024-deluxe-edition-steam-ru-podarok-4519065",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "f1-manager-2024-standard-edition-steam-ru-podarok-4519036",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "factorio-space-age-dlc-steam-avto-ru-ua-kz-sng-5153450",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fahrenheit-indigo-prophecy-remastered-ru-podarok-4912522",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "fahrenheit-indigo-prophecy-remastered-ru-podarok-4912522",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-2-steam-avto-ru-ua-kz-sng-5122991",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-3-broken-steel-dlc-steam-ru-ua-kz-sng-5123274",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-3-mothership-zeta-dlc-steam-ru-ua-kz-sng-5124180",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-3-operation-anchorage-dlc-steam-ru-ua-kz-5123714",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-3-pitt-dlc-steam-avto-ru-ua-kz-sng-5123717",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "fallout-3-pitt-dlc-steam-avto-ru-ua-kz-sng-5123717",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-3-point-lookout-dlc-steam-ru-ua-kz-sng-5123675",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-4-creations-bundle-dlc-steam-ru-kz-ua-sng-5537051",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-4-far-harbor-dlc-steam-avto-ru-ua-kz-sng-5134584",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "fallout-4-far-harbor-dlc-steam-avto-ru-ua-kz-sng-5134584",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-4-standard-goty-klyuch-steam-ru-sng-5576154",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-76-burning-springs-dlc-klyuch-steam-ru-sng-4778231",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-76-klyuch-ru-sng-ms-podarok-5637804",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fallout-classic-collection-klyuch-steam-ru-sng-5576153",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "fallout-classic-collection-klyuch-steam-ru-sng-5576153",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-3-steam-gift-avto-ru-5062608",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-3-steam-gift-ru-podarok-4415776",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-4-hurk-deluxe-pack-dlc-steam-ru-ua-kz-sng-5135638",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-4-steam-gift-ru-podarok-4415728",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-5-deluxe-pack-dlc-steam-avto-ru-ua-kz-sng-5134606",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-5-deluxe-pack-dlc-steam-avto-ru-ua-kz-sng-5134606",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-5-season-pass-dlc-steam-avto-ru-ua-kz-sng-5133907",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-5-season-pass-dlc-steam-avto-ru-ua-kz-sng-5133907",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-5-standard-edition-steam-ru-ua-kz-sng-5133763",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-5-standard-edition-steam-ru-ua-kz-sng-5133763",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-5-steam-gift-ru-podarok-4415762",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-5-zombies-dlc-steam-avto-ru-ua-kz-sng-5134496",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-6-game-of-year-upgrade-pass-dlc-steam-avto-5166508",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-6-game-of-year-upgrade-pass-dlc-steam-avto-5166508",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-6-gift-avto-ru-5062615",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-6-gift-ru-podarok-4415674",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-new-dawn-steam-gift-ru-podarok-4415764",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-primal-apex-edition-steam-gift-avto-ru-5062619",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-primal-apex-edition-steam-gift-avto-ru-5062619",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-primal-apex-edition-steam-gift-ru-podarok-4415778",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "far-cry-primal-wenja-pack-dlc-steam-avto-ru-ua-kz-5166444",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "far-cry-primal-wenja-pack-dlc-steam-avto-ru-ua-kz-5166444",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "fear-hunger-full-version-steam-avto-ru-ua-kz-sng-5153115",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "final-fantasy-xiv-dawntrail-steam-ru-podarok-4417554",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "final-fantasy-xiv-online-complete-steam-ru-podarok-4417825",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "final-fantasy-xv-episode-ardyn-dlc-completeru-4417827",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "final-fantasy-xv-episode-ardyn-dlc-completeru-4417827",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "final-fantasy-xv-windows-edition-steam-gift-avto-4417824",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "final-fantasy-xv-windows-edition-steam-gift-avto-4417824",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "final-fantasy-xv-windows-edition-steam-gift-avtoru-5061016",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "five-nights-freddy-s-secret-of-mimic-steam-avto-5218187",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "five-nights-freddy-s-secret-of-mimic-steam-avto-5218187",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "flair-ai-na-vash-lichnyy-akkaunt-4366510",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "flair-ai-na-vash-lichnyy-akkaunt-4366510",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "forest-steam-gift-avto-ru-podarok-4391557",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forgotten-seas-steam-gift-avto-ru-podarok-4421428",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forgotten-seas-steam-gift-avto-ru-podarok-4421428",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "formula-legends-steam-avto-ru-ua-kz-sng-5428877",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "formula-legends-steam-avto-ru-ua-kz-sng-5428877",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-chinese-lucky-stars-car-pack-dlc-5132878",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-deluxe-edition-steam-gift-avto-ru-4391657",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-5-deluxe-edition-steam-gift-avto-ru-4391657",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-deluxe-edition-steam-gift-avto-ru-5062809",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-european-automotive-car-pack-dlc-5132880",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-5-european-automotive-car-pack-dlc-5132880",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-premium-edition-steam-gift-avto-ru-4391658",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-premium-edition-steam-gift-avto-ru-4391658",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "forza-horizon-5-premium-edition-steam-gift-avto-ru-5062810",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-5-premium-edition-steam-gift-avto-ru-5062810",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-ps5-ukraina-turtsiya-skidka-5081385",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-rally-adventure-dlc-steam-ru-5132793",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-standard-edition-steam-gift-avto-4391656",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-5-standard-edition-steam-gift-avto-4391656",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-standard-edition-steam-gift-avto-5062806",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-5-welcome-pack-dlc-steam-avto-ru-5132781",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-5-welcome-pack-dlc-steam-avto-ru-5132781",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-6-premium-edition-steam-kz-ua-sng-5659571",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-6-premium-edition-xbox-series-x-s-pk-5865287",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-6-vybor-izdaniya-xbox-series-x-s-pk-5839886",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-6-vybor-izdaniya-xbox-series-x-s-pk-5839886",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "forza-horizon-6-vybor-izdaniya-xbox-series-x-s-pk-5858880",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "forza-horizon-6-vybor-izdaniya-xbox-series-x-s-pk-5858880",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "freepik-podpiski-na-vash-akkaunt-5478907",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "freepik-podpiski-na-vash-akkaunt-5478907",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "frostpunk-2-deluxe-edition-steam-gift-ru-podarok-4402454",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "frostpunk-2-steam-gift-avto-ru-podarok-4402399",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "frostpunk-2-steam-gift-avto-ru-podarok-4402399",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "frostpunk-frostpunk-goty-klyuch-steam-ru-sng-5523824",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "frostpunk-steam-gift-avto-ru-podarok-4402046",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "frostpunk-steam-gift-avto-ru-podarok-4402046",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gamble-with-friends-steam-ru-kz-ua-sng-5860821",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gamma-app-ai-podpiska-plus-pro-na-vash-akk-5071077",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "gamma-app-ai-podpiska-plus-pro-na-vash-akk-5071077",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "garry-s-mod-steam-gift-avto-ru-4391590",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "geometry-dash-steam-avto-ru-ua-kz-sng-5148002",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ghost-of-yotei-ps5-turtsiya-ukraina-bystro-5148443",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ghost-recon-breakpoint-year-1-pass-dlc-ru-ua-kz-5134547",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ghostwire-tokyo-klyuch-steam-ru-sng-podarok-5576152",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "goat-simulator-3-baadlands-furry-road-dlc-steam-5548273",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "goat-simulator-3-baadlands-furry-road-dlc-steam-5548273",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "god-of-war-ragnar-k-steam-gift-avto-ua-5060911",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "god-of-war-ragnar-k-steam-ua-podarok-4415884",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "god-of-war-steam-gift-avto-ua-5060897",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "god-of-war-steam-gift-avto-ua-5060897",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "god-of-war-steam-ua-podarok-4415868",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "god-of-war-steam-ua-podarok-4415868",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gold-river-project-steam-avtodostavka-ru-kz-ua-sng-5661417",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "gold-river-project-steam-avtodostavka-ru-kz-ua-sng-5661417",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "google",
+   "issue": "тонкий контент (32 зн.)"
+  },
+  {
+   "slug": "google",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "google",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "google",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "google5b683bb79bfc7d9e",
+   "issue": "тонкий контент (53 зн.)"
+  },
+  {
+   "slug": "google5b683bb79bfc7d9e",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "google5b683bb79bfc7d9e",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "google5b683bb79bfc7d9e",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "gothic-1-remake-ps4-ps5-vybor-regiona-bystro-5918763",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "gothic-1-remake-ps4-ps5-vybor-regiona-bystro-5918763",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-iv-complete-steam-gift-avto-ru-4391388",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-iv-complete-steam-gift-avto-ru-5062772",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "grand-theft-auto-iv-complete-steam-gift-avto-ru-5062772",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-v-enhanced-steam-gift-ua-kz-5060663",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "grand-theft-auto-v-enhanced-steam-gift-ua-kz-5060663",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-v-enhanced-steam-ua-kz-podarok-4368009",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-vi-gta-6-predzakaz-ps5-psn-na-5958856",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "grand-theft-auto-vi-gta-6-predzakaz-ps5-psn-na-5958856",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grand-theft-auto-vi-gta-6-predzakaz-ps5-psn-na-5958856",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "grand-theft-auto-vi-vybor-izdaniya-xbox-series-x-s-5957858",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "grok-ai-xai-supergrok-4-podpiska-bystro-5306502",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "grok-ai-xai-supergrok-4-podpiska-bystro-5306502",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gta-6-grand-theft-auto-vi-ps5-vybor-regiona-bystro-5957933",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gta-v-gta-5-premium-ps4-ps5-turtsiya-ukraina-4160212",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "gta-v-gta-5-premium-ps4-ps5-turtsiya-ukraina-4160212",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "gtfo-steam-gift-avto-ru-podarok-4912620",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "gtfo-steam-gift-avto-ru-podarok-4912620",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "guilty-as-sock-steam-avto-ru-ua-kz-sng-5205192",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hades-ii-steam-gift-avto-ru-podarok-4381094",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hail-rainbow-steam-avtodostavka-ru-kz-ua-sng-5564873",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hail-rainbow-steam-avtodostavka-ru-kz-ua-sng-5564873",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "halo-master-chief-collection-steam-ru-ua-kz-sng-5147409",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "halo-master-chief-collection-steam-ru-ua-kz-sng-5147409",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "headliners-steam-gift-avto-ru-podarok-4912502",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hearts-of-iron-iv-battle-bosporus-dlc-steam-5133610",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hearts-of-iron-iv-battle-bosporus-dlc-steam-5133610",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hearts-of-iron-iv-no-compromise-no-surrender-dlc-5551566",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hearts-of-iron-iv-no-compromise-no-surrender-dlc-5551566",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-battle-scarred-dlc-steam-ru-ua-kz-5122975",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-battle-scarred-dlc-steam-ru-ua-kz-5122975",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-cavalry-coat-dlc-steam-ru-ua-kz-sng-5123587",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-false-front-dlc-ru-ua-kz-sng-5123106",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-hot-drop-dlc-steam-ru-ua-kz-sng-5123227",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-lethal-tide-dlc-steam-ru-ua-kz-sng-5123153",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-oak-leaf-dlc-steam-avto-ru-ua-kz-5137681",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-panzer-lehr-dlc-steam-ru-ua-kz-sng-5166378",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-pea-dot-dlc-steam-avto-ru-ua-kz-sng-5134597",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-pea-dot-dlc-steam-avto-ru-ua-kz-sng-5134597",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-polish-parachute-brigade-dlc-steam-5166221",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-polish-parachute-brigade-dlc-steam-5166221",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-red-army-cossack-dlc-steam-ru-ua-kz-5476032",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-red-army-cossack-dlc-steam-ru-ua-kz-5476032",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "hell-let-loose-red-devils-dlc-steam-avto-ru-ua-kz-5135362",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-red-devils-dlc-steam-avto-ru-ua-kz-5135362",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-red-skies-dlc-steam-avto-ru-ua-kz-5146947",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-red-steel-dlc-steam-ru-ua-kz-sng-5123271",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-red-steel-dlc-steam-ru-ua-kz-sng-5123271",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-silver-vanguard-dlc-ru-ua-kz-sng-5123161",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-skull-bucket-pack-dlc-ru-ua-kz-sng-5123117",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-skull-bucket-pack-dlc-ru-ua-kz-sng-5123117",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-steam-gift-avto-ru-5063702",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-steam-gift-avto-ru-5063702",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-steam-ru-podarok-5035508",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-tropic-fever-dlc-steam-ru-ua-kz-sng-5123501",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-upper-echelon-dlc-steam-ru-ua-kz-5147389",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-us-german-armour-pack-dlc-steam-5476035",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hell-let-loose-us-german-armour-pack-dlc-steam-5476035",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hell-let-loose-veteran-smolensk-offensive-dlc-5576218",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "helldivers-2-ps5-turtsiya-ukraina-bystro-4211649",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "helldivers-2-steam-ua-podarok-4391553",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "helldivers-2-steam-ua-podarok-4391553",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "heretic-hexen-klyuch-steam-ru-sng-podarok-5464898",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "heroes-of-might-magic-3-hd-edition-steam-avto-5133893",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hitman-3-banker-pack-dlc-steam-avto-ru-ua-kz-sng-5209143",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hitman-3-patient-zero-requiem-pack-dlc-steam-ru-kz-5735667",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hitman-3-patient-zero-requiem-pack-dlc-steam-ru-kz-5735667",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hitman-3-sarajevo-six-campaign-pack-dlc-steam-avto-5166268",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hitman-woa-wizard-pack-dlc-steam-ru-kz-ua-sng-5929004",
+   "issue": "тонкий контент (164 зн.)"
+  },
+  {
+   "slug": "hitman-woa-wizard-pack-dlc-steam-ru-kz-ua-sng-5929004",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hitman-woa-wizard-pack-dlc-steam-ru-kz-ua-sng-5929004",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "hitman-woa-world-champions-pack-dlc-steam-ru-kz-ua-5929001",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hitman-woa-world-champions-pack-dlc-steam-ru-kz-ua-5929001",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hollow-knight-silksong-steam-avto-ru-ua-kz-sng-5222072",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hollow-knight-silksong-steam-avto-ru-ua-kz-sng-5222072",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "homeworld-3-steam-gift-avto-ru-4381092",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-battle-pass-y10s2-dlc-steam-ru-kz-ua-sng-5935696",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-lady-saori-nobushi-hero-skin-dlc-steam-5418898",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-prince-yi-tiandi-hero-skin-dlc-steam-5578277",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "honor-prince-yi-tiandi-hero-skin-dlc-steam-5578277",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-steam-avto-ru-ua-kz-sng-5122607",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "honor-steam-avto-ru-ua-kz-sng-5122607",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-ultimate-heroes-pack-dlc-ru-ua-kz-sng-5123673",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "honor-ultimate-heroes-pack-dlc-ru-ua-kz-sng-5123673",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-y8s2-hero-skin-dlc-steam-avto-ru-5133664",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "honor-y8s2-hero-skin-dlc-steam-avto-ru-5133664",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-y9s1-hero-skin-dlc-steam-avto-ru-5133595",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-y9s2-hero-skin-dlc-steam-avto-ru-ua-kz-sng-5216860",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "honor-y9s2-hero-skin-dlc-steam-avto-ru-ua-kz-sng-5216860",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "honor-yasuke-brave-shugoki-hero-skin-dlc-steam-ru-5844582",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hospital-666-steam-avto-ru-ua-kz-sng-5153953",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hudsight-steam-avto-ru-ua-kz-sng-5153433",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hudsight-steam-avto-ru-ua-kz-sng-5153433",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hunt-showdown-1896-death-s-day-dlc-steam-ru-ua-kz-5458055",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hunt-showdown-1896-death-s-day-dlc-steam-ru-ua-kz-5458055",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hunt-showdown-1896-ghost-of-blanchett-graves-dlc-5229151",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "hunt-showdown-1896-steam-gift-avto-ru-podarok-4392984",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "hunt-showdown-1896-steam-gift-avto-ru-podarok-4392984",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "icarus-steam-gift-avto-ru-podarok-5613066",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "immerse-gamepack-sea-of-thieves-dlc-steam-ru-kz-ua-5540789",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "immerse-gamepack-sea-of-thieves-dlc-steam-ru-kz-ua-5540789",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "incision-steam-avto-ru-ua-kz-sng-5396453",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "index",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "indiyskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5146310",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "indiyskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5146310",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "injustice-2-infinite-transforms-dlc-steam-ru-ua-kz-5165885",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "inzoi-steam-gift-avto-ru-5080288",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "inzoi-steam-gift-ru-podarok-5080279",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "it-takes-two-steam-gift-avto-ru-5062646",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "it-takes-two-steam-gift-avto-ru-5062646",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "it-takes-two-steam-gift-ru-podarok-4418172",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jade-empire-special-edition-steam-ru-ua-kz-sng-5123206",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jasper-ai-na-vash-lichnyy-akkaunt-7-dney-4366419",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jasper-ai-na-vash-lichnyy-akkaunt-7-dney-4366419",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jdm-japanese-drift-master-support-pack-dlc-steam-5174901",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jdm-japanese-drift-master-support-pack-dlc-steam-5174901",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jdm-made-usa-dlc-steam-avto-ru-kz-ua-sng-5532202",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jdm-made-usa-dlc-steam-avto-ru-kz-ua-sng-5532202",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-camp-cretaceous-5134510",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-cretaceous-predator-5134537",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-cretaceous-predator-5134537",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-dominion-biosyn-5133860",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-dominion-malta-5134460",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-dominion-malta-5134460",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-early-cretaceous-pack-5135260",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-early-cretaceous-pack-5135260",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-feathered-species-pack-5134958",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-late-cretaceous-pack-5134566",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-park-managers-5134492",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-park-managers-5134492",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-prehistoric-marine-5134634",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-prehistoric-marine-5134634",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-secret-species-pack-dlc-5134535",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "jurassic-world-evolution-2-secret-species-pack-dlc-5134535",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "jurassic-world-evolution-3-wetlands-dlc-steam-ru-5586681",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "karta-blizzard-battle-net-eu-20-150-tsena-1130137",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "karta-popolneniya-nintendo-eshop-35-usa-ssha-5071290",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "karta-popolneniya-playstation-psn-8000-inr-indiya-4912602",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "karty-steam-5-10-20-50-100-turtsiya-argentina-ssha-5801819",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "karty-steam-5-10-20-50-100-turtsiya-argentina-ssha-5801819",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "killing-floor-2-ultimate-edition-upgrade-dlc-steam-5153975",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "king-is-watching-crowns-of-history-dlc-steam-ru-kz-5789148",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-brushes-with-death-dlc-5166397",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-gold-edition-avto-ua-4873152",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-gold-edition-avto-ua-4873152",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-steam-ua-podarok-4873144",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-steam-ua-podarok-4873144",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-come-deliverance-ii-turtsiya-ukraina-4904903",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-come-deliverance-royal-klyuch-steam-ru-sng-5694806",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "kingdom-come-deliverance-royal-klyuch-steam-ru-sng-5694806",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kingdom-hearts-integrum-masterpiece-steam-gift-ru-4436988",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "klet-steam-avto-ru-ua-kz-sng-5147281",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "kling-ai-podpiska-standard-pro-premier-5419980",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "klyuch-dlya-bota-3907555",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "klyuch-dlya-bota-3907555",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "krea-ai-podpiski-basic-pro-max-na-vash-akkaunt-5102220",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "krea-ai-podpiski-basic-pro-max-na-vash-akkaunt-5102220",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "krita-steam-avto-ru-ua-kz-sng-5153327",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "krita-steam-avto-ru-ua-kz-sng-5153327",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "last-of-us-part-i-steam-ru-podarok-4912404",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "last-of-us-part-ii-remastered-steam-ua-podarok-5094600",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "last-of-us-part-ii-remastered-steam-ua-podarok-5094600",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "leaf-blower-co-steam-avtodostavka-ru-kz-ua-sng-5544938",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "left-4-dead-2-steam-gift-avto-ru-podarok-4391587",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "left-4-dead-2-steam-gift-avto-ru-podarok-4391587",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "left-4-dead-2-steam-gift-avto-ru-podarok-4391587",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "leonardo-ai-podpiska-na-vash-akkaunt-5094593",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "lethal-company-steam-gift-avto-ru-podarok-4382752",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "liar-s-bar-steam-gift-avto-ru-podarok-4873125",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "librarian-tidy-up-arcane-library-steam-ru-kz-ua-5860771",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "like-dragon-infinite-wealth-master-vacation-bundle-5123521",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "like-dragon-infinite-wealth-master-vacation-bundle-5123521",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "like-dragon-infinite-wealth-special-job-set-dlc-5134638",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "little-nightmares-3-ps4-ps5-vybor-regiona-bystro-5470358",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "little-nightmares-3-ps4-ps5-vybor-regiona-bystro-5470358",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "little-nightmares-3-ps4-ps5-vybor-regiona-bystro-5470358",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "lord-of-rings-return-moria-ru-podarok-5026345",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "lord-of-rings-return-moria-ru-podarok-5026345",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "lords-of-fallen-dark-crusader-starting-class-dlc-5192548",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "lucid-blocks-steam-avtodostavka-ru-kz-ua-sng-5784484",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mafia-old-country-ps5-ukraina-turtsiya-bystro-5156305",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "manor-lords-steam-gift-avtodostavka-ru-ua-podarok-4348551",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "manor-lords-steam-gift-avtodostavka-ru-ua-podarok-4348551",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "marathon-ps5-vybor-regiona-bystro-5661630",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "marathon-ps5-vybor-regiona-bystro-5661630",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "marvel-s-guardians-of-galaxy-steam-ru-ua-kz-sng-5122821",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "marvel-s-guardians-of-galaxy-steam-ru-ua-kz-sng-5122821",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "marvel-s-spider-man-2-deluxe-ps5-turtsiya-bystro-3962762",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "marvels-spider-man-2-ps5-ru-ozvuchka-3970823",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "meccha-chameleon-steam-ru-kz-ua-sng-5935617",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "meccha-chameleon-steam-ru-kz-ua-sng-5935617",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "megabonk-steam-avtodostavka-ru-ua-kz-sng-5429571",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "meltopia-steam-avtodostavka-ru-kz-ua-sng-5860820",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "men-of-war-ii-frontline-hero-steam-gift-ru-podarok-4385156",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metal-gear-solid-snake-eater-avto-5396218",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "metal-gear-solid-snake-eater-avto-5396218",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metal-gear-solid-snake-eater-deluxe-avto-5396225",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metal-gear-solid-snake-eater-podarok-5396213",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metro-2033-redux-bundle-klyuch-steam-ru-sng-5694811",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metro-exodus-enhanced-vybor-klyuch-steam-podarok-4944845",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "metro-exodus-two-colonels-dlc-steam-ru-ua-kz-sng-5147407",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mewgenics-steam-avtodostavka-ru-kz-ua-sng-5692048",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "midjourney-v7-podpiska-basic-standard-pro-1-4252725",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "midjourney-v7-podpiska-basic-standard-pro-1-4252725",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "minecraft-home-cape-twitch-tvich-plasch-kod-5100770",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "minecraft-home-cape-twitch-tvich-plasch-kod-5100770",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mk1-ermac-dlc-steam-avto-ru-ua-kz-sng-5123606",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mk1-janet-cage-kameo-dlc-steam-ru-ua-kz-sng-5133729",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mk1-janet-cage-kameo-dlc-steam-ru-ua-kz-sng-5133729",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mk1-khameleon-dlc-steam-avto-ru-ua-kz-sng-5133649",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mk1-khameleon-dlc-steam-avto-ru-ua-kz-sng-5133649",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mk1-one-time-dragon-pack-dlc-steam-ru-ua-kz-sng-5125474",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mk1-shang-tsung-dlc-steam-avto-ru-ua-kz-sng-5125539",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mk1-shang-tsung-dlc-steam-avto-ru-ua-kz-sng-5125539",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "monopoliya-monolife-lovit-igry-po-filtru-54457709",
+   "issue": "тонкий контент (488 зн.)"
+  },
+  {
+   "slug": "monsters-are-coming-rock-road-steam-ru-kz-ua-sng-5551476",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "monsters-are-coming-rock-road-steam-ru-kz-ua-sng-5551476",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "moonshiner-simulator-steam-avtodostavka-ru-kz-ua-5898693",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "moonshiner-simulator-steam-avtodostavka-ru-kz-ua-5898693",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-1-ghostface-dlc-steam-avto-ru-ua-kz-5165778",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mortal-kombat-1-ghostface-dlc-steam-avto-ru-ua-kz-5165778",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-1-kombat-pack-dlc-steam-ru-ua-kz-cis-5123198",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-frost-dlc-steam-avto-ru-kz-sng-5166246",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mortal-kombat-11-frost-dlc-steam-avto-ru-kz-sng-5166246",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-klassic-mk-movie-skin-pack-steam-5137648",
+   "issue": "тонкий контент (307 зн.)"
+  },
+  {
+   "slug": "mortal-kombat-11-klassic-mk-movie-skin-pack-steam-5137648",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mortal-kombat-11-klassic-mk-movie-skin-pack-steam-5137648",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-klassic-mk-movie-skin-pack-steam-5137648",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "mortal-kombat-11-masquerade-skin-dlc-steam-ru-ua-5146940",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-mileena-dlc-steam-avto-ru-ua-kz-5146991",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mortal-kombat-11-mileena-dlc-steam-avto-ru-ua-kz-5146991",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-rambo-dlc-steam-avto-ru-ua-kz-sng-5166075",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-robocop-dlc-steam-avto-ru-ua-kz-5146986",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-shao-kahn-dlc-steam-ru-kz-sng-5134580",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-spawn-dlc-steam-avto-ru-ua-kz-sng-5147099",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "mortal-kombat-11-spawn-dlc-steam-avto-ru-ua-kz-sng-5147099",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mortal-kombat-11-ultimate-add-bundle-dlc-steam-5146995",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mount-blade-ii-bannerlord-war-sails-dlc-steam-5560440",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "mydockfinder-steam-avto-ru-ua-kz-sng-5123517",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "nba-2k25-hall-of-fame-pass-season-9-dlc-steam-avto-5348961",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "nba-2k25-hall-of-fame-pass-season-9-dlc-steam-avto-5348961",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-deluxe-edition-steam-ru-ua-kz-sng-5123096",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "need-speed-deluxe-edition-steam-ru-ua-kz-sng-5123096",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-heat-keys-map-dlc-steam-avto-5192616",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-heat-mclaren-f1-black-market-delivery-5192614",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-most-wanted-complete-dlc-bundle-steam-5123444",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-most-wanted-multiplayer-booster-pack-5125454",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-most-wanted-premium-timesavers-pack-dlc-5125515",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-most-wanted-terminal-velocity-pack-dlc-5125565",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-payback-chevrolet-colorado-zr2-range-5123797",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-payback-fortune-valley-map-shortcuts-5147476",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-unbound-ford-mustang-dark-horse-24-set-5123044",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "need-speed-unbound-ford-mustang-dark-horse-24-set-5123044",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-unbound-keys-map-dlc-steam-5147415",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-unbound-vol-3-customs-pack-dlc-steam-5123189",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-unbound-vol-4-customs-pack-dlc-steam-5122814",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "need-speed-unbound-vol-4-customs-pack-dlc-steam-5122814",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "need-speed-unbound-vol-7-dynamic-catch-up-pack-5134467",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "needy-girl-overdose-steam-avto-ru-ua-kz-sng-5134443",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "needy-girl-overdose-steam-avto-ru-ua-kz-sng-5134443",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "nfspb-all-cars-bundle-dlc-steam-avto-ru-ua-kz-sng-5147102",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "nfspb-all-cars-bundle-dlc-steam-avto-ru-ua-kz-sng-5147102",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "nine-sols-steam-gift-avto-ru-podarok-4397342",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ninja-gaiden-4-two-masters-dlc-steam-ru-kz-ua-sng-5763530",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "ninja-gaiden-4-two-masters-dlc-steam-ru-kz-ua-sng-5763530",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "no-man-s-sky-klyuch-steam-ru-sng-5080964",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "no-man-s-sky-steam-gift-avto-ru-podarok-4393257",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "no-man-s-sky-steam-gift-avto-ru-podarok-4393257",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "no-rest-wicked-steam-gift-ru-podarok-4381151",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "no-rest-wicked-steam-gift-ru-podarok-4381151",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "nobody-wants-die-klyuch-steam-ru-sng-podarok-5696354",
+   "issue": "тонкий контент (97 зн.)"
+  },
+  {
+   "slug": "nobody-wants-die-klyuch-steam-ru-sng-podarok-5696354",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "nobody-wants-die-klyuch-steam-ru-sng-podarok-5696354",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "nobody-wants-die-steam-ru-podarok-4519013",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "northgard-vordr-clan-of-owl-dlc-steam-avto-5153060",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "notion-ai-plus-business-enterprise-na-vash-akkaunt-4366486",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "openrouter-popolnenie-akkaunta-dostup-k-llm-5419909",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ori-will-of-wisps-soundtrack-dlc-steam-avto-5183370",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "ori-will-of-wisps-soundtrack-dlc-steam-avto-5183370",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overcooked-2-campfire-cook-off-dlc-steam-avto-5147063",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overcooked-2-carnival-of-chaos-dlc-steam-avto-5183661",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overcooked-2-night-of-hangry-horde-dlc-steam-5166409",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overcooked-2-surf-n-turf-dlc-steam-ru-ua-kz-sng-5123474",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overlord-ii-steam-avto-ru-ua-kz-sng-5134925",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "overlord-ii-steam-avto-ru-ua-kz-sng-5134925",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overlord-raising-hell-steam-avto-ru-ua-kz-sng-5134533",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "overlord-steam-avto-ru-ua-kz-sng-5133826",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "oxygen-not-included-prehistoric-planet-pack-dlc-5217078",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "oxygen-not-included-prehistoric-planet-pack-dlc-5217078",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "palworld-steam-gift-avto-ru-podarok-4393267",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "paralives-steam-avtodostavka-ru-kz-ua-sng-5912479",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "paralives-steam-avtodostavka-ru-kz-ua-sng-5912479",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pathfinder-wrath-of-righteous-goty-steam-avto-5133427",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pathfinder-wrath-of-righteous-season-pass-2-dlc-5122963",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pathfinder-wrath-of-righteous-season-pass-dlc-5133711",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "payday-2-sokol-character-pack-dlc-steam-ru-ua-kz-5153437",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "payday-3-delivery-charge-heist-dlc-steam-ru-ua-kz-5417548",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "payday-3-swedish-weapon-pack-dlc-steam-ru-kz-ua-5897020",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "payday-3-swedish-weapon-pack-dlc-steam-ru-kz-ua-5897020",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "payday-3-trifecta-lootbag-dlc-steam-avto-ru-ua-kz-5146863",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "payday-3-trifecta-lootbag-dlc-steam-avto-ru-ua-kz-5146863",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "perplexity-ai-pro-podpiska-1-mesyats-bez-vhoda-bez-4366461",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-p4g-yasogami-high-costume-set-dlc-5133719",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "persona-3-reload-p4g-yasogami-high-costume-set-dlc-5133719",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-p4g-yasogami-high-costume-set-dlc-5133719",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "persona-3-reload-persona-4-golden-persona-set-dlc-5123468",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-bgm-set-dlc-steam-5125593",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-bgm-set-dlc-steam-5125593",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-persona-set-1-dlc-5123745",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-persona-set-1-dlc-5123745",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-persona-set-2-dlc-5123480",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-phantom-thieves-5125589",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "persona-3-reload-persona-5-royal-phantom-thieves-5125589",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "phasmophobia-steam-gift-avto-ru-kz-podarok-4391287",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "phasmophobia-steam-gift-avto-ru-kz-podarok-4391287",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pika-art-ai-podpiski-na-vash-akkaunt-5071099",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pipe-by-bmx-streets-steam-avto-ru-ua-kz-sng-5152992",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "pipe-by-bmx-streets-steam-avto-ru-ua-kz-sng-5152992",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-aquatic-pack-dlc-steam-avto-rossiya-5133546",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-arctic-pack-dlc-steam-ru-ua-kz-sng-5123735",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-asia-animal-pack-dlc-steam-ru-ua-kz-sng-5245480",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-australia-pack-dlc-steam-avto-ru-ua-kz-5165811",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-conservation-pack-dlc-steam-avto-ru-5133573",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-deluxe-edition-upgrade-pack-dlc-steam-5133683",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "planet-zoo-deluxe-edition-upgrade-pack-dlc-steam-5133683",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-europe-pack-dlc-steam-avto-ru-ua-kz-sng-5165925",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-north-america-animal-pack-dlc-steam-5165833",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-south-america-pack-dlc-steam-ru-ua-kz-5165903",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-twilight-pack-dlc-steam-ru-ua-kz-sng-5133444",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "planet-zoo-twilight-pack-dlc-steam-ru-ua-kz-sng-5133444",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "planet-zoo-wetlands-animal-pack-dlc-ru-ua-kz-sng-5125533",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "plants-vs-zombies-replanted-steam-avto-ua-kz-sng-5502191",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "plants-vs-zombies-replanted-steam-avto-ua-kz-sng-5502191",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-100-usd-ssha-5059655",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-20-usd-ssha-5571676",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-200-usd-ssha-5571687",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-25-usd-ssha-5059669",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-50-usd-ssha-5059654",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-apple-itunes-500-usd-ssha-5704218",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-battle-net-100-evro-5675317",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "podarochnaya-karta-nintendo-eshop-5-100-ssha-5213586",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pokupka-igr-dls-podpisok-xbox-na-vash-akkaunt-3808683",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pokupka-igr-podpisok-popolnenie-psn-turtsiya-3912126",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pokupka-igr-podpisok-popolnenie-psn-turtsiya-3912126",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "pokupka-igr-podpisok-popolnenie-psn-ukraina-4624141",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "polskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5624297",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "polskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5624297",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "portal-2-steam-gift-avto-ru-podarok-4393008",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "portal-2-steam-gift-avto-ru-podarok-4393008",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "portal-steam-gift-avto-ru-podarok-4393031",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "possessor-s-steam-avtodostavka-ru-kz-ua-sng-5538041",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "possessor-s-steam-avtodostavka-ru-kz-ua-sng-5538041",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "pragmata-deluxe-edition-steam-kz-ua-sng-5589925",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "pragmata-deluxe-edition-steam-kz-ua-sng-5589925",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "prey-standard-deluxe-klyuch-steam-ru-sng-podarok-5576151",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "prey-standard-deluxe-klyuch-steam-ru-sng-podarok-5576151",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "prince-of-persia-lost-crown-mask-of-darkness-dlc-5125491",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "prizrak-tsusimy-rezhissyorskaya-versiya-gift-avto-5060654",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "prizrak-tsusimy-rezhissyorskaya-versiya-gift-avto-5060654",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "prizrak-tsusimy-rezhissyorskaya-versiya-steam-ua-4379109",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ps-plus-deluxe-extra-essential-1-12-indiya-bystro-5645615",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ps-plus-ess-ext-del-ea-1-12-mesyatsa-turtsiya-3854376",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ps-plus-ess-ext-del-ea-1-12-mesyatsa-ukraina-3889316",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "ps-plus-ess-ext-del-ea-1-12-mesyatsa-ukraina-3889316",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "purple-place-classic-games-steam-avto-ru-ua-kz-sng-5154008",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "r-e-p-o-steam-gift-avto-ru-5061005",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "r-e-p-o-steam-gift-avto-ru-podarok-5026310",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "r-e-p-o-steam-gift-avto-ru-podarok-5026310",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "raft-steam-gift-avto-ru-podarok-4391579",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "raft-steam-gift-avto-ru-podarok-4391579",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "railgods-of-hysterra-steam-avto-ru-ua-kz-sng-5153041",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ratchet-clank-rift-apart-steam-gift-avto-ru-5061505",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rayman-raving-rabbids-steam-avto-ru-ua-kz-sng-5135886",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ready-not-boiling-point-dlc-steam-ru-kz-ua-sng-5784562",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ready-not-steam-gift-avto-ru-podarok-4391425",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "reanimal-digital-deluxe-edition-steam-ru-kz-ua-sng-5551460",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "reanimal-ps5-turtsiya-ukraina-bystro-5702582",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "reanimal-ps5-turtsiya-ukraina-bystro-5702582",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "reanimal-steam-gift-avto-ru-podarok-5696309",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "reanimal-steam-gift-avto-ru-podarok-5696309",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "red-dead-redemption-2-steam-gift-avto-ru-4391431",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "regalii-ognegrivogo-feniksa-klyuch-rossiya-evropa-3575664",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "registratsiya-akkaunta-xbox-microsoft-lyuboy-3791243",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "remnant-from-ashes-subject-2923-dlc-steam-avto-5135619",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "remnant-from-ashes-subject-2923-dlc-steam-avto-5135619",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "remnant-from-ashes-swamps-of-corsus-dlc-steam-5135864",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "remnant-from-ashes-swamps-of-corsus-dlc-steam-5135864",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-4-attach-case-classic-dlc-steam-5122852",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "resident-evil-4-attach-case-classic-dlc-steam-5122852",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-4-charm-green-herb-dlc-steam-5122886",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "resident-evil-4-charm-green-herb-dlc-steam-5122886",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-4-charm-handgun-ammo-dlc-steam-5122876",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "resident-evil-4-charm-handgun-ammo-dlc-steam-5122876",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-4-zolotoy-keys-dlc-steam-ru-ua-kz-5122778",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-4-zolotoy-keys-dlc-steam-ru-ua-kz-5122778",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "resident-evil-requiem-deluxe-edition-steam-kz-ua-5517832",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "resident-evil-requiem-deluxe-edition-steam-kz-ua-5517832",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-requiem-original-soundtrack-dlc-5763499",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-requiem-ps5-turtsiya-ukraina-bystro-5674936",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-requiem-steam-avto-kz-ua-sng-5517831",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-requiem-vybor-izdaniya-xbox-series-x-5669166",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-revelations-jessica-s-g18-custom-5123782",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "resident-evil-revelations-parker-s-government-5125495",
+   "issue": "тонкий контент (366 зн.)"
+  },
+  {
+   "slug": "resident-evil-revelations-parker-s-government-5125495",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "resident-evil-revelations-parker-s-government-5125495",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "returnal-steam-ru-podarok-4912340",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rf-sng-dragon-s-dogma-2-standart-deluxe-4227456",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ride-5-far-east-pack-dlc-steam-avto-ru-ua-kz-sng-5165960",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "riftbreaker-into-dark-dlc-steam-ru-ua-kz-sng-5122761",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "riftbreaker-metal-terror-dlc-steam-ru-ua-kz-sng-5125467",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "riftbreaker-metal-terror-dlc-steam-ru-ua-kz-sng-5125467",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rimworld-steam-gift-avtodostavka-ru-podarok-4297533",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rise-of-tomb-raider-20-yearcelebrationru-podarok-4934137",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "risk-of-rain-2-alloyed-collective-dlc-steam-ru-kz-5545068",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "risk-of-rain-2-survivors-of-void-dlc-steam-avto-5133751",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "risk-of-rain-2-survivors-of-void-dlc-steam-avto-5133751",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "roadcraft-rebuild-expansion-dlc-steam-avto-rossiya-5173436",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "roadcraft-rebuild-expansion-dlc-steam-avto-rossiya-5173436",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "roadside-research-steam-avtodostavka-ru-kz-ua-sng-5698113",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "roblox-cyberpunk-wolf-hat-global-roblox-cd-key-5544485",
+   "issue": "тонкий контент (485 зн.)"
+  },
+  {
+   "slug": "roblox-cyberpunk-wolf-hat-global-roblox-cd-key-5544485",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rogue-point-supporter-dlc-steam-ru-kz-ua-sng-5699063",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "rogue-point-supporter-dlc-steam-ru-kz-ua-sng-5699063",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rogue-prince-of-persia-steam-ru-podarok-4392866",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ru-eu-wrath-of-lich-king-heroic-85-lvl-3453803",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rue-valley-steam-avtodostavka-ru-kz-ua-sng-5538044",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "runway-ml-podpiska-bez-vhoda-5071051",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rust-steam-ru-podarok-4390352",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "rust-steam-ru-podarok-4390352",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "rutonychat-steam-avto-ru-ua-kz-sng-5122863",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "rutonychat-steam-avto-ru-ua-kz-sng-5122863",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "saints-row-2-klyuch-steam-ru-sng-5080843",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "saints-row-2-klyuch-steam-ru-sng-5080843",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "salt-2-shores-of-gold-steam-avtodostavka-ru-kz-ua-5539655",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "salt-sanctuary-steam-avto-ru-ua-kz-sng-5155024",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "scum-deluxe-content-pack-dlc-steam-avto-ru-ua-kz-5225612",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "scum-klyuch-steam-ru-sng-podarok-4951533",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "scum-klyuch-steam-ru-sng-podarok-4951533",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "sekiro-shadows-die-twice-goty-steam-gift-avto-ru-4391324",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "senua-s-saga-hellblade-ii-deluxe-steam-ru-podarok-4385226",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "serious-sam-2-steam-avto-ru-ua-kz-sng-5153062",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sheepchat-steam-avto-ru-ua-kz-sng-5154340",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sherlock-holmes-devil-s-daughter-ru-ua-kz-sng-5122816",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "shieldwall-steam-avto-ru-ua-kz-sng-5123454",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "shop-titans-bot-kliker-4059621",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "shop-titans-bot-kliker-4059621",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "shoptitans-bot",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sid-meier-s-civilization-v-dlc-klyuch-steam-ru-sng-5705226",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "side-effects-steam-avtodostavka-ru-kz-ua-sng-5553028",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "side-effects-steam-avtodostavka-ru-kz-ua-sng-5553028",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "silent-hill-f-ps5-vybor-regiona-bystro-5205900",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "silent-hill-f-ps5-vybor-regiona-bystro-5205900",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "silent-hunter-iii-steam-avto-ru-ua-kz-sng-5146880",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sims-4-crystal-creations-stuff-pack-dlc-steam-avto-5147422",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "sims-4-crystal-creations-stuff-pack-dlc-steam-avto-5147422",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "skull-bones-premium-edition-year-2-steam-avto-5133462",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "skull-bones-standard-edition-steam-ru-ua-kz-sng-5133457",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "skull-bones-standard-edition-steam-ru-ua-kz-sng-5133457",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "slay-spire-steam-avto-ru-ua-kz-sng-5135741",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "slormancer-steam-avto-ru-ua-kz-sng-5154686",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "smena-regiona-epic-games-kazahstan-4582952",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "smena-regiona-epic-games-kazahstan-4582952",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "smena-regiona-epic-games-pk-turtsiya-5219167",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "smena-regiona-epic-games-pk-turtsiya-5219167",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "sniper-elite-resistance-mud-thunder-mission-w-s-5225227",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "sniper-elite-resistance-mud-thunder-mission-w-s-5225227",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sniper-elite-resistance-season-pass-dlc-steam-avto-5202418",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sniper-elite-resistance-striking-range-mission-w-s-5202427",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "sniper-elite-resistance-striking-range-mission-w-s-5202427",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sniper-ghost-warrior-3-season-pass-steam-avto-5146976",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sniper-ghost-warrior-contracts-digital-deluxe-5183143",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-dragon-wagons-dual-pack-dlc-steam-ru-kz-5531592",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "snowrunner-dragon-wagons-dual-pack-dlc-steam-ru-kz-5531592",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-jack-of-all-treads-tire-pack-dlc-steam-5153221",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-mastodon-dlc-steam-avto-ru-ua-kz-sng-5153243",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-season-16-high-voltage-dlc-steam-ru-ua-5408000",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-season-17-repair-rescue-dlc-steam-5664813",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "snowrunner-season-18-patch-power-dlc-steam-ru-kz-5958960",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "snowrunner-season-18-patch-power-dlc-steam-ru-kz-5958960",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sol-cesto-steam-avto-ru-ua-kz-sng-5189894",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "sol-cesto-steam-avto-ru-ua-kz-sng-5189894",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sons-of-forest-steam-gift-avto-ru-5060566",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "sons-of-forest-steam-gift-avto-ru-5060566",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "sons-of-forest-steam-gift-avto-ru-podarok-4391302",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "soulmask-steam-gift-avto-ru-podarok-4397689",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "soulmask-steam-gift-avto-ru-podarok-4397689",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "soulstice-xbox-one-series-klyuch-3480650",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "south-of-midnight-steam-gift-avto-ru-podarok-5094617",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "south-park-fractured-whole-bring-crunch-5134669",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "south-park-fractured-whole-from-dusk-till-casa-5134640",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "south-park-fractured-whole-relics-of-zaron-5166239",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "south-park-fractured-whole-relics-of-zaron-5166239",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "south-park-fractured-whole-season-pass-dlc-5134604",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "split-fiction-ps5-ukraina-turtsiya-bystro-5039490",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "split-fiction-ps5-ukraina-turtsiya-bystro-5039490",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "spotify-premium-1-3-6-12-mesyatsev-rf-mir-4009731",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "squad-klyuch-steam-rossiya-podarok-5800853",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ssha-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5662544",
+   "issue": "тонкий контент (211 зн.)"
+  },
+  {
+   "slug": "ssha-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5662544",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ssha-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5662544",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "star-wars-jedi-fallen-order-deluxe-edition-steam-5122234",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "star-wars-jedi-fallen-order-deluxe-edition-steam-5122234",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "star-wars-jedi-survivor-deluxe-upgrade-dlc-steam-5192555",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "star-wars-jedi-survivor-deluxe-upgrade-dlc-steam-5192555",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "star-wars-outlaws-naboo-nobility-bundle-dlc-steam-5165764",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "star-wars-outlaws-naboo-nobility-bundle-dlc-steam-5165764",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "star-wars-outlaws-pirate-s-fortune-dlc-steam-avto-5165474",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "star-wars-outlaws-season-pass-dlc-steam-ru-ua-kz-5125551",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stardew-valley-steam-avto-ru-ua-kz-sng-5152716",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stardew-valley-steam-avto-ru-ua-kz-sng-5152716",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stardew-valley-steam-gift-avto-ru-5060603",
+   "issue": "тонкий контент (484 зн.)"
+  },
+  {
+   "slug": "stardew-valley-steam-gift-avto-ru-5060603",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stardew-valley-steam-gift-avto-ru-5060603",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "static-dread-lighthouse-steam-avto-ru-ua-kz-sng-5344418",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "steamworld-dig-2-steam-avto-ru-ua-kz-sng-5135837",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stellaris-shadows-of-shroud-dlc-steam-avto-5404622",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stellaris-shadows-of-shroud-dlc-steam-avto-5404622",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "still-wakes-deep-siren-s-rest-dlc-steam-avto-5217072",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stray-steam-gift-avto-ru-5060641",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stray-steam-gift-avto-ru-5060641",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stray-steam-gift-avto-ru-podarok-4392996",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stray-steam-gift-avto-ru-podarok-4392996",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "streamer-life-simulator-2-steam-gift-avto-ru-4912571",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "streamer-life-simulator-2-steam-gift-avto-ru-4912571",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "streamer-life-simulator-2-steam-gift-avto-ru-5060963",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "streamer-life-simulator-2-steam-gift-avto-ru-5060963",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stronghold-crusader-de-canary-trader-steam-5489224",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stronghold-crusader-de-canary-trader-steam-5489224",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "stronghold-crusader-definitive-edition-baldwin-5839752",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "stronghold-crusader-definitive-edition-baldwin-5839752",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "subnautica-steam-gift-avto-ru-podarok-4393290",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "suno-ai-podpiska-pro-premier-na-vash-akkaunt-5070934",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "super-meat-boy-steam-avto-ru-ua-kz-sng-5153927",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "super-meat-boy-steam-avto-ru-ua-kz-sng-5153927",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "supraworld-steam-avto-ru-ua-kz-sng-5359733",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "supraworld-steam-avto-ru-ua-kz-sng-5359733",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "survive-nights-steam-avto-ru-ua-kz-sng-5154414",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "syberia-remastered-steam-avto-ru-kz-ua-sng-5531523",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "system-shock-2-25th-anniversary-remaster-steam-5228188",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "system-shock-2-25th-anniversary-remaster-steam-5228188",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tainted-grail-fall-of-avalon-sanctuary-of-sarras-5595219",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tainted-grail-fall-of-avalon-sanctuary-of-sarras-5595219",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tes-iii-morrowind-goty-klyuch-steam-ru-sng-podarok-5576149",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tes-iv-oblivion-goty-deluxe-steam-ru-sng-podarok-5576148",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tes-iv-oblivion-goty-deluxe-steam-ru-sng-podarok-5576148",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tes-iv-oblivion-remastered-deluxe-steam-gift-avto-5127316",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "test-5816656",
+   "issue": "тонкий контент (248 зн.)"
+  },
+  {
+   "slug": "test-5816656",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "test-5816656",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "test-klyucha-5959089",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-alberta-hunting-preserve-5223612",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-ambusher-pack-dlc-steam-5134417",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-ambusher-pack-dlc-steam-5134417",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-assorted-sidearms-pack-dlc-5146876",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-atv-saber-4x4-dlc-steam-5134439",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-bloodhound-dlc-steam-5134450",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-duck-cover-pack-dlc-5135217",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-duck-cover-pack-dlc-5135217",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-emerald-coast-australia-5135105",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-emerald-coast-australia-5135105",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-game-feeder-pack-2-dlc-5730881",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-german-shorthaired-pointer-5134666",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-high-tech-hunting-pack-5135075",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-high-tech-hunting-pack-5135075",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-hunter-power-pack-dlc-5134530",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-mississippi-acres-preserve-5135597",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-modern-rifle-pack-dlc-5134425",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-new-england-mountains-dlc-5135821",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-new-england-mountains-dlc-5135821",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-premium-trophy-mount-pack-5586740",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-pump-flip-fire-pack-5383047",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-rapid-hunt-rifle-pack-dlc-5135287",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-rapid-hunt-rifle-pack-dlc-5135287",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-revontuli-coast-dlc-steam-5135334",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-revontuli-coast-dlc-steam-5135334",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-scopes-crosshairs-5134513",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-scotland-hunting-reserve-5586738",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-scotland-hunting-reserve-5586738",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-silver-ridge-peaks-dlc-5135884",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-sundarpatan-hunting-reserve-5122525",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-tents-ground-blinds-dlc-5134608",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-treestand-tripod-pack-5134876",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-treestand-tripod-pack-5134876",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "thehunter-call-of-wild-vurhonga-savanna-dlc-5135113",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-weapon-pack-1-dlc-steam-5135210",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-weapon-pack-1-dlc-steam-5135210",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-weapon-pack-2-dlc-steam-5135497",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thehunter-call-of-wild-wild-goose-chase-gear-dlc-5135654",
+   "issue": "тонкий контент (434 зн.)"
+  },
+  {
+   "slug": "thehunter-call-of-wild-wild-goose-chase-gear-dlc-5135654",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thehunter-call-of-wild-wild-goose-chase-gear-dlc-5135654",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "thief-simulator-vr-steam-avto-ru-ua-kz-sng-5146818",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "thief-simulator-vr-steam-avto-ru-ua-kz-sng-5146818",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tick-tock-tale-two-steam-avto-ru-ua-kz-sng-5153067",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tiles-survive-bot",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tiles-survive-bot-kliker-5796166",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tiny-bunny-steam-avto-ru-ua-kz-sng-5148178",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tiny-bunny-steam-avto-ru-ua-kz-sng-5148178",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "titanfall-2-monarch-s-reign-bundle-dlc-steam-avto-5123660",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "together-moon-escape-steam-avtodostavka-ru-kz-ua-5840496",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "together-moon-escape-steam-avtodostavka-ru-kz-ua-5840496",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-division-2-battle-brooklyn-dlc-5189249",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-division-2-standard-edition-steam-5122865",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-breakpoint-deluxe-edition-5133798",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-breakpoint-steam-ru-4411128",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-breakpoint-steam-ru-5062598",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-breakpoint-steam-ru-5062598",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-wildlands-fallen-ghosts-5135854",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-wildlands-narco-road-dlc-5137721",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-wildlands-season-pass-dlc-5183212",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-ghost-recon-wildlands-year-2-pass-dlc-5166055",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-rainbow-six-extraction-steam-ru-4411119",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tom-clancy-s-rainbow-six-extraction-steam-ru-4411119",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tom-clancy-s-rainbow-six-vegas-2-steam-ru-ua-kz-5166380",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tom-clancy-s-rainbow-six-vegas-2-steam-ru-ua-kz-5166380",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-anniversary-steam-ru-podarok-4933999",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-i-iii-remastered-starring-lara-croft-4934152",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-iv-vi-remastered-steam-gift-avto-ru-4933956",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-iv-vi-remastered-steam-gift-avto-ru-4933956",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "tomb-raider-legend-steam-gift-avto-ru-5062725",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-legend-steam-ru-podarok-4933986",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-steam-ru-podarok-4934057",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "tomb-raider-steam-ru-podarok-4934057",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tomb-raider-underworld-steam-gift-avto-ru-5062852",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-chaos-steam-avtodostavka-ru-kz-ua-sng-5551653",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-empire-definitive-edition-ru-ua-kz-sng-5125447",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-pharaoh-blood-sand-dlc-steam-ru-ua-kz-5134427",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-black-sea-colonies-culture-pack-5133898",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-bloodpack-dlc-steam-ru-ua-kz-sng-5133819",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-rome-ii-bloodpack-dlc-steam-ru-ua-kz-sng-5133819",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-caesar-gaul-dlc-steam-avto-5135833",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-desert-kingdoms-culture-pack-dlc-5133837",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-empire-divided-dlc-steam-avto-5133902",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-greek-states-culture-pack-dlc-5134465",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-rome-ii-greek-states-culture-pack-dlc-5134465",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-hannibal-gates-dlc-steam-5134562",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-rome-ii-hannibal-gates-dlc-steam-5134562",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-nomadic-tribes-culture-pack-dlc-5134411",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-pirates-raiders-dlc-steam-avto-5133900",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-rome-ii-pirates-raiders-dlc-steam-avto-5133900",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-rise-of-republic-campaign-pack-5133858",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-rome-ii-rise-of-republic-campaign-pack-5133858",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-rome-ii-wrath-of-sparta-dlc-steam-avto-5135296",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-shogun-2-klyuch-steam-ru-sng-4705448",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-eight-princes-dlc-steam-5134968",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-fates-divided-dlc-steam-5133873",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-furious-wild-dlc-steam-5133916",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-mandate-of-heaven-dlc-5134419",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-three-kingdoms-mandate-of-heaven-dlc-5134419",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-reign-of-blood-dlc-steam-5133834",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-world-betrayed-dlc-steam-5133884",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-three-kingdoms-yellow-turban-rebellion-5134421",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-warhammer-blood-blood-god-dlc-5137686",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "total-war-warhammer-iii-blood-blood-god-iii-5133748",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "total-war-warhammer-iii-blood-blood-god-iii-5133748",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "tower-defense-simulator-roblox-54184973",
+   "issue": "тонкий контент (487 зн.)"
+  },
+  {
+   "slug": "trepang2-survival-mode-dlc-steam-avto-ru-ua-kz-sng-5135626",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "trofei-rybalka2",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "trofeynaya-rybalka-2-steam-bot-dlya-farma-nazhivki-2563817",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "turboscribe-ai-podpiska-unlimited-bez-vhoda-5071081",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "turboscribe-ai-podpiska-unlimited-bez-vhoda-5071081",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "turetskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5145581",
+   "issue": "тонкий контент (271 зн.)"
+  },
+  {
+   "slug": "turetskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5145581",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "turetskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5145581",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "turetskiy-ukrainskiy-indiyskiy-akkaunt-psn-bystro-3544663",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ufc-6-ps5-vybor-regiona-bystro-5950583",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "ufc-6-ps5-vybor-regiona-bystro-5950583",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ukrainskiy-akkaunt-psn-ps4-ps5-avtodostavka-24-7-5146295",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "ultimate-general-american-revolution-gift-ru-4417835",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "unbeatable-steam-avtodostavka-ru-kz-ua-sng-5586822",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "unbeatable-steam-avtodostavka-ru-kz-ua-sng-5586822",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "uncharted-legacy-of-thieves-collection-ru-podarok-4912456",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "uncharted-legacy-of-thieves-collection-steam-avto-5062522",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "uncharted-legacy-of-thieves-collection-steam-avto-5062522",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-100-dlya-patreon-paypal-chatgpt-proydet-733911",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-125-dlya-patreon-paypal-chatgpt-proydet-779633",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-150-dlya-patreon-paypal-chatgpt-proydet-1373875",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-150-dlya-patreon-paypal-chatgpt-proydet-1373875",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-20-7000-patreon-paypal-chatgpt-proydet-1085062",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-200-dlya-patreon-paypal-chatgpt-proydet-766062",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-200-dlya-patreon-paypal-chatgpt-proydet-766062",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-25-dlya-patreon-paypal-chatgpt-proydet-843067",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-25-dlya-patreon-paypal-chatgpt-proydet-843067",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-5-1000-rewarble-oplata-bez-sanktsiy-tsena-4967249",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-5-1000-rewarble-oplata-bez-sanktsiy-tsena-4967249",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-5-500-rewarble-oplata-bez-sanktsiy-tsena-4779678",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-50-dlya-patreon-paypal-chatgpt-proydet-689196",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-75-dlya-patreon-paypal-chatgpt-proydet-771240",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-75-dlya-patreon-paypal-chatgpt-proydet-771240",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-10-dlya-google-apple-others-672117",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-100-dlya-google-apple-others-992599",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-worldwide-100-dlya-google-apple-others-992599",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-125-dlya-google-apple-others-3012652",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-15-dlya-google-apple-others-679333",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-150-dlya-google-apple-others-1071271",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-worldwide-150-dlya-google-apple-others-1071271",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-175-dlya-google-apple-others-787321",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-20-dlya-google-apple-others-679337",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-200-dlya-google-apple-others-1042194",
+   "issue": "тонкий контент (154 зн.)"
+  },
+  {
+   "slug": "us-card-worldwide-200-dlya-google-apple-others-1042194",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-200-dlya-google-apple-others-1042194",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-worldwide-25-dlya-google-apple-others-679339",
+   "issue": "тонкий контент (223 зн.)"
+  },
+  {
+   "slug": "us-card-worldwide-25-dlya-google-apple-others-679339",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-25-dlya-google-apple-others-679339",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-worldwide-250-dlya-google-apple-others-711591",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-30-dlya-google-apple-others-679341",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-300-dlya-google-apple-others-756437",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-35-dlya-google-apple-others-687068",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-350-dlya-google-apple-others-1071302",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-40-dlya-google-apple-others-689186",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-400-dlya-google-apple-others-811824",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-45-dlya-google-apple-others-689188",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-450-dlya-google-apple-others-1110501",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-worldwide-450-dlya-google-apple-others-1110501",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-50-dlya-google-apple-others-992598",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-worldwide-50-dlya-google-apple-others-992598",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-500-dlya-google-apple-others-806608",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-60-dlya-google-apple-others-1042193",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "us-card-worldwide-60-dlya-google-apple-others-1042193",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-700-dlya-google-apple-others-1071301",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-700-dlya-google-apple-others-1071301",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "us-card-worldwide-75-dlya-google-apple-others-992600",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-card-worldwide-90-dlya-google-apple-others-1041325",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-eu-card-5-10000-proydet-vezde-nizkaya-tsena-1065234",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "us-eu-card-popolnenie-balansa-karty-4091488",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "usd-uk-card-20-5000-games-hosting-others-tsena-1428935",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "v-rising-steam-gift-avtodostavka-ru-podarok-4367985",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "v-rising-steam-gift-avtodostavka-ru-podarok-4367985",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "valheim-steam-gift-avto-ru-5060560",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "valheim-steam-gift-avto-ru-podarok-4388100",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "valiant-hearts-coming-home-steam-ru-ua-kz-sng-5122529",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "vampire-masquerade-bloodlines-2-premium-steam-5364647",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "vampire-survivors-steam-gift-avto-ru-podarok-4947457",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "vedmak-3-dikaya-ohota-polnoe-izdanie-steam-ru-4390589",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "vedmak-3-dikaya-ohota-polnoe-izdanie-steam-ru-5060733",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "virtual-desktop-steam-avto-ru-ua-kz-sng-5153158",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "virtual-desktop-steam-avto-ru-ua-kz-sng-5153158",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "virtuosa-hero-honor-dlc-steam-ru-ua-kz-sng-5313299",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "virtuosa-hero-honor-dlc-steam-ru-ua-kz-sng-5313299",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "vladik-brutal-steam-gift-avto-ru-podarok-4559521",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warframe-fulmin-battlekit-dlc-steam-ru-kz-ua-sng-5711699",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warframe-old-peace-complete-collection-dlc-steam-5588240",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warframe-old-peace-complete-collection-dlc-steam-5588240",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warframe-old-peace-gemini-collection-dlc-steam-5588256",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warframe-tennocon-2026-digital-pack-dlc-steam-ru-5865354",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warframe-tennocon-2026-digital-pack-dlc-steam-ru-5865354",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-battlesector-black-legion-dlc-5730917",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-battlesector-black-legion-dlc-5730917",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-chaos-gate-daemonhunters-duty-5122223",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-darktide-imperial-edition-upgrade-5147405",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-dawn-of-war-definitive-edition-5357982",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-dawn-of-war-definitive-edition-5357982",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-gladius-rampage-pack-dlc-steam-5586690",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-gladius-rampage-pack-dlc-steam-5586690",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-rogue-trader-lex-imperialis-dlc-5242004",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-rogue-trader-lex-imperialis-dlc-5242004",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-rogue-trader-season-pass-dlc-5137656",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-blood-angels-5558311",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-carcharodons-5738777",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-imperial-fists-5182821",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-macragge-s-chosen-5182925",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-macragge-s-chosen-5182925",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-ps5-turtsiya-4623282",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-raven-guard-5182908",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-raven-guard-5738631",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-salamanders-5182910",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-salamanders-5558328",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-salamanders-5558328",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-space-wolves-5182906",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-space-wolves-5182906",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-steam-gift-avto-ru-4623474",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-ultramarines-5154502",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-40-000-space-marine-2-ultramarines-5154502",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-40000-chaosgate-daemonhunters-execution-5122225",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-vermintide-2-grail-knight-career-dlc-5123169",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-vermintide-2-necromancer-career-dlc-5122523",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-vermintide-2-sister-of-thorn-dlc-steam-5123460",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "warhammer-vermintide-2-warrior-priest-career-dlc-5123548",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "warhammer-vermintide-2-warrior-priest-career-dlc-5123548",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wartales-expansion-curse-of-rigel-steam-ru-kz-ua-5589288",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wartales-steam-avtodostavka-ru-ua-kz-sng-5123434",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-2-human-conditions-dlc-steam-ru-ua-kz-5166298",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-2-no-compromise-dlc-steam-ru-ua-kz-sng-5166236",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-2-t-bone-pack-dlc-steam-avto-ru-ua-kz-5183354",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "watch-dogs-2-t-bone-pack-dlc-steam-avto-ru-ua-kz-5183354",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-bad-blood-dlc-steam-avto-ru-ua-kz-sng-5146997",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-legion-bloodline-dlc-steam-ru-ua-kz-sng-5122834",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-legion-season-pass-dlc-steam-ru-ua-kz-5183243",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "watch-dogs-season-pass-dlc-steam-avto-ru-ua-kz-sng-5166232",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "watch-dogs-season-pass-dlc-steam-avto-ru-ua-kz-sng-5166232",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "waveshaper-steam-avtodostavka-ru-kz-ua-sng-5133674",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "way-of-hunter-remington-firearms-pack-dlc-steam-5183331",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "way-of-hunter-remington-firearms-pack-dlc-steam-5183331",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "way-of-hunter-strasser-pack-dlc-steam-ru-kz-ua-5578269",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wildberries-podarochnyy-sertifikat-500-50000r-4233413",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-blood-wine-soundtrack-5133839",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-hearts-of-stone-dlc-steam-5174477",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-hearts-of-stone-soundtrack-5134620",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-hearts-of-stone-soundtrack-5134620",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-soundtrack-dlc-steam-avto-5166022",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "witcher-3-wild-hunt-soundtrack-dlc-steam-avto-5166022",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wolfenstein-ii-new-colossus-deluxe-klyuch-ru-sng-5637818",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wolfenstein-ii-new-colossus-digital-deluxe-edition-5123687",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "wolfenstein-ii-new-colossus-digital-deluxe-edition-5123687",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wolfenstein-ii-new-colossus-standard-deluxe-steam-5576147",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wolfenstein-new-order-klyuch-steam-ru-sng-5576146",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "wolfenstein-old-blood-klyuch-steam-ru-sng-5576143",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "workers-resources-soviet-republic-early-start-dlc-5178582",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "workers-resources-soviet-republic-help-ukraine-5137710",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "world-of-tanks-zoloto-nabory-premium-eu-pk-avto-5077157",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "xbox-live-gift-card-100-brl-tolko-braziliya-4372821",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "xbox-live-gift-card-25-brl-tolko-braziliya-4375832",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "xbox-live-gift-card-25-brl-tolko-braziliya-4375832",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "xcom-2-war-of-chosen-tactical-legacy-pack-dlc-5134646",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "xcom-2-war-of-chosen-tactical-legacy-pack-dlc-5134646",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "yandex_7c0b0b4c048bd482",
+   "issue": "тонкий контент (30 зн.)"
+  },
+  {
+   "slug": "yandex_7c0b0b4c048bd482",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "yandex_7c0b0b4c048bd482",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "yandex_7c0b0b4c048bd482",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "zarubezhnaya-karta-20-5000-dlya-apple-pay-google-2261929",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zero-hour-steam-avto-ru-ua-kz-sng-5122376",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-dead-war-steam-avto-ru-ua-kz-sng-5122850",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "zombie-army-4-dead-war-steam-avto-ru-ua-kz-sng-5122850",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-4-damnation-valley-dlc-steam-5123232",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-5-alpine-blitz-dlc-steam-5123490",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-6-dead-zeppelin-dlc-steam-5123267",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "zombie-army-4-mission-6-dead-zeppelin-dlc-steam-5123267",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-7-terminal-error-dlc-steam-5123240",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "zombie-army-4-mission-7-terminal-error-dlc-steam-5123240",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-8-abaddon-asylum-dlc-steam-5123458",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-mission-9-return-hell-dlc-steam-5123418",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-ragnar-k-campaign-character-pack-dlc-5122587",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "zombie-army-4-ragnar-k-campaign-character-pack-dlc-5122587",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-ragnar-k-parts-i-ii-dlc-steam-ru-5122818",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-season-pass-three-dlc-steam-avto-5147291",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-season-pass-two-dlc-steam-ru-ua-kz-5147305",
+   "issue": "тонкий контент (420 зн.)"
+  },
+  {
+   "slug": "zombie-army-4-season-pass-two-dlc-steam-ru-ua-kz-5147305",
+   "issue": "нет meta description"
+  },
+  {
+   "slug": "zombie-army-4-season-pass-two-dlc-steam-ru-ua-kz-5147305",
+   "issue": "нет кнопки покупки (ни plati, ни vk)"
+  },
+  {
+   "slug": "zuma-deluxe-steam-avto-ru-ua-kz-sng-5123495",
+   "issue": "нет <title>"
+  },
+  {
+   "slug": "zuma-deluxe-steam-avto-ru-ua-kz-sng-5123495",
+   "issue": "нет meta description"
+  }
+ ],
+ "dupes": [
+  {
+   "type": "title",
+   "value": "battlefield 2042 elite edition steam gift",
+   "pages": [
+    "battlefield-2042-elite-edition-steam-gift-avto-ru-4924358",
+    "battlefield-2042-elite-edition-steam-gift-avto-ru-5062650"
+   ]
+  },
+  {
+   "type": "title",
+   "value": "product card",
+   "pages": [
+    "bystro-podarochnaya-karta-airbnb-usa-25-500-tsena-2196609",
+    "us-card-worldwide-75-dlya-google-apple-others-992600"
+   ]
+  },
+  {
+   "type": "title",
+   "value": "dead by daylight - alien chapter pack dlc",
+   "pages": [
+    "dead-by-daylight-alien-chapter-pack-dlc-avto-ru-5060835",
+    "dead-by-daylight-alien-chapter-pack-dlc-ru-podarok-4411160"
+   ]
+  },
+  {
+   "type": "title",
+   "value": "dead by daylight-resident evil chapter dlc",
+   "pages": [
+    "dead-by-daylight-resident-evil-chapter-dlc-avto-ru-5060825",
+    "dead-by-daylight-resident-evil-chapter-dlc-ru-4411153"
+   ]
+  },
+  {
+   "type": "title",
+   "value": "final fantasy xv windows edition steam gift",
+   "pages": [
+    "final-fantasy-xv-windows-edition-steam-gift-avto-4417824",
+    "final-fantasy-xv-windows-edition-steam-gift-avtoru-5061016"
+   ]
+  },
+  {
+   "type": "title",
+   "value": "forza horizon 6 premium edition",
+   "pages": [
+    "forza-horizon-6-premium-edition-steam-kz-ua-sng-5659571",
+    "forza-horizon-6-premium-edition-xbox-series-x-s-pk-5865287"
+   ]
+  }
+ ],
+ "stats": {
+  "pages_tracked": 50,
+  "fixed_cta": 0,
+  "orphans_removed": 0,
+  "site_pages": 1078,
+  "dupes": 6,
+  "audit_issues": 1453
+ }
+}

@@ -57,7 +57,7 @@
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
-  "is_available": 0,
+  "is_available": 1,
   "show_rest": 0,
   "num_in_lock": -1,
   "owner": 1,
@@ -70,17 +70,17 @@
     "RUB": 100.0,
     "USD": 1.15,
     "EUR": 0.99,
-    "UAH": 51.28,
+    "UAH": 51.48,
     "mBTC": 0.04,
-    "mLTC": 22.71
+    "mLTC": 22.49
    },
    "default": {
     "RUB": 879.0,
-    "USD": 10.1,
-    "EUR": 8.72,
-    "UAH": 450.73,
+    "USD": 10.12,
+    "EUR": 8.73,
+    "UAH": 452.49,
     "mBTC": 0.14,
-    "mLTC": 23.01
+    "mLTC": 22.79
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 22.71,
+      "price": 22.49,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 22.71
+      "price": 22.49
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 118.09,
+      "price": 118.06,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 112.15,
+      "price": 112.12,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 113.23,
+      "price": 113.2,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 23.01
+      "price": 22.79
      }
     ]
    },
@@ -439,23 +439,23 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 173993.0,
+    "summa": 173774.0,
     "percent": 5.0
    },
    {
-    "summa": 130494.0,
+    "summa": 130331.0,
     "percent": 4.0
    },
    {
-    "summa": 86996.0,
+    "summa": 86887.0,
     "percent": 3.0
    },
    {
-    "summa": 43498.0,
+    "summa": 43444.0,
     "percent": 2.0
    },
    {
-    "summa": 4350.0,
+    "summa": 4344.0,
     "percent": 1.0
    }
   ],

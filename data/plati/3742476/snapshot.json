@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 139.0,
     "USD": 1.9,
-    "EUR": 1.61,
-    "UAH": 71.27,
+    "EUR": 1.62,
+    "UAH": 71.55,
     "mBTC": 0.03,
-    "mLTC": 46.65
+    "mLTC": 46.21
    },
    "default": {
     "RUB": 139.0,
     "USD": 1.9,
-    "EUR": 1.61,
-    "UAH": 71.27,
+    "EUR": 1.62,
+    "UAH": 71.55,
     "mBTC": 0.13,
-    "mLTC": 46.95
+    "mLTC": 46.51
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 185.3,
+      "price": 185.25,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 195.1,
+      "price": 195.06,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -167,7 +167,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 187.08,
+      "price": 187.03,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -206,7 +206,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 46.95
+      "price": 46.51
      }
     ]
    },
@@ -218,7 +218,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.88
+      "price": 0.83
      }
     ]
    },
@@ -255,7 +255,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 46.65,
+      "price": 46.21,
       "limit": {
        "max": 7.3
       }
@@ -293,7 +293,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 46.65
+      "price": 46.21
      },
      {
       "currency": "WMT",
@@ -426,11 +426,11 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 8700.0,
+    "summa": 8689.0,
     "percent": 3.0
    },
    {
-    "summa": 4350.0,
+    "summa": 4344.0,
     "percent": 2.0
    },
    {
