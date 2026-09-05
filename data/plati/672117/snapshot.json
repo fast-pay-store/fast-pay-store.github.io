@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 679333,
   "name": "✅US Card Worldwide 10$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅",
-  "price": 1432.69,
+  "price": 1427.71,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672117",
@@ -53,7 +53,7 @@
   "add_info": "<delivery>⬇️Другие номиналы (автоматическая выдача реквизитов без ожидания):<br />10$  https://digiseller.market/asp2/pay_api.asp?id_d=672117<br />15$  https://digiseller.market/asp2/pay_api.asp?id_d=679333<br />20$  https://digiseller.market/asp2/pay_api.asp?id_d=679337<br />25$  https://digiseller.market/asp2/pay_api.asp?id_d=679339<br />30$  https://digiseller.market/asp2/pay_api.asp?id_d=679341<br />35$  https://digiseller.market/asp2/pay_api.asp?id_d=687068<br />40$  https://digiseller.market/asp2/pay_api.asp?id_d=689186<br />45$  https://digiseller.market/asp2/pay_api.asp?id_d=689188<br />50$  https://digiseller.market/asp2/pay_api.asp?id_d=992598<br />60$  https://digiseller.market/asp2/pay_api.asp?id_d=1042193<br />75$  https://digiseller.market/asp2/pay_api.asp?id_d=992600<br />90$  https://digiseller.market/asp2/pay_api.asp?id_d=1041325<br />100$ https://digiseller.market/asp2/pay_api.asp?id_d=992599<br />125$ https://digiseller.market/asp2/pay_api.asp?id_d=3012652<br />150$ https://digiseller.market/asp2/pay_api.asp?id_d=1071271<br />175$ https://digiseller.market/asp2/pay_api.asp?id_d=787321<br />200$ https://digiseller.market/asp2/pay_api.asp?id_d=1042194<br />250$  https://digiseller.market/asp2/pay_api.asp?id_d=711591<br />300$ https://digiseller.market/asp2/pay_api.asp?id_d=756437<br />350$ https://digiseller.market/asp2/pay_api.asp?id_d=1071302<br />400$ https://digiseller.market/asp2/pay_api.asp?id_d=811824<br />450$ https://digiseller.market/asp2/pay_api.asp?id_d=1110501<br />500$ https://digiseller.market/asp2/pay_api.asp?id_d=806608<br />700$ https://digiseller.market/asp2/pay_api.asp?id_d=1071301</delivery><attention>Пополнение: ДА (https://plati.market/itm/4091488)<br />Подтверждение операций: ДА (коды подтверждения автоматически приходят в телеграм канал https://t.me/mycards_3ds )<br />Конвертация: ДА<br />Возврат: ТОЛЬКО НОМИНАЛ<br />Выписка и баланс: ДА (свяжитесь с нами)</attention><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 15 лет (!) на площадке.<br /><br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 2.0,
-  "agency_sum": 26.05,
+  "agency_sum": 25.96,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 1302.44,
+    "RUB": 1297.92,
     "USD": 14.99,
-    "EUR": 12.95,
-    "UAH": 717.39,
-    "mBTC": 0.18,
-    "mLTC": 292.95
+    "EUR": 12.91,
+    "UAH": 714.72,
+    "mBTC": 0.19,
+    "mLTC": 283.16
    },
    "default": {
-    "RUB": 1432.69,
+    "RUB": 1427.71,
     "USD": 14.99,
-    "EUR": 12.95,
-    "UAH": 717.39,
-    "mBTC": 0.28,
-    "mLTC": 293.25
+    "EUR": 12.91,
+    "UAH": 714.72,
+    "mBTC": 0.29,
+    "mLTC": 283.46
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1461.56,
+      "price": 1452.78,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -126,17 +126,17 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 17.22
+      "price": 17.16
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.18
+      "price": 0.19
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 292.95
+      "price": 283.16
      },
      {
       "currency": "WMT",
@@ -170,7 +170,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1475.61,
+      "price": 1466.75,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 293.25
+      "price": 283.46
      }
     ]
    },
@@ -199,7 +199,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.28
+      "price": 0.29
      }
     ]
    },
@@ -211,7 +211,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 6.57
+      "price": 6.76
      }
     ]
    },
@@ -231,7 +231,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1732.24,
+      "price": 1726.23,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -240,7 +240,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 17.22,
+      "price": 17.16,
       "limit": {
        "max": 300.0
       }
@@ -248,7 +248,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 292.95,
+      "price": 283.16,
       "limit": {
        "max": 7.3
       }
@@ -256,7 +256,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.18,
+      "price": 0.19,
       "limit": {
        "max": 0.03
       }
@@ -271,7 +271,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 1302.44
+      "price": 1297.92
      },
      {
       "currency": "USD",
@@ -281,7 +281,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 17.22
+      "price": 17.16
      }
     ]
    },
@@ -293,7 +293,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 1302.44
+      "price": 1297.92
      },
      {
       "currency": "USD",
@@ -303,12 +303,12 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 17.22
+      "price": 17.16
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.18
+      "price": 0.19
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 1432.69
+      "price": 1427.71
      }
     ]
    }
@@ -354,7 +354,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.09.2026 21:47:14",
+   "date": "03.09.2026 21:56:24",
    "size": null
   },
   "category_id": 107242,
@@ -362,20 +362,20 @@
    {
     "id": 107242,
     "name": "Visa, US Bank, AUTO 3DS, USD",
-    "products_cnt": 27
+    "products_cnt": 26
    }
   ],
   "discounts": [
    {
-    "summa": 86887.0,
+    "summa": 86586.0,
     "percent": 3.0
    },
    {
-    "summa": 8689.0,
+    "summa": 8659.0,
     "percent": 2.0
    },
    {
-    "summa": 434.0,
+    "summa": 433.0,
     "percent": 1.0
    }
   ],

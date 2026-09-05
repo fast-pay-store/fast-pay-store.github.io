@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 699.0,
-    "USD": 8.04,
+    "USD": 8.07,
     "EUR": 6.95,
-    "UAH": 359.83,
+    "UAH": 359.73,
     "mBTC": 0.11,
-    "mLTC": 195.27
+    "mLTC": 189.4
    },
    "default": {
     "RUB": 699.0,
-    "USD": 8.04,
+    "USD": 8.07,
     "EUR": 6.95,
-    "UAH": 359.83,
+    "UAH": 359.73,
     "mBTC": 0.21,
-    "mLTC": 195.57
+    "mLTC": 189.7
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 791.45,
+      "price": 789.64,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 825.41,
+      "price": 823.68,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -165,7 +165,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 10.86
+      "price": 10.9
      },
      {
       "currency": "mBTC",
@@ -182,7 +182,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 10.86
+      "price": 10.9
      },
      {
       "currency": "mBTC",
@@ -192,12 +192,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 195.27
+      "price": 189.4
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 8.04
+      "price": 8.07
      }
     ]
    },
@@ -221,7 +221,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 10.86,
+      "price": 10.9,
       "limit": {
        "max": 300.0
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 195.27,
+      "price": 189.4,
       "limit": {
        "max": 7.3
       }
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 10.86
+      "price": 10.9
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 783.91,
+      "price": 782.12,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -295,7 +295,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 8.04,
+      "price": 8.07,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 195.57
+      "price": 189.7
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.52
+      "price": 3.64
      }
     ]
    },
@@ -407,7 +407,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 86887.0,
+    "summa": 86586.0,
     "percent": 1.0
    }
   ],

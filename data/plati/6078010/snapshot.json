@@ -44,13 +44,13 @@
   "id": 6078010,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🍏ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
+  "name": "🍏 [АВТО 24\\7] ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
   "price": 17.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6078010",
-  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7<br />Моментальная выдача цифрового кода сразу после оплаты<br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br />➖ Работает только с балансом в TRY<br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />⏰ АКТИВАЦИЯ:<br />Через приложение App Store → Аккаунт<br /></attention></delivery><delivery><attention><br />💎 ПРЕИМУЩЕСТВА:<br />➡️ Большой выбор номиналов подарочных карт<br />➡️ Гарантия замены или возврата при проблеме на стороне продавца<br />➡️ Акции и скидки для клиентов<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br /><br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
-  "add_info": "<delivery><attention><br />⏳ Доставка товара — автоматически, 24/7<br />🕙 Техподдержка: 10:00–23:00 МСК<br /><br />💵 Возврат средств:<br />✅ Товар доставлен — возврат невозможен<br />❌ Товар не доставлен:<br /> ❕ Наша вина — полный возврат<br /> ❗ Ваша вина — возврат за вычетом 25% комиссии<br /></attention></delivery><delivery><attention><br />💥 Есть вопросы? Пишите в чат — с радостью ответим!<br /></attention></delivery>",
+  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
+  "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат невозможен<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа<br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим!</attention></delivery>",
   "release_date": "",
   "agency_fee": 1.0,
   "agency_sum": 0.17,
@@ -72,7 +72,7 @@
     "EUR": 0.17,
     "UAH": 8.75,
     "mBTC": 0.04,
-    "mLTC": 3.82
+    "mLTC": 3.71
    },
    "default": {
     "RUB": 17.0,
@@ -80,7 +80,7 @@
     "EUR": 0.17,
     "UAH": 8.75,
     "mBTC": 0.14,
-    "mLTC": 4.12
+    "mLTC": 4.01
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.68,
+      "price": 19.58,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 4.12
+      "price": 4.01
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.82
+      "price": 3.71
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.82,
+      "price": 3.71,
       "limit": {
        "max": 7.3
       }
@@ -322,41 +322,23 @@
   },
   "preview_imgs": [
    {
-    "id": 10763591,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763591",
-    "width": 1254,
-    "height": 1254
-   },
-   {
-    "id": 10763593,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763593",
-    "width": 1024,
-    "height": 1024
-   },
-   {
-    "id": 10763594,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763594",
-    "width": 800,
-    "height": 800
-   },
-   {
-    "id": 10763589,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10763589",
-    "width": 769,
-    "height": 769
+    "id": 10788985,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10788985",
+    "width": 939,
+    "height": 939
    }
   ],
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "03.09.2026 14:21:23",
+   "date": "05.09.2026 03:31:32",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 43444.0,
+    "summa": 43293.0,
     "percent": 1.0
    }
   ],
@@ -384,12 +366,56 @@
       "is_available": 1
      },
      {
+      "value": 30495972,
+      "text": "15 TL (TRY)",
+      "default": 0,
+      "modify": "+22 RUB",
+      "modify_value": 22.0,
+      "modify_value_default": 22.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 30495973,
+      "text": "20 TL (TRY)",
+      "default": 0,
+      "modify": "+42 RUB",
+      "modify_value": 42.0,
+      "modify_value_default": 42.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
       "value": 29923978,
       "text": "25 TL (TRY)",
       "default": 0,
       "modify": "+62 RUB",
       "modify_value": 62.0,
       "modify_value_default": 62.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 30495974,
+      "text": "30 TL (TRY)",
+      "default": 0,
+      "modify": "+82 RUB",
+      "modify_value": 82.0,
+      "modify_value_default": 82.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 30495975,
+      "text": "40 TL (TRY)",
+      "default": 0,
+      "modify": "+112 RUB",
+      "modify_value": 112.0,
+      "modify_value_default": 112.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -406,15 +432,37 @@
       "is_available": 1
      },
      {
-      "value": 29923980,
-      "text": "100 TL (TRY)",
+      "value": 30495977,
+      "text": "75 TL (TRY)",
       "default": 0,
-      "modify": "+242 RUB",
-      "modify_value": 242.0,
-      "modify_value_default": 242.0,
+      "modify": "+172 RUB",
+      "modify_value": 172.0,
+      "modify_value_default": 172.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
+     },
+     {
+      "value": 29923980,
+      "text": "100 TL (TRY)",
+      "default": 0,
+      "modify": "+232 RUB",
+      "modify_value": 232.0,
+      "modify_value_default": 232.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
+      "value": 30495978,
+      "text": "125 TL (TRY)",
+      "default": 0,
+      "modify": "+282 RUB",
+      "modify_value": 282.0,
+      "modify_value_default": 282.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 0
      },
      {
       "value": 29923981,
@@ -431,9 +479,9 @@
       "value": 29923982,
       "text": "200 TL (TRY)",
       "default": 0,
-      "modify": "+452 RUB",
-      "modify_value": 452.0,
-      "modify_value_default": 452.0,
+      "modify": "+462 RUB",
+      "modify_value": 462.0,
+      "modify_value_default": 462.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -442,9 +490,9 @@
       "value": 29923983,
       "text": "250 TL (TRY)",
       "default": 0,
-      "modify": "+582 RUB",
-      "modify_value": 582.0,
-      "modify_value_default": 582.0,
+      "modify": "+602 RUB",
+      "modify_value": 602.0,
+      "modify_value_default": 602.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -464,9 +512,9 @@
       "value": 29923985,
       "text": "400 TL (TRY)",
       "default": 0,
-      "modify": "+982 RUB",
-      "modify_value": 982.0,
-      "modify_value_default": 982.0,
+      "modify": "+932 RUB",
+      "modify_value": 932.0,
+      "modify_value_default": 932.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -486,9 +534,9 @@
       "value": 29923987,
       "text": "600 TL (TRY)",
       "default": 0,
-      "modify": "+1382 RUB",
-      "modify_value": 1382.0,
-      "modify_value_default": 1382.0,
+      "modify": "+1432 RUB",
+      "modify_value": 1432.0,
+      "modify_value_default": 1432.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -519,9 +567,9 @@
       "value": 29923990,
       "text": "900 TL (TRY)",
       "default": 0,
-      "modify": "+2082 RUB",
-      "modify_value": 2082.0,
-      "modify_value_default": 2082.0,
+      "modify": "+2132 RUB",
+      "modify_value": 2132.0,
+      "modify_value_default": 2132.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -538,6 +586,17 @@
       "is_available": 1
      },
      {
+      "value": 30495989,
+      "text": "1500 TL (TRY)",
+      "default": 0,
+      "modify": "+3582 RUB",
+      "modify_value": 3582.0,
+      "modify_value_default": 3582.0,
+      "modify_type": "RUB",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
       "value": 29923992,
       "text": "2000 TL (TRY)",
       "default": 0,
@@ -546,7 +605,7 @@
       "modify_value_default": 4582.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 29923993,
@@ -586,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 18767,
+   "sales": 18973,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

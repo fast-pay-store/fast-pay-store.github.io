@@ -44,7 +44,7 @@
   "id": 4339392,
   "id_prev": 0,
   "id_next": 0,
-  "name": "{АВТО} ChatGPT 5.6 PLUS 1M | SORA | PRO | CODEX | ПОДПИСКА | БЕЗ ВХОДА | ПРОДЛЕНИЕ",
+  "name": "{АВТО} ChatGPT 5.6 PLUS | GO | SORA | PRO | CODEX | ПОДПИСКА | БЕЗ ВХОДА | ПРОДЛЕНИЕ",
   "price": 869.0,
   "currency": "RUB",
   "url": "",
@@ -69,19 +69,19 @@
   "prices": {
    "initial": {
     "RUB": 869.0,
-    "USD": 10.0,
+    "USD": 10.04,
     "EUR": 8.64,
-    "UAH": 447.34,
-    "mBTC": 0.12,
-    "mLTC": 195.46
+    "UAH": 447.22,
+    "mBTC": 0.13,
+    "mLTC": 189.58
    },
    "default": {
     "RUB": 869.0,
-    "USD": 10.0,
+    "USD": 10.04,
     "EUR": 8.64,
-    "UAH": 447.34,
-    "mBTC": 0.22,
-    "mLTC": 195.76
+    "UAH": 447.22,
+    "mBTC": 0.23,
+    "mLTC": 189.88
    }
   },
   "payment_methods": [
@@ -117,7 +117,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 984.39,
+      "price": 982.4,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -127,7 +127,7 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.84
+      "price": 0.85
      },
      {
       "currency": "EUR",
@@ -144,7 +144,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 10.0,
+      "price": 10.04,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -161,7 +161,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1026.63,
+      "price": 1024.76,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -198,7 +198,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 12.5
+      "price": 12.55
      },
      {
       "currency": "EUR",
@@ -220,7 +220,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 12.5
+      "price": 12.55
      },
      {
       "currency": "EUR",
@@ -230,7 +230,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.12
+      "price": 0.13
      }
     ]
    },
@@ -242,7 +242,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.22
+      "price": 0.23
      }
     ]
    },
@@ -254,7 +254,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 12.5,
+      "price": 12.55,
       "limit": {
        "max": 300.0
       }
@@ -279,7 +279,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 195.46,
+      "price": 189.58,
       "limit": {
        "max": 7.3
       }
@@ -287,7 +287,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.12,
+      "price": 0.13,
       "limit": {
        "max": 0.03
       }
@@ -302,7 +302,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 195.76
+      "price": 189.88
      }
     ]
    },
@@ -314,7 +314,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 975.02,
+      "price": 973.05,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -343,7 +343,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.39
+      "price": 4.52
      }
     ]
    },
@@ -355,7 +355,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 12.5
+      "price": 12.55
      },
      {
       "currency": "WME",
@@ -365,17 +365,17 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.12
+      "price": 0.13
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 195.46
+      "price": 189.58
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 10.0
+      "price": 10.04
      }
     ]
    },
@@ -438,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "30.08.2026 23:02:21",
+   "date": "04.09.2026 16:31:59",
    "size": 16
   },
   "category_id": 0,
@@ -455,6 +455,16 @@
     "required": 1,
     "modifier_visible": 0,
     "variants": [
+     {
+      "value": 20678424,
+      "text": "{ АВТО} АКТИВАЦИЯ / ПРОДЛЕНИЕ ChatGPT GO— 1 МЕСЯЦ |   НА ВАШ АККАУНТ",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
      {
       "value": 17922951,
       "text": "1. {АВТО} АКТИВАЦИЯ / ПРОДЛЕНИЕ ChatGPT Plus — 1 МЕСЯЦ |   НА ВАШ АККАУНТ",
@@ -503,16 +513,6 @@
       "modify_value": 1200.0,
       "modify_value_default": 1200.0,
       "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 20678424,
-      "text": "6. {АВТО} АКТИВАЦИЯ / ПРОДЛЕНИЕ ChatGPT GO— 1 МЕСЯЦ |   НА ВАШ АККАУНТ",
-      "default": 1,
-      "modify": "",
-      "modify_value": 0.0,
-      "modify_value_default": 0.0,
-      "modify_type": "",
       "visible": 1
      }
     ]
