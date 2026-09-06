@@ -44,7 +44,7 @@
   "id": 4362367,
   "id_prev": 0,
   "id_next": 0,
-  "name": "[24/7] ChatGPT 5.6 PLUS 1М | GO | PRO 5X 20X | SORA",
+  "name": "[24/7] ChatGPT 6 (ASTRA) PLUS 1М | GO | PRO 5X 20X | SORA",
   "price": 879.0,
   "currency": "RUB",
   "url": "",
@@ -72,7 +72,7 @@
     "EUR": 8.74,
     "UAH": 452.37,
     "mBTC": 0.15,
-    "mLTC": 230.12
+    "mLTC": 224.27
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 8.74,
     "UAH": 452.37,
     "mBTC": 0.25,
-    "mLTC": 230.42
+    "mLTC": 224.57
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1035.98,
+      "price": 1034.62,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 983.7,
+      "price": 982.37,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -165,7 +165,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 230.12
+      "price": 224.27
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 993.16,
+      "price": 991.81,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -270,7 +270,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 230.42
+      "price": 224.57
      }
     ]
    },
@@ -299,7 +299,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.57
+      "price": 4.49
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 230.12,
+      "price": 224.27,
       "limit": {
        "max": 7.3
       }
@@ -371,16 +371,16 @@
   },
   "preview_imgs": [
    {
+    "id": 10793173,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10793173",
+    "width": 783,
+    "height": 783
+   },
+   {
     "id": 10567109,
     "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10567109",
     "width": 771,
     "height": 771
-   },
-   {
-    "id": 10325849,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10325849",
-    "width": 1024,
-    "height": 1024
    },
    {
     "id": 6269873,
@@ -404,7 +404,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "01.09.2026 00:48:56",
+   "date": "05.09.2026 16:13:17",
    "size": 16
   },
   "category_id": 0,

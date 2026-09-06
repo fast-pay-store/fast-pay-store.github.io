@@ -19,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 1,
+  "num_in_lock": 0,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -32,7 +32,7 @@
     "EUR": 1.63,
     "UAH": 90.11,
     "mBTC": 0.04,
-    "mLTC": 35.7
+    "mLTC": 34.79
    },
    "default": {
     "RUB": 173.47,
@@ -40,7 +40,7 @@
     "EUR": 1.63,
     "UAH": 90.11,
     "mBTC": 0.14,
-    "mLTC": 36.0
+    "mLTC": 35.09
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 183.18,
+      "price": 182.92,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 35.7
+      "price": 34.79
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 184.94,
+      "price": 184.68,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.0
+      "price": 35.09
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.85
+      "price": 0.84
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 35.7,
+      "price": 34.79,
       "limit": {
        "max": 7.3
       }
@@ -682,11 +682,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 665551,
+   "sales": 666114,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3347,
+   "good_reviews": 3350,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

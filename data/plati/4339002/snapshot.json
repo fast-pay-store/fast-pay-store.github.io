@@ -72,7 +72,7 @@
     "EUR": 0.99,
     "UAH": 51.46,
     "mBTC": 0.04,
-    "mLTC": 21.82
+    "mLTC": 21.26
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 8.74,
     "UAH": 452.37,
     "mBTC": 0.14,
-    "mLTC": 22.12
+    "mLTC": 21.56
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.82,
+      "price": 21.26,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.82
+      "price": 21.26
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 117.38,
+      "price": 117.22,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 111.46,
+      "price": 111.3,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 112.53,
+      "price": 112.37,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.12
+      "price": 21.56
      }
     ]
    },
@@ -368,6 +368,12 @@
    "automatic": 0
   },
   "preview_imgs": [
+   {
+    "id": 10796466,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10796466",
+    "width": 1002,
+    "height": 1002
+   },
    {
     "id": 10560742,
     "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10560742",
@@ -432,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "30.08.2026 03:05:07",
+   "date": "06.09.2026 02:04:32",
    "size": 16
   },
   "category_id": 0,
@@ -599,7 +605,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 32,
+   "bad_reviews": 34,
    "bad_reviews_hidden": 0
   },
   "seller": {

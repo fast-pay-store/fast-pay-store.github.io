@@ -188,17 +188,6 @@
     ]
    },
    {
-    "name": "KASSA",
-    "code": "freekassa",
-    "hide": 0,
-    "currencies": [
-     {
-      "currency": "RUB",
-      "code": "FKA"
-     }
-    ]
-   },
-   {
     "name": "СБП",
     "code": "sbp",
     "hide": 0,
@@ -462,7 +451,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 50106,
+   "sales": 50108,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

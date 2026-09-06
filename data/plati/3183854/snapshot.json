@@ -72,7 +72,7 @@
     "EUR": 1.98,
     "UAH": 102.41,
     "mBTC": 0.04,
-    "mLTC": 43.41
+    "mLTC": 42.31
    },
    "default": {
     "RUB": 199.0,
@@ -80,7 +80,7 @@
     "EUR": 2.64,
     "UAH": 136.21,
     "mBTC": 0.14,
-    "mLTC": 43.71
+    "mLTC": 42.61
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 234.76,
+      "price": 234.44,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 225.05,
+      "price": 224.75,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 43.71
+      "price": 42.61
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.04
+      "price": 1.02
      }
     ]
    },
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 43.41
+      "price": 42.31
      },
      {
       "currency": "WMT",
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 43.41,
+      "price": 42.31,
       "limit": {
        "max": 7.3
       }
@@ -364,28 +364,22 @@
   },
   "preview_imgs": [
    {
+    "id": 10796140,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10796140",
+    "width": 954,
+    "height": 954
+   },
+   {
     "id": 10655752,
     "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10655752",
     "width": 749,
     "height": 749
-   },
-   {
-    "id": 10655724,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10655724",
-    "width": 828,
-    "height": 828
-   },
-   {
-    "id": 10322086,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10322086",
-    "width": 1254,
-    "height": 1254
    }
   ],
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "05.09.2026 02:42:51",
+   "date": "06.09.2026 00:27:24",
    "size": 16
   },
   "category_id": 0,
@@ -613,11 +607,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 111571,
+   "sales": 111588,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 40498,
+   "good_reviews": 40500,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

@@ -33,7 +33,7 @@
     "EUR": 0.88,
     "UAH": 45.8,
     "mBTC": 0.02,
-    "mLTC": 25.9
+    "mLTC": 25.27
    },
    "default": {
     "RUB": 89.0,
@@ -41,7 +41,7 @@
     "EUR": 0.88,
     "UAH": 45.8,
     "mBTC": 0.12,
-    "mLTC": 26.2
+    "mLTC": 25.57
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 99.83,
+      "price": 99.69,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 105.13,
+      "price": 104.99,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 100.78,
+      "price": 100.64,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 25.9
+      "price": 25.27
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 25.9,
+      "price": 25.27,
       "limit": {
        "max": 7.3
       }
@@ -227,7 +227,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.47
+      "price": 0.46
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 26.2
+      "price": 25.57
      }
     ]
    },
@@ -310,7 +310,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "04.09.2026 18:20:05",
+   "date": "05.09.2026 20:51:10",
    "size": 16
   },
   "category_id": 130667,
@@ -371,9 +371,9 @@
       "value": 7848960,
       "text": "5 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+4300 RUB",
-      "modify_value": 4300.0,
-      "modify_value_default": 4300.0,
+      "modify": "+4200 RUB",
+      "modify_value": 4200.0,
+      "modify_value_default": 4200.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -381,9 +381,9 @@
       "value": 7848962,
       "text": "7 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+5600 RUB",
-      "modify_value": 5600.0,
-      "modify_value_default": 5600.0,
+      "modify": "+5500 RUB",
+      "modify_value": 5500.0,
+      "modify_value_default": 5500.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -391,9 +391,9 @@
       "value": 11671059,
       "text": "9 МЕСЯЦЕВ (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+6800 RUB",
-      "modify_value": 6800.0,
-      "modify_value_default": 6800.0,
+      "modify": "+6700 RUB",
+      "modify_value": 6700.0,
+      "modify_value_default": 6700.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -401,9 +401,9 @@
       "value": 11313826,
       "text": "11 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+7900 RUB",
-      "modify_value": 7900.0,
-      "modify_value_default": 7900.0,
+      "modify": "+7800 RUB",
+      "modify_value": 7800.0,
+      "modify_value_default": 7800.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -511,9 +511,9 @@
       "value": 18094767,
       "text": "3 МЕСЯЦА  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+1500 RUB",
-      "modify_value": 1500.0,
-      "modify_value_default": 1500.0,
+      "modify": "+1600 RUB",
+      "modify_value": 1600.0,
+      "modify_value_default": 1600.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -531,9 +531,9 @@
       "value": 18095118,
       "text": "9 МЕСЯЦЕВ  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+4200 RUB",
-      "modify_value": 4200.0,
-      "modify_value_default": 4200.0,
+      "modify": "+4300 RUB",
+      "modify_value": 4300.0,
+      "modify_value_default": 4300.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -541,9 +541,9 @@
       "value": 18095142,
       "text": "12 МЕСЯЦЕВ  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+5200 RUB",
-      "modify_value": 5200.0,
-      "modify_value_default": 5200.0,
+      "modify": "+5400 RUB",
+      "modify_value": 5400.0,
+      "modify_value_default": 5400.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -574,11 +574,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 204832,
+   "sales": 204894,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76584,
+   "good_reviews": 76603,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
