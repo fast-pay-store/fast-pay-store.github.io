@@ -44,7 +44,7 @@
   "id": 4339002,
   "id_prev": 0,
   "id_next": 0,
-  "name": "[24/7 АВТО] ChatGPT 5.6 PLUS | PRO X20| GO | CODEX 1 М ПОДПИСКА / ПРОДЛЕНИЕ / ЧАТ ГПТ",
+  "name": "[24/7 АВТО] ChatGPT 6 PLUS | PRO X20| GO | CODEX 1 М ПОДПИСКА / ПРОДЛЕНИЕ / ЧАТ ГПТ",
   "price": 879.0,
   "currency": "RUB",
   "url": "",
@@ -72,7 +72,7 @@
     "EUR": 0.99,
     "UAH": 51.46,
     "mBTC": 0.04,
-    "mLTC": 21.26
+    "mLTC": 20.35
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 8.74,
     "UAH": 452.37,
     "mBTC": 0.14,
-    "mLTC": 21.56
+    "mLTC": 20.65
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.26,
+      "price": 20.35,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.26
+      "price": 20.35
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 117.22,
+      "price": 117.52,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 111.3,
+      "price": 111.6,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 112.37,
+      "price": 112.67,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 21.56
+      "price": 20.65
      }
     ]
    },
@@ -438,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "06.09.2026 02:04:32",
+   "date": "07.09.2026 03:04:50",
    "size": 16
   },
   "category_id": 0,

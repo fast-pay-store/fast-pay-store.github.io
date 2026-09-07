@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 3260556,
   "name": "1-12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE PREMIUM PC",
-  "price": 100.0,
+  "price": 88.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3043219",
@@ -72,15 +72,15 @@
     "EUR": 0.88,
     "UAH": 45.29,
     "mBTC": 0.01,
-    "mLTC": 22.4
+    "mLTC": 21.42
    },
    "default": {
-    "RUB": 100.0,
-    "USD": 1.15,
-    "EUR": 0.99,
-    "UAH": 51.46,
+    "RUB": 88.0,
+    "USD": 1.02,
+    "EUR": 0.87,
+    "UAH": 45.29,
     "mBTC": 0.11,
-    "mLTC": 22.7
+    "mLTC": 21.72
    }
   },
   "payment_methods": [
@@ -121,7 +121,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.7
+      "price": 21.72
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 103.97,
+      "price": 104.23,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 22.4
+      "price": 21.42
      },
      {
       "currency": "WMT",
@@ -274,7 +274,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 22.4,
+      "price": 21.42,
       "limit": {
        "max": 7.3
       }
@@ -698,11 +698,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 46858,
+   "sales": 46882,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 21932,
+   "good_reviews": 21938,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

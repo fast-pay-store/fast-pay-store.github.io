@@ -43,7 +43,7 @@
  "product": {
   "id": 3351134,
   "id_prev": 0,
-  "id_next": 3351499,
+  "id_next": 3362140,
   "name": "🎟📱Подарочная карта Apple на 500руб (AppStore,iTunes)",
   "price": 1140.0,
   "currency": "RUB",
@@ -73,7 +73,7 @@
     "EUR": 13.6,
     "UAH": 938.71,
     "mBTC": 0.2,
-    "mLTC": 333.03
+    "mLTC": 318.83
    },
    "default": {
     "RUB": 1140.0,
@@ -81,7 +81,7 @@
     "EUR": 13.6,
     "UAH": 938.71,
     "mBTC": 0.3,
-    "mLTC": 333.33
+    "mLTC": 319.13
    }
   },
   "payment_methods": [
@@ -142,7 +142,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 333.03
+      "price": 318.83
      },
      {
       "currency": "WMT",
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 333.03,
+      "price": 318.83,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 333.33
+      "price": 319.13
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1325.02,
+      "price": 1328.49,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1312.4,
+      "price": 1315.84,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 5.99
+      "price": 6.01
      }
     ]
    },
@@ -349,7 +349,7 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 11
+    "products_cnt": 9
    }
   ],
   "options_check": 0,

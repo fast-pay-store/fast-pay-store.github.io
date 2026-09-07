@@ -44,7 +44,7 @@
   "id": 3636620,
   "id_prev": 0,
   "id_next": 0,
-  "name": "24/7 | ChatGPT 5.6 | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
+  "name": "24/7 | ChatGPT 6 ASTRA | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
   "price": 1699.0,
   "currency": "RUB",
   "url": "",
@@ -72,7 +72,7 @@
     "EUR": 22.86,
     "UAH": 1183.16,
     "mBTC": 0.33,
-    "mLTC": 488.81
+    "mLTC": 467.95
    },
    "default": {
     "RUB": 1699.0,
@@ -80,7 +80,7 @@
     "EUR": 16.89,
     "UAH": 874.37,
     "mBTC": 0.43,
-    "mLTC": 489.11
+    "mLTC": 468.25
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 488.81,
+      "price": 467.95,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 488.81
+      "price": 467.95
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2706.31,
+      "price": 2713.17,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2569.63,
+      "price": 2576.36,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2594.33,
+      "price": 2601.14,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 489.11
+      "price": 468.25
      }
     ]
    },
@@ -426,7 +426,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.09.2026 19:45:41",
+   "date": "07.09.2026 05:28:14",
    "size": 16
   },
   "category_id": 0,
@@ -551,13 +551,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 26914,
+   "sales": 26981,
    "sales_hidden": 0,
    "refunds": 158,
    "refunds_hidden": 0,
-   "good_reviews": 5247,
+   "good_reviews": 5250,
    "good_reviews_hidden": 0,
-   "bad_reviews": 22,
+   "bad_reviews": 23,
    "bad_reviews_hidden": 0
   },
   "seller": {

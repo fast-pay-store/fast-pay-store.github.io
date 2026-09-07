@@ -72,7 +72,7 @@
     "EUR": 2.24,
     "UAH": 116.05,
     "mBTC": 0.04,
-    "mLTC": 47.95
+    "mLTC": 45.9
    },
    "default": {
     "RUB": 240.01,
@@ -80,7 +80,7 @@
     "EUR": 2.24,
     "UAH": 116.05,
     "mBTC": 0.14,
-    "mLTC": 48.25
+    "mLTC": 46.2
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 286.43,
+      "price": 287.16,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 274.58,
+      "price": 275.3,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 271.97,
+      "price": 272.67,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -209,7 +209,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 47.95
+      "price": 45.9
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 48.25
+      "price": 46.2
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 47.95,
+      "price": 45.9,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.24
+      "price": 1.25
      }
     ]
    },
@@ -422,7 +422,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "31.08.2026 18:53:19",
+   "date": "07.09.2026 12:21:04",
    "size": 16
   },
   "category_id": 0,
@@ -481,9 +481,9 @@
       "value": 615931,
       "text": "3 месяц индивидуально [= Любой аккаунт =]",
       "default": 0,
-      "modify": "+481 RUB",
-      "modify_value": 481.0,
-      "modify_value_default": 511.93,
+      "modify": "+511 RUB",
+      "modify_value": 511.0,
+      "modify_value_default": 543.86,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -491,9 +491,9 @@
       "value": 615945,
       "text": "6 месяц индивидуально [= Любой аккаунт =]",
       "default": 0,
-      "modify": "+984 RUB",
-      "modify_value": 984.0,
-      "modify_value_default": 1047.28,
+      "modify": "+988 RUB",
+      "modify_value": 988.0,
+      "modify_value_default": 1051.54,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -521,9 +521,9 @@
       "value": 1299058,
       "text": "3 месяц DUO [= Любой аккаунт =] (Вы управляете подпиской и можете добавить второй аккаунт)",
       "default": 0,
-      "modify": "+779 RUB",
-      "modify_value": 779.0,
-      "modify_value_default": 829.1,
+      "modify": "+700 RUB",
+      "modify_value": 700.0,
+      "modify_value_default": 745.02,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -531,9 +531,9 @@
       "value": 1702714,
       "text": "6 месяц DUO [= Любой аккаунт =] (Вы управляете подпиской и можете добавить второй аккаунт)",
       "default": 0,
-      "modify": "+1360 RUB",
-      "modify_value": 1360.0,
-      "modify_value_default": 1447.46,
+      "modify": "+1420 RUB",
+      "modify_value": 1420.0,
+      "modify_value_default": 1511.31,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -541,9 +541,9 @@
       "value": 802617,
       "text": "12 месяц DUO [= Любой аккаунт =] (Вы управляете подпиской и можете добавить второй аккаунт)",
       "default": 0,
-      "modify": "+2566 RUB",
-      "modify_value": 2566.0,
-      "modify_value_default": 2731.0,
+      "modify": "+2576 RUB",
+      "modify_value": 2576.0,
+      "modify_value_default": 2741.65,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -650,7 +650,7 @@
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 6,
+   "bad_reviews": 7,
    "bad_reviews_hidden": 0
   },
   "seller": {

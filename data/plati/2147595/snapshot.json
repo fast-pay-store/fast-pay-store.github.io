@@ -2,8 +2,8 @@
  "search": {},
  "product": {
   "id": 2147595,
-  "id_prev": 2147588,
-  "id_next": 2147599,
+  "id_prev": 0,
+  "id_next": 2146993,
   "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
   "price": 477.92,
   "currency": "RUB",
@@ -17,7 +17,7 @@
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
-  "is_available": 1,
+  "is_available": 0,
   "show_rest": 0,
   "num_in_lock": 0,
   "owner": 1,
@@ -32,15 +32,15 @@
     "EUR": 4.41,
     "UAH": 228.15,
     "mBTC": 0.07,
-    "mLTC": 113.7
+    "mLTC": 108.75
    },
    "default": {
     "RUB": 477.92,
     "USD": 5.12,
     "EUR": 4.41,
-    "UAH": 229.0,
+    "UAH": 228.16,
     "mBTC": 0.17,
-    "mLTC": 114.0
+    "mLTC": 109.05
    }
   },
   "payment_methods": [
@@ -106,7 +106,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 113.7
+      "price": 108.75
      },
      {
       "currency": "WMT",
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 495.54,
+      "price": 496.83,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 500.3,
+      "price": 501.61,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 114.0
+      "price": 109.05
      }
     ]
    },
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 113.7,
+      "price": 108.75,
       "limit": {
        "max": 7.3
       }
@@ -307,7 +307,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.26
+      "price": 2.27
      }
     ]
    },
@@ -334,21 +334,17 @@
   ],
   "type_good": 1,
   "type": "text",
-  "text": {
-   "date": "26.08.2026 23:30:55",
-   "size": null
-  },
   "category_id": 55908,
   "breadcrumbs": [
    {
     "id": 55908,
     "name": "STEAM",
-    "products_cnt": 110
+    "products_cnt": 114
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 74644,
+   "sales": 74737,
    "sales_hidden": 0,
    "refunds": 1,
    "refunds_hidden": 0,

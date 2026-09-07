@@ -72,7 +72,7 @@
     "EUR": 8.88,
     "UAH": 399.88,
     "mBTC": 0.13,
-    "mLTC": 189.98
+    "mLTC": 181.88
    },
    "default": {
     "RUB": 777.0,
@@ -80,7 +80,7 @@
     "EUR": 8.88,
     "UAH": 399.88,
     "mBTC": 0.23,
-    "mLTC": 190.28
+    "mLTC": 182.18
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 920.48,
+      "price": 922.89,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 911.71,
+      "price": 914.1,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -160,7 +160,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 960.2,
+      "price": 962.64,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -192,7 +192,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 189.98
+      "price": 181.88
      },
      {
       "currency": "WMT",
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 190.28
+      "price": 182.18
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 189.98,
+      "price": 181.88,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.17
+      "price": 4.18
      }
     ]
    },
@@ -378,7 +378,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "05.08.2026 10:25:00",
+   "date": "07.09.2026 14:15:31",
    "size": 16
   },
   "category_id": 0,
@@ -482,9 +482,9 @@
       "value": 20093183,
       "text": "2. PRO 5x (1 месяц)",
       "default": 0,
-      "modify": "+10222 RUB",
-      "modify_value": 10222.0,
-      "modify_value_default": 10222.0,
+      "modify": "+11222 RUB",
+      "modify_value": 11222.0,
+      "modify_value_default": 11222.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -492,9 +492,9 @@
       "value": 20093184,
       "text": "3. PRO 20x (1 месяц)",
       "default": 0,
-      "modify": "+19222 RUB",
-      "modify_value": 19222.0,
-      "modify_value_default": 19222.0,
+      "modify": "+20222 RUB",
+      "modify_value": 20222.0,
+      "modify_value_default": 20222.0,
       "modify_type": "RUB",
       "visible": 1
      },
