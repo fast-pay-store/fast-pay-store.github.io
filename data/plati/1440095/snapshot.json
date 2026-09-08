@@ -5,7 +5,7 @@
   "id_prev": 672298,
   "id_next": 3995170,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (Россия) 500-25000 руб. НИЗКАЯ ЦЕНА",
-  "price": 778.41,
+  "price": 774.86,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/1440095",
@@ -13,7 +13,7 @@
   "add_info": "<delivery>🌍Подарочные карты Apple для других регионов:<br />🇺🇸 США: https://plati.market/itm/1454822<br />🇪🇺 Страны Евросоюза: https://plati.market/itm/3995170<br /><attention>Карты Visa USD Worldwide для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 15 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 7.78,
+  "agency_sum": 7.75,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 778.41,
+    "RUB": 774.86,
     "USD": 8.99,
     "EUR": 7.74,
-    "UAH": 428.64,
+    "UAH": 426.1,
     "mBTC": 0.11,
-    "mLTC": 158.44
+    "mLTC": 162.66
    },
    "default": {
-    "RUB": 778.41,
+    "RUB": 774.86,
     "USD": 8.99,
     "EUR": 7.74,
-    "UAH": 428.64,
+    "UAH": 426.1,
     "mBTC": 0.21,
-    "mLTC": 158.74
+    "mLTC": 162.96
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "CLK",
-      "price": 778.41,
+      "price": 774.86,
       "limit": {
        "min": 10.0,
        "max": 200000.0,
@@ -81,7 +81,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 872.37,
+      "price": 879.22,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -113,7 +113,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 158.44
+      "price": 162.66
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 880.76,
+      "price": 887.67,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -164,7 +164,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 158.74
+      "price": 162.96
      }
     ]
    },
@@ -188,7 +188,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.99
+      "price": 4.01
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1035.28,
+      "price": 1030.56,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 158.44,
+      "price": 162.66,
       "limit": {
        "max": 7.3
       }
@@ -248,7 +248,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 778.41
+      "price": 774.86
      },
      {
       "currency": "USD",
@@ -270,7 +270,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 778.41
+      "price": 774.86
      },
      {
       "currency": "USD",
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 778.41
+      "price": 774.86
      }
     ]
    }
@@ -331,7 +331,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "20.08.2026 13:38:12",
+   "date": "20.08.2026 16:07:50",
    "size": null
   },
   "category_id": 6502,
@@ -373,7 +373,7 @@
       "modify_value_default": 1.8,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2041612,
@@ -611,11 +611,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 152390,
+   "sales": 152527,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 4115,
+   "good_reviews": 4116,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
