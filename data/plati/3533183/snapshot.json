@@ -72,7 +72,7 @@
     "EUR": 0.1,
     "UAH": 5.14,
     "mBTC": 0.0,
-    "mLTC": 2.8
+    "mLTC": 2.87
    },
    "default": {
     "RUB": 10.0,
@@ -80,7 +80,7 @@
     "EUR": 0.1,
     "UAH": 5.14,
     "mBTC": 0.0,
-    "mLTC": 3.1
+    "mLTC": 3.17
    }
   },
   "payment_methods": [
@@ -133,7 +133,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 2.8
+      "price": 2.87
      },
      {
       "currency": "WMT",
@@ -184,7 +184,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.1
+      "price": 3.17
      }
     ]
    },
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 2.8,
+      "price": 2.87,
       "limit": {
        "max": 7.3
       }
@@ -302,28 +302,28 @@
    {
     "id": 142151,
     "name": "Playstation",
-    "products_cnt": 80
+    "products_cnt": 86
    }
   ],
   "discounts": [
    {
-    "summa": 86191.0,
+    "summa": 86473.0,
     "percent": 5.0
    },
    {
-    "summa": 60334.0,
+    "summa": 60531.0,
     "percent": 4.0
    },
    {
-    "summa": 43095.0,
+    "summa": 43236.0,
     "percent": 3.0
    },
    {
-    "summa": 17238.0,
+    "summa": 17295.0,
     "percent": 2.0
    },
    {
-    "summa": 8619.0,
+    "summa": 8647.0,
     "percent": 1.0
    }
   ],
@@ -564,11 +564,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 30762,
+   "sales": 30785,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9839,
+   "good_reviews": 9842,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

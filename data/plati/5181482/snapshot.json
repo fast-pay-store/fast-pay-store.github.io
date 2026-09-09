@@ -45,15 +45,15 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "Я.Плюс | 5 МЕСЯЦЕВ | ИНВАЙТ | СЕМЬЯ",
-  "price": 250.0,
+  "price": 150.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/5181482",
   "info": "<attention>🚀 После покупки вы АВТОМАТИЧЕСКИ получите ссылку-приглашение, перейдя по которой сможете вступить в семейную подписку. (1 приглашение - 1 аккаунт)</attention><br /><attention>🛡 Это не общий аккаунт. Подпиской вы будете пользоваться на своём аккаунте. Ваша личная информация никому не видна. Никакой синхронизации, все ваши плейлисты, Кино и другие сервисы, будут индивидуальны ТОЛЬКО ДЛЯ ВАС!</attention><br /><attention>🛡Гарантия на вступление в семью по ссылке: 48 часов с момента покупки. (после этого времени ссылка становится не работоспособной)</attention><br /><attention>⛔️ Срок подписки может отличаться от заявленного на 1-2 дня. ⛔️</attention><br /><attention>✅ Карту к аккаунту привязывать не нужно, по истечению подписки списаний не будет!</attention><br /><attention>✅ Работает при наличии активной подписки, она отложится, и по истечению семейной подписки продолжится.</attention><br /><attention>📖 Возможности подписки:<br />• Доступ ко всем функциям Я.Музыки, включая прослушивание офлайн и высокое качество.<br />• Скидка 10% от Я.Такси на поездки по тарифам «Комфорт», «Комфорт+» и «Бизнес».<br />• Бесплатная доставка при покупке товаров от 500 рублей на новом маркетплейсе Я.Маркета в 30 крупнейших городах России.<br />• Скидка 5% на поездки в Я.Драйве и бесплатное бронирование машину на более длительное время.<br />• Просмотр фильмов и сериалов без рекламы в десктопной версии КиноПоиска.<br />• Дополнительные 10 гигабайт на Я.Диске.</attention>",
   "add_info": "",
   "release_date": "",
-  "agency_fee": 5.0,
-  "agency_sum": 12.5,
+  "agency_fee": 1.0,
+  "agency_sum": 1.5,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 250.0,
-    "USD": 2.9,
-    "EUR": 2.5,
-    "UAH": 128.48,
+    "RUB": 150.0,
+    "USD": 1.73,
+    "EUR": 1.49,
+    "UAH": 77.14,
     "mBTC": 0.04,
-    "mLTC": 52.48
+    "mLTC": 32.23
    },
    "default": {
-    "RUB": 250.0,
-    "USD": 2.9,
-    "EUR": 2.5,
-    "UAH": 128.48,
+    "RUB": 150.0,
+    "USD": 1.73,
+    "EUR": 1.49,
+    "UAH": 77.14,
     "mBTC": 0.14,
-    "mLTC": 52.78
+    "mLTC": 32.53
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 250.0
+      "price": 150.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 250.0,
+      "price": 150.0,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,12 +121,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 2.9
+      "price": 1.73
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.5
+      "price": 1.49
      },
      {
       "currency": "mBTC",
@@ -136,12 +136,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 52.48
+      "price": 32.23
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 2.9
+      "price": 1.73
      }
     ]
    },
@@ -153,7 +153,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 298.6,
+      "price": 176.85,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -170,7 +170,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 2.9,
+      "price": 1.73,
       "limit": {
        "max": 300.0
       }
@@ -178,7 +178,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 250.0,
+      "price": 150.0,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -187,7 +187,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.5,
+      "price": 1.49,
       "limit": {
        "max": 300.0
       }
@@ -195,7 +195,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 52.48,
+      "price": 32.23,
       "limit": {
        "max": 7.3
       }
@@ -218,7 +218,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 250.0,
+      "price": 150.0,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -228,12 +228,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.25
+      "price": 0.15
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.22
+      "price": 0.13
      }
     ]
    },
@@ -245,7 +245,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 2.9,
+      "price": 1.73,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -274,7 +274,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.29
+      "price": 0.77
      }
     ]
    },
@@ -286,17 +286,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 250.0
+      "price": 150.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 2.9
+      "price": 1.73
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.5
+      "price": 1.49
      }
     ]
    },
@@ -308,17 +308,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 250.0
+      "price": 150.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 2.9
+      "price": 1.73
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.5
+      "price": 1.49
      },
      {
       "currency": "mBTC",
@@ -335,7 +335,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 52.78
+      "price": 32.53
      }
     ]
    },
@@ -347,7 +347,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 250.0
+      "price": 150.0
      }
     ]
    }
@@ -369,12 +369,11 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "08.09.2026 01:14:56",
+   "date": "08.09.2026 01:49:52",
    "size": null
   },
   "category_id": 0,
   "breadcrumbs": [],
-  "gift_commiss": 15.0,
   "options_check": 0,
   "statistics": {
    "sales": 100,

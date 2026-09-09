@@ -29,19 +29,19 @@
   "prices": {
    "initial": {
     "RUB": 79.0,
-    "USD": 0.92,
+    "USD": 0.91,
     "EUR": 0.79,
-    "UAH": 40.6,
+    "UAH": 40.63,
     "mBTC": 0.01,
-    "mLTC": 22.12
+    "mLTC": 22.67
    },
    "default": {
     "RUB": 79.0,
-    "USD": 0.92,
+    "USD": 0.91,
     "EUR": 0.79,
-    "UAH": 40.6,
+    "UAH": 40.63,
     "mBTC": 0.11,
-    "mLTC": 22.42
+    "mLTC": 22.97
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 89.98,
+      "price": 88.33,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 94.73,
+      "price": 93.02,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 90.85,
+      "price": 89.18,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -138,7 +138,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.33
+      "price": 1.32
      },
      {
       "currency": "mBTC",
@@ -148,12 +148,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 22.12
+      "price": 22.67
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 0.92
+      "price": 0.91
      }
     ]
    },
@@ -165,7 +165,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.33,
+      "price": 1.32,
       "limit": {
        "max": 300.0
       }
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 22.12,
+      "price": 22.67,
       "limit": {
        "max": 7.3
       }
@@ -210,7 +210,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.33
+      "price": 1.32
      },
      {
       "currency": "mBTC",
@@ -244,7 +244,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.33
+      "price": 1.32
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.42
+      "price": 22.97
      }
     ]
    },
@@ -293,7 +293,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "07.09.2026 11:58:41",
+   "date": "09.09.2026 00:04:42",
    "size": 16
   },
   "category_id": 130667,
@@ -306,15 +306,15 @@
   ],
   "discounts": [
    {
-    "summa": 215477.0,
+    "summa": 216182.0,
     "percent": 3.0
    },
    {
-    "summa": 43095.0,
+    "summa": 43236.0,
     "percent": 2.0
    },
    {
-    "summa": 4310.0,
+    "summa": 4324.0,
     "percent": 1.0
    }
   ],
@@ -334,9 +334,9 @@
       "value": 7848939,
       "text": "1 МЕСЯЦ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+1000 RUB",
-      "modify_value": 1000.0,
-      "modify_value_default": 1000.0,
+      "modify": "+920 RUB",
+      "modify_value": 920.0,
+      "modify_value_default": 920.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -344,9 +344,9 @@
       "value": 7848959,
       "text": "3 МЕСЯЦА Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+2500 RUB",
-      "modify_value": 2500.0,
-      "modify_value_default": 2500.0,
+      "modify": "+2320 RUB",
+      "modify_value": 2320.0,
+      "modify_value_default": 2320.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -354,9 +354,9 @@
       "value": 7848960,
       "text": "5 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+4400 RUB",
-      "modify_value": 4400.0,
-      "modify_value_default": 4400.0,
+      "modify": "+4220 RUB",
+      "modify_value": 4220.0,
+      "modify_value_default": 4220.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -364,9 +364,9 @@
       "value": 7848962,
       "text": "7 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+5600 RUB",
-      "modify_value": 5600.0,
-      "modify_value_default": 5600.0,
+      "modify": "+5420 RUB",
+      "modify_value": 5420.0,
+      "modify_value_default": 5420.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -374,9 +374,9 @@
       "value": 11671059,
       "text": "9 МЕСЯЦЕВ (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+6800 RUB",
-      "modify_value": 6800.0,
-      "modify_value_default": 6800.0,
+      "modify": "+6620 RUB",
+      "modify_value": 6620.0,
+      "modify_value_default": 6620.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -384,9 +384,9 @@
       "value": 11313826,
       "text": "11 МЕСЯЦЕВ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+7900 RUB",
-      "modify_value": 7900.0,
-      "modify_value_default": 7900.0,
+      "modify": "+7720 RUB",
+      "modify_value": 7720.0,
+      "modify_value_default": 7720.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -394,9 +394,9 @@
       "value": 7849105,
       "text": "12 МЕСЯЦЕВ + 1 БОНУСНЫЙ МЕСЯЦ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+9100 RUB",
-      "modify_value": 9100.0,
-      "modify_value_default": 9100.0,
+      "modify": "+8920 RUB",
+      "modify_value": 8920.0,
+      "modify_value_default": 8920.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -404,9 +404,9 @@
       "value": 7848958,
       "text": "2 МЕСЯЦА Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+1100 RUB",
-      "modify_value": 1100.0,
-      "modify_value_default": 1100.0,
+      "modify": "+1120 RUB",
+      "modify_value": 1120.0,
+      "modify_value_default": 1120.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -414,9 +414,9 @@
       "value": 12025560,
       "text": "3 МЕСЯЦА Ultimate  НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+2300 RUB",
-      "modify_value": 2300.0,
-      "modify_value_default": 2300.0,
+      "modify": "+2120 RUB",
+      "modify_value": 2120.0,
+      "modify_value_default": 2120.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -424,9 +424,9 @@
       "value": 7890324,
       "text": "4 МЕСЯЦА Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+3300 RUB",
-      "modify_value": 3300.0,
-      "modify_value_default": 3300.0,
+      "modify": "+3120 RUB",
+      "modify_value": 3120.0,
+      "modify_value_default": 3120.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -434,9 +434,9 @@
       "value": 7848961,
       "text": "6 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+4400 RUB",
-      "modify_value": 4400.0,
-      "modify_value_default": 4400.0,
+      "modify": "+4320 RUB",
+      "modify_value": 4320.0,
+      "modify_value_default": 4320.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -444,9 +444,9 @@
       "value": 13133618,
       "text": "8 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+5500 RUB",
-      "modify_value": 5500.0,
-      "modify_value_default": 5500.0,
+      "modify": "+5320 RUB",
+      "modify_value": 5320.0,
+      "modify_value_default": 5320.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -454,9 +454,9 @@
       "value": 7848982,
       "text": "10 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+6600 RUB",
-      "modify_value": 6600.0,
-      "modify_value_default": 6600.0,
+      "modify": "+6420 RUB",
+      "modify_value": 6420.0,
+      "modify_value_default": 6420.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -464,9 +464,9 @@
       "value": 16799796,
       "text": "12 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+8200 RUB",
-      "modify_value": 8200.0,
-      "modify_value_default": 8200.0,
+      "modify": "+8020 RUB",
+      "modify_value": 8020.0,
+      "modify_value_default": 8020.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -484,9 +484,9 @@
       "value": 18094862,
       "text": "1 МЕСЯЦ Premium (Не Ultimate) Любой аккаунт",
       "default": 0,
-      "modify": "+800 RUB",
-      "modify_value": 800.0,
-      "modify_value_default": 800.0,
+      "modify": "+820 RUB",
+      "modify_value": 820.0,
+      "modify_value_default": 820.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -494,9 +494,9 @@
       "value": 18094767,
       "text": "3 МЕСЯЦА  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+1600 RUB",
-      "modify_value": 1600.0,
-      "modify_value_default": 1600.0,
+      "modify": "+1520 RUB",
+      "modify_value": 1520.0,
+      "modify_value_default": 1520.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -504,9 +504,9 @@
       "value": 18095086,
       "text": "6 МЕСЯЦЕВ  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+3200 RUB",
-      "modify_value": 3200.0,
-      "modify_value_default": 3200.0,
+      "modify": "+3120 RUB",
+      "modify_value": 3120.0,
+      "modify_value_default": 3120.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -514,9 +514,9 @@
       "value": 18095118,
       "text": "9 МЕСЯЦЕВ  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+4200 RUB",
-      "modify_value": 4200.0,
-      "modify_value_default": 4200.0,
+      "modify": "+4120 RUB",
+      "modify_value": 4120.0,
+      "modify_value_default": 4120.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -524,9 +524,9 @@
       "value": 18095142,
       "text": "12 МЕСЯЦЕВ  PC (Только для ПК. Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+5300 RUB",
-      "modify_value": 5300.0,
-      "modify_value_default": 5300.0,
+      "modify": "+5220 RUB",
+      "modify_value": 5220.0,
+      "modify_value_default": 5220.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -557,11 +557,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 204991,
+   "sales": 205041,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76627,
+   "good_reviews": 76639,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

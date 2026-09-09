@@ -71,17 +71,17 @@
     "RUB": 100.0,
     "USD": 1.16,
     "EUR": 1.0,
-    "UAH": 51.39,
+    "UAH": 51.42,
     "mBTC": 0.04,
-    "mLTC": 20.99
+    "mLTC": 21.49
    },
    "default": {
     "RUB": 100.0,
     "USD": 1.16,
     "EUR": 1.0,
-    "UAH": 51.39,
+    "UAH": 51.42,
     "mBTC": 0.14,
-    "mLTC": 21.29
+    "mLTC": 21.79
    }
   },
   "payment_methods": [
@@ -117,7 +117,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 114.54,
+      "price": 113.69,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -161,7 +161,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 119.44,
+      "price": 118.58,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -203,7 +203,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 1.25
+      "price": 1.24
      }
     ]
    },
@@ -225,7 +225,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 1.25
+      "price": 1.24
      },
      {
       "currency": "mBTC",
@@ -271,7 +271,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 1.25,
+      "price": 1.24,
       "limit": {
        "max": 300.0
       }
@@ -279,7 +279,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 20.99,
+      "price": 21.49,
       "limit": {
        "max": 7.3
       }
@@ -302,7 +302,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 21.29
+      "price": 21.79
      }
     ]
    },
@@ -314,7 +314,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 113.45,
+      "price": 112.6,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -360,7 +360,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 1.25
+      "price": 1.24
      },
      {
       "currency": "mBTC",
@@ -370,7 +370,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 20.99
+      "price": 21.49
      },
      {
       "currency": "WMT",
@@ -480,11 +480,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 90227,
+   "sales": 90256,
    "sales_hidden": 0,
    "refunds": 1185,
    "refunds_hidden": 0,
-   "good_reviews": 33391,
+   "good_reviews": 33395,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
