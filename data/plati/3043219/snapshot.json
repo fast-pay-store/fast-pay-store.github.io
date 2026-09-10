@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 99.0,
-    "USD": 1.14,
-    "EUR": 0.99,
-    "UAH": 50.91,
+    "USD": 1.16,
+    "EUR": 1.0,
+    "UAH": 51.72,
     "mBTC": 0.02,
-    "mLTC": 25.47
+    "mLTC": 26.46
    },
    "default": {
     "RUB": 99.0,
-    "USD": 1.14,
-    "EUR": 0.99,
-    "UAH": 50.91,
+    "USD": 1.16,
+    "EUR": 1.0,
+    "UAH": 51.72,
     "mBTC": 0.12,
-    "mLTC": 25.77
+    "mLTC": 26.76
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 1.14,
+      "price": 1.16,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -121,7 +121,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 25.77
+      "price": 26.76
      }
     ]
    },
@@ -133,7 +133,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.51
+      "price": 0.52
      }
     ]
    },
@@ -162,7 +162,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.49
+      "price": 1.51
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.49
+      "price": 1.51
      },
      {
       "currency": "mBTC",
@@ -196,7 +196,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 116.54,
+      "price": 118.02,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -230,7 +230,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.49
+      "price": 1.51
      },
      {
       "currency": "mBTC",
@@ -240,12 +240,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 25.47
+      "price": 26.46
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 1.14
+      "price": 1.16
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.49,
+      "price": 1.51,
       "limit": {
        "max": 300.0
       }
@@ -274,7 +274,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 25.47,
+      "price": 26.46,
       "limit": {
        "max": 7.3
       }
@@ -360,12 +360,12 @@
    {
     "id": 110708,
     "name": "Подписка Xbox Game Pass Ultimate",
-    "products_cnt": 4
+    "products_cnt": 5
    }
   ],
   "discounts": [
    {
-    "summa": 86.0,
+    "summa": 85.0,
     "percent": 1.0
    }
   ],
@@ -698,11 +698,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 46914,
+   "sales": 46942,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 21950,
+   "good_reviews": 21959,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
