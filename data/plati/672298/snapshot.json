@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 171.22,
+  "price": 168.99,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -13,13 +13,13 @@
   "add_info": "<delivery>🇪🇺Подарочные карты Apple iTunes для стран Евросоюза: <br />https://plati.market/itm/3995170<br /><attention>Карты US Card для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 18 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 1.62,
+  "agency_sum": 1.59,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 0,
+  "num_in_lock": 3,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 161.52,
+    "RUB": 159.42,
     "USD": 1.89,
-    "EUR": 1.63,
-    "UAH": 90.29,
+    "EUR": 1.62,
+    "UAH": 90.1,
     "mBTC": 0.04,
-    "mLTC": 36.09
+    "mLTC": 36.3
    },
    "default": {
-    "RUB": 171.22,
+    "RUB": 168.99,
     "USD": 1.89,
-    "EUR": 1.63,
-    "UAH": 90.29,
+    "EUR": 1.62,
+    "UAH": 90.1,
     "mBTC": 0.14,
-    "mLTC": 36.39
+    "mLTC": 36.6
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 182.56,
+      "price": 182.45,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 36.09
+      "price": 36.3
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 184.32,
+      "price": 184.2,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.39
+      "price": 36.6
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 214.82,
+      "price": 212.03,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 36.09,
+      "price": 36.3,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 161.52
+      "price": 159.42
      },
      {
       "currency": "USD",
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 161.52
+      "price": 159.42
      },
      {
       "currency": "USD",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 171.22
+      "price": 168.99
      }
     ]
    }
@@ -322,7 +322,7 @@
    {
     "id": 6502,
     "name": "Apple iTunes",
-    "products_cnt": 4
+    "products_cnt": 6
    }
   ],
   "options": [
@@ -433,7 +433,7 @@
       "modify_value_default": 9.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178803,
@@ -576,7 +576,7 @@
       "modify_value_default": 218.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178816,
@@ -587,7 +587,7 @@
       "modify_value_default": 273.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178817,
@@ -598,7 +598,7 @@
       "modify_value_default": 328.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178818,
@@ -682,11 +682,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 668861,
+   "sales": 669623,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3369,
+   "good_reviews": 3373,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

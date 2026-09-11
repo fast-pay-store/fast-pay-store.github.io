@@ -5,7 +5,7 @@
   "id_prev": 672298,
   "id_next": 3995170,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (Россия) 500-25000 руб. НИЗКАЯ ЦЕНА",
-  "price": 768.28,
+  "price": 716.14,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/1440095",
@@ -13,13 +13,13 @@
   "add_info": "<delivery>🌍Подарочные карты Apple для других регионов:<br />🇺🇸 США: https://plati.market/itm/1454822<br />🇪🇺 Страны Евросоюза: https://plati.market/itm/3995170<br /><attention>Карты Visa USD Worldwide для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 15 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 7.68,
+  "agency_sum": 7.16,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 2,
+  "num_in_lock": 1,
   "owner": 1,
   "section_id": 22257,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 768.28,
-    "USD": 8.99,
-    "EUR": 7.74,
-    "UAH": 429.45,
-    "mBTC": 0.12,
-    "mLTC": 171.67
+    "RUB": 716.14,
+    "USD": 8.49,
+    "EUR": 7.29,
+    "UAH": 404.73,
+    "mBTC": 0.11,
+    "mLTC": 163.07
    },
    "default": {
-    "RUB": 768.28,
-    "USD": 8.99,
-    "EUR": 7.74,
-    "UAH": 429.45,
-    "mBTC": 0.22,
-    "mLTC": 171.97
+    "RUB": 716.14,
+    "USD": 8.49,
+    "EUR": 7.29,
+    "UAH": 404.73,
+    "mBTC": 0.21,
+    "mLTC": 163.37
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "CLK",
-      "price": 768.28,
+      "price": 716.14,
       "limit": {
        "min": 10.0,
        "max": 200000.0,
@@ -69,7 +69,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 8.99
+      "price": 8.49
      }
     ]
    },
@@ -81,7 +81,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 868.41,
+      "price": 819.54,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -98,27 +98,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 11.96
+      "price": 11.29
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 10.3
+      "price": 9.69
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.12
+      "price": 0.11
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 171.67
+      "price": 163.07
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 8.99
+      "price": 8.49
      }
     ]
    },
@@ -130,7 +130,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 8.99,
+      "price": 8.49,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -147,7 +147,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 876.76,
+      "price": 827.42,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -164,7 +164,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 171.97
+      "price": 163.37
      }
     ]
    },
@@ -176,7 +176,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.22
+      "price": 0.21
      }
     ]
    },
@@ -188,7 +188,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.04
+      "price": 3.83
      }
     ]
    },
@@ -200,7 +200,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 11.96,
+      "price": 11.29,
       "limit": {
        "max": 300.0
       }
@@ -208,7 +208,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1021.81,
+      "price": 952.46,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -217,7 +217,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 10.3,
+      "price": 9.69,
       "limit": {
        "max": 300.0
       }
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 171.67,
+      "price": 163.07,
       "limit": {
        "max": 7.3
       }
@@ -233,7 +233,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.12,
+      "price": 0.11,
       "limit": {
        "max": 0.03
       }
@@ -248,17 +248,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 768.28
+      "price": 716.14
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 11.96
+      "price": 11.29
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 10.3
+      "price": 9.69
      }
     ]
    },
@@ -270,22 +270,22 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 768.28
+      "price": 716.14
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 11.96
+      "price": 11.29
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 10.3
+      "price": 9.69
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.12
+      "price": 0.11
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 768.28
+      "price": 716.14
      }
     ]
    }
@@ -339,7 +339,7 @@
    {
     "id": 6502,
     "name": "Apple iTunes",
-    "products_cnt": 4
+    "products_cnt": 6
    }
   ],
   "options": [
@@ -368,9 +368,9 @@
       "value": 2041611,
       "text": "600 руб.",
       "default": 0,
-      "modify": "+1,80 USD",
-      "modify_value": 1.8,
-      "modify_value_default": 1.8,
+      "modify": "+1,70 USD",
+      "modify_value": 1.7,
+      "modify_value_default": 1.7,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -379,9 +379,9 @@
       "value": 2041612,
       "text": "700 руб.",
       "default": 0,
-      "modify": "+3,60 USD",
-      "modify_value": 3.6,
-      "modify_value_default": 3.6,
+      "modify": "+3,40 USD",
+      "modify_value": 3.4,
+      "modify_value_default": 3.4,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -390,9 +390,9 @@
       "value": 2041613,
       "text": "800 руб.",
       "default": 0,
-      "modify": "+5,40 USD",
-      "modify_value": 5.4,
-      "modify_value_default": 5.4,
+      "modify": "+5,10 USD",
+      "modify_value": 5.1,
+      "modify_value_default": 5.1,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -401,9 +401,9 @@
       "value": 2041614,
       "text": "900 руб.",
       "default": 0,
-      "modify": "+7,20 USD",
-      "modify_value": 7.2,
-      "modify_value_default": 7.2,
+      "modify": "+6,80 USD",
+      "modify_value": 6.8,
+      "modify_value_default": 6.8,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -412,9 +412,9 @@
       "value": 2041615,
       "text": "1000 руб.",
       "default": 0,
-      "modify": "+9 USD",
-      "modify_value": 9.0,
-      "modify_value_default": 9.0,
+      "modify": "+8,50 USD",
+      "modify_value": 8.5,
+      "modify_value_default": 8.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -423,9 +423,9 @@
       "value": 2041616,
       "text": "1500 руб.",
       "default": 0,
-      "modify": "+18 USD",
-      "modify_value": 18.0,
-      "modify_value_default": 18.0,
+      "modify": "+17 USD",
+      "modify_value": 17.0,
+      "modify_value_default": 17.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -434,9 +434,9 @@
       "value": 2041631,
       "text": "2000 руб.",
       "default": 0,
-      "modify": "+27 USD",
-      "modify_value": 27.0,
-      "modify_value_default": 27.0,
+      "modify": "+25,50 USD",
+      "modify_value": 25.5,
+      "modify_value_default": 25.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -445,9 +445,9 @@
       "value": 2041632,
       "text": "2500 руб.",
       "default": 0,
-      "modify": "+36 USD",
-      "modify_value": 36.0,
-      "modify_value_default": 36.0,
+      "modify": "+34 USD",
+      "modify_value": 34.0,
+      "modify_value_default": 34.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -456,9 +456,9 @@
       "value": 2041633,
       "text": "3000 руб.",
       "default": 0,
-      "modify": "+45 USD",
-      "modify_value": 45.0,
-      "modify_value_default": 45.0,
+      "modify": "+42,50 USD",
+      "modify_value": 42.5,
+      "modify_value_default": 42.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -467,20 +467,20 @@
       "value": 2041634,
       "text": "3500 руб.",
       "default": 0,
-      "modify": "+54 USD",
-      "modify_value": 54.0,
-      "modify_value_default": 54.0,
+      "modify": "+51 USD",
+      "modify_value": 51.0,
+      "modify_value_default": 51.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2041635,
       "text": "4000 руб.",
       "default": 0,
-      "modify": "+63 USD",
-      "modify_value": 63.0,
-      "modify_value_default": 63.0,
+      "modify": "+59,50 USD",
+      "modify_value": 59.5,
+      "modify_value_default": 59.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -489,9 +489,9 @@
       "value": 2041636,
       "text": "4500 руб.",
       "default": 0,
-      "modify": "+72 USD",
-      "modify_value": 72.0,
-      "modify_value_default": 72.0,
+      "modify": "+68 USD",
+      "modify_value": 68.0,
+      "modify_value_default": 68.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -500,9 +500,9 @@
       "value": 2041637,
       "text": "5000 руб.",
       "default": 0,
-      "modify": "+81 USD",
-      "modify_value": 81.0,
-      "modify_value_default": 81.0,
+      "modify": "+76,50 USD",
+      "modify_value": 76.5,
+      "modify_value_default": 76.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -511,9 +511,9 @@
       "value": 2041674,
       "text": "6000 руб.",
       "default": 0,
-      "modify": "+99 USD",
-      "modify_value": 99.0,
-      "modify_value_default": 99.0,
+      "modify": "+93,50 USD",
+      "modify_value": 93.5,
+      "modify_value_default": 93.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -522,9 +522,9 @@
       "value": 2041677,
       "text": "7000 руб.",
       "default": 0,
-      "modify": "+117 USD",
-      "modify_value": 117.0,
-      "modify_value_default": 117.0,
+      "modify": "+110,50 USD",
+      "modify_value": 110.5,
+      "modify_value_default": 110.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -533,9 +533,9 @@
       "value": 2041678,
       "text": "8000 руб.",
       "default": 0,
-      "modify": "+135 USD",
-      "modify_value": 135.0,
-      "modify_value_default": 135.0,
+      "modify": "+127,50 USD",
+      "modify_value": 127.5,
+      "modify_value_default": 127.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -544,9 +544,9 @@
       "value": 2041679,
       "text": "9000 руб.",
       "default": 0,
-      "modify": "+153 USD",
-      "modify_value": 153.0,
-      "modify_value_default": 153.0,
+      "modify": "+144,50 USD",
+      "modify_value": 144.5,
+      "modify_value_default": 144.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -555,9 +555,9 @@
       "value": 2041680,
       "text": "10000 руб.",
       "default": 0,
-      "modify": "+166 USD",
-      "modify_value": 166.0,
-      "modify_value_default": 166.0,
+      "modify": "+161,50 USD",
+      "modify_value": 161.5,
+      "modify_value_default": 161.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -566,9 +566,9 @@
       "value": 2251311,
       "text": "12500 руб.",
       "default": 0,
-      "modify": "+211 USD",
-      "modify_value": 211.0,
-      "modify_value_default": 211.0,
+      "modify": "+204 USD",
+      "modify_value": 204.0,
+      "modify_value_default": 204.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -577,9 +577,9 @@
       "value": 2041681,
       "text": "15000 руб.",
       "default": 0,
-      "modify": "+256 USD",
-      "modify_value": 256.0,
-      "modify_value_default": 256.0,
+      "modify": "+246,50 USD",
+      "modify_value": 246.5,
+      "modify_value_default": 246.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -588,9 +588,9 @@
       "value": 2193166,
       "text": "20000 руб.",
       "default": 0,
-      "modify": "+341 USD",
-      "modify_value": 341.0,
-      "modify_value_default": 341.0,
+      "modify": "+331,50 USD",
+      "modify_value": 331.5,
+      "modify_value_default": 331.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -599,9 +599,9 @@
       "value": 2042299,
       "text": "25000 руб.",
       "default": 0,
-      "modify": "+431 USD",
-      "modify_value": 431.0,
-      "modify_value_default": 431.0,
+      "modify": "+416,50 USD",
+      "modify_value": 416.5,
+      "modify_value_default": 416.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -611,11 +611,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 152783,
+   "sales": 152926,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 4119,
+   "good_reviews": 4125,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

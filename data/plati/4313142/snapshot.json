@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 777.0,
-    "USD": 9.55,
-    "EUR": 9.0,
-    "UAH": 405.91,
-    "mBTC": 0.13,
-    "mLTC": 199.66
+    "USD": 9.67,
+    "EUR": 9.09,
+    "UAH": 410.39,
+    "mBTC": 0.14,
+    "mLTC": 203.38
    },
    "default": {
     "RUB": 777.0,
-    "USD": 9.55,
-    "EUR": 9.0,
-    "UAH": 405.91,
-    "mBTC": 0.23,
-    "mLTC": 199.96
+    "USD": 9.67,
+    "EUR": 9.09,
+    "UAH": 410.39,
+    "mBTC": 0.24,
+    "mLTC": 203.68
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 931.38,
+      "price": 942.43,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -126,12 +126,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.82
+      "price": 0.84
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.7
+      "price": 0.72
      }
     ]
    },
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 922.51,
+      "price": 933.45,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -160,7 +160,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 971.63,
+      "price": 983.19,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -177,27 +177,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 12.41
+      "price": 12.57
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 11.7
+      "price": 11.82
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.13
+      "price": 0.14
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 199.66
+      "price": 203.38
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 9.55
+      "price": 9.67
      }
     ]
    },
@@ -209,7 +209,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 9.55,
+      "price": 9.67,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -231,12 +231,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 12.41
+      "price": 12.57
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 11.7
+      "price": 11.82
      }
     ]
    },
@@ -253,17 +253,17 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 12.41
+      "price": 12.57
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 11.7
+      "price": 11.82
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.13
+      "price": 0.14
      }
     ]
    },
@@ -275,7 +275,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.23
+      "price": 0.24
      }
     ]
    },
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 199.96
+      "price": 203.68
      }
     ]
    },
@@ -308,7 +308,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 12.41,
+      "price": 12.57,
       "limit": {
        "max": 300.0
       }
@@ -316,7 +316,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 11.7,
+      "price": 11.82,
       "limit": {
        "max": 300.0
       }
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 199.66,
+      "price": 203.38,
       "limit": {
        "max": 7.3
       }
@@ -332,7 +332,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.13,
+      "price": 0.14,
       "limit": {
        "max": 0.03
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.3
+      "price": 4.36
      }
     ]
    },
@@ -485,16 +485,6 @@
       "modify": "+11222 RUB",
       "modify_value": 11222.0,
       "modify_value_default": 11222.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 20093184,
-      "text": "3. PRO 20x (1 месяц)",
-      "default": 0,
-      "modify": "+20222 RUB",
-      "modify_value": 20222.0,
-      "modify_value_default": 20222.0,
       "modify_type": "RUB",
       "visible": 1
      },

@@ -70,17 +70,17 @@
     "RUB": 17.0,
     "USD": 0.2,
     "EUR": 0.17,
-    "UAH": 8.88,
+    "UAH": 8.98,
     "mBTC": 0.04,
-    "mLTC": 3.8
+    "mLTC": 3.87
    },
    "default": {
     "RUB": 17.0,
     "USD": 0.2,
     "EUR": 0.17,
-    "UAH": 8.88,
+    "UAH": 8.98,
     "mBTC": 0.14,
-    "mLTC": 4.1
+    "mLTC": 4.17
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.51,
+      "price": 19.49,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 4.1
+      "price": 4.17
      }
     ]
    },
@@ -181,7 +181,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 0.26
+      "price": 0.27
      },
      {
       "currency": "WME",
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.8
+      "price": 3.87
      },
      {
       "currency": "WMT",
@@ -222,7 +222,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 0.26,
+      "price": 0.27,
       "limit": {
        "max": 300.0
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.8,
+      "price": 3.87,
       "limit": {
        "max": 7.3
       }
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 0.26
+      "price": 0.27
      },
      {
       "currency": "EUR",
@@ -288,7 +288,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 0.26
+      "price": 0.27
      },
      {
       "currency": "EUR",
@@ -331,14 +331,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "09.09.2026 22:12:50",
+   "date": "10.09.2026 21:29:12",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 42730.0,
+    "summa": 42175.0,
     "percent": 1.0
    }
   ],
@@ -616,7 +616,7 @@
       "modify_value_default": 6682.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 29923994,
@@ -627,7 +627,7 @@
       "modify_value_default": 8782.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 29923995,
@@ -638,14 +638,14 @@
       "modify_value_default": 10982.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      }
     ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19040,
+   "sales": 19045,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

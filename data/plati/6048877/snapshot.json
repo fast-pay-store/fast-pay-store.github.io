@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🍏Подарочная карта Apple iTunes 10-5000 TL Турция + ПОДАРОК",
-  "price": 17.0,
+  "price": 15.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6048877",
@@ -53,7 +53,7 @@
   "add_info": "<attention>⏳График работы: 11:00-23:00 UTC+2⌛<br /><br />💵 Цифровые ключи, купленные по ошибке (невнимательности), возврату и обмену не подлежат<br /><br />💥Если у Вас возникнут вопросы, обращайтесь к нам в чат, мы с радостью на них ответим!</attention>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 0.17,
+  "agency_sum": 0.15,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 17.0,
-    "USD": 0.2,
-    "EUR": 0.17,
-    "UAH": 8.88,
+    "RUB": 15.0,
+    "USD": 0.18,
+    "EUR": 0.15,
+    "UAH": 7.92,
     "mBTC": 0.0,
-    "mLTC": 5.07
+    "mLTC": 4.56
    },
    "default": {
-    "RUB": 17.0,
-    "USD": 0.2,
-    "EUR": 0.17,
-    "UAH": 8.88,
+    "RUB": 15.0,
+    "USD": 0.18,
+    "EUR": 0.15,
+    "UAH": 7.92,
     "mBTC": 0.0,
-    "mLTC": 5.37
+    "mLTC": 4.86
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 17.0
+      "price": 15.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 19.32,
+      "price": 17.37,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.51,
+      "price": 17.54,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -138,17 +138,17 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 0.29
+      "price": 0.26
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 5.07
+      "price": 4.56
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 0.2
+      "price": 0.18
      }
     ]
    },
@@ -160,7 +160,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 0.29,
+      "price": 0.26,
       "limit": {
        "max": 300.0
       }
@@ -168,7 +168,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 24.65,
+      "price": 21.75,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -177,7 +177,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 5.07,
+      "price": 4.56,
       "limit": {
        "max": 7.3
       }
@@ -192,12 +192,12 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 17.0
+      "price": 15.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 0.29
+      "price": 0.26
      }
     ]
    },
@@ -209,7 +209,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.09
+      "price": 0.08
      }
     ]
    },
@@ -221,12 +221,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 17.0
+      "price": 15.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 0.29
+      "price": 0.26
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 5.37
+      "price": 4.86
      }
     ]
    },
@@ -250,7 +250,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 17.0
+      "price": 15.0
      }
     ]
    }
@@ -271,7 +271,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "20.08.2026 23:36:59",
+   "date": "10.09.2026 18:35:15",
    "size": 16
   },
   "category_id": 0,
@@ -542,11 +542,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 236142,
+   "sales": 236968,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 2383,
+   "good_reviews": 2387,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

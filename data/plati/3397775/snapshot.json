@@ -70,17 +70,17 @@
     "RUB": 10.0,
     "USD": 0.12,
     "EUR": 0.1,
-    "UAH": 5.22,
+    "UAH": 5.28,
     "mBTC": 0.0,
-    "mLTC": 2.98
+    "mLTC": 3.04
    },
    "default": {
     "RUB": 10.0,
     "USD": 0.12,
     "EUR": 0.1,
-    "UAH": 5.22,
+    "UAH": 5.28,
     "mBTC": 0.0,
-    "mLTC": 3.28
+    "mLTC": 3.34
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 11.59,
+      "price": 11.58,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 11.7,
+      "price": 11.69,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -153,7 +153,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 2.98
+      "price": 3.04
      },
      {
       "currency": "WMT",
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 2.98,
+      "price": 3.04,
       "limit": {
        "max": 7.3
       }
@@ -219,7 +219,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.05
+      "price": 0.06
      }
     ]
    },
@@ -248,7 +248,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.28
+      "price": 3.34
      }
     ]
    },
@@ -276,10 +276,10 @@
     "height": 1080
    },
    {
-    "id": 10703021,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10703021",
-    "width": 1254,
-    "height": 1254
+    "id": 10816755,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10816755",
+    "width": 1280,
+    "height": 1280
    },
    {
     "id": 3660697,
@@ -315,22 +315,22 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "05.09.2026 17:00:31",
+   "date": "10.09.2026 21:01:23",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 85459.0,
+    "summa": 84351.0,
     "percent": 3.0
    },
    {
-    "summa": 855.0,
+    "summa": 844.0,
     "percent": 2.0
    },
    {
-    "summa": 85.0,
+    "summa": 84.0,
     "percent": 1.0
    }
   ],
@@ -562,11 +562,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 65883,
+   "sales": 65923,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15480,
+   "good_reviews": 15485,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
