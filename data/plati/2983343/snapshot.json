@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "Red Dead Redemption 2 STANDARD\\ULTIMATE STEAM•RU⚡️",
-  "price": 1199.0,
+  "price": 3649.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/2983343",
@@ -53,7 +53,7 @@
   "add_info": "<delivery>📝 Не нашли нужного товара? Пишите! <br />⠀По запросу добавим почти любую игру из Steam</delivery><delivery>🛡 Гарантии<br />⠀• Один из крупнейших магазинов на площадке<br />⠀• Более 1 000 000 продаж и 200 000 положительных отзывов<br />⠀• Регистрация с 2014 года, отсутствие отрицательных отзывов<br />⠀• Гарантируем помощь в случае возникновения любой проблемы</delivery><attention>↩️ О возврате<br />⠀&gt; Товар получен —  Возврат невозможен<br />⠀&gt; Товар не получен<br />⠀⠀• Наша вина — Полный возврат<br />⠀⠀• Ваша вина — Возврат с 20% комиссией</attention>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 11.99,
+  "agency_sum": 36.49,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 1199.0,
-    "USD": 14.21,
-    "EUR": 12.56,
-    "UAH": 633.29,
-    "mBTC": 0.21,
-    "mLTC": 351.65
+    "RUB": 3649.0,
+    "USD": 43.31,
+    "EUR": 38.4,
+    "UAH": 1929.26,
+    "mBTC": 0.65,
+    "mLTC": 1029.48
    },
    "default": {
-    "RUB": 1199.0,
-    "USD": 14.21,
-    "EUR": 12.56,
-    "UAH": 633.31,
-    "mBTC": 0.31,
-    "mLTC": 351.95
+    "RUB": 3649.0,
+    "USD": 43.31,
+    "EUR": 38.4,
+    "UAH": 1929.59,
+    "mBTC": 0.75,
+    "mLTC": 1029.78
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 1199.0
+      "price": 3649.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 1199.0
+      "price": 3649.0
      }
     ]
    },
@@ -116,22 +116,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 19.9
+      "price": 60.63
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.21
+      "price": 0.65
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 351.65
+      "price": 1029.48
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 14.21
+      "price": 43.31
      }
     ]
    },
@@ -143,17 +143,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 1199.0
+      "price": 3649.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 19.9
+      "price": 60.63
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.21
+      "price": 0.65
      }
     ]
    },
@@ -165,12 +165,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 1199.0
+      "price": 3649.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 19.9
+      "price": 60.63
      }
     ]
    },
@@ -182,7 +182,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1678.6,
+      "price": 5108.6,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -191,7 +191,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 19.9,
+      "price": 60.63,
       "limit": {
        "max": 300.0
       }
@@ -199,7 +199,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 351.65,
+      "price": 1029.48,
       "limit": {
        "max": 7.3
       }
@@ -207,7 +207,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.21,
+      "price": 0.65,
       "limit": {
        "max": 0.03
       }
@@ -222,7 +222,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1371.7,
+      "price": 4197.48,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -239,7 +239,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1384.89,
+      "price": 4237.84,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -249,12 +249,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 1.23
+      "price": 3.74
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 1.06
+      "price": 3.22
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 14.21,
+      "price": 43.31,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -283,7 +283,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1444.79,
+      "price": 4420.54,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -300,7 +300,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.31
+      "price": 0.75
      }
     ]
    },
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 351.95
+      "price": 1029.78
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 6.41
+      "price": 18.92
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "RUB",
       "code": "LVA",
-      "price": 1199.0
+      "price": 3649.0
      }
     ]
    },
@@ -348,7 +348,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 1199.0
+      "price": 3649.0
      }
     ]
    }
@@ -387,7 +387,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "09.09.2026 14:57:34",
+   "date": "11.09.2026 19:25:31",
    "size": 16
   },
   "category_id": 0,
@@ -456,9 +456,9 @@
       "value": 196360,
       "text": "Ultimate Edition (Россия)",
       "default": 0,
-      "modify": "+300 RUB",
-      "modify_value": 300.0,
-      "modify_value_default": 300.0,
+      "modify": "+2800 RUB",
+      "modify_value": 2800.0,
+      "modify_value_default": 2800.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -466,9 +466,9 @@
       "value": 1621347,
       "text": "Ultimate Edition (Украина)",
       "default": 0,
-      "modify": "+300 RUB",
-      "modify_value": 300.0,
-      "modify_value_default": 300.0,
+      "modify": "+2800 RUB",
+      "modify_value": 2800.0,
+      "modify_value_default": 2800.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -476,9 +476,9 @@
       "value": 757577,
       "text": "Ultimate Edition (Беларусь+СНГ)",
       "default": 0,
-      "modify": "+300 RUB",
-      "modify_value": 300.0,
-      "modify_value_default": 300.0,
+      "modify": "+2800 RUB",
+      "modify_value": 2800.0,
+      "modify_value_default": 2800.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -486,9 +486,9 @@
       "value": 1621348,
       "text": "Ultimate Edition (Казахстан)",
       "default": 0,
-      "modify": "+300 RUB",
-      "modify_value": 300.0,
-      "modify_value_default": 300.0,
+      "modify": "+2800 RUB",
+      "modify_value": 2800.0,
+      "modify_value_default": 2800.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -497,11 +497,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 38659,
+   "sales": 38669,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 5567,
+   "good_reviews": 5568,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

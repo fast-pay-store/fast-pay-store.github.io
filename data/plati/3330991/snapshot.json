@@ -44,8 +44,8 @@
   "id": 3330991,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🧡FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
-  "price": 399.0,
+  "name": "🧡[АВТО 24\\7] FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
+  "price": 499.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3330991",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат невозможен<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа<br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим!</attention></delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 3.99,
+  "agency_sum": 4.99,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 399.0,
-    "USD": 4.73,
-    "EUR": 4.06,
-    "UAH": 210.74,
-    "mBTC": 0.06,
-    "mLTC": 90.86
+    "RUB": 499.0,
+    "USD": 5.92,
+    "EUR": 5.1,
+    "UAH": 263.83,
+    "mBTC": 0.08,
+    "mLTC": 109.3
    },
    "default": {
-    "RUB": 399.0,
-    "USD": 6.3,
-    "EUR": 5.4,
-    "UAH": 280.29,
-    "mBTC": 0.16,
-    "mLTC": 91.16
+    "RUB": 499.0,
+    "USD": 7.88,
+    "EUR": 6.79,
+    "UAH": 350.9,
+    "mBTC": 0.18,
+    "mLTC": 109.6
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 399.0
+      "price": 499.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 434.68
+      "price": 543.62
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 444.09
+      "price": 555.39
      }
     ]
    },
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 480.92,
+      "price": 604.24,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 460.98,
+      "price": 579.26,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,12 +155,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.41
+      "price": 0.52
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.35
+      "price": 0.44
      }
     ]
    },
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 4.73,
+      "price": 5.92,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -189,7 +189,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.16
+      "price": 0.18
      }
     ]
    },
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 91.16
+      "price": 109.6
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.13
+      "price": 2.59
      }
     ]
    },
@@ -225,27 +225,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 6.29
+      "price": 7.88
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 5.4
+      "price": 6.78
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.06
+      "price": 0.08
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 90.86
+      "price": 109.3
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 4.73
+      "price": 5.92
      }
     ]
    },
@@ -257,7 +257,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 530.67,
+      "price": 663.67,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -266,7 +266,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 6.29,
+      "price": 7.88,
       "limit": {
        "max": 300.0
       }
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 5.4,
+      "price": 6.78,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 90.86,
+      "price": 109.3,
       "limit": {
        "max": 7.3
       }
@@ -290,7 +290,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.06,
+      "price": 0.08,
       "limit": {
        "max": 0.03
       }
@@ -305,17 +305,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 399.0
+      "price": 499.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 6.29
+      "price": 7.88
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 5.4
+      "price": 6.78
      }
     ]
    },
@@ -327,22 +327,22 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 399.0
+      "price": 499.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 6.29
+      "price": 7.88
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 5.4
+      "price": 6.78
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.06
+      "price": 0.08
      }
     ]
    },
@@ -354,7 +354,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 399.0
+      "price": 499.0
      }
     ]
    }
@@ -385,14 +385,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "11.09.2026 03:05:38",
+   "date": "12.09.2026 01:35:48",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168702.0,
+    "summa": 168514.0,
     "percent": 1.0
    }
   ],
@@ -410,7 +410,7 @@
     "variants": [
      {
       "value": 7905692,
-      "text": "FORTNITE CREW (BATTLE PASS) 1 МЕСЯЦ  (EPIC GAMES)",
+      "text": "FORTNITE CREW - 1 МЕСЯЦ  (EPIC GAMES - АВТО)",
       "default": 1,
       "modify": "",
       "modify_value": 0.0,
@@ -420,11 +420,11 @@
      },
      {
       "value": 7905691,
-      "text": "FORTNITE CREW (BATTLE PASS) 1 МЕСЯЦ  - ЛЮБОЙ АККАУНТ MICROSOFT/XBOX",
+      "text": "FORTNITE CREW 1 МЕСЯЦ  - ЛЮБОЙ АККАУНТ MICROSOFT/XBOX",
       "default": 0,
-      "modify": "+800 RUB",
-      "modify_value": 800.0,
-      "modify_value_default": 800.0,
+      "modify": "+500 RUB",
+      "modify_value": 500.0,
+      "modify_value_default": 500.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -465,7 +465,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 43986,
+   "sales": 43989,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

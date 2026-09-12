@@ -70,18 +70,18 @@
    "initial": {
     "RUB": 249.0,
     "USD": 3.1,
-    "EUR": 2.53,
-    "UAH": 131.52,
+    "EUR": 2.54,
+    "UAH": 131.65,
     "mBTC": 0.04,
-    "mLTC": 73.94
+    "mLTC": 71.13
    },
    "default": {
     "RUB": 249.0,
     "USD": 3.1,
-    "EUR": 2.53,
-    "UAH": 131.52,
+    "EUR": 2.54,
+    "UAH": 131.65,
     "mBTC": 0.14,
-    "mLTC": 74.24
+    "mLTC": 71.43
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 299.25,
+      "price": 300.44,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 302.13,
+      "price": 303.33,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 315.19,
+      "price": 316.41,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -166,7 +166,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 4.18
+      "price": 4.19
      },
      {
       "currency": "mBTC",
@@ -176,7 +176,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 73.94
+      "price": 71.13
      },
      {
       "currency": "WMT",
@@ -210,7 +210,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 4.18,
+      "price": 4.19,
       "limit": {
        "max": 300.0
       }
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 73.94,
+      "price": 71.13,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 74.24
+      "price": 71.43
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.4
+      "price": 1.35
      }
     ]
    },
@@ -303,7 +303,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 4.18
+      "price": 4.19
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 4.18
+      "price": 4.19
      },
      {
       "currency": "mBTC",
@@ -529,11 +529,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 72613,
+   "sales": 72669,
    "sales_hidden": 0,
    "refunds": 77,
    "refunds_hidden": 0,
-   "good_reviews": 23653,
+   "good_reviews": 23664,
    "good_reviews_hidden": 0,
    "bad_reviews": 4,
    "bad_reviews_hidden": 0
