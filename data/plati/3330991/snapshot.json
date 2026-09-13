@@ -44,7 +44,7 @@
   "id": 3330991,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🧡[АВТО 24\\7] FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
+  "name": "🧡 [АВТО 24\\7] FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
   "price": 499.0,
   "currency": "RUB",
   "url": "",
@@ -72,7 +72,7 @@
     "EUR": 5.1,
     "UAH": 263.83,
     "mBTC": 0.08,
-    "mLTC": 109.3
+    "mLTC": 110.04
    },
    "default": {
     "RUB": 499.0,
@@ -80,7 +80,7 @@
     "EUR": 6.79,
     "UAH": 350.9,
     "mBTC": 0.18,
-    "mLTC": 109.6
+    "mLTC": 110.34
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 604.24,
+      "price": 604.9,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 579.26,
+      "price": 579.92,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 109.6
+      "price": 110.34
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.59
+      "price": 2.64
      }
     ]
    },
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 109.3
+      "price": 110.04
      },
      {
       "currency": "WMT",
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 109.3,
+      "price": 110.04,
       "limit": {
        "max": 7.3
       }
@@ -385,7 +385,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "12.09.2026 01:35:48",
+   "date": "12.09.2026 16:32:56",
    "size": 16
   },
   "category_id": 0,
@@ -465,11 +465,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 43989,
+   "sales": 43995,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 17947,
+   "good_reviews": 17949,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

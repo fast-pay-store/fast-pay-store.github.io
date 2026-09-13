@@ -71,16 +71,16 @@
     "USD": 27.28,
     "EUR": 23.49,
     "UAH": 1215.5,
-    "mBTC": 0.35,
-    "mLTC": 503.59
+    "mBTC": 0.36,
+    "mLTC": 507.35
    },
    "default": {
     "RUB": 1699.0,
     "USD": 20.16,
     "EUR": 17.36,
     "UAH": 898.27,
-    "mBTC": 0.45,
-    "mLTC": 503.89
+    "mBTC": 0.46,
+    "mLTC": 507.65
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 503.59,
+      "price": 507.35,
       "limit": {
        "max": 7.3
       }
@@ -149,7 +149,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.35,
+      "price": 0.36,
       "limit": {
        "max": 0.03
       }
@@ -186,12 +186,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.35
+      "price": 0.36
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 503.59
+      "price": 507.35
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2784.4,
+      "price": 2787.46,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2643.89,
+      "price": 2646.9,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2669.32,
+      "price": 2672.35,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -286,7 +286,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.45
+      "price": 0.46
      }
     ]
    },
@@ -335,7 +335,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.35
+      "price": 0.36
      }
     ]
    },
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 503.89
+      "price": 507.65
      }
     ]
    },
@@ -426,7 +426,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "11.09.2026 00:36:47",
+   "date": "13.09.2026 02:16:31",
    "size": 16
   },
   "category_id": 0,
@@ -494,6 +494,16 @@
       "modify_value_default": 13000.0,
       "modify_type": "RUB",
       "visible": 1
+     },
+     {
+      "value": 17657624,
+      "text": "5. ChatGPT PRO X20 НА 1 МЕСЯЦ (персональный аккаунт + почта)",
+      "default": 0,
+      "modify": "+21000 RUB",
+      "modify_value": 21000.0,
+      "modify_value_default": 21000.0,
+      "modify_type": "RUB",
+      "visible": 1
      }
     ]
    },
@@ -541,13 +551,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 27217,
+   "sales": 27256,
    "sales_hidden": 0,
    "refunds": 161,
    "refunds_hidden": 0,
-   "good_reviews": 5271,
+   "good_reviews": 5276,
    "good_reviews_hidden": 0,
-   "bad_reviews": 26,
+   "bad_reviews": 25,
    "bad_reviews_hidden": 0
   },
   "seller": {

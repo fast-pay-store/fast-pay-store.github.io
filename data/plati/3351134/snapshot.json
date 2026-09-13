@@ -73,7 +73,7 @@
     "EUR": 12.25,
     "UAH": 845.09,
     "mBTC": 0.19,
-    "mLTC": 300.67
+    "mLTC": 302.68
    },
    "default": {
     "RUB": 999.0,
@@ -81,7 +81,7 @@
     "EUR": 12.25,
     "UAH": 845.09,
     "mBTC": 0.29,
-    "mLTC": 300.97
+    "mLTC": 302.98
    }
   },
   "payment_methods": [
@@ -142,7 +142,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 300.67
+      "price": 302.68
      },
      {
       "currency": "WMT",
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 300.67,
+      "price": 302.68,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 300.97
+      "price": 302.98
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1194.73,
+      "price": 1196.1,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1183.35,
+      "price": 1184.7,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 5.33
+      "price": 5.45
      }
     ]
    },
@@ -349,7 +349,7 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 10
+    "products_cnt": 9
    }
   ],
   "options_check": 0,

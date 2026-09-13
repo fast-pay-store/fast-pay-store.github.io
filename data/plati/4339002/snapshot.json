@@ -72,7 +72,7 @@
     "EUR": 1.02,
     "UAH": 52.87,
     "mBTC": 0.04,
-    "mLTC": 21.9
+    "mLTC": 22.05
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 8.98,
     "UAH": 464.73,
     "mBTC": 0.14,
-    "mLTC": 22.2
+    "mLTC": 22.35
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.9,
+      "price": 22.05,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.9
+      "price": 22.05
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 121.46,
+      "price": 121.59,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 115.34,
+      "price": 115.46,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 116.45,
+      "price": 116.57,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.2
+      "price": 22.35
      }
     ]
    },
@@ -438,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "11.09.2026 00:36:05",
+   "date": "13.09.2026 02:14:32",
    "size": 16
   },
   "category_id": 0,
@@ -498,6 +498,16 @@
       "visible": 1
      },
      {
+      "value": 17657573,
+      "text": "3. 24/7 АВТО | ChatGPT PRO X20 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
+      "default": 0,
+      "modify": "+20399 RUB",
+      "modify_value": 20399.0,
+      "modify_value_default": 20399.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
       "value": 17657571,
       "text": "4. 24/7 АВТО | ChatGPT GO 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
       "default": 1,
@@ -534,6 +544,16 @@
       "modify": "+9899 RUB",
       "modify_value": 9899.0,
       "modify_value_default": 9899.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 19526818,
+      "text": "8. [Скидка] ChatGPT PRO X20 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, с входом)",
+      "default": 0,
+      "modify": "+22399 RUB",
+      "modify_value": 22399.0,
+      "modify_value_default": 22399.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -585,7 +605,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 23,
+   "bad_reviews": 24,
    "bad_reviews_hidden": 0
   },
   "seller": {
