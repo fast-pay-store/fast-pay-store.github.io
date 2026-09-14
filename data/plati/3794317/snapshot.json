@@ -72,15 +72,15 @@
     "EUR": 2.37,
     "UAH": 122.51,
     "mBTC": 0.04,
-    "mLTC": 61.11
+    "mLTC": 61.25
    },
    "default": {
     "RUB": 1160.22,
     "USD": 13.77,
     "EUR": 11.86,
-    "UAH": 613.49,
+    "UAH": 613.43,
     "mBTC": 0.14,
-    "mLTC": 61.41
+    "mLTC": 61.55
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 266.83,
+      "price": 265.1,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 269.39,
+      "price": 267.65,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 61.11,
+      "price": 61.25,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 61.11
+      "price": 61.25
      },
      {
       "currency": "WMT",
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.23
+      "price": 1.21
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 61.41
+      "price": 61.55
      }
     ]
    },
@@ -350,7 +350,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "17.07.2026 01:36:44",
+   "date": "17.07.2026 01:37:18",
    "size": null
   },
   "category_id": 135134,
@@ -439,7 +439,7 @@
       "modify_value_default": 31.68,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 16038003,
@@ -457,7 +457,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15750,
+   "sales": 15756,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

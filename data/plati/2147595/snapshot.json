@@ -32,15 +32,15 @@
     "EUR": 4.41,
     "UAH": 228.08,
     "mBTC": 0.07,
-    "mLTC": 114.65
+    "mLTC": 114.91
    },
    "default": {
     "RUB": 465.06,
     "USD": 5.12,
     "EUR": 4.41,
-    "UAH": 228.11,
+    "UAH": 228.09,
     "mBTC": 0.17,
-    "mLTC": 114.95
+    "mLTC": 115.21
    }
   },
   "payment_methods": [
@@ -106,7 +106,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 114.65
+      "price": 114.91
      },
      {
       "currency": "WMT",
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 496.78,
+      "price": 493.58,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 501.56,
+      "price": 498.33,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 114.95
+      "price": 115.21
      }
     ]
    },
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 114.65,
+      "price": 114.91,
       "limit": {
        "max": 7.3
       }
@@ -307,7 +307,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.29
+      "price": 2.26
      }
     ]
    },
@@ -343,12 +343,12 @@
    {
     "id": 55908,
     "name": "STEAM",
-    "products_cnt": 112
+    "products_cnt": 113
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 74738,
+   "sales": 74739,
    "sales_hidden": 0,
    "refunds": 1,
    "refunds_hidden": 0,

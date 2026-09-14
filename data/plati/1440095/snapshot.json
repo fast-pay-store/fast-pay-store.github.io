@@ -19,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 0,
+  "num_in_lock": 1,
   "owner": 1,
   "section_id": 22257,
   "pwyw": 0,
@@ -32,7 +32,7 @@
     "EUR": 7.31,
     "UAH": 404.68,
     "mBTC": 0.11,
-    "mLTC": 157.75
+    "mLTC": 158.11
    },
    "default": {
     "RUB": 715.34,
@@ -40,7 +40,7 @@
     "EUR": 7.31,
     "UAH": 404.68,
     "mBTC": 0.21,
-    "mLTC": 158.05
+    "mLTC": 158.41
    }
   },
   "payment_methods": [
@@ -81,7 +81,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 823.76,
+      "price": 818.45,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -113,7 +113,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 157.75
+      "price": 158.11
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 831.68,
+      "price": 826.32,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -164,7 +164,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 158.05
+      "price": 158.41
      }
     ]
    },
@@ -188,7 +188,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.79
+      "price": 3.74
      }
     ]
    },
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 157.75,
+      "price": 158.11,
       "limit": {
        "max": 7.3
       }
@@ -373,7 +373,7 @@
       "modify_value_default": 1.7,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 2041612,
@@ -604,18 +604,18 @@
       "modify_value_default": 416.5,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      }
     ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 153236,
+   "sales": 153397,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 4130,
+   "good_reviews": 4135,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "[24/7 АВТО] ChatGPT 6 PLUS | PRO X20| GO | CODEX 1 М ПОДПИСКА / ПРОДЛЕНИЕ / ЧАТ ГПТ",
-  "price": 879.0,
+  "price": 100.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/4339002",
@@ -72,15 +72,15 @@
     "EUR": 1.02,
     "UAH": 52.87,
     "mBTC": 0.04,
-    "mLTC": 22.05
+    "mLTC": 22.1
    },
    "default": {
-    "RUB": 879.0,
-    "USD": 10.44,
-    "EUR": 8.98,
-    "UAH": 464.73,
+    "RUB": 100.0,
+    "USD": 1.19,
+    "EUR": 1.02,
+    "UAH": 52.87,
     "mBTC": 0.14,
-    "mLTC": 22.35
+    "mLTC": 22.4
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 22.05,
+      "price": 22.1,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 22.05
+      "price": 22.1
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 121.59,
+      "price": 121.41,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 115.46,
+      "price": 114.72,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 116.57,
+      "price": 115.83,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.35
+      "price": 22.4
      }
     ]
    },
@@ -438,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "13.09.2026 02:14:32",
+   "date": "14.09.2026 10:37:12",
    "size": 16
   },
   "category_id": 0,
@@ -595,6 +595,38 @@
     "type": "text",
     "separate_content": 0,
     "required": 0
+   },
+   {
+    "id": 6283944,
+    "name": "option_radio_6283944",
+    "label": "Хотите ли получить гайд (инструкцию) по работе с ChatGPT",
+    "comment": "",
+    "type": "radio",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 31674248,
+      "text": "Нет",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 31674249,
+      "text": "Да (гайд пришлют вам в чате покупки)",
+      "default": 0,
+      "modify": "+999 RUB",
+      "modify_value": 999.0,
+      "modify_value_default": 999.0,
+      "modify_type": "RUB",
+      "visible": 1
+     }
+    ]
    }
   ],
   "options_check": 0,

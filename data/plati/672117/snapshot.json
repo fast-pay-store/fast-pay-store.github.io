@@ -71,16 +71,16 @@
     "USD": 14.99,
     "EUR": 12.9,
     "UAH": 714.51,
-    "mBTC": 0.2,
-    "mLTC": 278.72
+    "mBTC": 0.19,
+    "mLTC": 279.15
    },
    "default": {
     "RUB": 1389.31,
     "USD": 14.99,
     "EUR": 12.9,
     "UAH": 714.51,
-    "mBTC": 0.3,
-    "mLTC": 279.02
+    "mBTC": 0.29,
+    "mLTC": 279.45
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1454.44,
+      "price": 1445.08,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -131,12 +131,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.2
+      "price": 0.19
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 278.72
+      "price": 279.15
      },
      {
       "currency": "WMT",
@@ -170,7 +170,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1468.43,
+      "price": 1458.98,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 279.02
+      "price": 279.45
      }
     ]
    },
@@ -199,7 +199,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.3
+      "price": 0.29
      }
     ]
    },
@@ -211,7 +211,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 6.69
+      "price": 6.62
      }
     ]
    },
@@ -248,7 +248,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 278.72,
+      "price": 279.15,
       "limit": {
        "max": 7.3
       }
@@ -256,7 +256,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.2,
+      "price": 0.19,
       "limit": {
        "max": 0.03
       }
@@ -308,7 +308,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.2
+      "price": 0.19
      }
     ]
    },
@@ -354,7 +354,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "12.09.2026 10:14:06",
+   "date": "13.09.2026 19:15:10",
    "size": null
   },
   "category_id": 107242,

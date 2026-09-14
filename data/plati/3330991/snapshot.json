@@ -44,8 +44,8 @@
   "id": 3330991,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🧡 [АВТО 24\\7] FORTNITE CREW 1 МЕСЯЦ⭐БОЕВОЙ ПРОПУСК+1000 V-BUCKS+🎁",
-  "price": 499.0,
+  "name": "🧡 [АВТО 24\\7] FORTNITE CREW | 1 МЕСЯЦ | ⭐БОЕВОЙ ПРОПУСК + 800V-BUCKS🎁",
+  "price": 399.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3330991",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат невозможен<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа<br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим!</attention></delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 4.99,
+  "agency_sum": 3.99,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 499.0,
-    "USD": 5.92,
-    "EUR": 5.1,
-    "UAH": 263.83,
-    "mBTC": 0.08,
-    "mLTC": 110.04
+    "RUB": 399.0,
+    "USD": 4.74,
+    "EUR": 4.08,
+    "UAH": 210.95,
+    "mBTC": 0.06,
+    "mLTC": 88.19
    },
    "default": {
-    "RUB": 499.0,
-    "USD": 7.88,
-    "EUR": 6.79,
-    "UAH": 350.9,
-    "mBTC": 0.18,
-    "mLTC": 110.34
+    "RUB": 399.0,
+    "USD": 6.31,
+    "EUR": 5.43,
+    "UAH": 280.57,
+    "mBTC": 0.16,
+    "mLTC": 88.49
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 499.0
+      "price": 399.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 543.62
+      "price": 434.68
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 555.39
+      "price": 444.09
      }
     ]
    },
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 604.9,
+      "price": 483.59,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 579.92,
+      "price": 461.35,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,12 +155,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.52
+      "price": 0.41
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.44
+      "price": 0.36
      }
     ]
    },
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 5.92,
+      "price": 4.74,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -189,7 +189,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.18
+      "price": 0.16
      }
     ]
    },
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 110.34
+      "price": 88.49
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.64
+      "price": 2.09
      }
     ]
    },
@@ -225,27 +225,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 7.88
+      "price": 6.3
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 6.78
+      "price": 5.42
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.08
+      "price": 0.06
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 110.04
+      "price": 88.19
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 5.92
+      "price": 4.74
      }
     ]
    },
@@ -257,7 +257,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 663.67,
+      "price": 530.67,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -266,7 +266,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 7.88,
+      "price": 6.3,
       "limit": {
        "max": 300.0
       }
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 6.78,
+      "price": 5.42,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 110.04,
+      "price": 88.19,
       "limit": {
        "max": 7.3
       }
@@ -290,7 +290,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.08,
+      "price": 0.06,
       "limit": {
        "max": 0.03
       }
@@ -305,17 +305,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 499.0
+      "price": 399.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 7.88
+      "price": 6.3
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 6.78
+      "price": 5.42
      }
     ]
    },
@@ -327,22 +327,22 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 499.0
+      "price": 399.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 7.88
+      "price": 6.3
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 6.78
+      "price": 5.42
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.08
+      "price": 0.06
      }
     ]
    },
@@ -354,7 +354,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 499.0
+      "price": 399.0
      }
     ]
    }
@@ -364,28 +364,16 @@
   },
   "preview_imgs": [
    {
-    "id": 10322278,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10322278",
-    "width": 1254,
-    "height": 1254
-   },
-   {
-    "id": 9970025,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=9970025",
-    "width": 600,
-    "height": 600
-   },
-   {
-    "id": 9755579,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=9755579",
-    "width": 400,
-    "height": 400
+    "id": 10832356,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10832356",
+    "width": 739,
+    "height": 739
    }
   ],
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "12.09.2026 16:32:56",
+   "date": "14.09.2026 13:34:34",
    "size": 16
   },
   "category_id": 0,
@@ -465,7 +453,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 43995,
+   "sales": 43996,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
