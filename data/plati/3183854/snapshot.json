@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 199.0,
     "USD": 2.36,
-    "EUR": 2.03,
-    "UAH": 105.21,
+    "EUR": 2.04,
+    "UAH": 105.28,
     "mBTC": 0.04,
-    "mLTC": 43.98
+    "mLTC": 45.05
    },
    "default": {
     "RUB": 199.0,
     "USD": 3.14,
-    "EUR": 2.7,
-    "UAH": 139.93,
+    "EUR": 2.72,
+    "UAH": 140.03,
     "mBTC": 0.14,
-    "mLTC": 44.28
+    "mLTC": 45.35
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 240.77,
+      "price": 240.85,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 229.69,
+      "price": 229.78,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 44.28
+      "price": 45.35
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.04
+      "price": 1.05
      }
     ]
    },
@@ -230,7 +230,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.7
+      "price": 2.71
      },
      {
       "currency": "mBTC",
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 43.98
+      "price": 45.05
      },
      {
       "currency": "WMT",
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.7,
+      "price": 2.71,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 43.98,
+      "price": 45.05,
       "limit": {
        "max": 7.3
       }
@@ -315,7 +315,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.7
+      "price": 2.71
      }
     ]
    },
@@ -337,7 +337,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.7
+      "price": 2.71
      },
      {
       "currency": "mBTC",
@@ -386,7 +386,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168514.0,
+    "summa": 168673.0,
     "percent": 1.0
    }
   ],
@@ -607,11 +607,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 111709,
+   "sales": 111728,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 40529,
+   "good_reviews": 40530,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

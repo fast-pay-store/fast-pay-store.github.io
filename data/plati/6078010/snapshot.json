@@ -44,7 +44,7 @@
   "id": 6078010,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🍏 [АВТО 24\\7] ПОДАРОЧНАЯ КАРТА APPLE ITUNES 10-5000 TL✦TR✦ТУРЦИЯ🔑",
+  "name": "🍏 [АВТО 24\\7] Подарочная карта Apple iTunes 10-5000 TRY (Турция)",
   "price": 17.0,
   "currency": "RUB",
   "url": "",
@@ -72,7 +72,7 @@
     "EUR": 0.17,
     "UAH": 8.99,
     "mBTC": 0.04,
-    "mLTC": 3.76
+    "mLTC": 3.85
    },
    "default": {
     "RUB": 17.0,
@@ -80,7 +80,7 @@
     "EUR": 0.17,
     "UAH": 8.99,
     "mBTC": 0.14,
-    "mLTC": 4.06
+    "mLTC": 4.15
    }
   },
   "payment_methods": [
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 4.06
+      "price": 4.15
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.76
+      "price": 3.85
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.76,
+      "price": 3.85,
       "limit": {
        "max": 7.3
       }
@@ -331,14 +331,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "11.09.2026 22:19:14",
+   "date": "15.09.2026 12:11:17",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 42128.0,
+    "summa": 42168.0,
     "percent": 1.0
    }
   ],
@@ -616,7 +616,7 @@
       "modify_value_default": 6682.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 29923994,

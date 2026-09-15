@@ -31,17 +31,17 @@
     "RUB": 79.0,
     "USD": 0.94,
     "EUR": 0.81,
-    "UAH": 41.77,
+    "UAH": 41.79,
     "mBTC": 0.01,
-    "mLTC": 23.29
+    "mLTC": 23.86
    },
    "default": {
     "RUB": 79.0,
     "USD": 0.94,
     "EUR": 0.81,
-    "UAH": 41.77,
+    "UAH": 41.79,
     "mBTC": 0.11,
-    "mLTC": 23.59
+    "mLTC": 24.16
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 90.62,
+      "price": 90.65,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 95.9,
+      "price": 95.93,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 91.49,
+      "price": 91.52,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 23.29
+      "price": 23.86
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 23.29,
+      "price": 23.86,
       "limit": {
        "max": 7.3
       }
@@ -227,7 +227,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.41
+      "price": 0.42
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 23.59
+      "price": 24.16
      }
     ]
    },
@@ -293,7 +293,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "14.09.2026 15:55:07",
+   "date": "15.09.2026 13:01:46",
    "size": 16
   },
   "category_id": 130667,
@@ -306,15 +306,15 @@
   ],
   "discounts": [
    {
-    "summa": 210642.0,
+    "summa": 210841.0,
     "percent": 3.0
    },
    {
-    "summa": 42128.0,
+    "summa": 42168.0,
     "percent": 2.0
    },
    {
-    "summa": 4213.0,
+    "summa": 4217.0,
     "percent": 1.0
    }
   ],
@@ -434,9 +434,9 @@
       "value": 7848961,
       "text": "6 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+4420 RUB",
-      "modify_value": 4420.0,
-      "modify_value_default": 4420.0,
+      "modify": "+4520 RUB",
+      "modify_value": 4520.0,
+      "modify_value_default": 4520.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -444,9 +444,9 @@
       "value": 13133618,
       "text": "8 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+5620 RUB",
-      "modify_value": 5620.0,
-      "modify_value_default": 5620.0,
+      "modify": "+5720 RUB",
+      "modify_value": 5720.0,
+      "modify_value_default": 5720.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -454,9 +454,9 @@
       "value": 7848982,
       "text": "10 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+6720 RUB",
-      "modify_value": 6720.0,
-      "modify_value_default": 6720.0,
+      "modify": "+6820 RUB",
+      "modify_value": 6820.0,
+      "modify_value_default": 6820.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -464,9 +464,9 @@
       "value": 16799796,
       "text": "12 МЕСЯЦЕВ Ultimate НОВЫЙ АККАУНТ!(Не было подписок)",
       "default": 0,
-      "modify": "+7920 RUB",
-      "modify_value": 7920.0,
-      "modify_value_default": 7920.0,
+      "modify": "+8220 RUB",
+      "modify_value": 8220.0,
+      "modify_value_default": 8220.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -557,11 +557,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 205367,
+   "sales": 205415,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76706,
+   "good_reviews": 76724,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "24/7 | ChatGPT 6 ASTRA | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
-  "price": 1699.0,
+  "price": 1299.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3636620",
@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 2299.0,
-    "USD": 27.28,
-    "EUR": 23.49,
-    "UAH": 1215.5,
+    "USD": 27.26,
+    "EUR": 23.52,
+    "UAH": 1216.27,
     "mBTC": 0.35,
-    "mLTC": 508.13
+    "mLTC": 520.48
    },
    "default": {
-    "RUB": 1699.0,
-    "USD": 20.16,
-    "EUR": 17.36,
-    "UAH": 898.27,
+    "RUB": 1299.0,
+    "USD": 15.4,
+    "EUR": 13.29,
+    "UAH": 687.23,
     "mBTC": 0.45,
-    "mLTC": 508.43
+    "mLTC": 520.78
    }
   },
   "payment_methods": [
@@ -125,7 +125,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 27.28,
+      "price": 27.26,
       "limit": {
        "max": 300.0
       }
@@ -133,7 +133,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 23.49,
+      "price": 23.52,
       "limit": {
        "max": 300.0
       }
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 508.13,
+      "price": 520.48,
       "limit": {
        "max": 7.3
       }
@@ -176,12 +176,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 27.28
+      "price": 27.26
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 23.49
+      "price": 23.52
      },
      {
       "currency": "mBTC",
@@ -191,12 +191,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 508.13
+      "price": 520.48
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 27.28
+      "price": 27.26
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2783.17,
+      "price": 2782.05,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2629.86,
+      "price": 2628.83,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2655.15,
+      "price": 2654.11,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -269,7 +269,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 27.28,
+      "price": 27.26,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -303,12 +303,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 27.28
+      "price": 27.26
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 23.49
+      "price": 23.52
      }
     ]
    },
@@ -325,12 +325,12 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 27.28
+      "price": 27.26
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 23.49
+      "price": 23.52
      },
      {
       "currency": "mBTC",
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 508.43
+      "price": 520.78
      }
     ]
    },
@@ -426,30 +426,30 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "13.09.2026 02:16:31",
+   "date": "15.09.2026 12:15:00",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168514.0,
+    "summa": 168673.0,
     "percent": 5.0
    },
    {
-    "summa": 126385.0,
+    "summa": 126504.0,
     "percent": 4.0
    },
    {
-    "summa": 84257.0,
+    "summa": 84336.0,
     "percent": 3.0
    },
    {
-    "summa": 42128.0,
+    "summa": 42168.0,
     "percent": 2.0
    },
    {
-    "summa": 4213.0,
+    "summa": 4217.0,
     "percent": 1.0
    }
   ],
@@ -469,9 +469,9 @@
       "value": 17657623,
       "text": "1. 24/7 АВТО | ChatGPT GO 1 МЕСЯЦ (персональный аккаунт + почта)",
       "default": 1,
-      "modify": "-600 RUB",
-      "modify_value": -600.0,
-      "modify_value_default": -600.0,
+      "modify": "-1000 RUB",
+      "modify_value": -1000.0,
+      "modify_value_default": -1000.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -483,26 +483,6 @@
       "modify_value": 0.0,
       "modify_value_default": 0.0,
       "modify_type": "",
-      "visible": 1
-     },
-     {
-      "value": 19189495,
-      "text": "4. ChatGPT PRO X5 НА 1 МЕСЯЦ (персональный аккаунт + почта)",
-      "default": 0,
-      "modify": "+13000 RUB",
-      "modify_value": 13000.0,
-      "modify_value_default": 13000.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 17657624,
-      "text": "5. ChatGPT PRO X20 НА 1 МЕСЯЦ (персональный аккаунт + почта)",
-      "default": 0,
-      "modify": "+21000 RUB",
-      "modify_value": 21000.0,
-      "modify_value_default": 21000.0,
-      "modify_type": "RUB",
       "visible": 1
      }
     ]
@@ -551,13 +531,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 27326,
+   "sales": 27390,
    "sales_hidden": 0,
    "refunds": 161,
    "refunds_hidden": 0,
-   "good_reviews": 5278,
+   "good_reviews": 5279,
    "good_reviews_hidden": 0,
-   "bad_reviews": 26,
+   "bad_reviews": 29,
    "bad_reviews_hidden": 0
   },
   "seller": {

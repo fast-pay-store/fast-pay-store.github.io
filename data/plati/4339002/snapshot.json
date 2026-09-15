@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "[24/7 АВТО] ChatGPT 6 PLUS | PRO X20| GO | CODEX 1 М ПОДПИСКА / ПРОДЛЕНИЕ / ЧАТ ГПТ",
-  "price": 100.0,
+  "price": 879.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/4339002",
@@ -70,17 +70,17 @@
     "RUB": 100.0,
     "USD": 1.19,
     "EUR": 1.02,
-    "UAH": 52.87,
+    "UAH": 52.9,
     "mBTC": 0.04,
-    "mLTC": 22.1
+    "mLTC": 22.64
    },
    "default": {
-    "RUB": 100.0,
-    "USD": 1.19,
-    "EUR": 1.02,
-    "UAH": 52.87,
+    "RUB": 879.0,
+    "USD": 10.43,
+    "EUR": 8.99,
+    "UAH": 465.03,
     "mBTC": 0.14,
-    "mLTC": 22.4
+    "mLTC": 22.94
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 22.1,
+      "price": 22.64,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 22.1
+      "price": 22.64
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 121.41,
+      "price": 121.45,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 114.72,
+      "price": 114.75,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.83,
+      "price": 115.86,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.4
+      "price": 22.94
      }
     ]
    },
@@ -438,30 +438,30 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "14.09.2026 10:37:12",
+   "date": "15.09.2026 12:09:20",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168514.0,
+    "summa": 168673.0,
     "percent": 5.0
    },
    {
-    "summa": 126385.0,
+    "summa": 126504.0,
     "percent": 4.0
    },
    {
-    "summa": 84257.0,
+    "summa": 84336.0,
     "percent": 3.0
    },
    {
-    "summa": 42128.0,
+    "summa": 42168.0,
     "percent": 2.0
    },
    {
-    "summa": 4213.0,
+    "summa": 4217.0,
     "percent": 1.0
    }
   ],
@@ -484,26 +484,6 @@
       "modify": "+1899 RUB",
       "modify_value": 1899.0,
       "modify_value_default": 1899.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 17657569,
-      "text": "2. 24/7 АВТО | ChatGPT PRO X5 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
-      "default": 0,
-      "modify": "+10899 RUB",
-      "modify_value": 10899.0,
-      "modify_value_default": 10899.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 17657573,
-      "text": "3. 24/7 АВТО | ChatGPT PRO X20 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
-      "default": 0,
-      "modify": "+20399 RUB",
-      "modify_value": 20399.0,
-      "modify_value_default": 20399.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -534,26 +514,6 @@
       "modify": "+1799 RUB",
       "modify_value": 1799.0,
       "modify_value_default": 1799.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 19526817,
-      "text": "7. [Скидка] ChatGPT PRO X5 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, с входом)",
-      "default": 0,
-      "modify": "+9899 RUB",
-      "modify_value": 9899.0,
-      "modify_value_default": 9899.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 19526818,
-      "text": "8. [Скидка] ChatGPT PRO X20 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, с входом)",
-      "default": 0,
-      "modify": "+22399 RUB",
-      "modify_value": 22399.0,
-      "modify_value_default": 22399.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -598,18 +558,18 @@
    },
    {
     "id": 6283944,
-    "name": "option_radio_6283944",
+    "name": "option_checkbox_6283944",
     "label": "Хотите ли получить гайд (инструкцию) по работе с ChatGPT",
     "comment": "",
-    "type": "radio",
+    "type": "checkbox",
     "separate_content": 0,
-    "required": 1,
+    "required": 0,
     "modifier_visible": 1,
     "variants": [
      {
       "value": 31674248,
       "text": "Нет",
-      "default": 1,
+      "default": 0,
       "modify": "",
       "modify_value": 0.0,
       "modify_value_default": 0.0,
@@ -619,10 +579,10 @@
      {
       "value": 31674249,
       "text": "Да (гайд пришлют вам в чате покупки)",
-      "default": 0,
-      "modify": "+999 RUB",
-      "modify_value": 999.0,
-      "modify_value_default": 999.0,
+      "default": 1,
+      "modify": "+779 RUB",
+      "modify_value": 779.0,
+      "modify_value_default": 779.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -637,7 +597,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 24,
+   "bad_reviews": 23,
    "bad_reviews_hidden": 0
   },
   "seller": {
