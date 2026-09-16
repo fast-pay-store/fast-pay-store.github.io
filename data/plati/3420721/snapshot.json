@@ -44,7 +44,7 @@
   "id": 3420721,
   "id_prev": 0,
   "id_next": 3775767,
-  "name": "🟦 ПОКУПКА ИГР/ПОДПИСКИ PS PLUS/ПОПОЛНЕНИЕ PSN ТУРЦИЯ GTA 6 BLACK FLAG БЫСТРО🎁",
+  "name": "🟦 ПОКУПКА ИГР/ПОДПИСКИ PS PLUS/ПОПОЛНЕНИЕ PSN ТУРЦИЯ GTA 6 FC 27 БЫСТРО🎁",
   "price": 625.0,
   "currency": "RUB",
   "url": "",
@@ -272,7 +272,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "12.09.2026 14:59:10",
+   "date": "16.09.2026 12:31:18",
    "size": 16
   },
   "category_id": 132565,
@@ -285,19 +285,19 @@
   ],
   "discounts": [
    {
-    "summa": 210841.0,
+    "summa": 210590.0,
     "percent": 5.0
    },
    {
-    "summa": 126504.0,
+    "summa": 126354.0,
     "percent": 4.0
    },
    {
-    "summa": 84336.0,
+    "summa": 84236.0,
     "percent": 3.0
    },
    {
-    "summa": 16867.0,
+    "summa": 16847.0,
     "percent": 2.0
    },
    {
@@ -428,11 +428,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 89058,
+   "sales": 89066,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 27959,
+   "good_reviews": 27961,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
