@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "⚡️🔥Турецкая платежная карта (600-30.000TL)+Udemy+Др⚡️",
-  "price": 2336.72,
+  "price": 2337.78,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3367060",
@@ -184,7 +184,7 @@
   ],
   "prices_unit": {
    "unit_name": "TL",
-   "unit_amount": 2021.67,
+   "unit_amount": 2020.16,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 600,
@@ -210,12 +210,12 @@
   "breadcrumbs": [],
   "units": {
    "desc": "1 TL",
-   "price": 3.369448,
+   "price": 3.366928,
    "discounts": [
     {
      "desc": "601 TL",
      "percent": 5.0,
-     "price": 3.201,
+     "price": 3.1986,
      "cnt": 601.0
     }
    ]

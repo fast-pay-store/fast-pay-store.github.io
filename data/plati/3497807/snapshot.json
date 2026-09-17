@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 399.0,
     "USD": 4.74,
-    "EUR": 4.1,
-    "UAH": 211.45,
+    "EUR": 4.11,
+    "UAH": 211.42,
     "mBTC": 0.07,
-    "mLTC": 124.85
+    "mLTC": 119.79
    },
    "default": {
     "RUB": 399.0,
     "USD": 4.74,
-    "EUR": 4.1,
-    "UAH": 211.45,
+    "EUR": 4.11,
+    "UAH": 211.42,
     "mBTC": 0.17,
-    "mLTC": 125.15
+    "mLTC": 120.09
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 457.31,
+      "price": 457.99,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 483.96,
+      "price": 484.65,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -138,7 +138,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 461.71,
+      "price": 462.39,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 124.85
+      "price": 119.79
      },
      {
       "currency": "WMT",
@@ -221,7 +221,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 124.85,
+      "price": 119.79,
       "limit": {
        "max": 7.3
       }
@@ -266,7 +266,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.18
+      "price": 2.16
      }
     ]
    },
@@ -295,7 +295,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 125.15
+      "price": 120.09
      }
     ]
    },
@@ -356,11 +356,11 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 84236.0,
+    "summa": 84173.0,
     "percent": 3.0
    },
    {
-    "summa": 25271.0,
+    "summa": 25252.0,
     "percent": 2.0
    },
    {
@@ -667,11 +667,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 54927,
+   "sales": 54945,
    "sales_hidden": 0,
    "refunds": 1,
    "refunds_hidden": 0,
-   "good_reviews": 19613,
+   "good_reviews": 19619,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

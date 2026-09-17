@@ -70,17 +70,17 @@
     "RUB": 315.0,
     "USD": 3.74,
     "EUR": 3.24,
-    "UAH": 166.93,
+    "UAH": 166.91,
     "mBTC": 0.06,
-    "mLTC": 98.57
+    "mLTC": 94.57
    },
    "default": {
     "RUB": 315.0,
     "USD": 3.74,
     "EUR": 3.24,
-    "UAH": 166.93,
+    "UAH": 166.91,
     "mBTC": 0.16,
-    "mLTC": 98.87
+    "mLTC": 94.87
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 360.83,
+      "price": 361.36,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 364.3,
+      "price": 364.84,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -160,7 +160,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 5.42
+      "price": 5.43
      },
      {
       "currency": "mBTC",
@@ -170,7 +170,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 98.57
+      "price": 94.57
      },
      {
       "currency": "WMT",
@@ -187,7 +187,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 5.42,
+      "price": 5.43,
       "limit": {
        "max": 300.0
       }
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 98.57,
+      "price": 94.57,
       "limit": {
        "max": 7.3
       }
@@ -232,7 +232,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 5.42
+      "price": 5.43
      },
      {
       "currency": "mBTC",
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.72
+      "price": 1.7
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 5.42
+      "price": 5.43
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 98.87
+      "price": 94.87
      }
     ]
    },
@@ -357,19 +357,19 @@
   ],
   "discounts": [
    {
-    "summa": 210590.0,
+    "summa": 210433.0,
     "percent": 4.0
    },
    {
-    "summa": 42118.0,
+    "summa": 42087.0,
     "percent": 3.0
    },
    {
-    "summa": 16847.0,
+    "summa": 16835.0,
     "percent": 2.0
    },
    {
-    "summa": 8424.0,
+    "summa": 8417.0,
     "percent": 1.0
    }
   ],
@@ -581,11 +581,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31437,
+   "sales": 31502,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 7365,
+   "good_reviews": 7374,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

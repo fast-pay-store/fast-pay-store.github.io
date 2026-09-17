@@ -49,7 +49,7 @@
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6078010",
-  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
+  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🔥 Еще наши товары:<br /><br />⭐ Xbox Game Pass Ultimate | 1–12 месяцев - https://plati.market/itm/3183854<br /><br />⭐ Карта PlayStation PSN Индонезия | 100000–1500000 IDR - https://plati.market/itm/6107256<br /><br />⭐ SUNO AI | PRO | PREMIER - https://plati.market/itm/5539281<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /><br />⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат средств невозможен.<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы;<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br /></attention></delivery><br />",
   "release_date": "",
   "agency_fee": 1.0,
@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 17.0,
     "USD": 0.2,
-    "EUR": 0.17,
+    "EUR": 0.18,
     "UAH": 9.01,
     "mBTC": 0.04,
-    "mLTC": 3.97
+    "mLTC": 3.83
    },
    "default": {
     "RUB": 17.0,
     "USD": 0.2,
-    "EUR": 0.17,
+    "EUR": 0.18,
     "UAH": 9.01,
     "mBTC": 0.14,
-    "mLTC": 4.27
+    "mLTC": 4.13
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.48,
+      "price": 19.51,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 4.27
+      "price": 4.13
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.97
+      "price": 3.83
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.97,
+      "price": 3.83,
       "limit": {
        "max": 7.3
       }
@@ -331,14 +331,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "16.09.2026 13:13:17",
+   "date": "16.09.2026 19:11:12",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 42118.0,
+    "summa": 42087.0,
     "percent": 1.0
    }
   ],
@@ -645,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19052,
+   "sales": 19053,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

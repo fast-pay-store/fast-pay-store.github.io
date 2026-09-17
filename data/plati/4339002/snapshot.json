@@ -72,15 +72,15 @@
     "EUR": 1.03,
     "UAH": 52.99,
     "mBTC": 0.04,
-    "mLTC": 23.46
+    "mLTC": 22.55
    },
    "default": {
     "RUB": 879.0,
     "USD": 10.44,
-    "EUR": 9.04,
-    "UAH": 465.81,
+    "EUR": 9.05,
+    "UAH": 465.77,
     "mBTC": 0.14,
-    "mLTC": 23.76
+    "mLTC": 22.85
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 23.46,
+      "price": 22.55,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 23.46
+      "price": 22.55
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 121.5,
+      "price": 121.67,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 114.81,
+      "price": 114.98,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.91,
+      "price": 116.08,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 23.76
+      "price": 22.85
      }
     ]
    },
@@ -438,30 +438,30 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "15.09.2026 12:09:20",
+   "date": "16.09.2026 17:04:07",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168472.0,
+    "summa": 168346.0,
     "percent": 5.0
    },
    {
-    "summa": 126354.0,
+    "summa": 126260.0,
     "percent": 4.0
    },
    {
-    "summa": 84236.0,
+    "summa": 84173.0,
     "percent": 3.0
    },
    {
-    "summa": 42118.0,
+    "summa": 42087.0,
     "percent": 2.0
    },
    {
-    "summa": 4212.0,
+    "summa": 4209.0,
     "percent": 1.0
    }
   ],
@@ -484,6 +484,16 @@
       "modify": "+1899 RUB",
       "modify_value": 1899.0,
       "modify_value_default": 1899.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 17657569,
+      "text": "2. 24/7 АВТО | ChatGPT PRO X5 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
+      "default": 0,
+      "modify": "+10899 RUB",
+      "modify_value": 10899.0,
+      "modify_value_default": 10899.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -511,9 +521,19 @@
       "value": 21384785,
       "text": "6. [Скидка] ChatGPT Plus 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, с входом)",
       "default": 0,
-      "modify": "+1799 RUB",
-      "modify_value": 1799.0,
-      "modify_value_default": 1799.0,
+      "modify": "+2099 RUB",
+      "modify_value": 2099.0,
+      "modify_value_default": 2099.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 19526817,
+      "text": "7. [Скидка] ChatGPT PRO X5 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, с входом)",
+      "default": 0,
+      "modify": "+9899 RUB",
+      "modify_value": 9899.0,
+      "modify_value_default": 9899.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -597,7 +617,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 25,
+   "bad_reviews": 27,
    "bad_reviews_hidden": 0
   },
   "seller": {
