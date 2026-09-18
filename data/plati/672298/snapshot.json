@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 173.42,
+  "price": 179.62,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -13,13 +13,13 @@
   "add_info": "<delivery>🇪🇺Подарочные карты Apple iTunes для стран Евросоюза: <br />https://plati.market/itm/3995170<br /><attention>Карты US Card для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 18 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 1.59,
+  "agency_sum": 1.65,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 0,
+  "num_in_lock": 2,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 159.09,
-    "USD": 1.89,
-    "EUR": 1.64,
-    "UAH": 90.2,
+    "RUB": 164.79,
+    "USD": 1.95,
+    "EUR": 1.69,
+    "UAH": 93.19,
     "mBTC": 0.04,
-    "mLTC": 35.88
+    "mLTC": 35.4
    },
    "default": {
-    "RUB": 173.42,
-    "USD": 1.89,
-    "EUR": 1.64,
-    "UAH": 90.2,
+    "RUB": 179.62,
+    "USD": 1.95,
+    "EUR": 1.69,
+    "UAH": 93.19,
     "mBTC": 0.14,
-    "mLTC": 36.18
+    "mLTC": 35.7
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 1.89
+      "price": 1.95
      }
     ]
    },
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 182.62,
+      "price": 188.67,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -81,12 +81,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 2.51
+      "price": 2.59
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.18
+      "price": 2.25
      },
      {
       "currency": "mBTC",
@@ -96,12 +96,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 35.88
+      "price": 35.4
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 1.89
+      "price": 1.95
      }
     ]
    },
@@ -113,7 +113,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 1.89,
+      "price": 1.95,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 184.37,
+      "price": 190.49,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.18
+      "price": 35.7
      }
     ]
    },
@@ -183,7 +183,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 2.51,
+      "price": 2.59,
       "limit": {
        "max": 300.0
       }
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 211.59,
+      "price": 219.17,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -200,7 +200,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.18,
+      "price": 2.25,
       "limit": {
        "max": 300.0
       }
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 35.88,
+      "price": 35.4,
       "limit": {
        "max": 7.3
       }
@@ -231,17 +231,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 159.09
+      "price": 164.79
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 2.51
+      "price": 2.59
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.18
+      "price": 2.25
      }
     ]
    },
@@ -253,17 +253,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 159.09
+      "price": 164.79
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 2.51
+      "price": 2.59
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.18
+      "price": 2.25
      },
      {
       "currency": "mBTC",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 173.42
+      "price": 179.62
      }
     ]
    }
@@ -351,9 +351,9 @@
       "value": 2178795,
       "text": "3$ (USD)",
       "default": 0,
-      "modify": "+1,80 USD",
-      "modify_value": 1.8,
-      "modify_value_default": 1.8,
+      "modify": "+3,40 USD",
+      "modify_value": 3.4,
+      "modify_value_default": 3.4,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -373,53 +373,9 @@
       "value": 2178797,
       "text": "5$ (USD)",
       "default": 0,
-      "modify": "+4 USD",
-      "modify_value": 4.0,
-      "modify_value_default": 4.0,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178798,
-      "text": "6$ (USD)",
-      "default": 0,
-      "modify": "+5,10 USD",
-      "modify_value": 5.1,
-      "modify_value_default": 5.1,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178799,
-      "text": "7$ (USD)",
-      "default": 0,
-      "modify": "+6,16 USD",
-      "modify_value": 6.16,
-      "modify_value_default": 6.16,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178800,
-      "text": "8$ (USD)",
-      "default": 0,
-      "modify": "+7,30 USD",
-      "modify_value": 7.3,
-      "modify_value_default": 7.3,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178801,
-      "text": "9$ (USD)",
-      "default": 0,
-      "modify": "+8,46 USD",
-      "modify_value": 8.46,
-      "modify_value_default": 8.46,
+      "modify": "+4,50 USD",
+      "modify_value": 4.5,
+      "modify_value_default": 4.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -428,9 +384,9 @@
       "value": 2178802,
       "text": "10$ (USD)",
       "default": 0,
-      "modify": "+9 USD",
-      "modify_value": 9.0,
-      "modify_value_default": 9.0,
+      "modify": "+10 USD",
+      "modify_value": 10.0,
+      "modify_value_default": 10.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -439,9 +395,9 @@
       "value": 2178803,
       "text": "15$ (USD)",
       "default": 0,
-      "modify": "+14,50 USD",
-      "modify_value": 14.5,
-      "modify_value_default": 14.5,
+      "modify": "+16,50 USD",
+      "modify_value": 16.5,
+      "modify_value_default": 16.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -461,9 +417,9 @@
       "value": 2178805,
       "text": "25$ (USD)",
       "default": 0,
-      "modify": "+25,50 USD",
-      "modify_value": 25.5,
-      "modify_value_default": 25.5,
+      "modify": "+27 USD",
+      "modify_value": 27.0,
+      "modify_value_default": 27.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -483,9 +439,9 @@
       "value": 2178807,
       "text": "40$ (USD)",
       "default": 0,
-      "modify": "+42 USD",
-      "modify_value": 42.0,
-      "modify_value_default": 42.0,
+      "modify": "+45 USD",
+      "modify_value": 45.0,
+      "modify_value_default": 45.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -521,7 +477,7 @@
       "modify_value_default": 75.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178811,
@@ -682,11 +638,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 674007,
+   "sales": 674893,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3403,
+   "good_reviews": 3405,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

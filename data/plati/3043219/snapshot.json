@@ -70,17 +70,17 @@
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.71,
-    "UAH": 36.56,
+    "UAH": 36.47,
     "mBTC": 0.01,
-    "mLTC": 18.57
+    "mLTC": 17.73
    },
    "default": {
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.71,
-    "UAH": 36.56,
+    "UAH": 36.47,
     "mBTC": 0.11,
-    "mLTC": 18.87
+    "mLTC": 18.03
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 18.87
+      "price": 18.03
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.37
+      "price": 0.36
      }
     ]
    },
@@ -145,7 +145,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.07
+      "price": 1.06
      }
     ]
    },
@@ -162,7 +162,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.07
+      "price": 1.06
      },
      {
       "currency": "mBTC",
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.84,
+      "price": 83.95,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -213,7 +213,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.07
+      "price": 1.06
      },
      {
       "currency": "mBTC",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 18.57
+      "price": 17.73
      },
      {
       "currency": "WMT",
@@ -249,7 +249,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.07,
+      "price": 1.06,
       "limit": {
        "max": 300.0
       }
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 18.57,
+      "price": 17.73,
       "limit": {
        "max": 7.3
       }
@@ -335,7 +335,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "15.09.2026 00:20:05",
+   "date": "18.09.2026 13:53:18",
    "size": 16
   },
   "category_id": 110708,
@@ -348,7 +348,7 @@
   ],
   "discounts": [
    {
-    "summa": 84.0,
+    "summa": 85.0,
     "percent": 1.0
    }
   ],
@@ -598,9 +598,9 @@
       "value": 30068593,
       "text": "14 ДНЕЙ Xbox Game Pass Premium (не Ultimate) - для нового аккаунта (Предоставим аккаунт)",
       "default": 0,
-      "modify": "+130 RUB",
-      "modify_value": 130.0,
-      "modify_value_default": 130.0,
+      "modify": "+80 RUB",
+      "modify_value": 80.0,
+      "modify_value_default": 80.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -681,11 +681,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47169,
+   "sales": 47204,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22027,
+   "good_reviews": 22038,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
