@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 17.0,
     "USD": 0.2,
-    "EUR": 0.17,
-    "UAH": 8.98,
+    "EUR": 0.18,
+    "UAH": 9.02,
     "mBTC": 0.04,
-    "mLTC": 3.65
+    "mLTC": 3.54
    },
    "default": {
     "RUB": 17.0,
     "USD": 0.2,
-    "EUR": 0.17,
-    "UAH": 8.98,
+    "EUR": 0.18,
+    "UAH": 9.02,
     "mBTC": 0.14,
-    "mLTC": 3.95
+    "mLTC": 3.84
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.53,
+      "price": 19.58,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.95
+      "price": 3.84
      }
     ]
    },
@@ -169,7 +169,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.09
+      "price": 0.08
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.65
+      "price": 3.54
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.65,
+      "price": 3.54,
       "limit": {
        "max": 7.3
       }
@@ -338,7 +338,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 42255.0,
+    "summa": 42099.0,
     "percent": 1.0
    }
   ],
@@ -645,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19054,
+   "sales": 19056,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

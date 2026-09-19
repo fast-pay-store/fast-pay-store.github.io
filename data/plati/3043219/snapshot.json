@@ -70,9 +70,9 @@
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.71,
-    "UAH": 36.47,
+    "UAH": 36.61,
     "mBTC": 0.01,
-    "mLTC": 17.73
+    "mLTC": 17.19
    },
    "default": {
     "RUB": 69.0,
@@ -80,7 +80,7 @@
     "EUR": 0.71,
     "UAH": 36.47,
     "mBTC": 0.11,
-    "mLTC": 18.03
+    "mLTC": 17.49
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 18.03
+      "price": 17.49
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.36
+      "price": 0.34
      }
     ]
    },
@@ -145,7 +145,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.06
+      "price": 1.07
      }
     ]
    },
@@ -162,7 +162,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.06
+      "price": 1.07
      },
      {
       "currency": "mBTC",
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.95,
+      "price": 84.14,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -213,7 +213,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.06
+      "price": 1.07
      },
      {
       "currency": "mBTC",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.73
+      "price": 17.19
      },
      {
       "currency": "WMT",
@@ -249,7 +249,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.06,
+      "price": 1.07,
       "limit": {
        "max": 300.0
       }
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.73,
+      "price": 17.19,
       "limit": {
        "max": 7.3
       }
@@ -348,7 +348,7 @@
   ],
   "discounts": [
    {
-    "summa": 85.0,
+    "summa": 84.0,
     "percent": 1.0
    }
   ],
@@ -681,11 +681,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47204,
+   "sales": 47239,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22038,
+   "good_reviews": 22047,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

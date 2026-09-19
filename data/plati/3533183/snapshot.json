@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 320.0,
-    "USD": 3.79,
-    "EUR": 3.28,
-    "UAH": 169.12,
+    "USD": 3.8,
+    "EUR": 3.31,
+    "UAH": 169.79,
     "mBTC": 0.06,
-    "mLTC": 91.7
+    "mLTC": 88.91
    },
    "default": {
     "RUB": 320.0,
-    "USD": 3.79,
-    "EUR": 3.28,
-    "UAH": 169.12,
+    "USD": 3.8,
+    "EUR": 3.31,
+    "UAH": 169.79,
     "mBTC": 0.16,
-    "mLTC": 92.0
+    "mLTC": 89.21
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 5.49
+      "price": 5.51
      },
      {
       "currency": "mBTC",
@@ -138,12 +138,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 91.7
+      "price": 88.91
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.79
+      "price": 3.8
      }
     ]
    },
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.79,
+      "price": 3.8,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -194,7 +194,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 5.49
+      "price": 5.51
      },
      {
       "currency": "mBTC",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 92.0
+      "price": 89.21
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.68
+      "price": 1.59
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 5.49,
+      "price": 5.51,
       "limit": {
        "max": 300.0
       }
@@ -264,7 +264,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 91.7,
+      "price": 88.91,
       "limit": {
        "max": 7.3
       }
@@ -292,7 +292,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 5.49
+      "price": 5.51
      }
     ]
    },
@@ -349,28 +349,28 @@
    {
     "id": 142151,
     "name": "Playstation",
-    "products_cnt": 92
+    "products_cnt": 94
    }
   ],
   "discounts": [
    {
-    "summa": 84509.0,
+    "summa": 84198.0,
     "percent": 5.0
    },
    {
-    "summa": 59157.0,
+    "summa": 58938.0,
     "percent": 4.0
    },
    {
-    "summa": 42255.0,
+    "summa": 42099.0,
     "percent": 3.0
    },
    {
-    "summa": 16902.0,
+    "summa": 16840.0,
     "percent": 2.0
    },
    {
-    "summa": 8451.0,
+    "summa": 8420.0,
     "percent": 1.0
    }
   ],
@@ -601,11 +601,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31015,
+   "sales": 31040,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9891,
+   "good_reviews": 9897,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
