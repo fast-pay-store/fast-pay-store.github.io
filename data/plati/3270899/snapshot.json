@@ -33,7 +33,7 @@
     "EUR": 0.82,
     "UAH": 41.92,
     "mBTC": 0.01,
-    "mLTC": 21.95
+    "mLTC": 21.96
    },
    "default": {
     "RUB": 79.0,
@@ -41,7 +41,7 @@
     "EUR": 0.82,
     "UAH": 41.92,
     "mBTC": 0.11,
-    "mLTC": 22.25
+    "mLTC": 22.26
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 91.15,
+      "price": 91.25,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 96.45,
+      "price": 96.55,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 92.03,
+      "price": 92.13,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 21.95
+      "price": 21.96
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 21.95,
+      "price": 21.96,
       "limit": {
        "max": 7.3
       }
@@ -227,7 +227,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.39
+      "price": 0.41
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 22.25
+      "price": 22.26
      }
     ]
    },
@@ -293,7 +293,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "15.09.2026 13:01:46",
+   "date": "19.09.2026 17:58:36",
    "size": 16
   },
   "category_id": 130667,
@@ -394,9 +394,9 @@
       "value": 7849105,
       "text": "12 МЕСЯЦЕВ + 1 БОНУСНЫЙ МЕСЯЦ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+9120 RUB",
-      "modify_value": 9120.0,
-      "modify_value_default": 9120.0,
+      "modify": "+9220 RUB",
+      "modify_value": 9220.0,
+      "modify_value_default": 9220.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -557,11 +557,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 205662,
+   "sales": 205737,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76776,
+   "good_reviews": 76786,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

@@ -72,7 +72,7 @@
     "EUR": 23.78,
     "UAH": 1219.82,
     "mBTC": 0.34,
-    "mLTC": 478.83
+    "mLTC": 479.32
    },
    "default": {
     "RUB": 1299.0,
@@ -80,10 +80,22 @@
     "EUR": 13.44,
     "UAH": 689.23,
     "mBTC": 0.44,
-    "mLTC": 479.13
+    "mLTC": 479.62
    }
   },
   "payment_methods": [
+   {
+    "name": "KASSA",
+    "code": "freekassa",
+    "hide": 0,
+    "currencies": [
+     {
+      "currency": "RUB",
+      "code": "FKA",
+      "price": 2299.0
+     }
+    ]
+   },
    {
     "name": "PayPalych",
     "code": "palych",
@@ -129,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 478.83,
+      "price": 479.32,
       "limit": {
        "max": 7.3
       }
@@ -179,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 478.83
+      "price": 479.32
      },
      {
       "currency": "WMT",
@@ -196,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2802.19,
+      "price": 2804.95,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -213,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2648.35,
+      "price": 2651.05,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -230,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2673.81,
+      "price": 2676.54,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -335,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 479.13
+      "price": 479.62
      }
     ]
    },
@@ -529,11 +541,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 27606,
+   "sales": 27639,
    "sales_hidden": 0,
    "refunds": 165,
    "refunds_hidden": 0,
-   "good_reviews": 5288,
+   "good_reviews": 5290,
    "good_reviews_hidden": 0,
    "bad_reviews": 32,
    "bad_reviews_hidden": 0

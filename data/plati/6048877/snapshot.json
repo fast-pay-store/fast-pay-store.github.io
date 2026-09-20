@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 17.45,
+      "price": 17.47,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 17.62,
+      "price": 17.64,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -209,7 +209,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.07
+      "price": 0.08
      }
     ]
    },
@@ -542,13 +542,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 244822,
+   "sales": 245783,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 2416,
+   "good_reviews": 2419,
    "good_reviews_hidden": 0,
-   "bad_reviews": 1,
+   "bad_reviews": 2,
    "bad_reviews_hidden": 0
   },
   "seller": {

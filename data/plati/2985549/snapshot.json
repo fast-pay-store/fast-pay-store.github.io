@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "Grand Theft Auto V Enhanced + Legacy (GTA 5) RU STEAM⚡️",
-  "price": 1599.0,
+  "price": 1585.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/2985549",
@@ -53,7 +53,7 @@
   "add_info": "<delivery>📝 Не нашли нужного товара? Пишите! <br />⠀По запросу добавим почти любую игру из Steam</delivery><delivery>🛡 Гарантии<br />⠀• Один из крупнейших магазинов на площадке<br />⠀• Более 1 000 000 продаж и 200 000 положительных отзывов<br />⠀• Регистрация с 2014 года, отсутствие отрицательных отзывов<br />⠀• Гарантируем помощь в случае возникновения любой проблемы</delivery><attention>↩️ О возврате<br />⠀&gt; Товар получен —  Возврат невозможен<br />⠀&gt; Товар не получен<br />⠀⠀• Наша вина — Полный возврат<br />⠀⠀• Ваша вина — Возврат с 20% комиссией</attention>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 15.99,
+  "agency_sum": 15.85,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 1599.0,
-    "USD": 18.99,
-    "EUR": 17.04,
-    "UAH": 848.41,
+    "RUB": 1585.0,
+    "USD": 18.83,
+    "EUR": 16.89,
+    "UAH": 840.98,
     "mBTC": 0.27,
-    "mLTC": 428.95
+    "mLTC": 425.45
    },
    "default": {
-    "RUB": 1599.0,
-    "USD": 18.99,
-    "EUR": 17.04,
-    "UAH": 848.27,
+    "RUB": 1585.0,
+    "USD": 18.83,
+    "EUR": 16.89,
+    "UAH": 840.84,
     "mBTC": 0.37,
-    "mLTC": 429.25
+    "mLTC": 425.75
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 1599.0
+      "price": 1585.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 1599.0
+      "price": 1585.0
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 26.59
+      "price": 26.36
      },
      {
       "currency": "mBTC",
@@ -126,12 +126,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 428.95
+      "price": 425.45
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 18.99
+      "price": 18.83
      }
     ]
    },
@@ -143,12 +143,12 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 1599.0
+      "price": 1585.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 26.59
+      "price": 26.36
      },
      {
       "currency": "mBTC",
@@ -165,12 +165,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 1599.0
+      "price": 1585.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 26.59
+      "price": 26.36
      }
     ]
    },
@@ -182,7 +182,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 2238.6,
+      "price": 2219.0,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -191,7 +191,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 26.59,
+      "price": 26.36,
       "limit": {
        "max": 300.0
       }
@@ -199,7 +199,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 428.95,
+      "price": 425.45,
       "limit": {
        "max": 7.3
       }
@@ -222,7 +222,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1841.53,
+      "price": 1827.87,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -239,7 +239,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1859.23,
+      "price": 1845.45,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -249,12 +249,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 1.64
+      "price": 1.63
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 1.43
+      "price": 1.42
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 18.99,
+      "price": 18.83,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -283,7 +283,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1948.5,
+      "price": 1933.99,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 429.25
+      "price": 425.75
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 7.95
+      "price": 8.1
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "RUB",
       "code": "LVA",
-      "price": 1599.0
+      "price": 1585.0
      }
     ]
    },
@@ -348,7 +348,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 1599.0
+      "price": 1585.0
      }
     ]
    }
@@ -387,7 +387,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "17.09.2026 14:10:07",
+   "date": "19.09.2026 19:52:10",
    "size": 16
   },
   "category_id": 0,
@@ -426,9 +426,9 @@
       "value": 728969,
       "text": "Беларусь+СНГ",
       "default": 0,
-      "modify": "-223 RUB",
-      "modify_value": -223.0,
-      "modify_value_default": -223.0,
+      "modify": "-209 RUB",
+      "modify_value": -209.0,
+      "modify_value_default": -209.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -436,9 +436,9 @@
       "value": 728970,
       "text": "Казахстан",
       "default": 0,
-      "modify": "-213 RUB",
-      "modify_value": -213.0,
-      "modify_value_default": -213.0,
+      "modify": "-199 RUB",
+      "modify_value": -199.0,
+      "modify_value_default": -199.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -446,9 +446,9 @@
       "value": 3640676,
       "text": "Украина",
       "default": 0,
-      "modify": "+606 RUB",
-      "modify_value": 606.0,
-      "modify_value_default": 606.0,
+      "modify": "-209 RUB",
+      "modify_value": -209.0,
+      "modify_value_default": -209.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -457,7 +457,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 32924,
+   "sales": 32936,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

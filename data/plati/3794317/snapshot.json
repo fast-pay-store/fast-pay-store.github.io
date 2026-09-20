@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 3910475,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 1159.4,
+  "price": 231.54,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -57,7 +57,7 @@
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
-  "is_available": 1,
+  "is_available": 0,
   "show_rest": 0,
   "num_in_lock": 0,
   "owner": 1,
@@ -72,15 +72,15 @@
     "EUR": 2.4,
     "UAH": 122.85,
     "mBTC": 0.04,
-    "mLTC": 57.68
+    "mLTC": 57.71
    },
    "default": {
-    "RUB": 1159.4,
-    "USD": 13.77,
-    "EUR": 12.0,
-    "UAH": 615.04,
+    "RUB": 231.54,
+    "USD": 2.75,
+    "EUR": 2.4,
+    "UAH": 122.83,
     "mBTC": 0.14,
-    "mLTC": 57.98
+    "mLTC": 58.01
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 266.68,
+      "price": 266.95,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 269.25,
+      "price": 269.51,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 57.68,
+      "price": 57.71,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 57.68
+      "price": 57.71
      },
      {
       "currency": "WMT",
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.15
+      "price": 1.18
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 57.98
+      "price": 58.01
      }
     ]
    },
@@ -349,16 +349,12 @@
   ],
   "type_good": 1,
   "type": "text",
-  "text": {
-   "date": "17.07.2026 01:37:39",
-   "size": null
-  },
   "category_id": 135134,
   "breadcrumbs": [
    {
     "id": 135134,
     "name": "Apple (Турция)",
-    "products_cnt": 4
+    "products_cnt": 3
    }
   ],
   "discounts": [
@@ -428,7 +424,7 @@
       "modify_value_default": 24.79,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 16038002,
@@ -457,7 +453,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15790,
+   "sales": 15791,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

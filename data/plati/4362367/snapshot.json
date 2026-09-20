@@ -71,16 +71,16 @@
     "USD": 10.44,
     "EUR": 9.09,
     "UAH": 466.39,
-    "mBTC": 0.15,
-    "mLTC": 219.69
+    "mBTC": 0.16,
+    "mLTC": 219.92
    },
    "default": {
     "RUB": 879.0,
     "USD": 10.44,
     "EUR": 9.09,
     "UAH": 466.39,
-    "mBTC": 0.25,
-    "mLTC": 219.99
+    "mBTC": 0.26,
+    "mLTC": 220.22
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1071.21,
+      "price": 1072.27,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1012.4,
+      "price": 1013.44,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -160,12 +160,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.15
+      "price": 0.16
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 219.69
+      "price": 219.92
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1022.14,
+      "price": 1023.18,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -246,7 +246,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.15
+      "price": 0.16
      }
     ]
    },
@@ -258,7 +258,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.25
+      "price": 0.26
      }
     ]
    },
@@ -270,7 +270,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 219.99
+      "price": 220.22
      }
     ]
    },
@@ -299,7 +299,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.37
+      "price": 4.49
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 219.69,
+      "price": 219.92,
       "limit": {
        "max": 7.3
       }
@@ -344,7 +344,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.15,
+      "price": 0.16,
       "limit": {
        "max": 0.03
       }

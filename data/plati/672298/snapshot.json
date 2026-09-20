@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 211.09,
+  "price": 215.67,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -13,13 +13,13 @@
   "add_info": "<delivery>🇪🇺Подарочные карты Apple iTunes для стран Евросоюза: <br />https://plati.market/itm/3995170<br /><attention>Карты US Card для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 18 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 1.94,
+  "agency_sum": 1.98,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 0,
+  "num_in_lock": 3,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 193.65,
-    "USD": 2.3,
-    "EUR": 2.0,
-    "UAH": 109.94,
+    "RUB": 197.86,
+    "USD": 2.35,
+    "EUR": 2.05,
+    "UAH": 112.33,
     "mBTC": 0.04,
-    "mLTC": 40.33
+    "mLTC": 41.25
    },
    "default": {
-    "RUB": 211.09,
-    "USD": 2.3,
-    "EUR": 2.0,
-    "UAH": 109.94,
+    "RUB": 215.67,
+    "USD": 2.35,
+    "EUR": 2.05,
+    "UAH": 112.33,
     "mBTC": 0.14,
-    "mLTC": 40.63
+    "mLTC": 41.55
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 2.3
+      "price": 2.35
      }
     ]
    },
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 223.04,
+      "price": 228.12,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -81,12 +81,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 3.06
+      "price": 3.13
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.66
+      "price": 2.72
      },
      {
       "currency": "mBTC",
@@ -96,12 +96,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 40.33
+      "price": 41.25
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 2.3
+      "price": 2.35
      }
     ]
    },
@@ -113,7 +113,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 2.3,
+      "price": 2.35,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 225.18,
+      "price": 230.32,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 40.63
+      "price": 41.55
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.96
+      "price": 1.01
      }
     ]
    },
@@ -183,7 +183,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 3.06,
+      "price": 3.13,
       "limit": {
        "max": 300.0
       }
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 257.56,
+      "price": 263.16,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -200,7 +200,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.66,
+      "price": 2.72,
       "limit": {
        "max": 300.0
       }
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 40.33,
+      "price": 41.25,
       "limit": {
        "max": 7.3
       }
@@ -231,17 +231,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 193.65
+      "price": 197.86
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 3.06
+      "price": 3.13
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.66
+      "price": 2.72
      }
     ]
    },
@@ -253,17 +253,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 193.65
+      "price": 197.86
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 3.06
+      "price": 3.13
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.66
+      "price": 2.72
      },
      {
       "currency": "mBTC",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 211.09
+      "price": 215.67
      }
     ]
    }
@@ -351,9 +351,9 @@
       "value": 2178795,
       "text": "3$ (USD)",
       "default": 0,
-      "modify": "+3,40 USD",
-      "modify_value": 3.4,
-      "modify_value_default": 3.4,
+      "modify": "+1,50 USD",
+      "modify_value": 1.5,
+      "modify_value_default": 1.5,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -362,9 +362,9 @@
       "value": 2178796,
       "text": "4$ (USD)",
       "default": 0,
-      "modify": "+4,40 USD",
-      "modify_value": 4.4,
-      "modify_value_default": 4.4,
+      "modify": "+2,60 USD",
+      "modify_value": 2.6,
+      "modify_value_default": 2.6,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -373,9 +373,9 @@
       "value": 2178797,
       "text": "5$ (USD)",
       "default": 0,
-      "modify": "+4,50 USD",
-      "modify_value": 4.5,
-      "modify_value_default": 4.5,
+      "modify": "+4 USD",
+      "modify_value": 4.0,
+      "modify_value_default": 4.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -488,7 +488,7 @@
       "modify_value_default": 90.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178812,
@@ -565,7 +565,7 @@
       "modify_value_default": 440.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2178819,
@@ -638,11 +638,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 675906,
+   "sales": 676797,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3408,
+   "good_reviews": 3414,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

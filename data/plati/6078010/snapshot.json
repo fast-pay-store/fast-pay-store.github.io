@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.58,
+      "price": 19.6,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -645,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19056,
+   "sales": 19058,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

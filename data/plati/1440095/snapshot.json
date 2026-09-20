@@ -31,16 +31,16 @@
     "USD": 7.7,
     "EUR": 6.71,
     "UAH": 368.07,
-    "mBTC": 0.09,
-    "mLTC": 135.03
+    "mBTC": 0.1,
+    "mLTC": 135.17
    },
    "default": {
     "RUB": 648.32,
     "USD": 7.7,
     "EUR": 6.71,
     "UAH": 368.07,
-    "mBTC": 0.19,
-    "mLTC": 135.33
+    "mBTC": 0.2,
+    "mLTC": 135.47
    }
   },
   "payment_methods": [
@@ -81,7 +81,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 746.7,
+      "price": 747.46,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -108,12 +108,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.09
+      "price": 0.1
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 135.03
+      "price": 135.17
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 753.88,
+      "price": 754.64,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -164,7 +164,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 135.33
+      "price": 135.47
      }
     ]
    },
@@ -176,7 +176,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.19
+      "price": 0.2
      }
     ]
    },
@@ -188,7 +188,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.23
+      "price": 3.31
      }
     ]
    },
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 135.03,
+      "price": 135.17,
       "limit": {
        "max": 7.3
       }
@@ -233,7 +233,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.09,
+      "price": 0.1,
       "limit": {
        "max": 0.03
       }
@@ -285,7 +285,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.09
+      "price": 0.1
      }
     ]
    },
@@ -379,12 +379,12 @@
       "value": 2041612,
       "text": "700 руб.",
       "default": 0,
-      "modify": "+3,50 USD",
-      "modify_value": 3.5,
-      "modify_value_default": 3.5,
+      "modify": "+4 USD",
+      "modify_value": 4.0,
+      "modify_value_default": 4.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 2041613,
@@ -611,11 +611,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 154609,
+   "sales": 154851,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 4163,
+   "good_reviews": 4166,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

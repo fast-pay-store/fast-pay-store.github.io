@@ -71,16 +71,16 @@
     "USD": 14.99,
     "EUR": 13.06,
     "UAH": 716.54,
-    "mBTC": 0.18,
-    "mLTC": 262.87
+    "mBTC": 0.19,
+    "mLTC": 263.14
    },
    "default": {
     "RUB": 1388.33,
     "USD": 14.99,
     "EUR": 13.06,
     "UAH": 716.54,
-    "mBTC": 0.28,
-    "mLTC": 263.17
+    "mBTC": 0.29,
+    "mLTC": 263.44
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1453.63,
+      "price": 1455.11,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -131,12 +131,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.18
+      "price": 0.19
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 262.87
+      "price": 263.14
      },
      {
       "currency": "WMT",
@@ -170,7 +170,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1467.61,
+      "price": 1469.1,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 263.17
+      "price": 263.44
      }
     ]
    },
@@ -199,7 +199,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.28
+      "price": 0.29
      }
     ]
    },
@@ -211,7 +211,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 6.28
+      "price": 6.45
      }
     ]
    },
@@ -248,7 +248,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 262.87,
+      "price": 263.14,
       "limit": {
        "max": 7.3
       }
@@ -256,7 +256,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.18,
+      "price": 0.19,
       "limit": {
        "max": 0.03
       }
@@ -308,7 +308,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.18
+      "price": 0.19
      }
     ]
    },
@@ -354,7 +354,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "17.09.2026 22:16:13",
+   "date": "18.09.2026 14:44:06",
    "size": null
   },
   "category_id": 107242,
@@ -362,7 +362,7 @@
    {
     "id": 107242,
     "name": "Visa, US Bank, AUTO 3DS, USD",
-    "products_cnt": 26
+    "products_cnt": 27
    }
   ],
   "discounts": [
