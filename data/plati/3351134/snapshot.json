@@ -43,7 +43,7 @@
  "product": {
   "id": 3351134,
   "id_prev": 0,
-  "id_next": 3351499,
+  "id_next": 3362140,
   "name": "🎟📱Подарочная карта Apple на 500руб (AppStore,iTunes)",
   "price": 799.0,
   "currency": "RUB",
@@ -59,7 +59,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 1,
-  "num_in_stock": 1,
+  "num_in_stock": 2,
   "num_in_lock": 0,
   "owner": 1,
   "section_id": 22257,
@@ -72,16 +72,16 @@
     "USD": 9.77,
     "EUR": 9.92,
     "UAH": 678.3,
-    "mBTC": 0.15,
-    "mLTC": 228.8
+    "mBTC": 0.14,
+    "mLTC": 208.51
    },
    "default": {
     "RUB": 799.0,
     "USD": 9.77,
     "EUR": 9.92,
     "UAH": 678.3,
-    "mBTC": 0.25,
-    "mLTC": 229.1
+    "mBTC": 0.24,
+    "mLTC": 208.81
    }
   },
   "payment_methods": [
@@ -137,12 +137,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.15
+      "price": 0.14
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 228.8
+      "price": 208.51
      },
      {
       "currency": "WMT",
@@ -186,7 +186,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.15
+      "price": 0.14
      }
     ]
    },
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 228.8,
+      "price": 208.51,
       "limit": {
        "max": 7.3
       }
@@ -223,7 +223,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.15,
+      "price": 0.14,
       "limit": {
        "max": 0.03
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.25
+      "price": 0.24
      }
     ]
    },
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 229.1
+      "price": 208.81
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 957.52,
+      "price": 954.7,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 948.4,
+      "price": 945.61,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.2
+      "price": 3.97
      }
     ]
    },
@@ -349,7 +349,7 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 7
+    "products_cnt": 6
    }
   ],
   "options_check": 0,

@@ -71,16 +71,16 @@
     "USD": 27.31,
     "EUR": 23.78,
     "UAH": 1219.82,
-    "mBTC": 0.34,
-    "mLTC": 479.32
+    "mBTC": 0.32,
+    "mLTC": 436.64
    },
    "default": {
     "RUB": 1299.0,
     "USD": 15.43,
     "EUR": 13.44,
     "UAH": 689.23,
-    "mBTC": 0.44,
-    "mLTC": 479.62
+    "mBTC": 0.42,
+    "mLTC": 436.94
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 479.32,
+      "price": 436.64,
       "limit": {
        "max": 7.3
       }
@@ -149,7 +149,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.34,
+      "price": 0.32,
       "limit": {
        "max": 0.03
       }
@@ -186,12 +186,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.34
+      "price": 0.32
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 479.32
+      "price": 436.64
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2804.95,
+      "price": 2796.97,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2651.05,
+      "price": 2643.25,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2676.54,
+      "price": 2668.67,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -286,7 +286,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.44
+      "price": 0.42
      }
     ]
    },
@@ -335,7 +335,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.34
+      "price": 0.32
      }
     ]
    },
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 479.62
+      "price": 436.94
      }
     ]
    },
@@ -541,13 +541,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 27639,
+   "sales": 27691,
    "sales_hidden": 0,
-   "refunds": 165,
+   "refunds": 166,
    "refunds_hidden": 0,
-   "good_reviews": 5290,
+   "good_reviews": 5289,
    "good_reviews_hidden": 0,
-   "bad_reviews": 32,
+   "bad_reviews": 37,
    "bad_reviews_hidden": 0
   },
   "seller": {

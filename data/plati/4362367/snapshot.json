@@ -71,16 +71,16 @@
     "USD": 10.44,
     "EUR": 9.09,
     "UAH": 466.39,
-    "mBTC": 0.16,
-    "mLTC": 219.92
+    "mBTC": 0.15,
+    "mLTC": 200.33
    },
    "default": {
     "RUB": 879.0,
     "USD": 10.44,
     "EUR": 9.09,
     "UAH": 466.39,
-    "mBTC": 0.26,
-    "mLTC": 220.22
+    "mBTC": 0.25,
+    "mLTC": 200.63
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1072.27,
+      "price": 1069.22,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1013.44,
+      "price": 1010.45,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -160,12 +160,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.16
+      "price": 0.15
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 219.92
+      "price": 200.33
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1023.18,
+      "price": 1020.17,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -246,7 +246,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.16
+      "price": 0.15
      }
     ]
    },
@@ -258,7 +258,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.26
+      "price": 0.25
      }
     ]
    },
@@ -270,7 +270,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 220.22
+      "price": 200.63
      }
     ]
    },
@@ -299,7 +299,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.49
+      "price": 4.25
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 219.92,
+      "price": 200.33,
       "limit": {
        "max": 7.3
       }
@@ -344,7 +344,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.16,
+      "price": 0.15,
       "limit": {
        "max": 0.03
       }
@@ -493,7 +493,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 67,
+   "bad_reviews": 68,
    "bad_reviews_hidden": 0
   },
   "seller": {

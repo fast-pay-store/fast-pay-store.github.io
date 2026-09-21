@@ -2,7 +2,7 @@
  "search": {},
  "product": {
   "id": 2147595,
-  "id_prev": 2146993,
+  "id_prev": 2147588,
   "id_next": 2147599,
   "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
   "price": 464.74,
@@ -32,15 +32,15 @@
     "EUR": 4.46,
     "UAH": 228.73,
     "mBTC": 0.07,
-    "mLTC": 108.28
+    "mLTC": 98.68
    },
    "default": {
     "RUB": 464.74,
     "USD": 5.12,
     "EUR": 4.46,
-    "UAH": 228.68,
+    "UAH": 228.73,
     "mBTC": 0.17,
-    "mLTC": 108.58
+    "mLTC": 98.98
    }
   },
   "payment_methods": [
@@ -106,7 +106,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 108.28
+      "price": 98.68
      },
      {
       "currency": "WMT",
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 497.01,
+      "price": 495.55,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 501.79,
+      "price": 500.32,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 108.58
+      "price": 98.98
      }
     ]
    },
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 108.28,
+      "price": 98.68,
       "limit": {
        "max": 7.3
       }
@@ -307,7 +307,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.2
+      "price": 2.08
      }
     ]
    },
@@ -343,7 +343,7 @@
    {
     "id": 55908,
     "name": "STEAM",
-    "products_cnt": 112
+    "products_cnt": 116
    }
   ],
   "options_check": 0,

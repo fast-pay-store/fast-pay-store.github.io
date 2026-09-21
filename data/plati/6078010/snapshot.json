@@ -49,8 +49,8 @@
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6078010",
-  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🔥 Еще наши товары:<br /><br />⭐ Подарочная карта iTunes Финляндия | 2–250 EUR - https://plati.market/itm/6120701<br /><br />⭐ Подарочная карта iTunes Мексика | 50–2000 MXN - https://plati.market/itm/6120706<br /><br />⭐ Подарочная карта iTunes Швеция | 20–5000 SEK - https://plati.market/itm/6121330<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
-  "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /><br />⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат средств невозможен.<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы;<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br /></attention></delivery><br />",
+  "info": "<delivery><attention><br>🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br></attention></delivery><delivery><attention><br>🎁 ВЫ ПОЛУЧАЕТЕ:<br>➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br></attention></delivery><delivery><attention><br>⚠️ ВАЖНО:<br>➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br><br>➖ Работает только с балансом в TRY<br><br>➖ Активируйте код в течение суток после покупки<br></attention></delivery><delivery><attention><br>🔥 Еще наши товары:<br><br>⭐ Подарочная карта iTunes Финляндия | 2–250 EUR - https://plati.market/itm/6120701<br><br>⭐ Подарочная карта iTunes Мексика | 50–2000 MXN - https://plati.market/itm/6120706<br><br>⭐ Подарочная карта iTunes Швеция | 20–5000 SEK - https://plati.market/itm/6121330<br></attention></delivery><delivery><attention><br>🆘 ПОДДЕРЖКА 🆘<br>💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br>💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br></attention></delivery>",
+  "add_info": "<delivery><attention><br>🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br><br>⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br></attention><attention><br>💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br><br>✅ Товар доставлен — возврат средств невозможен.<br><br>📦 Товар не доставлен:<br>🔹 по нашей вине — вернём 100% суммы;<br>🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br></attention><attention><br>💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br></attention></delivery><br>",
   "release_date": "",
   "agency_fee": 1.0,
   "agency_sum": 0.17,
@@ -72,7 +72,7 @@
     "EUR": 0.18,
     "UAH": 9.02,
     "mBTC": 0.04,
-    "mLTC": 3.54
+    "mLTC": 3.23
    },
    "default": {
     "RUB": 17.0,
@@ -80,7 +80,7 @@
     "EUR": 0.18,
     "UAH": 9.02,
     "mBTC": 0.14,
-    "mLTC": 3.84
+    "mLTC": 3.53
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.6,
+      "price": 19.54,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.84
+      "price": 3.53
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.54
+      "price": 3.23
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.54,
+      "price": 3.23,
       "limit": {
        "max": 7.3
       }
@@ -331,7 +331,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "17.09.2026 16:28:50",
+   "date": "20.09.2026 17:28:37",
    "size": 16
   },
   "category_id": 0,
@@ -616,7 +616,7 @@
       "modify_value_default": 6682.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 29923994,
@@ -638,14 +638,14 @@
       "modify_value_default": 10982.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      }
     ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19058,
+   "sales": 19061,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

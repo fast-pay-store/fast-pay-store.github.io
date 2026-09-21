@@ -71,16 +71,16 @@
     "USD": 13.05,
     "EUR": 11.37,
     "UAH": 583.12,
-    "mBTC": 0.21,
-    "mLTC": 297.87
+    "mBTC": 0.2,
+    "mLTC": 271.35
    },
    "default": {
     "RUB": 1099.0,
     "USD": 13.05,
     "EUR": 11.37,
     "UAH": 583.12,
-    "mBTC": 0.31,
-    "mLTC": 298.17
+    "mBTC": 0.3,
+    "mLTC": 271.65
    }
   },
   "payment_methods": [
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1340.34,
+      "price": 1336.53,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -162,7 +162,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.31
+      "price": 0.3
      }
     ]
    },
@@ -189,7 +189,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.21
+      "price": 0.2
      }
     ]
    },
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 298.17
+      "price": 271.65
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 5.61
+      "price": 5.31
      }
     ]
    },
@@ -272,7 +272,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 297.87,
+      "price": 271.35,
       "limit": {
        "max": 7.3
       }
@@ -280,7 +280,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.21,
+      "price": 0.2,
       "limit": {
        "max": 0.03
       }
@@ -305,12 +305,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.21
+      "price": 0.2
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 297.87
+      "price": 271.35
      },
      {
       "currency": "WMT",
@@ -327,7 +327,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1278.97,
+      "price": 1275.22,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -354,7 +354,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1266.79,
+      "price": 1263.07,
       "limit": {
        "min": 100.0,
        "max": 24500.0,

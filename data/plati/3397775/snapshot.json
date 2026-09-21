@@ -71,16 +71,16 @@
     "USD": 5.93,
     "EUR": 5.16,
     "UAH": 264.76,
-    "mBTC": 0.09,
-    "mLTC": 138.73
+    "mBTC": 0.08,
+    "mLTC": 126.43
    },
    "default": {
     "RUB": 499.0,
     "USD": 5.93,
     "EUR": 5.16,
     "UAH": 264.76,
-    "mBTC": 0.19,
-    "mLTC": 139.03
+    "mBTC": 0.18,
+    "mLTC": 126.73
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 575.64,
+      "price": 573.95,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 581.18,
+      "price": 579.46,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.19
+      "price": 0.18
      }
     ]
    },
@@ -165,12 +165,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.09
+      "price": 0.08
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 138.73
+      "price": 126.43
      },
      {
       "currency": "WMT",
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 138.73,
+      "price": 126.43,
       "limit": {
        "max": 7.3
       }
@@ -212,7 +212,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.09,
+      "price": 0.08,
       "limit": {
        "max": 0.03
       }
@@ -237,7 +237,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.09
+      "price": 0.08
      }
     ]
    },
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.55
+      "price": 2.41
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 139.03
+      "price": 126.73
      }
     ]
    },
@@ -629,11 +629,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 66381,
+   "sales": 66425,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15537,
+   "good_reviews": 15544,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

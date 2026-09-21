@@ -72,7 +72,7 @@
     "EUR": 0.71,
     "UAH": 36.61,
     "mBTC": 0.01,
-    "mLTC": 17.2
+    "mLTC": 15.67
    },
    "default": {
     "RUB": 69.0,
@@ -80,7 +80,7 @@
     "EUR": 0.71,
     "UAH": 36.61,
     "mBTC": 0.11,
-    "mLTC": 17.5
+    "mLTC": 15.97
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 17.5
+      "price": 15.97
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.35
+      "price": 0.33
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 84.22,
+      "price": 83.98,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.2
+      "price": 15.67
      },
      {
       "currency": "WMT",
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.2,
+      "price": 15.67,
       "limit": {
        "max": 7.3
       }
@@ -335,7 +335,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "18.09.2026 13:53:18",
+   "date": "21.09.2026 14:10:16",
    "size": 16
   },
   "category_id": 110708,
@@ -368,9 +368,9 @@
       "value": 11783892,
       "text": "1 МЕСЯЦ XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+929 RUB",
-      "modify_value": 929.0,
-      "modify_value_default": 929.0,
+      "modify": "+960 RUB",
+      "modify_value": 960.0,
+      "modify_value_default": 960.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -408,9 +408,9 @@
       "value": 4010593,
       "text": "7 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+4930 RUB",
-      "modify_value": 4930.0,
-      "modify_value_default": 4930.0,
+      "modify": "+5230 RUB",
+      "modify_value": 5230.0,
+      "modify_value_default": 5230.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -418,9 +418,9 @@
       "value": 7779770,
       "text": "9 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+5930 RUB",
-      "modify_value": 5930.0,
-      "modify_value_default": 5930.0,
+      "modify": "+6630 RUB",
+      "modify_value": 6630.0,
+      "modify_value_default": 6630.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -428,9 +428,9 @@
       "value": 11783895,
       "text": "11 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+6730 RUB",
-      "modify_value": 6730.0,
-      "modify_value_default": 6730.0,
+      "modify": "+7830 RUB",
+      "modify_value": 7830.0,
+      "modify_value_default": 7830.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -438,9 +438,9 @@
       "value": 13710422,
       "text": "12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки) - СУПЕР ЦЕНА!",
       "default": 0,
-      "modify": "+7730 RUB",
-      "modify_value": 7730.0,
-      "modify_value_default": 7730.0,
+      "modify": "+8530 RUB",
+      "modify_value": 8530.0,
+      "modify_value_default": 8530.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -448,9 +448,9 @@
       "value": 11783896,
       "text": "12 МЕСЯЦЕВ+1 МЕСЯЦ БОНУС XBOX GAME PASS ULTIMATE (любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+8430 RUB",
-      "modify_value": 8430.0,
-      "modify_value_default": 8430.0,
+      "modify": "+8930 RUB",
+      "modify_value": 8930.0,
+      "modify_value_default": 8930.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -478,9 +478,9 @@
       "value": 26685941,
       "text": "3 МЕСЯЦА XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+2120 RUB",
-      "modify_value": 2120.0,
-      "modify_value_default": 2120.0,
+      "modify": "+2230 RUB",
+      "modify_value": 2230.0,
+      "modify_value_default": 2230.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -488,9 +488,9 @@
       "value": 8899402,
       "text": "4 МЕСЯЦА XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+2270 RUB",
-      "modify_value": 2270.0,
-      "modify_value_default": 2270.0,
+      "modify": "+2930 RUB",
+      "modify_value": 2930.0,
+      "modify_value_default": 2930.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -498,9 +498,9 @@
       "value": 18649449,
       "text": "5 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+3420 RUB",
-      "modify_value": 3420.0,
-      "modify_value_default": 3420.0,
+      "modify": "+3930 RUB",
+      "modify_value": 3930.0,
+      "modify_value_default": 3930.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -508,9 +508,9 @@
       "value": 8899409,
       "text": "6 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+3620 RUB",
-      "modify_value": 3620.0,
-      "modify_value_default": 3620.0,
+      "modify": "+4030 RUB",
+      "modify_value": 4030.0,
+      "modify_value_default": 4030.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -518,9 +518,9 @@
       "value": 14722983,
       "text": "7 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+4630 RUB",
-      "modify_value": 4630.0,
-      "modify_value_default": 4630.0,
+      "modify": "+4830 RUB",
+      "modify_value": 4830.0,
+      "modify_value_default": 4830.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -528,9 +528,9 @@
       "value": 11783909,
       "text": "8 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+4730 RUB",
-      "modify_value": 4730.0,
-      "modify_value_default": 4730.0,
+      "modify": "+4930 RUB",
+      "modify_value": 4930.0,
+      "modify_value_default": 4930.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -538,25 +538,15 @@
       "value": 14808202,
       "text": "9 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+5020 RUB",
-      "modify_value": 5020.0,
-      "modify_value_default": 5020.0,
+      "modify": "+5530 RUB",
+      "modify_value": 5530.0,
+      "modify_value_default": 5530.0,
       "modify_type": "RUB",
       "visible": 1
      },
      {
       "value": 27263754,
       "text": "10 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
-      "default": 0,
-      "modify": "+5430 RUB",
-      "modify_value": 5430.0,
-      "modify_value_default": 5430.0,
-      "modify_type": "RUB",
-      "visible": 1
-     },
-     {
-      "value": 14712179,
-      "text": "11 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
       "modify": "+5930 RUB",
       "modify_value": 5930.0,
@@ -565,8 +555,8 @@
       "visible": 1
      },
      {
-      "value": 8899413,
-      "text": "12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
+      "value": 14712179,
+      "text": "11 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
       "modify": "+6430 RUB",
       "modify_value": 6430.0,
@@ -575,12 +565,22 @@
       "visible": 1
      },
      {
+      "value": 8899413,
+      "text": "12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (для нового аккаунта)",
+      "default": 0,
+      "modify": "+6930 RUB",
+      "modify_value": 6930.0,
+      "modify_value_default": 6930.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
       "value": 15514425,
       "text": "12 МЕСЯЦЕВ+1 МЕСЯЦ БОНУС XBOX GAME PASS ULTIMATE (для нового аккаунта)",
       "default": 0,
-      "modify": "+7730 RUB",
-      "modify_value": 7730.0,
-      "modify_value_default": 7730.0,
+      "modify": "+8130 RUB",
+      "modify_value": 8130.0,
+      "modify_value_default": 8130.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -618,9 +618,9 @@
       "value": 18647203,
       "text": "3 МЕСЯЦА PC Game Pass (только для ПК) - любой аккаунт без активной подписки",
       "default": 0,
-      "modify": "+1530 RUB",
-      "modify_value": 1530.0,
-      "modify_value_default": 1530.0,
+      "modify": "+1630 RUB",
+      "modify_value": 1630.0,
+      "modify_value_default": 1630.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -628,9 +628,9 @@
       "value": 18647219,
       "text": "6 МЕСЯЦЕВ PC Game Pass (только для ПК) - любой аккаунт без активной подписки",
       "default": 0,
-      "modify": "+2930 RUB",
-      "modify_value": 2930.0,
-      "modify_value_default": 2930.0,
+      "modify": "+3130 RUB",
+      "modify_value": 3130.0,
+      "modify_value_default": 3130.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -638,9 +638,9 @@
       "value": 18647220,
       "text": "9 МЕСЯЦЕВ PC Game Pass (только для ПК) - любой аккаунт без активной подписки",
       "default": 0,
-      "modify": "+4130 RUB",
-      "modify_value": 4130.0,
-      "modify_value_default": 4130.0,
+      "modify": "+4330 RUB",
+      "modify_value": 4330.0,
+      "modify_value_default": 4330.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -648,9 +648,9 @@
       "value": 18647222,
       "text": "12 МЕСЯЦЕВ PC Game Pass (только для ПК) - любой аккаунт без активной подписки",
       "default": 0,
-      "modify": "+5330 RUB",
-      "modify_value": 5330.0,
-      "modify_value_default": 5330.0,
+      "modify": "+5530 RUB",
+      "modify_value": 5530.0,
+      "modify_value_default": 5530.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -681,11 +681,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47282,
+   "sales": 47322,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22064,
+   "good_reviews": 22073,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

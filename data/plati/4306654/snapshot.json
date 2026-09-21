@@ -71,16 +71,16 @@
     "USD": 8.3,
     "EUR": 7.23,
     "UAH": 370.88,
-    "mBTC": 0.12,
-    "mLTC": 180.93
+    "mBTC": 0.11,
+    "mLTC": 164.89
    },
    "default": {
     "RUB": 699.0,
     "USD": 8.3,
     "EUR": 7.23,
     "UAH": 370.88,
-    "mBTC": 0.22,
-    "mLTC": 181.23
+    "mBTC": 0.21,
+    "mLTC": 165.19
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 813.45,
+      "price": 811.05,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 852.48,
+      "price": 850.05,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -170,7 +170,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.12
+      "price": 0.11
      }
     ]
    },
@@ -187,12 +187,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.12
+      "price": 0.11
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 180.93
+      "price": 164.89
      },
      {
       "currency": "WMT",
@@ -209,7 +209,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.22
+      "price": 0.21
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 180.93,
+      "price": 164.89,
       "limit": {
        "max": 7.3
       }
@@ -246,7 +246,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.12,
+      "price": 0.11,
       "limit": {
        "max": 0.03
       }
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 805.7,
+      "price": 803.33,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 181.23
+      "price": 165.19
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.57
+      "price": 3.38
      }
     ]
    },

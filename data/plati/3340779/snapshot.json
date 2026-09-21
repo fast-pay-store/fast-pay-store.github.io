@@ -71,16 +71,16 @@
     "USD": 9.48,
     "EUR": 8.02,
     "UAH": 411.21,
-    "mBTC": 0.14,
-    "mLTC": 214.27
+    "mBTC": 0.13,
+    "mLTC": 195.28
    },
    "default": {
     "RUB": 775.0,
     "USD": 9.48,
     "EUR": 8.02,
     "UAH": 411.21,
-    "mBTC": 0.24,
-    "mLTC": 214.57
+    "mBTC": 0.23,
+    "mLTC": 195.58
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 973.67,
+      "price": 970.9,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 929.09,
+      "price": 926.36,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -177,7 +177,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 920.25,
+      "price": 917.54,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -204,12 +204,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.14
+      "price": 0.13
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 214.27
+      "price": 195.28
      },
      {
       "currency": "WMT",
@@ -253,7 +253,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.14
+      "price": 0.13
      }
     ]
    },
@@ -265,7 +265,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.24
+      "price": 0.23
      }
     ]
    },
@@ -277,7 +277,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 214.57
+      "price": 195.58
      }
     ]
    },
@@ -314,7 +314,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 214.27,
+      "price": 195.28,
       "limit": {
        "max": 7.3
       }
@@ -322,7 +322,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.14,
+      "price": 0.13,
       "limit": {
        "max": 0.03
       }
@@ -337,7 +337,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.08
+      "price": 3.86
      }
     ]
    },
@@ -480,7 +480,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 17625,
+   "sales": 17627,
    "sales_hidden": 0,
    "refunds": 5,
    "refunds_hidden": 0,
