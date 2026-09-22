@@ -71,17 +71,17 @@
     "RUB": 249.0,
     "USD": 3.11,
     "EUR": 2.58,
-    "UAH": 132.12,
+    "UAH": 132.38,
     "mBTC": 0.04,
-    "mLTC": 61.68
+    "mLTC": 64.08
    },
    "default": {
     "RUB": 249.0,
     "USD": 3.11,
     "EUR": 2.58,
-    "UAH": 132.12,
+    "UAH": 132.38,
     "mBTC": 0.14,
-    "mLTC": 61.98
+    "mLTC": 64.38
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 301.01,
+      "price": 300.8,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 303.9,
+      "price": 303.7,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 318.51,
+      "price": 318.3,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -166,7 +166,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 4.19
+      "price": 4.2
      },
      {
       "currency": "mBTC",
@@ -176,7 +176,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 61.68
+      "price": 64.08
      },
      {
       "currency": "WMT",
@@ -210,7 +210,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 4.19,
+      "price": 4.2,
       "limit": {
        "max": 300.0
       }
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 61.68,
+      "price": 64.08,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 61.98
+      "price": 64.38
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.27
+      "price": 1.25
      }
     ]
    },
@@ -303,7 +303,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 4.19
+      "price": 4.2
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 4.19
+      "price": 4.2
      },
      {
       "currency": "mBTC",

@@ -44,7 +44,7 @@
   "id": 3397775,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ БЫСТРО!🎁",
+  "name": "🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ СКИДКИ!🎁",
   "price": 499.0,
   "currency": "RUB",
   "url": "",
@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 499.0,
     "USD": 5.93,
-    "EUR": 5.16,
-    "UAH": 264.76,
+    "EUR": 5.18,
+    "UAH": 265.28,
     "mBTC": 0.08,
-    "mLTC": 126.43
+    "mLTC": 131.37
    },
    "default": {
     "RUB": 499.0,
     "USD": 5.93,
-    "EUR": 5.16,
-    "UAH": 264.76,
+    "EUR": 5.18,
+    "UAH": 265.28,
     "mBTC": 0.18,
-    "mLTC": 126.73
+    "mLTC": 131.67
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 573.95,
+      "price": 573.55,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 579.46,
+      "price": 579.07,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -160,7 +160,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 8.59
+      "price": 8.6
      },
      {
       "currency": "mBTC",
@@ -170,7 +170,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 126.43
+      "price": 131.37
      },
      {
       "currency": "WMT",
@@ -187,7 +187,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 8.59,
+      "price": 8.6,
       "limit": {
        "max": 300.0
       }
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 126.43,
+      "price": 131.37,
       "limit": {
        "max": 7.3
       }
@@ -232,7 +232,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 8.59
+      "price": 8.6
      },
      {
       "currency": "mBTC",
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.41
+      "price": 2.39
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 8.59
+      "price": 8.6
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 126.73
+      "price": 131.67
      }
     ]
    },
@@ -317,8 +317,8 @@
   },
   "preview_imgs": [
    {
-    "id": 7845068,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=7845068",
+    "id": 10874482,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10874482",
     "width": 1080,
     "height": 1080
    },
@@ -362,18 +362,18 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "17.09.2026 18:07:12",
+   "date": "22.09.2026 00:13:20",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 84198.0,
+    "summa": 84095.0,
     "percent": 3.0
    },
    {
-    "summa": 842.0,
+    "summa": 841.0,
     "percent": 2.0
    },
    {
@@ -629,11 +629,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 66425,
+   "sales": 66466,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15544,
+   "good_reviews": 15548,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
