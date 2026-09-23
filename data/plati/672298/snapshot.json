@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 319.9,
+  "price": 319.81,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -19,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 2,
+  "num_in_lock": 3,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 293.49,
+    "RUB": 293.39,
     "USD": 3.49,
-    "EUR": 3.05,
-    "UAH": 166.95,
+    "EUR": 3.04,
+    "UAH": 167.25,
     "mBTC": 0.04,
-    "mLTC": 57.75
+    "mLTC": 56.09
    },
    "default": {
-    "RUB": 319.9,
+    "RUB": 319.81,
     "USD": 3.49,
-    "EUR": 3.05,
-    "UAH": 166.95,
+    "EUR": 3.04,
+    "UAH": 167.25,
     "mBTC": 0.14,
-    "mLTC": 58.05
+    "mLTC": 56.39
    }
   },
   "payment_methods": [
@@ -86,7 +86,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 4.05
+      "price": 4.04
      },
      {
       "currency": "mBTC",
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 57.75
+      "price": 56.09
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 58.05
+      "price": 56.39
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.41
+      "price": 1.42
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 390.35,
+      "price": 390.21,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -200,7 +200,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 4.05,
+      "price": 4.04,
       "limit": {
        "max": 300.0
       }
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 57.75,
+      "price": 56.09,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 293.49
+      "price": 293.39
      },
      {
       "currency": "USD",
@@ -241,7 +241,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 4.05
+      "price": 4.04
      }
     ]
    },
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 293.49
+      "price": 293.39
      },
      {
       "currency": "USD",
@@ -263,7 +263,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 4.05
+      "price": 4.04
      },
      {
       "currency": "mBTC",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 319.9
+      "price": 319.81
      }
     ]
    }
@@ -351,9 +351,9 @@
       "value": 2178795,
       "text": "3$ (USD)",
       "default": 0,
-      "modify": "+1,50 USD",
-      "modify_value": 1.5,
-      "modify_value_default": 1.5,
+      "modify": "+2 USD",
+      "modify_value": 2.0,
+      "modify_value_default": 2.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -362,9 +362,9 @@
       "value": 2178796,
       "text": "4$ (USD)",
       "default": 0,
-      "modify": "+2,70 USD",
-      "modify_value": 2.7,
-      "modify_value_default": 2.7,
+      "modify": "+3 USD",
+      "modify_value": 3.0,
+      "modify_value_default": 3.0,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -609,7 +609,7 @@
       "modify_value_default": 1100.0,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      }
     ]
    },
@@ -638,11 +638,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 678695,
+   "sales": 679295,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3428,
+   "good_reviews": 3430,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

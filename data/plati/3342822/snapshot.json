@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "✅5-10000$ Карта US/EU 💥ОПЛАТИТ ВСЁ💥| БЕЗ КОМИССИИ",
-  "price": 1278.25,
+  "price": 1277.8,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3342822",
@@ -253,7 +253,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD",
-   "unit_amount": 1278.25,
+   "unit_amount": 1277.8,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -291,19 +291,19 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 420477.0,
+    "summa": 420328.0,
     "percent": 5.0
    },
    {
-    "summa": 252286.0,
+    "summa": 252197.0,
     "percent": 4.0
    },
    {
-    "summa": 84095.0,
+    "summa": 84066.0,
     "percent": 3.0
    },
    {
-    "summa": 42048.0,
+    "summa": 42033.0,
     "percent": 2.0
    },
    {
@@ -313,54 +313,54 @@
   ],
   "units": {
    "desc": "1 USD",
-   "price": 127.825008,
+   "price": 127.779864,
    "discounts": [
     {
      "desc": "25 USD",
      "percent": 1.0,
-     "price": 126.5468,
+     "price": 126.5021,
      "cnt": 25.0
     },
     {
      "desc": "50 USD",
      "percent": 2.0,
-     "price": 125.2685,
+     "price": 125.2243,
      "cnt": 50.0
     },
     {
      "desc": "75 USD",
      "percent": 3.0,
-     "price": 123.9903,
+     "price": 123.9465,
      "cnt": 75.0
     },
     {
      "desc": "100 USD",
      "percent": 4.0,
-     "price": 122.712,
+     "price": 122.6687,
      "cnt": 100.0
     },
     {
      "desc": "300 USD",
      "percent": 5.0,
-     "price": 121.4338,
+     "price": 121.3909,
      "cnt": 300.0
     },
     {
      "desc": "500 USD",
      "percent": 12.0,
-     "price": 112.486,
+     "price": 112.4463,
      "cnt": 500.0
     },
     {
      "desc": "1 тыс. USD",
      "percent": 14.0,
-     "price": 109.9295,
+     "price": 109.8907,
      "cnt": 1000.0
     },
     {
      "desc": "2 тыс. USD",
      "percent": 16.0,
-     "price": 107.373,
+     "price": 107.3351,
      "cnt": 2000.0
     }
    ]

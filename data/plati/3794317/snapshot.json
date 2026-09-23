@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 3910475,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 231.26,
+  "price": 231.18,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 231.26,
+    "RUB": 231.18,
     "USD": 2.75,
-    "EUR": 2.4,
-    "UAH": 122.95,
+    "EUR": 2.39,
+    "UAH": 123.17,
     "mBTC": 0.03,
-    "mLTC": 54.59
+    "mLTC": 52.74
    },
    "default": {
-    "RUB": 231.26,
+    "RUB": 231.18,
     "USD": 2.75,
-    "EUR": 2.4,
-    "UAH": 122.94,
+    "EUR": 2.39,
+    "UAH": 123.16,
     "mBTC": 0.13,
-    "mLTC": 54.89
+    "mLTC": 53.04
    }
   },
   "payment_methods": [
@@ -155,7 +155,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 231.26
+      "price": 231.18
      },
      {
       "currency": "USD",
@@ -172,7 +172,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 231.26
+      "price": 231.18
      },
      {
       "currency": "USD",
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 300.64,
+      "price": 300.53,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 54.59,
+      "price": 52.74,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 54.59
+      "price": 52.74
      },
      {
       "currency": "WMT",
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.11
+      "price": 1.12
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 54.89
+      "price": 53.04
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 231.26
+      "price": 231.18
      }
     ]
    }
@@ -350,7 +350,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "21.09.2026 18:50:13",
+   "date": "21.09.2026 18:50:58",
    "size": null
   },
   "category_id": 135134,
@@ -363,15 +363,15 @@
   ],
   "discounts": [
    {
-    "summa": 84095.0,
+    "summa": 84066.0,
     "percent": 3.0
    },
    {
-    "summa": 42048.0,
+    "summa": 42033.0,
     "percent": 2.0
    },
    {
-    "summa": 8410.0,
+    "summa": 8407.0,
     "percent": 1.0
    }
   ],
@@ -439,7 +439,7 @@
       "modify_value_default": 31.68,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 16038003,
@@ -457,13 +457,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15795,
+   "sales": 15799,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
    "good_reviews": 883,
    "good_reviews_hidden": 0,
-   "bad_reviews": 2,
+   "bad_reviews": 1,
    "bad_reviews_hidden": 0
   },
   "seller": {
