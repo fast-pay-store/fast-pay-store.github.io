@@ -69,19 +69,19 @@
   "prices": {
    "initial": {
     "RUB": 249.0,
-    "USD": 3.11,
-    "EUR": 2.58,
-    "UAH": 132.66,
+    "USD": 3.1,
+    "EUR": 2.57,
+    "UAH": 132.34,
     "mBTC": 0.04,
-    "mLTC": 61.94
+    "mLTC": 57.88
    },
    "default": {
     "RUB": 249.0,
-    "USD": 3.11,
-    "EUR": 2.58,
-    "UAH": 132.66,
+    "USD": 3.1,
+    "EUR": 2.57,
+    "UAH": 132.34,
     "mBTC": 0.14,
-    "mLTC": 62.24
+    "mLTC": 58.18
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 300.8,
+      "price": 299.97,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 303.7,
+      "price": 302.86,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 318.3,
+      "price": 317.42,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -166,7 +166,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 4.2
+      "price": 4.18
      },
      {
       "currency": "mBTC",
@@ -176,12 +176,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 61.94
+      "price": 57.88
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.11
+      "price": 3.1
      }
     ]
    },
@@ -193,7 +193,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.11,
+      "price": 3.1,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -210,7 +210,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 4.2,
+      "price": 4.18,
       "limit": {
        "max": 300.0
       }
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 61.94,
+      "price": 57.88,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 62.24
+      "price": 58.18
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.27
+      "price": 1.3
      }
     ]
    },
@@ -303,7 +303,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 4.2
+      "price": 4.18
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 4.2
+      "price": 4.18
      },
      {
       "currency": "mBTC",
@@ -409,7 +409,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "23.09.2026 13:18:25",
+   "date": "24.09.2026 13:03:18",
    "size": 16
   },
   "category_id": 0,
@@ -446,7 +446,7 @@
     "variants": [
      {
       "value": 14490468,
-      "text": "1 МЕСЯЦ ПРОБНОЙ ПОДПИСКИ (НА ВАШ СУЩЕСТВУЮЩИЙ НОВЫЙ АККАУНТ)",
+      "text": "1 МЕСЯЦ ПРОБНОЙ ПОДПИСКИ (НА ВАШ СУЩЕСТВУЮЩИЙ НОВЫЙ АККАУНТ) [ЕГИПЕТ]",
       "default": 1,
       "modify": "",
       "modify_value": 0.0,
@@ -456,7 +456,7 @@
      },
      {
       "value": 29589145,
-      "text": "1 МЕСЯЦ ИНДИВИДУАЛЬНОЙ",
+      "text": "1 МЕСЯЦ ИНДИВИДУАЛЬНОЙ [ЕГИПЕТ]",
       "default": 0,
       "modify": "+100 RUB",
       "modify_value": 100.0,
@@ -466,7 +466,7 @@
      },
      {
       "value": 16315978,
-      "text": "1 МЕСЯЦ PLATINUM ПРЕМИУМ",
+      "text": "1 МЕСЯЦ PLATINUM ПРЕМИУМ [ИНДИЯ]",
       "default": 0,
       "modify": "+601 RUB",
       "modify_value": 601.0,
@@ -476,7 +476,7 @@
      },
      {
       "value": 1799164,
-      "text": "3 МЕСЯЦА ИНДИВИДУАЛЬНЫЙ ПРЕМИУМ",
+      "text": "3 МЕСЯЦА ИНДИВИДУАЛЬНЫЙ ПРЕМИУМ [ЕГИПЕТ]",
       "default": 0,
       "modify": "+600 RUB",
       "modify_value": 600.0,
@@ -486,7 +486,7 @@
      },
      {
       "value": 18570375,
-      "text": "3 МЕСЯЦА DUO ПРЕМИУМ",
+      "text": "3 МЕСЯЦА DUO ПРЕМИУМ [ЕГИПЕТ]",
       "default": 0,
       "modify": "+950 RUB",
       "modify_value": 950.0,
@@ -496,7 +496,7 @@
      },
      {
       "value": 18889767,
-      "text": "12 МЕСЯЦЕВ STANDARD(ИНДИВИДУАЛЬНЫЙ) ПРЕМИУМ",
+      "text": "12 МЕСЯЦЕВ STANDARD(ИНДИВИДУАЛЬНЫЙ) ПРЕМИУМ [ИНДИЯ]",
       "default": 0,
       "modify": "+2250 RUB",
       "modify_value": 2250.0,
@@ -506,7 +506,7 @@
      },
      {
       "value": 16363132,
-      "text": "4,5 МЕСЯЦА PLATINUM ПРЕМИУМ",
+      "text": "4,5 МЕСЯЦА PLATINUM ПРЕМИУМ [ИНДИЯ]",
       "default": 0,
       "modify": "+2551 RUB",
       "modify_value": 2551.0,
@@ -516,7 +516,7 @@
      },
      {
       "value": 1790846,
-      "text": "3 + 3 МЕСЯЦА ИНДИВИДУАЛЬНЫЙ ПРЕМИУМ КОМБО*",
+      "text": "3 + 3 МЕСЯЦА ИНДИВИДУАЛЬНЫЙ ПРЕМИУМ КОМБО* [ЕГИПЕТ]",
       "default": 0,
       "modify": "+1250 RUB",
       "modify_value": 1250.0,
@@ -526,7 +526,7 @@
      },
      {
       "value": 797791,
-      "text": "3 + 3 МЕСЯЦА DUO КОМБО*",
+      "text": "3 + 3 МЕСЯЦА DUO КОМБО* [ЕГИПЕТ]",
       "default": 0,
       "modify": "+1750 RUB",
       "modify_value": 1750.0,
@@ -541,7 +541,7 @@
   "statistics": {
    "sales": 100,
    "sales_hidden": 1,
-   "refunds": 78,
+   "refunds": 79,
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,

@@ -70,17 +70,17 @@
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.71,
-    "UAH": 36.76,
+    "UAH": 36.67,
     "mBTC": 0.01,
-    "mLTC": 15.74
+    "mLTC": 14.71
    },
    "default": {
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.71,
-    "UAH": 36.76,
+    "UAH": 36.67,
     "mBTC": 0.11,
-    "mLTC": 16.04
+    "mLTC": 15.01
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 16.04
+      "price": 15.01
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.33
+      "price": 0.34
      }
     ]
    },
@@ -145,7 +145,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.07
+      "price": 1.06
      }
     ]
    },
@@ -162,7 +162,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.07
+      "price": 1.06
      },
      {
       "currency": "mBTC",
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.93,
+      "price": 83.96,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -213,7 +213,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.07
+      "price": 1.06
      },
      {
       "currency": "mBTC",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 15.74
+      "price": 14.71
      },
      {
       "currency": "WMT",
@@ -249,7 +249,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.07,
+      "price": 1.06,
       "limit": {
        "max": 300.0
       }
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 15.74,
+      "price": 14.71,
       "limit": {
        "max": 7.3
       }
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47396,
+   "sales": 47420,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22095,
+   "good_reviews": 22102,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

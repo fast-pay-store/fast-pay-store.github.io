@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "24/7 | ChatGPT 6 ASTRA | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
-  "price": 1299.0,
+  "price": 2299.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3636620",
@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 2299.0,
-    "USD": 27.35,
-    "EUR": 23.8,
-    "UAH": 1224.83,
-    "mBTC": 0.32,
-    "mLTC": 439.54
+    "USD": 27.24,
+    "EUR": 23.76,
+    "UAH": 1221.9,
+    "mBTC": 0.33,
+    "mLTC": 409.81
    },
    "default": {
-    "RUB": 1299.0,
-    "USD": 15.46,
-    "EUR": 13.45,
-    "UAH": 692.07,
-    "mBTC": 0.42,
-    "mLTC": 439.84
+    "RUB": 2299.0,
+    "USD": 27.24,
+    "EUR": 23.76,
+    "UAH": 1221.9,
+    "mBTC": 0.43,
+    "mLTC": 410.11
    }
   },
   "payment_methods": [
@@ -125,7 +125,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 27.35,
+      "price": 27.24,
       "limit": {
        "max": 300.0
       }
@@ -133,7 +133,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 23.8,
+      "price": 23.76,
       "limit": {
        "max": 300.0
       }
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 439.54,
+      "price": 409.81,
       "limit": {
        "max": 7.3
       }
@@ -149,7 +149,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.32,
+      "price": 0.33,
       "limit": {
        "max": 0.03
       }
@@ -176,27 +176,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 27.35
+      "price": 27.24
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 23.8
+      "price": 23.76
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.32
+      "price": 0.33
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 439.54
+      "price": 409.81
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 27.35
+      "price": 27.24
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 2799.23,
+      "price": 2789.19,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 2645.32,
+      "price": 2635.88,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 2670.76,
+      "price": 2661.22,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -252,12 +252,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 2.37
+      "price": 2.35
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 2.06
+      "price": 2.05
      }
     ]
    },
@@ -269,7 +269,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 27.35,
+      "price": 27.24,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -286,7 +286,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.42
+      "price": 0.43
      }
     ]
    },
@@ -303,12 +303,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 27.35
+      "price": 27.24
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 23.8
+      "price": 23.76
      }
     ]
    },
@@ -325,17 +325,17 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 27.35
+      "price": 27.24
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 23.8
+      "price": 23.76
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.32
+      "price": 0.33
      }
     ]
    },
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 439.84
+      "price": 410.11
      }
     ]
    },
@@ -426,30 +426,30 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "15.09.2026 12:15:00",
+   "date": "24.09.2026 03:09:14",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168131.0,
+    "summa": 168794.0,
     "percent": 5.0
    },
    {
-    "summa": 126099.0,
+    "summa": 126595.0,
     "percent": 4.0
    },
    {
-    "summa": 84066.0,
+    "summa": 84397.0,
     "percent": 3.0
    },
    {
-    "summa": 42033.0,
+    "summa": 42198.0,
     "percent": 2.0
    },
    {
-    "summa": 4203.0,
+    "summa": 4220.0,
     "percent": 1.0
    }
   ],
@@ -537,17 +537,49 @@
       "visible": 1
      }
     ]
+   },
+   {
+    "id": 6403896,
+    "name": "option_radio_6403896",
+    "label": "Я хочу получить гайд (руководство) по работе и последним функциям с ChatGPT",
+    "comment": "Для получения гайда - обратитесь в чат покупки, оператор пришлет вам его в чате.",
+    "type": "radio",
+    "separate_content": 0,
+    "required": 1,
+    "modifier_visible": 1,
+    "variants": [
+     {
+      "value": 32697021,
+      "text": "Нет",
+      "default": 1,
+      "modify": "",
+      "modify_value": 0.0,
+      "modify_value_default": 0.0,
+      "modify_type": "",
+      "visible": 1
+     },
+     {
+      "value": 32697022,
+      "text": "Да",
+      "default": 0,
+      "modify": "+999 RUB",
+      "modify_value": 999.0,
+      "modify_value_default": 999.0,
+      "modify_type": "RUB",
+      "visible": 1
+     }
+    ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 27794,
+   "sales": 27856,
    "sales_hidden": 0,
-   "refunds": 169,
+   "refunds": 171,
    "refunds_hidden": 0,
    "good_reviews": 5296,
    "good_reviews_hidden": 0,
-   "bad_reviews": 32,
+   "bad_reviews": 31,
    "bad_reviews_hidden": 0
   },
   "seller": {

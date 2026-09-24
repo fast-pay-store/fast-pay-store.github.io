@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 5212780,
   "name": "🎮ПОДПИСКА УКРАИНА PS PLUS/EA PLAY ОЧЕНЬ БЫСТРО🎮 🇺🇦",
-  "price": 310.0,
+  "price": 510.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3533183",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><br />✅Преимущества региона Украина:<br />- 🔊Все игры 100% НА РУССКОМ ЯЗЫКЕ (если это предусмотрено разработчиками), магазин на РУССКОМ ЯЗЫКЕ, в отличии от Турецкого региона, где многие игры и магазин на английском языке<br />- 🔊Вы можете пользоваться Украинским акаунтом, как основным, ведь он полностью аналогичен Российскому, только с открытым магазином и возможностью покупать товары <br />- 💵Самые дешевые на данный момент цены на подписки<br /></delivery><br /><delivery><br />КОДЫ ДВУХЭТАПНОЙ АУТЕНТИФИКАЦИИ НЕОБХОДИМЫ, так как без нее PSN часто блокирует вход с другого устройства, а также, чтобы экономить наше и ваше время, чтобы продавец не ждал, пока вы предоставите SMS или код с почты и вы не ждали, пока продавец возьмет ваш заказ и запросит эти коды.<br /><br />▪️Как включить двухэтапную аутентификацию?<br />https://teletype.in/@play_has_limits/ON_2F<br />▪️ Где теперь найти резервные коды? <br />https://teletype.in/@play_has_limits/KOD_2FA<br /><delivery></delivery></delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 3.1,
+  "agency_sum": 5.1,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 310.0,
-    "USD": 3.69,
-    "EUR": 3.21,
-    "UAH": 165.16,
-    "mBTC": 0.05,
-    "mLTC": 78.89
+    "RUB": 510.0,
+    "USD": 6.04,
+    "EUR": 5.27,
+    "UAH": 271.06,
+    "mBTC": 0.09,
+    "mLTC": 121.28
    },
    "default": {
-    "RUB": 310.0,
-    "USD": 3.69,
-    "EUR": 3.21,
-    "UAH": 165.16,
-    "mBTC": 0.15,
-    "mLTC": 79.19
+    "RUB": 510.0,
+    "USD": 6.04,
+    "EUR": 5.27,
+    "UAH": 271.06,
+    "mBTC": 0.19,
+    "mLTC": 121.58
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 310.0
+      "price": 510.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 310.0
+      "price": 510.0
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "LVA",
-      "price": 326.45
+      "price": 537.07
      }
     ]
    },
@@ -128,22 +128,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 5.35
+      "price": 8.76
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.05
+      "price": 0.09
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 78.89
+      "price": 121.28
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.69
+      "price": 6.04
      }
     ]
    },
@@ -155,12 +155,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.32
+      "price": 0.53
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.28
+      "price": 0.46
      }
     ]
    },
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.69,
+      "price": 6.04,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -189,17 +189,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 310.0
+      "price": 510.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 5.35
+      "price": 8.76
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.05
+      "price": 0.09
      }
     ]
    },
@@ -211,7 +211,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.15
+      "price": 0.19
      }
     ]
    },
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 79.19
+      "price": 121.58
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.5
+      "price": 2.53
      }
     ]
    },
@@ -247,7 +247,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 449.5,
+      "price": 739.5,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -256,7 +256,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 5.35,
+      "price": 8.76,
       "limit": {
        "max": 300.0
       }
@@ -264,7 +264,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 78.89,
+      "price": 121.28,
       "limit": {
        "max": 7.3
       }
@@ -272,7 +272,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.05,
+      "price": 0.09,
       "limit": {
        "max": 0.03
       }
@@ -287,12 +287,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 310.0
+      "price": 510.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 5.35
+      "price": 8.76
      }
     ]
    },
@@ -304,7 +304,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 341.0
+      "price": 561.0
      }
     ]
    },
@@ -316,7 +316,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 310.0
+      "price": 510.0
      }
     ]
    }
@@ -341,7 +341,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "23.09.2026 11:37:13",
+   "date": "23.09.2026 15:02:45",
    "size": 16
   },
   "category_id": 142151,
@@ -354,23 +354,23 @@
   ],
   "discounts": [
    {
-    "summa": 84066.0,
+    "summa": 84397.0,
     "percent": 5.0
    },
    {
-    "summa": 58846.0,
+    "summa": 59078.0,
     "percent": 4.0
    },
    {
-    "summa": 42033.0,
+    "summa": 42198.0,
     "percent": 3.0
    },
    {
-    "summa": 16813.0,
+    "summa": 16879.0,
     "percent": 2.0
    },
    {
-    "summa": 8407.0,
+    "summa": 8440.0,
     "percent": 1.0
    }
   ],
@@ -601,11 +601,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31132,
+   "sales": 31142,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9914,
+   "good_reviews": 9916,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

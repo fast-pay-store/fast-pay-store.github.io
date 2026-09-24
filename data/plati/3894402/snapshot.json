@@ -45,7 +45,7 @@
   "id_prev": 3883280,
   "id_next": 4606138,
   "name": "🟨PS PLUS ЛЮКС ЭКСТРА ОСНОВНАЯ 1-12 EA PLAY УКРАИНА БЫСТРО!🎁",
-  "price": 305.0,
+  "price": 500.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3894402",
@@ -53,7 +53,7 @@
   "add_info": "<attention>🛎 Информация Для Покупателей 🛎<br /><br />⏳Среднее время Выполнения заказа - от 10 до 15 минут, с начала обработки заказа (задержки могут быть только из-за проблем со стороны серверов)⌛️<br />⏳График работы: 11:00-23:00 UTC +3⌛️<br />⏳Если вы совершили покупку ночью (после 23:00 UTC 3), оформить заказ сможем на следующий день⌛️<br /><br />💵 Для оплаты рекомендуем использовать верхний способ - тут нет комиссии<br /><br />♻️ Возврат оформляем с вычетом 20% от суммы покупки (в случаях, если проблема не с нашей стороны)<br />❗️После того как мы совершили покупку в системе Sony, возврат невозможен (внимательно выбирайте продукт перед покупкой)<br /><br />🤔 Если у вас возникнут вопросы, обращайтесь к нам в Чат (выше на странице), мы с радостью вам ответим!<br /><br />👍 За положительный отзыв вы получаете подарок🎁 в разделе \"ПОДАРОЧНАЯ КАРТА\"</attention><delivery>❗️АКЦИЯ❗️<br />🤩Каждый клиент, который оставит положительный отзыв - получит случайный ключ недорогой игры в Steam!<br /><br />✅Чтобы получить ПОДАРОК, нужно:<br />1️⃣ Купить наш товар<br />2️⃣ После обработки заказа - оставить положительный отзыв<br />3️⃣ Написать в \"Переписку с продавцом\" сообщение \"хочу подарок\"<br />4️⃣ Ожидать отправку ключа Steam оператором.<br /><br />⚠️ Подарки выдаются ТОЛЬКО при наличии положительного отзыва. <br />⚠️ Срок выдачи - до 24 часов после получения от вас сообщения \"хочу подарок\"<br />⚠️ За один заказ - вы можете получить один подарок.</delivery><attention>🔼 Другие Товары В Категории PlayStation 🔼<br /><br />🟡Покупка игр/Пополнение PSN УКРАИНА🎁 ➡️https://plati.market/itm/3595051<br />🟡Подключение Подписок PS PLUS/EA PLAY УКРАИНА🎁 ➡️https://plati.market/itm/3894402<br />🟡УКРАИНСКИЙ аккаунт PSN АВТОДОСТАВКА 24/7🎁 ➡️https://plati.market/itm/5146295<br /><br />🔵Покупка игр/Пополнение PSN ТУРЦИЯ🎁 ➡️https://plati.market/itm/3420721<br />🔵Подключение Подписок PS PLUS/EA PLAY ТУРЦИЯ🎁➡️https://plati.market/itm/3397775<br />🔵ТУРЕЦКИЙ аккаунт PSN АВТОДОСТАВКА 24/7🎁 ➡️https://plati.market/itm/5145581<br /><br />🟠Покупка игр/Пополнение PSN/Подключение Подписок PS PLUS/EA PLAY ИНДИЯ🎁 ➡️https://plati.market/itm/4606138<br />🟠ИНДИЙСКИЙ аккаунт PSN АВТОДОСТАВКА 24/7🎁 ➡️https://plati.market/itm/5146310<br /><br />🔷Регистрация аккаунта PSN🎁 ➡️https://plati.market/itm/3544663<br /><br />✅Полный ассортимент наших товаров ➡️https://plati.market/seller/all-for-gamers/316903/</attention>",
   "release_date": "",
   "agency_fee": 2.0,
-  "agency_sum": 6.1,
+  "agency_sum": 10.0,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 305.0,
-    "USD": 3.63,
-    "EUR": 3.16,
-    "UAH": 162.49,
-    "mBTC": 0.05,
-    "mLTC": 77.61
+    "RUB": 500.0,
+    "USD": 5.92,
+    "EUR": 5.17,
+    "UAH": 265.75,
+    "mBTC": 0.09,
+    "mLTC": 118.9
    },
    "default": {
-    "RUB": 305.0,
-    "USD": 3.63,
-    "EUR": 3.16,
-    "UAH": 162.49,
-    "mBTC": 0.15,
-    "mLTC": 77.91
+    "RUB": 500.0,
+    "USD": 5.92,
+    "EUR": 5.17,
+    "UAH": 265.75,
+    "mBTC": 0.19,
+    "mLTC": 119.2
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 305.0
+      "price": 500.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 351.1,
+      "price": 572.85,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 354.47,
+      "price": 578.36,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -131,12 +131,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.32
+      "price": 0.51
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.28
+      "price": 0.45
      }
     ]
    },
@@ -148,7 +148,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.15
+      "price": 0.19
      }
     ]
    },
@@ -160,22 +160,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 5.26
+      "price": 8.59
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.05
+      "price": 0.09
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 77.61
+      "price": 118.9
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.63
+      "price": 5.92
      }
     ]
    },
@@ -187,7 +187,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 5.26,
+      "price": 8.59,
       "limit": {
        "max": 300.0
       }
@@ -195,7 +195,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 442.25,
+      "price": 725.0,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 77.61,
+      "price": 118.9,
       "limit": {
        "max": 7.3
       }
@@ -212,7 +212,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.05,
+      "price": 0.09,
       "limit": {
        "max": 0.03
       }
@@ -227,17 +227,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 305.0
+      "price": 500.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 5.26
+      "price": 8.59
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.05
+      "price": 0.09
      }
     ]
    },
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.48
+      "price": 2.48
      }
     ]
    },
@@ -261,12 +261,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 305.0
+      "price": 500.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 5.26
+      "price": 8.59
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 77.91
+      "price": 119.2
      }
     ]
    },
@@ -290,7 +290,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.63,
+      "price": 5.92,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -307,7 +307,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 305.0
+      "price": 500.0
      }
     ]
    }
@@ -344,7 +344,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "23.09.2026 11:38:43",
+   "date": "23.09.2026 16:36:19",
    "size": 16
   },
   "category_id": 132565,
@@ -352,24 +352,24 @@
    {
     "id": 132565,
     "name": "Playstation",
-    "products_cnt": 22
+    "products_cnt": 24
    }
   ],
   "discounts": [
    {
-    "summa": 210164.0,
+    "summa": 210992.0,
     "percent": 4.0
    },
    {
-    "summa": 42033.0,
+    "summa": 42198.0,
     "percent": 3.0
    },
    {
-    "summa": 16813.0,
+    "summa": 16879.0,
     "percent": 2.0
    },
    {
-    "summa": 8407.0,
+    "summa": 8440.0,
     "percent": 1.0
    }
   ],
@@ -389,9 +389,9 @@
       "value": 839954,
       "text": "ОСНОВНАЯ (ESSENTIAL) 1 МЕСЯЦ (БЕЗ ИГР)",
       "default": 0,
-      "modify": "+444 RUB",
-      "modify_value": 444.0,
-      "modify_value_default": 444.0,
+      "modify": "+409 RUB",
+      "modify_value": 409.0,
+      "modify_value_default": 409.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -399,9 +399,9 @@
       "value": 839955,
       "text": "ОСНОВНАЯ (ESSENTIAL) 3 МЕСЯЦА",
       "default": 0,
-      "modify": "+1694 RUB",
-      "modify_value": 1694.0,
-      "modify_value_default": 1694.0,
+      "modify": "+1669 RUB",
+      "modify_value": 1669.0,
+      "modify_value_default": 1669.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -409,9 +409,9 @@
       "value": 839956,
       "text": "ОСНОВНАЯ (ESSENTIAL) 12 МЕСЯЦЕВ",
       "default": 0,
-      "modify": "+3994 RUB",
-      "modify_value": 3994.0,
-      "modify_value_default": 3994.0,
+      "modify": "+3899 RUB",
+      "modify_value": 3899.0,
+      "modify_value_default": 3899.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -419,9 +419,9 @@
       "value": 839957,
       "text": "ЭКСТРА (EXTRA) 1 МЕСЯЦ",
       "default": 0,
-      "modify": "+744 RUB",
-      "modify_value": 744.0,
-      "modify_value_default": 744.0,
+      "modify": "+719 RUB",
+      "modify_value": 719.0,
+      "modify_value_default": 719.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -429,9 +429,9 @@
       "value": 839958,
       "text": "ЭКСТРА (EXTRA) 3 МЕСЯЦА",
       "default": 0,
-      "modify": "+2494 RUB",
-      "modify_value": 2494.0,
-      "modify_value_default": 2494.0,
+      "modify": "+2459 RUB",
+      "modify_value": 2459.0,
+      "modify_value_default": 2459.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -439,9 +439,9 @@
       "value": 839959,
       "text": "ЭКСТРА (EXTRA) 12 МЕСЯЦЕВ",
       "default": 0,
-      "modify": "+6194 RUB",
-      "modify_value": 6194.0,
-      "modify_value_default": 6194.0,
+      "modify": "+6099 RUB",
+      "modify_value": 6099.0,
+      "modify_value_default": 6099.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -449,9 +449,9 @@
       "value": 839960,
       "text": "ЛЮКС (DELUXE) 1 МЕСЯЦ",
       "default": 0,
-      "modify": "+894 RUB",
-      "modify_value": 894.0,
-      "modify_value_default": 894.0,
+      "modify": "+869 RUB",
+      "modify_value": 869.0,
+      "modify_value_default": 869.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -459,9 +459,9 @@
       "value": 839961,
       "text": "ЛЮКС (DELUXE) 3 МЕСЯЦА",
       "default": 0,
-      "modify": "+2994 RUB",
-      "modify_value": 2994.0,
-      "modify_value_default": 2994.0,
+      "modify": "+2959 RUB",
+      "modify_value": 2959.0,
+      "modify_value_default": 2959.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -469,9 +469,9 @@
       "value": 839962,
       "text": "ЛЮКС (DELUXE) 12 МЕСЯЦЕВ",
       "default": 0,
-      "modify": "+7094 RUB",
-      "modify_value": 7094.0,
-      "modify_value_default": 7094.0,
+      "modify": "+6999 RUB",
+      "modify_value": 6999.0,
+      "modify_value_default": 6999.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -489,9 +489,9 @@
       "value": 844434,
       "text": "EA PLAY 12 МЕСЯЦЕВ",
       "default": 0,
-      "modify": "+2494 RUB",
-      "modify_value": 2494.0,
-      "modify_value_default": 2494.0,
+      "modify": "+2399 RUB",
+      "modify_value": 2399.0,
+      "modify_value_default": 2399.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -581,11 +581,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31770,
+   "sales": 31809,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 7430,
+   "good_reviews": 7439,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
