@@ -42,10 +42,10 @@
  },
  "product": {
   "id": 3794317,
-  "id_prev": 0,
-  "id_next": 3910475,
+  "id_prev": 3791296,
+  "id_next": 3794809,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 232.09,
+  "price": 221.6,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -53,7 +53,7 @@
   "add_info": "",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 2.32,
+  "agency_sum": 2.22,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 232.09,
-    "USD": 2.75,
-    "EUR": 2.4,
-    "UAH": 123.35,
-    "mBTC": 0.04,
-    "mLTC": 49.48
+    "RUB": 221.6,
+    "USD": 2.61,
+    "EUR": 2.29,
+    "UAH": 117.38,
+    "mBTC": 0.03,
+    "mLTC": 44.29
    },
    "default": {
-    "RUB": 232.09,
-    "USD": 2.75,
-    "EUR": 2.4,
-    "UAH": 123.36,
-    "mBTC": 0.14,
-    "mLTC": 49.78
+    "RUB": 221.6,
+    "USD": 2.61,
+    "EUR": 2.29,
+    "UAH": 117.38,
+    "mBTC": 0.13,
+    "mLTC": 44.59
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 2.75
+      "price": 2.61
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 266.11,
+      "price": 251.44,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 268.66,
+      "price": 253.86,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -138,7 +138,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 2.75,
+      "price": 2.61,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -155,12 +155,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 232.09
+      "price": 221.6
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 3.58
+      "price": 3.39
      }
     ]
    },
@@ -172,17 +172,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 232.09
+      "price": 221.6
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 3.58
+      "price": 3.39
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.04
+      "price": 0.03
      }
     ]
    },
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 301.72,
+      "price": 288.09,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -203,7 +203,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 3.58,
+      "price": 3.39,
       "limit": {
        "max": 300.0
       }
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 49.48,
+      "price": 44.29,
       "limit": {
        "max": 7.3
       }
@@ -219,7 +219,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.04,
+      "price": 0.03,
       "limit": {
        "max": 0.03
       }
@@ -234,22 +234,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 3.58
+      "price": 3.39
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.04
+      "price": 0.03
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 49.48
+      "price": 44.29
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 2.75
+      "price": 2.61
      }
     ]
    },
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.15
+      "price": 1.06
      }
     ]
    },
@@ -273,7 +273,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.14
+      "price": 0.13
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 49.78
+      "price": 44.59
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 232.09
+      "price": 221.6
      }
     ]
    }
@@ -350,7 +350,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "21.09.2026 18:51:21",
+   "date": "21.09.2026 18:52:05",
    "size": null
   },
   "category_id": 135134,
@@ -358,20 +358,20 @@
    {
     "id": 135134,
     "name": "Apple (Турция)",
-    "products_cnt": 4
+    "products_cnt": 7
    }
   ],
   "discounts": [
    {
-    "summa": 84397.0,
+    "summa": 84906.0,
     "percent": 3.0
    },
    {
-    "summa": 42198.0,
+    "summa": 42453.0,
     "percent": 2.0
    },
    {
-    "summa": 8440.0,
+    "summa": 8491.0,
     "percent": 1.0
    }
   ],
@@ -395,59 +395,59 @@
       "modify_value_default": 0.0,
       "modify_type": "",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 856834,
       "text": "250 TL (TRY) Лир",
       "default": 0,
-      "modify": "+4,13 USD",
-      "modify_value": 4.13,
-      "modify_value_default": 4.13,
+      "modify": "+3,91 USD",
+      "modify_value": 3.91,
+      "modify_value_default": 3.91,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 856835,
       "text": "500 TL (TRY) Лир",
       "default": 0,
-      "modify": "+11,02 USD",
-      "modify_value": 11.02,
-      "modify_value_default": 11.02,
+      "modify": "+10,42 USD",
+      "modify_value": 10.42,
+      "modify_value_default": 10.42,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 1594537,
       "text": "1000 TL (TRY) Лир",
       "default": 0,
-      "modify": "+24,79 USD",
-      "modify_value": 24.79,
-      "modify_value_default": 24.79,
+      "modify": "+23,45 USD",
+      "modify_value": 23.45,
+      "modify_value_default": 23.45,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 16038002,
       "text": "1250 TL (TRY) Лир",
       "default": 0,
-      "modify": "+31,68 USD",
-      "modify_value": 31.68,
-      "modify_value_default": 31.68,
+      "modify": "+29,97 USD",
+      "modify_value": 29.97,
+      "modify_value_default": 29.97,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 16038003,
       "text": "1500 TL (TRY) Лир",
       "default": 0,
-      "modify": "+38,56 USD",
-      "modify_value": 38.56,
-      "modify_value_default": 38.56,
+      "modify": "+36,48 USD",
+      "modify_value": 36.48,
+      "modify_value_default": 36.48,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -457,11 +457,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15801,
+   "sales": 15816,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 883,
+   "good_reviews": 884,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

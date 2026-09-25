@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 775.0,
-    "USD": 9.46,
-    "EUR": 8.01,
-    "UAH": 411.91,
+    "USD": 9.4,
+    "EUR": 8.0,
+    "UAH": 410.51,
     "mBTC": 0.13,
-    "mLTC": 183.28
+    "mLTC": 171.82
    },
    "default": {
     "RUB": 775.0,
-    "USD": 9.46,
-    "EUR": 8.01,
-    "UAH": 411.91,
+    "USD": 9.4,
+    "EUR": 8.0,
+    "UAH": 410.51,
     "mBTC": 0.23,
-    "mLTC": 183.58
+    "mLTC": 172.12
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 968.64,
+      "price": 958.38,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 924.2,
+      "price": 914.27,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -131,12 +131,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.82
+      "price": 0.81
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.72
+      "price": 0.71
      }
     ]
    },
@@ -148,7 +148,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 9.46,
+      "price": 9.4,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -177,7 +177,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 915.4,
+      "price": 905.57,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -194,12 +194,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 13.24
+      "price": 13.16
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 11.22
+      "price": 11.2
      },
      {
       "currency": "mBTC",
@@ -209,12 +209,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 183.28
+      "price": 171.82
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 9.46
+      "price": 9.4
      }
     ]
    },
@@ -226,12 +226,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 13.24
+      "price": 13.16
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 11.22
+      "price": 11.2
      }
     ]
    },
@@ -243,12 +243,12 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 13.24
+      "price": 13.16
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 11.22
+      "price": 11.2
      },
      {
       "currency": "mBTC",
@@ -277,7 +277,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 183.58
+      "price": 172.12
      }
     ]
    },
@@ -298,7 +298,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 13.24,
+      "price": 13.16,
       "limit": {
        "max": 300.0
       }
@@ -306,7 +306,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 11.22,
+      "price": 11.2,
       "limit": {
        "max": 300.0
       }
@@ -314,7 +314,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 183.28,
+      "price": 171.82,
       "limit": {
        "max": 7.3
       }
@@ -337,7 +337,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.96
+      "price": 3.81
      }
     ]
    },
@@ -399,27 +399,27 @@
   ],
   "discounts": [
    {
-    "summa": 8439690.0,
+    "summa": 8490570.0,
     "percent": 10.0
    },
    {
-    "summa": 843969.0,
+    "summa": 849057.0,
     "percent": 6.0
    },
    {
-    "summa": 168794.0,
+    "summa": 169811.0,
     "percent": 5.0
    },
    {
-    "summa": 42198.0,
+    "summa": 42453.0,
     "percent": 4.0
    },
    {
-    "summa": 8440.0,
+    "summa": 8491.0,
     "percent": 3.0
    },
    {
-    "summa": 1688.0,
+    "summa": 1698.0,
     "percent": 2.0
    }
   ],
@@ -480,11 +480,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 17630,
+   "sales": 17631,
    "sales_hidden": 0,
    "refunds": 5,
    "refunds_hidden": 0,
-   "good_reviews": 8221,
+   "good_reviews": 8222,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
