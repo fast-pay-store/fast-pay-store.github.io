@@ -70,17 +70,17 @@
     "RUB": 63.85,
     "USD": 1.13,
     "EUR": 0.99,
-    "UAH": 50.82,
+    "UAH": 50.67,
     "mBTC": 0.01,
-    "mLTC": 14.75
+    "mLTC": 14.13
    },
    "default": {
     "RUB": 69.59,
     "USD": 1.13,
     "EUR": 0.99,
-    "UAH": 50.82,
+    "UAH": 50.67,
     "mBTC": 0.11,
-    "mLTC": 15.05
+    "mLTC": 14.43
    }
   },
   "payment_methods": [
@@ -136,7 +136,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 115.21,
+      "price": 115.5,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -153,7 +153,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 109.91,
+      "price": 110.2,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -180,7 +180,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 108.86,
+      "price": 109.15,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 15.05
+      "price": 14.43
      }
     ]
    },
@@ -267,7 +267,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 14.75,
+      "price": 14.13,
       "limit": {
        "max": 7.3
       }
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 14.75
+      "price": 14.13
      },
      {
       "currency": "WMT",
@@ -372,7 +372,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "24.09.2026 23:07:52",
+   "date": "25.09.2026 23:43:38",
    "size": 16
   },
   "category_id": 0,
@@ -645,11 +645,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 48436,
+   "sales": 48485,
    "sales_hidden": 0,
    "refunds": 8,
    "refunds_hidden": 0,
-   "good_reviews": 16902,
+   "good_reviews": 16919,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

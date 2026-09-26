@@ -69,19 +69,19 @@
   "prices": {
    "initial": {
     "RUB": 799.0,
-    "USD": 9.69,
-    "EUR": 9.9,
-    "UAH": 677.15,
+    "USD": 9.76,
+    "EUR": 10.0,
+    "UAH": 679.67,
     "mBTC": 0.14,
-    "mLTC": 183.47
+    "mLTC": 176.98
    },
    "default": {
     "RUB": 799.0,
-    "USD": 9.69,
-    "EUR": 9.9,
-    "UAH": 677.15,
+    "USD": 9.76,
+    "EUR": 10.0,
+    "UAH": 679.67,
     "mBTC": 0.24,
-    "mLTC": 183.77
+    "mLTC": 177.28
    }
   },
   "payment_methods": [
@@ -132,7 +132,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 14.05
+      "price": 14.15
      },
      {
       "currency": "mBTC",
@@ -142,12 +142,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 183.47
+      "price": 176.98
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 9.69
+      "price": 9.76
      }
     ]
    },
@@ -164,7 +164,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 14.05
+      "price": 14.15
      }
     ]
    },
@@ -181,7 +181,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 14.05
+      "price": 14.15
      },
      {
       "currency": "mBTC",
@@ -207,7 +207,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 14.05,
+      "price": 14.15,
       "limit": {
        "max": 300.0
       }
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 183.47,
+      "price": 176.98,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 183.77
+      "price": 177.28
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 9.69,
+      "price": 9.76,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 942.48,
+      "price": 951.77,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 933.51,
+      "price": 942.71,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.93
+      "price": 4.02
      }
     ]
    },
@@ -349,7 +349,7 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 6
+    "products_cnt": 8
    }
   ],
   "options_check": 0,

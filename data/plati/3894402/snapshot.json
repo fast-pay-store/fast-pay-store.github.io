@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 500.0,
-    "USD": 5.89,
-    "EUR": 5.16,
-    "UAH": 264.84,
+    "USD": 5.93,
+    "EUR": 5.22,
+    "UAH": 265.83,
     "mBTC": 0.08,
-    "mLTC": 111.47
+    "mLTC": 107.53
    },
    "default": {
     "RUB": 500.0,
-    "USD": 5.89,
-    "EUR": 5.16,
-    "UAH": 264.84,
+    "USD": 5.93,
+    "EUR": 5.22,
+    "UAH": 265.83,
     "mBTC": 0.18,
-    "mLTC": 111.77
+    "mLTC": 107.83
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 567.42,
+      "price": 572.77,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 572.88,
+      "price": 578.28,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -131,12 +131,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.51
+      "price": 0.52
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.45
+      "price": 0.46
      }
     ]
    },
@@ -160,7 +160,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 8.54
+      "price": 8.6
      },
      {
       "currency": "mBTC",
@@ -170,12 +170,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 111.47
+      "price": 107.53
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 5.89
+      "price": 5.93
      }
     ]
    },
@@ -187,7 +187,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 8.54,
+      "price": 8.6,
       "limit": {
        "max": 300.0
       }
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 111.47,
+      "price": 107.53,
       "limit": {
        "max": 7.3
       }
@@ -232,7 +232,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 8.54
+      "price": 8.6
      },
      {
       "currency": "mBTC",
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.39
+      "price": 2.44
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 8.54
+      "price": 8.6
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 111.77
+      "price": 107.83
      }
     ]
    },
@@ -290,7 +290,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 5.89,
+      "price": 5.93,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -352,24 +352,24 @@
    {
     "id": 132565,
     "name": "Playstation",
-    "products_cnt": 24
+    "products_cnt": 25
    }
   ],
   "discounts": [
    {
-    "summa": 212264.0,
+    "summa": 210854.0,
     "percent": 4.0
    },
    {
-    "summa": 42453.0,
+    "summa": 42171.0,
     "percent": 3.0
    },
    {
-    "summa": 16981.0,
+    "summa": 16868.0,
     "percent": 2.0
    },
    {
-    "summa": 8491.0,
+    "summa": 8434.0,
     "percent": 1.0
    }
   ],
@@ -581,11 +581,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31844,
+   "sales": 31900,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 7445,
+   "good_reviews": 7453,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

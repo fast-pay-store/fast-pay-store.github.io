@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 69.0,
-    "USD": 0.81,
-    "EUR": 0.71,
-    "UAH": 36.55,
+    "USD": 0.82,
+    "EUR": 0.72,
+    "UAH": 36.68,
     "mBTC": 0.01,
-    "mLTC": 13.79
+    "mLTC": 13.3
    },
    "default": {
     "RUB": 69.0,
-    "USD": 0.81,
-    "EUR": 0.71,
-    "UAH": 36.55,
+    "USD": 0.82,
+    "EUR": 0.72,
+    "UAH": 36.68,
     "mBTC": 0.11,
-    "mLTC": 14.09
+    "mLTC": 13.6
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 14.09
+      "price": 13.6
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.33
+      "price": 0.34
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 82.58,
+      "price": 83.82,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -196,7 +196,7 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.07
+      "price": 0.08
      },
      {
       "currency": "EUR",
@@ -223,12 +223,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 13.79
+      "price": 13.3
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 0.81
+      "price": 0.82
      }
     ]
    },
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 13.79,
+      "price": 13.3,
       "limit": {
        "max": 7.3
       }
@@ -343,12 +343,12 @@
    {
     "id": 110708,
     "name": "Подписка Xbox Game Pass Ultimate",
-    "products_cnt": 5
+    "products_cnt": 4
    }
   ],
   "discounts": [
    {
-    "summa": 85.0,
+    "summa": 84.0,
     "percent": 1.0
    }
   ],
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47455,
+   "sales": 47506,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22114,
+   "good_reviews": 22130,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

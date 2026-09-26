@@ -280,28 +280,28 @@
    {
     "id": 132565,
     "name": "Playstation",
-    "products_cnt": 24
+    "products_cnt": 25
    }
   ],
   "discounts": [
    {
-    "summa": 212264.0,
+    "summa": 210854.0,
     "percent": 5.0
    },
    {
-    "summa": 127359.0,
+    "summa": 126512.0,
     "percent": 4.0
    },
    {
-    "summa": 84906.0,
+    "summa": 84341.0,
     "percent": 3.0
    },
    {
-    "summa": 16981.0,
+    "summa": 16868.0,
     "percent": 2.0
    },
    {
-    "summa": 85.0,
+    "summa": 84.0,
     "percent": 1.0
    }
   ],
@@ -428,11 +428,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 89170,
+   "sales": 89184,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 27975,
+   "good_reviews": 27977,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 510.0,
-    "USD": 6.01,
-    "EUR": 5.26,
-    "UAH": 270.14,
+    "USD": 6.05,
+    "EUR": 5.32,
+    "UAH": 271.15,
     "mBTC": 0.09,
-    "mLTC": 113.7
+    "mLTC": 109.68
    },
    "default": {
     "RUB": 510.0,
-    "USD": 6.01,
-    "EUR": 5.26,
-    "UAH": 270.14,
+    "USD": 6.05,
+    "EUR": 5.32,
+    "UAH": 271.15,
     "mBTC": 0.19,
-    "mLTC": 114.0
+    "mLTC": 109.98
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 8.71
+      "price": 8.77
      },
      {
       "currency": "mBTC",
@@ -138,12 +138,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 113.7
+      "price": 109.68
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 6.01
+      "price": 6.05
      }
     ]
    },
@@ -155,7 +155,7 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.52
+      "price": 0.53
      },
      {
       "currency": "EUR",
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 6.01,
+      "price": 6.05,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -194,7 +194,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 8.71
+      "price": 8.77
      },
      {
       "currency": "mBTC",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 114.0
+      "price": 109.98
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.44
+      "price": 2.49
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 8.71,
+      "price": 8.77,
       "limit": {
        "max": 300.0
       }
@@ -264,7 +264,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 113.7,
+      "price": 109.68,
       "limit": {
        "max": 7.3
       }
@@ -292,7 +292,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 8.71
+      "price": 8.77
      }
     ]
    },
@@ -341,7 +341,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "23.09.2026 15:02:45",
+   "date": "25.09.2026 23:13:16",
    "size": 16
   },
   "category_id": 142151,
@@ -354,23 +354,23 @@
   ],
   "discounts": [
    {
-    "summa": 84906.0,
+    "summa": 84341.0,
     "percent": 5.0
    },
    {
-    "summa": 59434.0,
+    "summa": 59039.0,
     "percent": 4.0
    },
    {
-    "summa": 42453.0,
+    "summa": 42171.0,
     "percent": 3.0
    },
    {
-    "summa": 16981.0,
+    "summa": 16868.0,
     "percent": 2.0
    },
    {
-    "summa": 8491.0,
+    "summa": 8434.0,
     "percent": 1.0
    }
   ],
@@ -479,9 +479,9 @@
       "value": 1905479,
       "text": "Активация подписки PS+(если на вашем кошельке есть полная сумма)",
       "default": 0,
-      "modify": "-70 RUB",
-      "modify_value": -70.0,
-      "modify_value_default": -70.0,
+      "modify": "-160 RUB",
+      "modify_value": -160.0,
+      "modify_value_default": -160.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -601,11 +601,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31161,
+   "sales": 31186,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9919,
+   "good_reviews": 9928,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
