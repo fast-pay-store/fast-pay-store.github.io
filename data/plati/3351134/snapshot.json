@@ -59,7 +59,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 1,
-  "num_in_stock": 1,
+  "num_in_stock": 9,
   "num_in_lock": 0,
   "owner": 1,
   "section_id": 22257,
@@ -73,7 +73,7 @@
     "EUR": 10.0,
     "UAH": 679.67,
     "mBTC": 0.14,
-    "mLTC": 176.98
+    "mLTC": 181.66
    },
    "default": {
     "RUB": 799.0,
@@ -81,7 +81,7 @@
     "EUR": 10.0,
     "UAH": 679.67,
     "mBTC": 0.24,
-    "mLTC": 177.28
+    "mLTC": 181.96
    }
   },
   "payment_methods": [
@@ -142,7 +142,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 176.98
+      "price": 181.66
      },
      {
       "currency": "WMT",
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 176.98,
+      "price": 181.66,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 177.28
+      "price": 181.96
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 951.77,
+      "price": 951.02,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 942.71,
+      "price": 941.96,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.02
+      "price": 3.98
      }
     ]
    },
@@ -349,7 +349,7 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 8
+    "products_cnt": 5
    }
   ],
   "options_check": 0,

@@ -5,7 +5,7 @@
   "id_prev": 672298,
   "id_next": 3995170,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (Россия) 500-25000 руб. НИЗКАЯ ЦЕНА",
-  "price": 678.4,
+  "price": 673.89,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/1440095",
@@ -32,15 +32,15 @@
     "EUR": 7.03,
     "UAH": 383.36,
     "mBTC": 0.09,
-    "mLTC": 108.8
+    "mLTC": 111.51
    },
    "default": {
-    "RUB": 678.4,
+    "RUB": 673.89,
     "USD": 7.99,
-    "EUR": 7.0,
-    "UAH": 384.49,
+    "EUR": 7.03,
+    "UAH": 383.36,
     "mBTC": 0.19,
-    "mLTC": 109.1
+    "mLTC": 111.81
    }
   },
   "payment_methods": [
@@ -81,7 +81,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 771.75,
+      "price": 771.13,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -113,7 +113,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 108.8
+      "price": 111.51
      },
      {
       "currency": "WMT",
@@ -147,7 +147,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 779.17,
+      "price": 778.55,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -164,7 +164,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 109.1
+      "price": 111.81
      }
     ]
    },
@@ -188,7 +188,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.29
+      "price": 3.26
      }
     ]
    },
@@ -225,7 +225,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 108.8,
+      "price": 111.51,
       "limit": {
        "max": 7.3
       }
@@ -611,11 +611,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 156610,
+   "sales": 157017,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 4229,
+   "good_reviews": 4232,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0
