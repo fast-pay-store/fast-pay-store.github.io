@@ -72,7 +72,7 @@
     "EUR": 13.19,
     "UAH": 719.22,
     "mBTC": 0.18,
-    "mLTC": 209.2
+    "mLTC": 213.59
    },
    "default": {
     "RUB": 1390.72,
@@ -80,7 +80,7 @@
     "EUR": 13.19,
     "UAH": 719.22,
     "mBTC": 0.28,
-    "mLTC": 209.5
+    "mLTC": 213.89
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1446.72,
+      "price": 1448.36,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -136,7 +136,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 209.2
+      "price": 213.59
      },
      {
       "currency": "WMT",
@@ -170,7 +170,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1460.63,
+      "price": 1462.29,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -187,7 +187,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 209.5
+      "price": 213.89
      }
     ]
    },
@@ -211,7 +211,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 6.11
+      "price": 6.17
      }
     ]
    },
@@ -248,7 +248,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 209.2,
+      "price": 213.59,
       "limit": {
        "max": 7.3
       }
@@ -354,7 +354,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "25.09.2026 23:48:09",
+   "date": "27.09.2026 08:45:06",
    "size": null
   },
   "category_id": 107242,
@@ -362,7 +362,7 @@
    {
     "id": 107242,
     "name": "Visa, US Bank, AUTO 3DS, USD",
-    "products_cnt": 26
+    "products_cnt": 25
    }
   ],
   "discounts": [
@@ -387,7 +387,7 @@
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 6,
+   "bad_reviews": 5,
    "bad_reviews_hidden": 0
   },
   "seller": {

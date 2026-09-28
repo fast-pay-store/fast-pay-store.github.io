@@ -5,7 +5,7 @@
   "id_prev": 2147588,
   "id_next": 2147597,
   "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
-  "price": 460.79,
+  "price": 462.21,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/2147595",
@@ -32,15 +32,15 @@
     "EUR": 4.5,
     "UAH": 229.59,
     "mBTC": 0.07,
-    "mLTC": 86.12
+    "mLTC": 87.92
    },
    "default": {
-    "RUB": 460.79,
+    "RUB": 462.21,
     "USD": 5.12,
     "EUR": 4.5,
-    "UAH": 230.26,
+    "UAH": 229.59,
     "mBTC": 0.17,
-    "mLTC": 86.42
+    "mLTC": 88.22
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "ENT",
-      "price": 460.79,
+      "price": 462.2,
       "limit": {
        "min": 40.0
       }
@@ -106,7 +106,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 86.12
+      "price": 87.92
      },
      {
       "currency": "WMT",
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 494.14,
+      "price": 494.71,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 498.9,
+      "price": 499.47,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 86.42
+      "price": 88.22
      }
     ]
    },
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 86.12,
+      "price": 87.92,
       "limit": {
        "max": 7.3
       }
@@ -307,7 +307,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.09
+      "price": 2.11
      }
     ]
    },
@@ -319,7 +319,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 460.79
+      "price": 462.21
      }
     ]
    }
@@ -343,7 +343,7 @@
    {
     "id": 55908,
     "name": "STEAM",
-    "products_cnt": 116
+    "products_cnt": 115
    }
   ],
   "options_check": 0,

@@ -224,10 +224,10 @@
   },
   "preview_imgs": [
    {
-    "id": 6681630,
-    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=6681630",
-    "width": 250,
-    "height": 250
+    "id": 10917583,
+    "url": "https://digiseller.mycdn.ink/imgwebp.ashx?idp=10917583",
+    "width": 742,
+    "height": 742
    },
    {
     "id": 7416362,
@@ -251,7 +251,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "18.09.2026 13:36:05",
+   "date": "27.09.2026 22:31:01",
    "size": 16
   },
   "category_id": 107242,
@@ -259,7 +259,7 @@
    {
     "id": 107242,
     "name": "Visa, US Bank, AUTO 3DS, USD",
-    "products_cnt": 26
+    "products_cnt": 25
    }
   ],
   "units": {

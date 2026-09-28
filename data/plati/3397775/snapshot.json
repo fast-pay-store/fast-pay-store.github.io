@@ -72,7 +72,7 @@
     "EUR": 5.21,
     "UAH": 265.3,
     "mBTC": 0.08,
-    "mLTC": 110.15
+    "mLTC": 112.46
    },
    "default": {
     "RUB": 499.0,
@@ -80,7 +80,7 @@
     "EUR": 5.21,
     "UAH": 265.3,
     "mBTC": 0.18,
-    "mLTC": 110.45
+    "mLTC": 112.76
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 571.35,
+      "price": 572.0,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 576.85,
+      "price": 577.5,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -170,7 +170,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 110.15
+      "price": 112.46
      },
      {
       "currency": "WMT",
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 110.15,
+      "price": 112.46,
       "limit": {
        "max": 7.3
       }
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.41
+      "price": 2.44
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 110.45
+      "price": 112.76
      }
     ]
    },
@@ -362,7 +362,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "25.09.2026 22:38:36",
+   "date": "28.09.2026 13:49:52",
    "size": 16
   },
   "category_id": 0,
@@ -417,9 +417,9 @@
       "value": 1070685,
       "text": "• DELUXE 12 Месяцев СКИДКА! (БЕЗ активной подписки)",
       "default": 0,
-      "modify": "+9300 RUB",
-      "modify_value": 9300.0,
-      "modify_value_default": 9300.0,
+      "modify": "+9500 RUB",
+      "modify_value": 9500.0,
+      "modify_value_default": 9500.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -629,13 +629,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 66684,
+   "sales": 66727,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15569,
+   "good_reviews": 15575,
    "good_reviews_hidden": 0,
-   "bad_reviews": 0,
+   "bad_reviews": 1,
    "bad_reviews_hidden": 0
   },
   "seller": {
