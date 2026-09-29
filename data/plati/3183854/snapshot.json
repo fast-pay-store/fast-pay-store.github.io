@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 199.0,
     "USD": 2.36,
-    "EUR": 2.08,
-    "UAH": 105.8,
+    "EUR": 2.07,
+    "UAH": 105.65,
     "mBTC": 0.04,
-    "mLTC": 33.62
+    "mLTC": 34.34
    },
    "default": {
     "RUB": 199.0,
     "USD": 3.14,
-    "EUR": 2.77,
-    "UAH": 140.72,
+    "EUR": 2.76,
+    "UAH": 140.52,
     "mBTC": 0.14,
-    "mLTC": 33.92
+    "mLTC": 34.64
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 241.3,
+      "price": 241.28,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 230.22,
+      "price": 230.2,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 33.92
+      "price": 34.64
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.97
+      "price": 0.95
      }
     ]
    },
@@ -230,7 +230,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.76
+      "price": 2.75
      },
      {
       "currency": "mBTC",
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 33.62
+      "price": 34.34
      },
      {
       "currency": "WMT",
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.76,
+      "price": 2.75,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 33.62,
+      "price": 34.34,
       "limit": {
        "max": 7.3
       }
@@ -315,7 +315,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.76
+      "price": 2.75
      }
     ]
    },
@@ -337,7 +337,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.76
+      "price": 2.75
      },
      {
       "currency": "mBTC",
@@ -386,7 +386,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168683.0,
+    "summa": 168815.0,
     "percent": 1.0
    }
   ],
@@ -627,7 +627,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 111885,
+   "sales": 111887,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,

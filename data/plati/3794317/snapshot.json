@@ -45,7 +45,7 @@
   "id_prev": 3791296,
   "id_next": 3794809,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 220.13,
+  "price": 220.3,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 220.13,
+    "RUB": 220.3,
     "USD": 2.61,
-    "EUR": 2.3,
-    "UAH": 117.04,
+    "EUR": 2.29,
+    "UAH": 116.97,
     "mBTC": 0.03,
-    "mLTC": 44.48
+    "mLTC": 45.46
    },
    "default": {
-    "RUB": 220.13,
+    "RUB": 220.3,
     "USD": 2.61,
-    "EUR": 2.3,
-    "UAH": 117.04,
+    "EUR": 2.29,
+    "UAH": 116.97,
     "mBTC": 0.13,
-    "mLTC": 44.78
+    "mLTC": 45.76
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 252.18,
+      "price": 251.52,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 254.61,
+      "price": 253.94,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,7 +155,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 220.13
+      "price": 220.3
      },
      {
       "currency": "USD",
@@ -172,7 +172,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 220.13
+      "price": 220.3
      },
      {
       "currency": "USD",
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 286.17,
+      "price": 286.39,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 44.48,
+      "price": 45.46,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 44.48
+      "price": 45.46
      },
      {
       "currency": "WMT",
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.07
+      "price": 1.05
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 44.78
+      "price": 45.76
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 220.13
+      "price": 220.3
      }
     ]
    }
@@ -363,15 +363,15 @@
   ],
   "discounts": [
    {
-    "summa": 84341.0,
+    "summa": 84408.0,
     "percent": 3.0
    },
    {
-    "summa": 42171.0,
+    "summa": 42204.0,
     "percent": 2.0
    },
    {
-    "summa": 8434.0,
+    "summa": 8441.0,
     "percent": 1.0
    }
   ],
@@ -457,7 +457,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15837,
+   "sales": 15842,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

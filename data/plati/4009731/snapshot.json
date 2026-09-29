@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 249.0,
     "USD": 2.95,
-    "EUR": 2.6,
-    "UAH": 132.38,
+    "EUR": 2.59,
+    "UAH": 132.2,
     "mBTC": 0.04,
-    "mLTC": 52.25
+    "mLTC": 53.43
    },
    "default": {
     "RUB": 249.0,
     "USD": 2.95,
-    "EUR": 2.6,
-    "UAH": 132.38,
+    "EUR": 2.59,
+    "UAH": 132.2,
     "mBTC": 0.14,
-    "mLTC": 52.55
+    "mLTC": 53.73
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 287.78,
+      "price": 287.03,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 301.63,
+      "price": 300.87,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -165,7 +165,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 3.99
+      "price": 3.98
      },
      {
       "currency": "mBTC",
@@ -182,7 +182,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 3.99
+      "price": 3.98
      },
      {
       "currency": "mBTC",
@@ -192,7 +192,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 52.25
+      "price": 53.43
      },
      {
       "currency": "WMT",
@@ -221,7 +221,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 3.99,
+      "price": 3.98,
       "limit": {
        "max": 300.0
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 52.25,
+      "price": 53.43,
       "limit": {
        "max": 7.3
       }
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 3.99
+      "price": 3.98
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 285.04,
+      "price": 284.29,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 52.55
+      "price": 53.73
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.22
+      "price": 1.19
      }
     ]
    },
@@ -407,7 +407,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 84341.0,
+    "summa": 84408.0,
     "percent": 1.0
    }
   ],

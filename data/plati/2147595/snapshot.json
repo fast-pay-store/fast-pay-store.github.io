@@ -5,7 +5,7 @@
   "id_prev": 2147588,
   "id_next": 2147597,
   "name": "STEAM WALLET GIFT CARD 5$ НЕ GLOBAL (СМ. ОПИСАНИЕ)",
-  "price": 462.21,
+  "price": 462.57,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/2147595",
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 431.83,
+    "RUB": 432.17,
     "USD": 5.12,
-    "EUR": 4.5,
-    "UAH": 229.59,
+    "EUR": 4.49,
+    "UAH": 229.45,
     "mBTC": 0.07,
-    "mLTC": 87.92
+    "mLTC": 89.99
    },
    "default": {
-    "RUB": 462.21,
+    "RUB": 462.57,
     "USD": 5.12,
-    "EUR": 4.5,
-    "UAH": 229.59,
+    "EUR": 4.49,
+    "UAH": 229.45,
     "mBTC": 0.17,
-    "mLTC": 88.22
+    "mLTC": 90.29
    }
   },
   "payment_methods": [
@@ -52,7 +52,7 @@
      {
       "currency": "RUB",
       "code": "ENT",
-      "price": 462.2,
+      "price": 462.56,
       "limit": {
        "min": 40.0
       }
@@ -67,7 +67,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 483.68
+      "price": 484.06
      }
     ]
    },
@@ -96,7 +96,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 5.9
+      "price": 5.88
      },
      {
       "currency": "mBTC",
@@ -106,7 +106,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 87.92
+      "price": 89.99
      },
      {
       "currency": "WMT",
@@ -123,7 +123,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 546.52
+      "price": 546.95
      }
     ]
    },
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 494.71,
+      "price": 494.65,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 499.47,
+      "price": 499.4,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -186,7 +186,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 431.83
+      "price": 432.17
      },
      {
       "currency": "USD",
@@ -196,7 +196,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 5.9
+      "price": 5.88
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 431.83
+      "price": 432.17
      },
      {
       "currency": "USD",
@@ -218,7 +218,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 5.9
+      "price": 5.88
      },
      {
       "currency": "mBTC",
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 88.22
+      "price": 90.29
      }
     ]
    },
@@ -267,7 +267,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 565.69,
+      "price": 566.14,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -276,7 +276,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 5.9,
+      "price": 5.88,
       "limit": {
        "max": 300.0
       }
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 87.92,
+      "price": 89.99,
       "limit": {
        "max": 7.3
       }
@@ -307,7 +307,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.11
+      "price": 2.07
      }
     ]
    },
@@ -319,7 +319,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 462.21
+      "price": 462.57
      }
     ]
    }
