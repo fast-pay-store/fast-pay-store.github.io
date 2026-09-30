@@ -70,17 +70,17 @@
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.72,
-    "UAH": 36.63,
+    "UAH": 36.67,
     "mBTC": 0.01,
-    "mLTC": 14.26
+    "mLTC": 14.49
    },
    "default": {
     "RUB": 69.0,
     "USD": 0.82,
     "EUR": 0.72,
-    "UAH": 36.63,
+    "UAH": 36.67,
     "mBTC": 0.11,
-    "mLTC": 14.56
+    "mLTC": 14.79
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 14.56
+      "price": 14.79
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.83,
+      "price": 82.08,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 14.26
+      "price": 14.49
      },
      {
       "currency": "WMT",
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 14.26,
+      "price": 14.49,
       "limit": {
        "max": 7.3
       }
@@ -343,7 +343,7 @@
    {
     "id": 110708,
     "name": "Подписка Xbox Game Pass Ultimate",
-    "products_cnt": 4
+    "products_cnt": 5
    }
   ],
   "discounts": [
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47648,
+   "sales": 47678,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22172,
+   "good_reviews": 22184,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

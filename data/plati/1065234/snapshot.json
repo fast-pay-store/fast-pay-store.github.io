@@ -5,7 +5,7 @@
   "id_prev": 1042194,
   "id_next": 1071271,
   "name": "✅[АВТО 24/7] US/EU Card 5-10000$ | ПРОЙДЕТ ВЕЗДЕ | НИЗКАЯ ЦЕНА",
-  "price": 1088.86,
+  "price": 1089.13,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/1065234",
@@ -213,7 +213,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD (EUR)",
-   "unit_amount": 1088.86,
+   "unit_amount": 1089.13,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -264,48 +264,48 @@
   ],
   "units": {
    "desc": "1 USD (EUR)",
-   "price": 108.885675,
+   "price": 108.912507,
    "discounts": [
     {
      "desc": "150 USD (EUR)",
      "percent": 2.0,
-     "price": 106.708,
+     "price": 106.7343,
      "cnt": 150.0
     },
     {
      "desc": "200 USD (EUR)",
      "percent": 3.0,
-     "price": 105.6191,
+     "price": 105.6451,
      "cnt": 200.0
     },
     {
      "desc": "250 USD (EUR)",
      "percent": 4.0,
-     "price": 104.5302,
+     "price": 104.556,
      "cnt": 250.0
     },
     {
      "desc": "350 USD (EUR)",
      "percent": 5.0,
-     "price": 103.4414,
+     "price": 103.4669,
      "cnt": 350.0
     },
     {
      "desc": "400 USD (EUR)",
      "percent": 6.0,
-     "price": 102.3525,
+     "price": 102.3778,
      "cnt": 400.0
     },
     {
      "desc": "450 USD (EUR)",
      "percent": 7.0,
-     "price": 101.2637,
+     "price": 101.2886,
      "cnt": 450.0
     },
     {
      "desc": "500 USD (EUR)",
      "percent": 8.0,
-     "price": 100.1748,
+     "price": 100.1995,
      "cnt": 500.0
     }
    ]

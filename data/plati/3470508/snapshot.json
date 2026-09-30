@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🎮 ПОКУПКА ИГР PS4/PS5 | ПОПОЛНЕНИЕ PSN STORE🎁 ТУРЦИЯ GTA 6",
-  "price": 594.0,
+  "price": 603.9,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3470508",
@@ -53,7 +53,7 @@
   "add_info": "<delivery>🚩 ДРУГИЕ ТОВАРЫ ANGENSHOP 🚩<br /><br />🇹🇷 Турция:<br />• 🏷 Карты пополнения PSN 250-5000 TRY | Код -&gt; https://plati.market/itm/ps-gift-card-psn-tr-250-5000-tl-top-up-gift-card/5626371<br />• 🎮 PS Plus / EA Play 1-12 месяцев -&gt; https://plati.market/itm/playstation-plus-essential-extra-deluxe-1-12-m/3460192<br />• 👤 Создание турецкого аккаунта PSN -&gt; https://plati.market/itm/3983243<br /><br />🇺🇦 Украина:<br />• 🛒 Покупка игр PS4/PS5 / пополнение PS Store -&gt; https://plati.market/itm/3996187<br />• 🎮 PS Plus / EA Play 1-12 месяцев -&gt; https://plati.market/itm/3996057<br />• 👤 Создание украинского аккаунта PSN -&gt; https://plati.market/itm/3981160<br /><br />🇮🇳 Индия:<br />• 🏷 Карты пополнения PSN 1000-12000 INR | Код -&gt; https://plati.market/itm/5972235<br />• 👤 Создание индийского аккаунта PSN -&gt; https://plati.market/itm/5975001<br /><br />────────────<br />❤️ Все товары магазина -&gt; https://plati.market/seller/angenshop/1081110/<br /><br />🛑 ОБРАТИТЕ ВНИМАНИЕ 🛑<br />• ⏳ Среднее время выполнения: 5-30 минут с начала обработки заказа, максимум 24 часа после предоставления данных.<br />• 🌍 Покупка игр и пополнение выполняются для аккаунтов PSN региона Турция.<br />• 🕘 Рабочие часы: ежедневно 09:00-00:00 МСК.<br />• ❓ Если не уверены в регионе или способе пополнения, напишите в чат выше на странице.</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 6.0,
+  "agency_sum": 6.1,
   "agency_id": 0,
   "collection": "unit",
   "propertygood": 2,
@@ -235,7 +235,7 @@
   ],
   "prices_unit": {
    "unit_name": "TL",
-   "unit_amount": 594.0,
+   "unit_amount": 603.9,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 250,
@@ -266,26 +266,26 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "14.08.2026 17:32:27",
+   "date": "30.09.2026 00:16:33",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 168815.0,
+    "summa": 168857.0,
     "percent": 5.0
    },
    {
-    "summa": 126611.0,
+    "summa": 126642.0,
     "percent": 4.0
    },
    {
-    "summa": 84408.0,
+    "summa": 84428.0,
     "percent": 3.0
    },
    {
-    "summa": 42204.0,
+    "summa": 42214.0,
     "percent": 2.0
    },
    {
@@ -295,54 +295,54 @@
   ],
   "units": {
    "desc": "1 TL",
-   "price": 2.4,
+   "price": 2.44,
    "discounts": [
     {
      "desc": "200 TL",
      "percent": 1.0,
-     "price": 2.376,
+     "price": 2.4156,
      "cnt": 200.0
     },
     {
      "desc": "500 TL",
      "percent": 2.0,
-     "price": 2.352,
+     "price": 2.3912,
      "cnt": 500.0
     },
     {
      "desc": "1200 TL",
      "percent": 3.0,
-     "price": 2.328,
+     "price": 2.3668,
      "cnt": 1200.0
     },
     {
      "desc": "2 тыс. TL",
      "percent": 4.0,
-     "price": 2.304,
+     "price": 2.3424,
      "cnt": 2000.0
     },
     {
      "desc": "3 тыс. TL",
      "percent": 5.0,
-     "price": 2.28,
+     "price": 2.318,
      "cnt": 3000.0
     },
     {
      "desc": "6 тыс. TL",
-     "percent": 6.0,
-     "price": 2.256,
+     "percent": 5.0,
+     "price": 2.318,
      "cnt": 6000.0
     },
     {
      "desc": "8 тыс. TL",
-     "percent": 7.0,
-     "price": 2.232,
+     "percent": 5.0,
+     "price": 2.318,
      "cnt": 8000.0
     },
     {
      "desc": "10 тыс. TL",
-     "percent": 10.0,
-     "price": 2.16,
+     "percent": 5.0,
+     "price": 2.318,
      "cnt": 10000.0
     }
    ]
@@ -451,7 +451,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 50186,
+   "sales": 50188,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

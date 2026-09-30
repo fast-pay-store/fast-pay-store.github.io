@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 499.0,
     "USD": 5.91,
-    "EUR": 5.18,
-    "UAH": 264.93,
+    "EUR": 5.19,
+    "UAH": 265.16,
     "mBTC": 0.08,
-    "mLTC": 115.01
+    "mLTC": 116.85
    },
    "default": {
     "RUB": 499.0,
     "USD": 5.91,
-    "EUR": 5.18,
-    "UAH": 264.93,
+    "EUR": 5.19,
+    "UAH": 265.16,
     "mBTC": 0.18,
-    "mLTC": 115.31
+    "mLTC": 117.15
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 570.97,
+      "price": 558.65,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 576.46,
+      "price": 564.02,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -170,7 +170,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 115.01
+      "price": 116.85
      },
      {
       "currency": "WMT",
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 115.01,
+      "price": 116.85,
       "limit": {
        "max": 7.3
       }
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.39
+      "price": 2.41
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 115.31
+      "price": 117.15
      }
     ]
    },
@@ -362,14 +362,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "28.09.2026 13:49:52",
+   "date": "30.09.2026 00:19:06",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 84408.0,
+    "summa": 84428.0,
     "percent": 3.0
    },
    {
@@ -397,9 +397,9 @@
       "value": 1070680,
       "text": "• ESSENTIAL 12 Месяцев СКИДКА! (БЕЗ активной подписки)",
       "default": 0,
-      "modify": "+5900 RUB",
-      "modify_value": 5900.0,
-      "modify_value_default": 5900.0,
+      "modify": "+5700 RUB",
+      "modify_value": 5700.0,
+      "modify_value_default": 5700.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -417,9 +417,9 @@
       "value": 1070685,
       "text": "• DELUXE 12 Месяцев СКИДКА! (БЕЗ активной подписки)",
       "default": 0,
-      "modify": "+9500 RUB",
-      "modify_value": 9500.0,
-      "modify_value_default": 9500.0,
+      "modify": "+9200 RUB",
+      "modify_value": 9200.0,
+      "modify_value_default": 9200.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -629,13 +629,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 66747,
+   "sales": 66777,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15576,
+   "good_reviews": 15578,
    "good_reviews_hidden": 0,
-   "bad_reviews": 1,
+   "bad_reviews": 0,
    "bad_reviews_hidden": 0
   },
   "seller": {
