@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 100.0,
     "USD": 1.43,
-    "EUR": 1.04,
-    "UAH": 53.14,
+    "EUR": 1.05,
+    "UAH": 53.47,
     "mBTC": 0.04,
-    "mLTC": 17.55
+    "mLTC": 17.94
    },
    "default": {
     "RUB": 100.0,
     "USD": 1.43,
-    "EUR": 1.04,
-    "UAH": 53.14,
+    "EUR": 1.05,
+    "UAH": 53.47,
     "mBTC": 0.14,
-    "mLTC": 17.85
+    "mLTC": 18.24
    }
   },
   "payment_methods": [
@@ -131,7 +131,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 143.14,
+      "price": 143.8,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -165,7 +165,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 1.04
+      "price": 1.05
      },
      {
       "currency": "mBTC",
@@ -175,7 +175,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.55
+      "price": 17.94
      },
      {
       "currency": "WMT",
@@ -202,7 +202,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 1.04
+      "price": 1.05
      }
     ]
    },
@@ -224,7 +224,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 1.04
+      "price": 1.05
      },
      {
       "currency": "mBTC",
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 17.85
+      "price": 18.24
      }
     ]
    },
@@ -316,7 +316,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 1.04,
+      "price": 1.05,
       "limit": {
        "max": 300.0
       }
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.55,
+      "price": 17.94,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.58
+      "price": 0.59
      }
     ]
    },
@@ -480,9 +480,9 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15493,
+   "sales": 15495,
    "sales_hidden": 0,
-   "refunds": 114,
+   "refunds": 115,
    "refunds_hidden": 0,
    "good_reviews": 2015,
    "good_reviews_hidden": 0,

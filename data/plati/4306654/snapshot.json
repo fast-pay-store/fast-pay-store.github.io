@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 699.0,
-    "USD": 8.28,
-    "EUR": 7.28,
-    "UAH": 371.43,
+    "USD": 8.37,
+    "EUR": 7.37,
+    "UAH": 373.78,
     "mBTC": 0.11,
-    "mLTC": 152.4
+    "mLTC": 155.74
    },
    "default": {
     "RUB": 699.0,
-    "USD": 8.28,
-    "EUR": 7.28,
-    "UAH": 371.43,
+    "USD": 8.37,
+    "EUR": 7.37,
+    "UAH": 373.78,
     "mBTC": 0.21,
-    "mLTC": 152.7
+    "mLTC": 156.04
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 790.19,
+      "price": 802.59,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -126,12 +126,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.72
+      "price": 0.73
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.63
+      "price": 0.64
      }
     ]
    },
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 828.84,
+      "price": 841.7,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -165,7 +165,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 11.18
+      "price": 11.29
      },
      {
       "currency": "mBTC",
@@ -182,7 +182,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 11.18
+      "price": 11.29
      },
      {
       "currency": "mBTC",
@@ -192,12 +192,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 152.4
+      "price": 155.74
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 8.28
+      "price": 8.37
      }
     ]
    },
@@ -221,7 +221,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 11.18,
+      "price": 11.29,
       "limit": {
        "max": 300.0
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 152.4,
+      "price": 155.74,
       "limit": {
        "max": 7.3
       }
@@ -266,7 +266,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 11.18
+      "price": 11.29
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 782.67,
+      "price": 794.95,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -295,7 +295,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 8.28,
+      "price": 8.37,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 152.7
+      "price": 156.04
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 3.37
+      "price": 3.45
      }
     ]
    },
@@ -400,14 +400,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "18.09.2026 15:40:15",
+   "date": "01.10.2026 16:00:05",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 84428.0,
+    "summa": 83559.0,
     "percent": 1.0
    }
   ],
@@ -454,11 +454,11 @@
      },
      {
       "value": 19817021,
-      "text": "4. Продление ChatGPT PRO X20 — 1 МЕСЯЦ | Временно отключен",
+      "text": "4. Продление ChatGPT PRO X20 — 1 МЕСЯЦ | На Ваш аккаунт | Оф.Метод",
       "default": 0,
-      "modify": "+99999 RUB",
-      "modify_value": 99999.0,
-      "modify_value_default": 99999.0,
+      "modify": "+20800 RUB",
+      "modify_value": 20800.0,
+      "modify_value_default": 20800.0,
       "modify_type": "RUB",
       "visible": 1
      },
