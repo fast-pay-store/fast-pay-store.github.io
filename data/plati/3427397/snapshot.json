@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 225.5,
-    "USD": 2.91,
-    "EUR": 2.38,
-    "UAH": 120.58,
+    "USD": 2.93,
+    "EUR": 2.39,
+    "UAH": 121.45,
     "mBTC": 0.04,
-    "mLTC": 40.45
+    "mLTC": 38.85
    },
    "default": {
     "RUB": 240.01,
-    "USD": 2.91,
-    "EUR": 2.38,
-    "UAH": 120.58,
+    "USD": 2.93,
+    "EUR": 2.39,
+    "UAH": 121.45,
     "mBTC": 0.14,
-    "mLTC": 40.75
+    "mLTC": 39.15
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 292.63,
+      "price": 295.24,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 279.04,
+      "price": 281.54,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 276.38,
+      "price": 278.85,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -177,7 +177,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 2.91,
+      "price": 2.93,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -194,12 +194,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 3.5
+      "price": 3.51
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.85
+      "price": 2.86
      },
      {
       "currency": "mBTC",
@@ -209,12 +209,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 40.45
+      "price": 38.85
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 2.91
+      "price": 2.93
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 40.75
+      "price": 39.15
      }
     ]
    },
@@ -255,12 +255,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 3.5
+      "price": 3.51
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.85
+      "price": 2.86
      }
     ]
    },
@@ -277,12 +277,12 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 3.5
+      "price": 3.51
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.85
+      "price": 2.86
      },
      {
       "currency": "mBTC",
@@ -308,7 +308,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 3.5,
+      "price": 3.51,
       "limit": {
        "max": 300.0
       }
@@ -316,7 +316,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.85,
+      "price": 2.86,
       "limit": {
        "max": 300.0
       }
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 40.45,
+      "price": 38.85,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.2
+      "price": 1.18
      }
     ]
    },
@@ -422,18 +422,18 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "30.09.2026 12:24:58",
+   "date": "02.10.2026 11:04:26",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 41779.0,
+    "summa": 41623.0,
     "percent": 2.0
    },
    {
-    "summa": 25068.0,
+    "summa": 24974.0,
     "percent": 1.0
    }
   ],
@@ -501,9 +501,9 @@
       "value": 662542,
       "text": "12 месяц индивидуально [= Любой аккаунт =]",
       "default": 0,
-      "modify": "+1828 RUB",
-      "modify_value": 1828.0,
-      "modify_value_default": 1945.55,
+      "modify": "+1928 RUB",
+      "modify_value": 1928.0,
+      "modify_value_default": 2051.98,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -650,7 +650,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 10,
+   "bad_reviews": 11,
    "bad_reviews_hidden": 0
   },
   "seller": {

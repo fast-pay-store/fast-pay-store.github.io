@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🍏 [АВТО 24\\7] Подарочная карта Apple iTunes 10-5000 TRY (Турция)",
-  "price": 17.0,
+  "price": 20.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6078010",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /><br />⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат средств невозможен.<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы;<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br /></attention></delivery><br />",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 0.17,
+  "agency_sum": 0.2,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 17.0,
-    "USD": 0.2,
-    "EUR": 0.18,
-    "UAH": 9.09,
+    "RUB": 20.0,
+    "USD": 0.24,
+    "EUR": 0.21,
+    "UAH": 10.77,
     "mBTC": 0.04,
-    "mLTC": 3.05
+    "mLTC": 3.45
    },
    "default": {
-    "RUB": 17.0,
-    "USD": 0.27,
-    "EUR": 0.24,
-    "UAH": 12.09,
+    "RUB": 20.0,
+    "USD": 0.32,
+    "EUR": 0.28,
+    "UAH": 14.33,
     "mBTC": 0.14,
-    "mLTC": 3.35
+    "mLTC": 3.75
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 17.0
+      "price": 20.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 18.52
+      "price": 21.79
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 18.92
+      "price": 22.26
      }
     ]
    },
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 19.18,
+      "price": 23.06,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.35
+      "price": 3.75
      }
     ]
    },
@@ -169,7 +169,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.08
+      "price": 0.1
      }
     ]
    },
@@ -181,12 +181,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 0.27
+      "price": 0.32
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 0.24
+      "price": 0.28
      },
      {
       "currency": "mBTC",
@@ -196,12 +196,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.05
+      "price": 3.45
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 0.2
+      "price": 0.24
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 22.61,
+      "price": 26.6,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -222,7 +222,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 0.27,
+      "price": 0.32,
       "limit": {
        "max": 300.0
       }
@@ -230,7 +230,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 0.24,
+      "price": 0.28,
       "limit": {
        "max": 300.0
       }
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.05,
+      "price": 3.45,
       "limit": {
        "max": 7.3
       }
@@ -261,17 +261,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 17.0
+      "price": 20.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 0.27
+      "price": 0.32
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 0.24
+      "price": 0.28
      }
     ]
    },
@@ -283,17 +283,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 17.0
+      "price": 20.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 0.27
+      "price": 0.32
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 0.24
+      "price": 0.28
      },
      {
       "currency": "mBTC",
@@ -310,7 +310,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 17.0
+      "price": 20.0
      }
     ]
    }
@@ -331,14 +331,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "30.09.2026 13:12:16",
+   "date": "01.10.2026 19:47:36",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 41779.0,
+    "summa": 41623.0,
     "percent": 1.0
    }
   ],
@@ -369,9 +369,9 @@
       "value": 30495972,
       "text": "15 TL (TRY)",
       "default": 0,
-      "modify": "+22 RUB",
-      "modify_value": 22.0,
-      "modify_value_default": 22.0,
+      "modify": "+19 RUB",
+      "modify_value": 19.0,
+      "modify_value_default": 19.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -380,9 +380,9 @@
       "value": 30495973,
       "text": "20 TL (TRY)",
       "default": 0,
-      "modify": "+42 RUB",
-      "modify_value": 42.0,
-      "modify_value_default": 42.0,
+      "modify": "+39 RUB",
+      "modify_value": 39.0,
+      "modify_value_default": 39.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -391,9 +391,9 @@
       "value": 29923978,
       "text": "25 TL (TRY)",
       "default": 0,
-      "modify": "+62 RUB",
-      "modify_value": 62.0,
-      "modify_value_default": 62.0,
+      "modify": "+59 RUB",
+      "modify_value": 59.0,
+      "modify_value_default": 59.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -402,9 +402,9 @@
       "value": 30495974,
       "text": "30 TL (TRY)",
       "default": 0,
-      "modify": "+82 RUB",
-      "modify_value": 82.0,
-      "modify_value_default": 82.0,
+      "modify": "+79 RUB",
+      "modify_value": 79.0,
+      "modify_value_default": 79.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -413,9 +413,9 @@
       "value": 30495975,
       "text": "40 TL (TRY)",
       "default": 0,
-      "modify": "+112 RUB",
-      "modify_value": 112.0,
-      "modify_value_default": 112.0,
+      "modify": "+109 RUB",
+      "modify_value": 109.0,
+      "modify_value_default": 109.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -424,9 +424,9 @@
       "value": 29923979,
       "text": "50 TL (TRY)",
       "default": 0,
-      "modify": "+132 RUB",
-      "modify_value": 132.0,
-      "modify_value_default": 132.0,
+      "modify": "+129 RUB",
+      "modify_value": 129.0,
+      "modify_value_default": 129.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -435,9 +435,9 @@
       "value": 30495977,
       "text": "75 TL (TRY)",
       "default": 0,
-      "modify": "+172 RUB",
-      "modify_value": 172.0,
-      "modify_value_default": 172.0,
+      "modify": "+169 RUB",
+      "modify_value": 169.0,
+      "modify_value_default": 169.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -446,9 +446,9 @@
       "value": 29923980,
       "text": "100 TL (TRY)",
       "default": 0,
-      "modify": "+232 RUB",
-      "modify_value": 232.0,
-      "modify_value_default": 232.0,
+      "modify": "+229 RUB",
+      "modify_value": 229.0,
+      "modify_value_default": 229.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -457,9 +457,9 @@
       "value": 30495978,
       "text": "125 TL (TRY)",
       "default": 0,
-      "modify": "+282 RUB",
-      "modify_value": 282.0,
-      "modify_value_default": 282.0,
+      "modify": "+279 RUB",
+      "modify_value": 279.0,
+      "modify_value_default": 279.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -468,9 +468,9 @@
       "value": 29923981,
       "text": "150 TL (TRY)",
       "default": 0,
-      "modify": "+332 RUB",
-      "modify_value": 332.0,
-      "modify_value_default": 332.0,
+      "modify": "+329 RUB",
+      "modify_value": 329.0,
+      "modify_value_default": 329.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -479,9 +479,9 @@
       "value": 29923982,
       "text": "200 TL (TRY)",
       "default": 0,
-      "modify": "+462 RUB",
-      "modify_value": 462.0,
-      "modify_value_default": 462.0,
+      "modify": "+459 RUB",
+      "modify_value": 459.0,
+      "modify_value_default": 459.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -490,9 +490,9 @@
       "value": 29923983,
       "text": "250 TL (TRY)",
       "default": 0,
-      "modify": "+602 RUB",
-      "modify_value": 602.0,
-      "modify_value_default": 602.0,
+      "modify": "+599 RUB",
+      "modify_value": 599.0,
+      "modify_value_default": 599.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -501,9 +501,9 @@
       "value": 29923984,
       "text": "300 TL (TRY)",
       "default": 0,
-      "modify": "+682 RUB",
-      "modify_value": 682.0,
-      "modify_value_default": 682.0,
+      "modify": "+679 RUB",
+      "modify_value": 679.0,
+      "modify_value_default": 679.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -512,9 +512,9 @@
       "value": 29923985,
       "text": "400 TL (TRY)",
       "default": 0,
-      "modify": "+932 RUB",
-      "modify_value": 932.0,
-      "modify_value_default": 932.0,
+      "modify": "+929 RUB",
+      "modify_value": 929.0,
+      "modify_value_default": 929.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -523,9 +523,9 @@
       "value": 29923986,
       "text": "500 TL (TRY)",
       "default": 0,
-      "modify": "+1182 RUB",
-      "modify_value": 1182.0,
-      "modify_value_default": 1182.0,
+      "modify": "+1179 RUB",
+      "modify_value": 1179.0,
+      "modify_value_default": 1179.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -534,9 +534,9 @@
       "value": 29923987,
       "text": "600 TL (TRY)",
       "default": 0,
-      "modify": "+1432 RUB",
-      "modify_value": 1432.0,
-      "modify_value_default": 1432.0,
+      "modify": "+1429 RUB",
+      "modify_value": 1429.0,
+      "modify_value_default": 1429.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -545,9 +545,9 @@
       "value": 29923988,
       "text": "700 TL (TRY)",
       "default": 0,
-      "modify": "+1682 RUB",
-      "modify_value": 1682.0,
-      "modify_value_default": 1682.0,
+      "modify": "+1679 RUB",
+      "modify_value": 1679.0,
+      "modify_value_default": 1679.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -556,9 +556,9 @@
       "value": 29923989,
       "text": "800 TL (TRY)",
       "default": 0,
-      "modify": "+1882 RUB",
-      "modify_value": 1882.0,
-      "modify_value_default": 1882.0,
+      "modify": "+1879 RUB",
+      "modify_value": 1879.0,
+      "modify_value_default": 1879.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -567,9 +567,9 @@
       "value": 29923990,
       "text": "900 TL (TRY)",
       "default": 0,
-      "modify": "+2132 RUB",
-      "modify_value": 2132.0,
-      "modify_value_default": 2132.0,
+      "modify": "+2129 RUB",
+      "modify_value": 2129.0,
+      "modify_value_default": 2129.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -578,9 +578,9 @@
       "value": 29923991,
       "text": "1000 TL (TRY)",
       "default": 0,
-      "modify": "+2382 RUB",
-      "modify_value": 2382.0,
-      "modify_value_default": 2382.0,
+      "modify": "+2379 RUB",
+      "modify_value": 2379.0,
+      "modify_value_default": 2379.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -589,9 +589,9 @@
       "value": 30495989,
       "text": "1500 TL (TRY)",
       "default": 0,
-      "modify": "+3582 RUB",
-      "modify_value": 3582.0,
-      "modify_value_default": 3582.0,
+      "modify": "+3579 RUB",
+      "modify_value": 3579.0,
+      "modify_value_default": 3579.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -600,9 +600,9 @@
       "value": 29923992,
       "text": "2000 TL (TRY)",
       "default": 0,
-      "modify": "+4582 RUB",
-      "modify_value": 4582.0,
-      "modify_value_default": 4582.0,
+      "modify": "+4579 RUB",
+      "modify_value": 4579.0,
+      "modify_value_default": 4579.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -611,9 +611,9 @@
       "value": 29923993,
       "text": "3000 TL (TRY)",
       "default": 0,
-      "modify": "+6682 RUB",
-      "modify_value": 6682.0,
-      "modify_value_default": 6682.0,
+      "modify": "+6679 RUB",
+      "modify_value": 6679.0,
+      "modify_value_default": 6679.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -622,9 +622,9 @@
       "value": 29923994,
       "text": "4000 TL (TRY)",
       "default": 0,
-      "modify": "+8782 RUB",
-      "modify_value": 8782.0,
-      "modify_value_default": 8782.0,
+      "modify": "+8779 RUB",
+      "modify_value": 8779.0,
+      "modify_value_default": 8779.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -633,9 +633,9 @@
       "value": 29923995,
       "text": "5000 TL (TRY)",
       "default": 0,
-      "modify": "+10982 RUB",
-      "modify_value": 10982.0,
-      "modify_value_default": 10982.0,
+      "modify": "+10979 RUB",
+      "modify_value": 10979.0,
+      "modify_value_default": 10979.0,
       "modify_type": "RUB",
       "visible": 1,
       "is_available": 1
@@ -645,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19085,
+   "sales": 19087,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

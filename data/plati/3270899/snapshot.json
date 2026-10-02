@@ -30,18 +30,18 @@
    "initial": {
     "RUB": 79.0,
     "USD": 0.95,
-    "EUR": 0.83,
-    "UAH": 42.24,
+    "EUR": 0.84,
+    "UAH": 42.55,
     "mBTC": 0.01,
-    "mLTC": 18.91
+    "mLTC": 18.07
    },
    "default": {
     "RUB": 79.0,
     "USD": 0.95,
-    "EUR": 0.83,
-    "UAH": 42.24,
+    "EUR": 0.84,
+    "UAH": 42.55,
     "mBTC": 0.11,
-    "mLTC": 19.21
+    "mLTC": 18.37
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 90.23,
+      "price": 90.42,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 95.53,
+      "price": 95.73,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 91.09,
+      "price": 91.29,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -138,7 +138,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.37
+      "price": 1.38
      },
      {
       "currency": "mBTC",
@@ -148,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 18.91
+      "price": 18.07
      },
      {
       "currency": "WMT",
@@ -165,7 +165,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.37,
+      "price": 1.38,
       "limit": {
        "max": 300.0
       }
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 18.91,
+      "price": 18.07,
       "limit": {
        "max": 7.3
       }
@@ -210,7 +210,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.37
+      "price": 1.38
      },
      {
       "currency": "mBTC",
@@ -227,7 +227,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.39
+      "price": 0.38
      }
     ]
    },
@@ -244,7 +244,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.37
+      "price": 1.38
      }
     ]
    },
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 19.21
+      "price": 18.37
      }
     ]
    },
@@ -301,20 +301,20 @@
    {
     "id": 130667,
     "name": "Xbox",
-    "products_cnt": 13
+    "products_cnt": 12
    }
   ],
   "discounts": [
    {
-    "summa": 208897.0,
+    "summa": 208114.0,
     "percent": 3.0
    },
    {
-    "summa": 41779.0,
+    "summa": 41623.0,
     "percent": 2.0
    },
    {
-    "summa": 4178.0,
+    "summa": 4162.0,
     "percent": 1.0
    }
   ],
@@ -557,11 +557,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 206392,
+   "sales": 206453,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76945,
+   "good_reviews": 76956,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

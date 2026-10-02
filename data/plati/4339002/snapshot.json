@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 100.0,
     "USD": 1.2,
-    "EUR": 1.05,
-    "UAH": 53.47,
+    "EUR": 1.06,
+    "UAH": 53.86,
     "mBTC": 0.04,
-    "mLTC": 17.94
+    "mLTC": 17.23
    },
    "default": {
     "RUB": 879.0,
-    "USD": 10.52,
-    "EUR": 9.26,
-    "UAH": 470.03,
+    "USD": 10.56,
+    "EUR": 9.3,
+    "UAH": 473.4,
     "mBTC": 0.14,
-    "mLTC": 18.24
+    "mLTC": 17.53
    }
   },
   "payment_methods": [
@@ -133,7 +133,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 1.37,
+      "price": 1.38,
       "limit": {
        "max": 300.0
       }
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.94,
+      "price": 17.23,
       "limit": {
        "max": 7.3
       }
@@ -181,7 +181,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 1.37
+      "price": 1.38
      },
      {
       "currency": "mBTC",
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.94
+      "price": 17.23
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 120.67,
+      "price": 120.92,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 113.97,
+      "price": 114.21,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.06,
+      "price": 115.31,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -308,7 +308,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 1.37
+      "price": 1.38
      }
     ]
    },
@@ -330,7 +330,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 1.37
+      "price": 1.38
      },
      {
       "currency": "mBTC",
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 18.24
+      "price": 17.53
      }
     ]
    },
@@ -445,23 +445,23 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 167118.0,
+    "summa": 166491.0,
     "percent": 5.0
    },
    {
-    "summa": 125338.0,
+    "summa": 124868.0,
     "percent": 4.0
    },
    {
-    "summa": 83559.0,
+    "summa": 83245.0,
     "percent": 3.0
    },
    {
-    "summa": 41779.0,
+    "summa": 41623.0,
     "percent": 2.0
    },
    {
-    "summa": 4178.0,
+    "summa": 4162.0,
     "percent": 1.0
    }
   ],
@@ -647,7 +647,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 39,
+   "bad_reviews": 37,
    "bad_reviews_hidden": 0
   },
   "seller": {
