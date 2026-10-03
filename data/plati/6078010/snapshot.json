@@ -70,7 +70,7 @@
     "RUB": 20.0,
     "USD": 0.24,
     "EUR": 0.21,
-    "UAH": 10.77,
+    "UAH": 10.78,
     "mBTC": 0.04,
     "mLTC": 3.45
    },
@@ -78,7 +78,7 @@
     "RUB": 20.0,
     "USD": 0.32,
     "EUR": 0.28,
-    "UAH": 14.33,
+    "UAH": 14.34,
     "mBTC": 0.14,
     "mLTC": 3.75
    }
@@ -338,7 +338,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 41623.0,
+    "summa": 41742.0,
     "percent": 1.0
    }
   ],
@@ -645,7 +645,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19087,
+   "sales": 19088,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

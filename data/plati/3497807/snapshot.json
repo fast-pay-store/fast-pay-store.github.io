@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🌀FORTNITE В-БАКСЫ • 800-50000 • EPIC-XBOX-PС-PS • БЫСТРО! + ПОДАРОК🎁",
-  "price": 499.0,
+  "price": 399.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3497807",
@@ -53,7 +53,7 @@
   "add_info": "<delivery>🔔 ИНФОРМАЦИЯ ДЛЯ ПОКУПАТЕЛЕЙ:<br />⏳ Среднее время выполнения заказа — от 10 до 15 минут с момента взятия его в работу (задержки возможны только в случае технических сбоев на стороне серверов)<br />⏳ График работы с 11:00 до 23:00 (UTC+3)<br />⏳ Если вы совершили покупку ночью (после 23:00), заказ будет выполнен на следующий день!</delivery><delivery>💵 ПОЛИТИКА ВОЗВРАТА:<br />✅ До выполнения заказа — возврат средств производится с вычетом 20% от суммы покупки (в случаях, если проблема возникла не с нашей стороны)<br />❌ После выполнения заказа — возврат цифрового товара невозможен (пожалуйста, проверяйте выбранный продукт перед оплатой)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 4.99,
+  "agency_sum": 3.99,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 499.0,
-    "USD": 5.99,
-    "EUR": 5.28,
-    "UAH": 268.74,
-    "mBTC": 0.08,
-    "mLTC": 114.15
+    "RUB": 399.0,
+    "USD": 4.78,
+    "EUR": 4.23,
+    "UAH": 215.0,
+    "mBTC": 0.07,
+    "mLTC": 91.89
    },
    "default": {
-    "RUB": 499.0,
-    "USD": 5.99,
-    "EUR": 5.28,
-    "UAH": 268.74,
-    "mBTC": 0.18,
-    "mLTC": 114.45
+    "RUB": 399.0,
+    "USD": 4.78,
+    "EUR": 4.23,
+    "UAH": 215.0,
+    "mBTC": 0.17,
+    "mLTC": 92.19
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 499.0
+      "price": 399.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 570.09,
+      "price": 455.09,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 603.58,
+      "price": 481.81,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -138,7 +138,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 575.57,
+      "price": 459.46,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,12 +148,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.53
+      "price": 0.42
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.47
+      "price": 0.37
      }
     ]
    },
@@ -165,7 +165,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.18
+      "price": 0.17
      }
     ]
    },
@@ -177,22 +177,22 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 8.69
+      "price": 6.93
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.08
+      "price": 0.07
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 114.15
+      "price": 91.89
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 5.99
+      "price": 4.78
      }
     ]
    },
@@ -204,7 +204,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 8.69,
+      "price": 6.93,
       "limit": {
        "max": 300.0
       }
@@ -212,7 +212,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 723.55,
+      "price": 578.55,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -221,7 +221,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 114.15,
+      "price": 91.89,
       "limit": {
        "max": 7.3
       }
@@ -229,7 +229,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.08,
+      "price": 0.07,
       "limit": {
        "max": 0.03
       }
@@ -244,17 +244,17 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 499.0
+      "price": 399.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 8.69
+      "price": 6.93
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.08
+      "price": 0.07
      }
     ]
    },
@@ -266,7 +266,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.41
+      "price": 1.97
      }
     ]
    },
@@ -278,12 +278,12 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 499.0
+      "price": 399.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 8.69
+      "price": 6.93
      }
     ]
    },
@@ -295,7 +295,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 114.45
+      "price": 92.19
      }
     ]
    },
@@ -307,7 +307,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 5.99,
+      "price": 4.78,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -324,7 +324,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 499.0
+      "price": 399.0
      }
     ]
    }
@@ -349,18 +349,18 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.10.2026 15:24:36",
+   "date": "03.10.2026 11:18:04",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 83245.0,
+    "summa": 83484.0,
     "percent": 3.0
    },
    {
-    "summa": 24974.0,
+    "summa": 25045.0,
     "percent": 2.0
    },
    {
@@ -667,11 +667,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 55631,
+   "sales": 55688,
    "sales_hidden": 0,
    "refunds": 1,
    "refunds_hidden": 0,
-   "good_reviews": 19860,
+   "good_reviews": 19881,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
