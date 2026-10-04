@@ -72,7 +72,7 @@
     "EUR": 9.32,
     "UAH": 473.65,
     "mBTC": 0.15,
-    "mLTC": 182.1
+    "mLTC": 177.92
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 9.32,
     "UAH": 473.65,
     "mBTC": 0.25,
-    "mLTC": 182.4
+    "mLTC": 178.22
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1061.4,
+      "price": 1063.53,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1002.52,
+      "price": 1004.6,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -165,7 +165,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 182.1
+      "price": 177.92
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1012.16,
+      "price": 1014.26,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -270,7 +270,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 182.4
+      "price": 178.22
      }
     ]
    },
@@ -299,7 +299,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.34
+      "price": 4.32
      }
     ]
    },
@@ -336,7 +336,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 182.1,
+      "price": 177.92,
       "limit": {
        "max": 7.3
       }
@@ -404,7 +404,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.10.2026 04:54:39",
+   "date": "03.10.2026 23:11:14",
    "size": 16
   },
   "category_id": 0,
@@ -465,9 +465,9 @@
       "value": 33540446,
       "text": "6.Активация/Продление ChatGPT Pro 50x 1 МЕСЯЦ (на ваш аккаунт, быстро, без логина)",
       "default": 0,
-      "modify": "+48000 RUB",
-      "modify_value": 48000.0,
-      "modify_value_default": 48000.0,
+      "modify": "+50000 RUB",
+      "modify_value": 50000.0,
+      "modify_value_default": 50000.0,
       "modify_type": "RUB",
       "visible": 1
      }

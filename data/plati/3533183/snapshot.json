@@ -72,7 +72,7 @@
     "EUR": 5.29,
     "UAH": 268.89,
     "mBTC": 0.08,
-    "mLTC": 114.92
+    "mLTC": 112.28
    },
    "default": {
     "RUB": 499.0,
@@ -80,7 +80,7 @@
     "EUR": 5.29,
     "UAH": 268.89,
     "mBTC": 0.18,
-    "mLTC": 115.22
+    "mLTC": 112.58
    }
   },
   "payment_methods": [
@@ -138,7 +138,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 114.92
+      "price": 112.28
      },
      {
       "currency": "WMT",
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 115.22
+      "price": 112.58
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.46
+      "price": 2.45
      }
     ]
    },
@@ -264,7 +264,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 114.92,
+      "price": 112.28,
       "limit": {
        "max": 7.3
       }
@@ -601,11 +601,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 31325,
+   "sales": 31354,
    "sales_hidden": 0,
    "refunds": 17,
    "refunds_hidden": 0,
-   "good_reviews": 9957,
+   "good_reviews": 9965,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

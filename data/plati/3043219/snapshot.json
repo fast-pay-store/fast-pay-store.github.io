@@ -72,7 +72,7 @@
     "EUR": 0.73,
     "UAH": 37.18,
     "mBTC": 0.01,
-    "mLTC": 14.25
+    "mLTC": 13.92
    },
    "default": {
     "RUB": 69.0,
@@ -80,7 +80,7 @@
     "EUR": 0.73,
     "UAH": 37.18,
     "mBTC": 0.11,
-    "mLTC": 14.55
+    "mLTC": 14.22
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 14.55
+      "price": 14.22
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.66,
+      "price": 83.83,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 14.25
+      "price": 13.92
      },
      {
       "currency": "WMT",
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 14.25,
+      "price": 13.92,
       "limit": {
        "max": 7.3
       }
@@ -335,7 +335,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "02.10.2026 17:37:11",
+   "date": "04.10.2026 07:42:47",
    "size": 16
   },
   "category_id": 110708,
@@ -586,7 +586,7 @@
      },
      {
       "value": 18619277,
-      "text": "14 ДНЕЙ Xbox Game Pass Premium (не Ultimate) - (Не было подписок, активация этой услуги до 24 часов)",
+      "text": "14 ДНЕЙ Xbox Game Pass Premium (не Ultimate) - (Только на НАШ новый аккаунт, активация до 24 ч.)",
       "default": 1,
       "modify": "",
       "modify_value": 0.0,
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 47778,
+   "sales": 47831,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22220,
+   "good_reviews": 22230,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

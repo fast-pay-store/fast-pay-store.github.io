@@ -72,7 +72,7 @@
     "EUR": 1.06,
     "UAH": 53.89,
     "mBTC": 0.04,
-    "mLTC": 17.26
+    "mLTC": 16.87
    },
    "default": {
     "RUB": 879.0,
@@ -80,7 +80,7 @@
     "EUR": 9.32,
     "UAH": 473.65,
     "mBTC": 0.14,
-    "mLTC": 17.56
+    "mLTC": 17.17
    }
   },
   "payment_methods": [
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.26,
+      "price": 16.87,
       "limit": {
        "max": 7.3
       }
@@ -191,7 +191,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.26
+      "price": 16.87
      },
      {
       "currency": "WMT",
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 120.96,
+      "price": 121.2,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 114.24,
+      "price": 114.49,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.34,
+      "price": 115.59,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 17.56
+      "price": 17.17
      }
     ]
    },
@@ -438,7 +438,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "01.10.2026 14:11:45",
+   "date": "04.10.2026 08:58:25",
    "size": 16
   },
   "category_id": 0,
@@ -489,7 +489,7 @@
      },
      {
       "value": 17657569,
-      "text": "2. 24/7 АВТО | ChatGPT PRO X5 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
+      "text": "2. 24/7 АВТО | ChatGPT PRO X5 (100) 1 МЕСЯЦ | Подписка / Продление (без входа, за минуту)",
       "default": 0,
       "modify": "+10899 RUB",
       "modify_value": 10899.0,
@@ -499,7 +499,7 @@
      },
      {
       "value": 17657573,
-      "text": "3. 24/7 АВТО | ChatGPT PRO X20 1 МЕСЯЦ | Подписка / Продление (на Ваш аккаунт, без входа, за минуту)",
+      "text": "3. 24/7 АВТО | ChatGPT PRO X20 (200) 1 МЕСЯЦ | Подписка / Продление (без входа, за минуту)",
       "default": 0,
       "modify": "+20399 RUB",
       "modify_value": 20399.0,
