@@ -33,7 +33,7 @@
     "EUR": 0.84,
     "UAH": 42.57,
     "mBTC": 0.01,
-    "mLTC": 17.78
+    "mLTC": 17.76
    },
    "default": {
     "RUB": 79.0,
@@ -41,7 +41,7 @@
     "EUR": 0.84,
     "UAH": 42.57,
     "mBTC": 0.11,
-    "mLTC": 18.08
+    "mLTC": 18.06
    }
   },
   "payment_methods": [
@@ -65,7 +65,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 90.63,
+      "price": 91.25,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -82,7 +82,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 95.95,
+      "price": 96.58,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -99,7 +99,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 91.5,
+      "price": 92.13,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 17.78
+      "price": 17.76
      },
      {
       "currency": "WMT",
@@ -182,7 +182,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 17.78,
+      "price": 17.76,
       "limit": {
        "max": 7.3
       }
@@ -256,7 +256,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 18.08
+      "price": 18.06
      }
     ]
    },
@@ -293,7 +293,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "04.10.2026 11:43:26",
+   "date": "05.10.2026 15:54:01",
    "size": 16
   },
   "category_id": 130667,
@@ -334,9 +334,9 @@
       "value": 7848939,
       "text": "1 МЕСЯЦ Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+1000 RUB",
-      "modify_value": 1000.0,
-      "modify_value_default": 1000.0,
+      "modify": "+1020 RUB",
+      "modify_value": 1020.0,
+      "modify_value_default": 1020.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -344,9 +344,9 @@
       "value": 7848959,
       "text": "3 МЕСЯЦА Ultimate (Любой аккаунт без активной подписки)",
       "default": 0,
-      "modify": "+2520 RUB",
-      "modify_value": 2520.0,
-      "modify_value_default": 2520.0,
+      "modify": "+2620 RUB",
+      "modify_value": 2620.0,
+      "modify_value_default": 2620.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -557,11 +557,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 206631,
+   "sales": 206718,
    "sales_hidden": 0,
    "refunds": 2,
    "refunds_hidden": 0,
-   "good_reviews": 76996,
+   "good_reviews": 77021,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

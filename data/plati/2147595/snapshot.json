@@ -31,16 +31,16 @@
     "USD": 5.12,
     "EUR": 4.53,
     "UAH": 230.33,
-    "mBTC": 0.07,
-    "mLTC": 86.89
+    "mBTC": 0.06,
+    "mLTC": 86.81
    },
    "default": {
     "RUB": 457.51,
     "USD": 5.12,
     "EUR": 4.53,
-    "UAH": 229.55,
-    "mBTC": 0.17,
-    "mLTC": 87.19
+    "UAH": 230.33,
+    "mBTC": 0.16,
+    "mLTC": 87.11
    }
   },
   "payment_methods": [
@@ -101,12 +101,12 @@
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.07
+      "price": 0.06
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 86.89
+      "price": 86.81
      },
      {
       "currency": "WMT",
@@ -135,7 +135,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 488.46,
+      "price": 491.78,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -152,7 +152,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 493.16,
+      "price": 496.51,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -223,7 +223,7 @@
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.07
+      "price": 0.06
      }
     ]
    },
@@ -235,7 +235,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.17
+      "price": 0.16
      }
     ]
    },
@@ -247,7 +247,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 87.19
+      "price": 87.11
      }
     ]
    },
@@ -284,7 +284,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 86.89,
+      "price": 86.81,
       "limit": {
        "max": 7.3
       }
@@ -292,7 +292,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.07,
+      "price": 0.06,
       "limit": {
        "max": 0.03
       }
@@ -343,7 +343,7 @@
    {
     "id": 55908,
     "name": "STEAM",
-    "products_cnt": 115
+    "products_cnt": 114
    }
   ],
   "options_check": 0,

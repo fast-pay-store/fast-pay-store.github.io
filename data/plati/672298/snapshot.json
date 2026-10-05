@@ -32,7 +32,7 @@
     "EUR": 1.86,
     "UAH": 101.08,
     "mBTC": 0.04,
-    "mLTC": 29.57
+    "mLTC": 29.54
    },
    "default": {
     "RUB": 191.11,
@@ -40,7 +40,7 @@
     "EUR": 1.86,
     "UAH": 101.08,
     "mBTC": 0.14,
-    "mLTC": 29.87
+    "mLTC": 29.84
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 200.34,
+      "price": 201.71,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 29.57
+      "price": 29.54
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 202.27,
+      "price": 203.65,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 29.87
+      "price": 29.84
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 29.57,
+      "price": 29.54,
       "limit": {
        "max": 7.3
       }
@@ -376,39 +376,6 @@
       "modify": "+4,05 USD",
       "modify_value": 4.05,
       "modify_value_default": 4.05,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178798,
-      "text": "6$ (USD)",
-      "default": 0,
-      "modify": "+5,30 USD",
-      "modify_value": 5.3,
-      "modify_value_default": 5.3,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178799,
-      "text": "7$ (USD)",
-      "default": 0,
-      "modify": "+6,55 USD",
-      "modify_value": 6.55,
-      "modify_value_default": 6.55,
-      "modify_type": "USD",
-      "visible": 1,
-      "is_available": 1
-     },
-     {
-      "value": 2178800,
-      "text": "8$ (USD)",
-      "default": 0,
-      "modify": "+7,80 USD",
-      "modify_value": 7.8,
-      "modify_value_default": 7.8,
       "modify_type": "USD",
       "visible": 1,
       "is_available": 1
@@ -656,37 +623,15 @@
       "is_available": 1
      }
     ]
-   },
-   {
-    "id": 821126,
-    "name": "option_checkbox_821126",
-    "label": "Я внимательно прочитал описание товара и",
-    "comment": "",
-    "type": "checkbox",
-    "separate_content": 0,
-    "required": 1,
-    "modifier_visible": 1,
-    "variants": [
-     {
-      "value": 2210762,
-      "text": "Полностью принимаю его, а также отдельно подтверждаю, что мой аккаунт Apple относится к региону США",
-      "default": 0,
-      "modify": "",
-      "modify_value": 0.0,
-      "modify_value_default": 0.0,
-      "modify_type": "",
-      "visible": 1
-     }
-    ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 686017,
+   "sales": 686933,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3507,
+   "good_reviews": 3511,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
