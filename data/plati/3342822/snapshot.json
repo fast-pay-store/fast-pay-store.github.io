@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "✅5-10000$ Карта US/EU 💥ОПЛАТИТ ВСЁ💥| БЕЗ КОМИССИИ",
-  "price": 1268.96,
+  "price": 1290.95,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3342822",
@@ -253,7 +253,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD",
-   "unit_amount": 1268.96,
+   "unit_amount": 1290.95,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -291,76 +291,76 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 417420.0,
+    "summa": 424654.0,
     "percent": 5.0
    },
    {
-    "summa": 250452.0,
+    "summa": 254793.0,
     "percent": 4.0
    },
    {
-    "summa": 83484.0,
+    "summa": 84931.0,
     "percent": 3.0
    },
    {
-    "summa": 41742.0,
+    "summa": 42465.0,
     "percent": 2.0
    },
    {
-    "summa": 417.0,
+    "summa": 425.0,
     "percent": 1.0
    }
   ],
   "units": {
    "desc": "1 USD",
-   "price": 126.895528,
+   "price": 129.094968,
    "discounts": [
     {
      "desc": "25 USD",
      "percent": 1.0,
-     "price": 125.6266,
+     "price": 127.804,
      "cnt": 25.0
     },
     {
      "desc": "50 USD",
      "percent": 2.0,
-     "price": 124.3576,
+     "price": 126.5131,
      "cnt": 50.0
     },
     {
      "desc": "75 USD",
      "percent": 3.0,
-     "price": 123.0887,
+     "price": 125.2221,
      "cnt": 75.0
     },
     {
      "desc": "100 USD",
      "percent": 4.0,
-     "price": 121.8197,
+     "price": 123.9312,
      "cnt": 100.0
     },
     {
      "desc": "300 USD",
      "percent": 5.0,
-     "price": 120.5508,
+     "price": 122.6402,
      "cnt": 300.0
     },
     {
      "desc": "500 USD",
      "percent": 12.0,
-     "price": 111.6681,
+     "price": 113.6036,
      "cnt": 500.0
     },
     {
      "desc": "1 тыс. USD",
      "percent": 14.0,
-     "price": 109.1302,
+     "price": 111.0217,
      "cnt": 1000.0
     },
     {
      "desc": "2 тыс. USD",
      "percent": 16.0,
-     "price": 106.5922,
+     "price": 108.4398,
      "cnt": 2000.0
     }
    ]
@@ -369,11 +369,11 @@
   "statistics": {
    "sales": 100,
    "sales_hidden": 1,
-   "refunds": 89,
+   "refunds": 90,
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 3,
+   "bad_reviews": 2,
    "bad_reviews_hidden": 0
   },
   "seller": {

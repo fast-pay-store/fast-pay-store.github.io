@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 100.0,
     "USD": 1.43,
-    "EUR": 1.06,
-    "UAH": 53.89,
+    "EUR": 1.05,
+    "UAH": 53.05,
     "mBTC": 0.04,
-    "mLTC": 16.85
+    "mLTC": 16.84
    },
    "default": {
     "RUB": 100.0,
     "USD": 1.43,
-    "EUR": 1.06,
-    "UAH": 53.89,
+    "EUR": 1.05,
+    "UAH": 53.05,
     "mBTC": 0.14,
-    "mLTC": 17.15
+    "mLTC": 17.14
    }
   },
   "payment_methods": [
@@ -131,7 +131,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 145.38,
+      "price": 146.7,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -165,7 +165,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 1.06
+      "price": 1.05
      },
      {
       "currency": "mBTC",
@@ -175,7 +175,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 16.85
+      "price": 16.84
      },
      {
       "currency": "WMT",
@@ -202,7 +202,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 1.06
+      "price": 1.05
      }
     ]
    },
@@ -224,7 +224,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 1.06
+      "price": 1.05
      },
      {
       "currency": "mBTC",
@@ -263,7 +263,7 @@
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.12
+      "price": 0.11
      }
     ]
    },
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 17.15
+      "price": 17.14
      }
     ]
    },
@@ -316,7 +316,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 1.06,
+      "price": 1.05,
       "limit": {
        "max": 300.0
       }
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 16.85,
+      "price": 16.84,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.59
+      "price": 0.58
      }
     ]
    },
@@ -480,11 +480,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15520,
+   "sales": 15522,
    "sales_hidden": 0,
    "refunds": 115,
    "refunds_hidden": 0,
-   "good_reviews": 2018,
+   "good_reviews": 2019,
    "good_reviews_hidden": 0,
    "bad_reviews": 3,
    "bad_reviews_hidden": 0

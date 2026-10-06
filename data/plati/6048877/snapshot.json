@@ -70,7 +70,7 @@
     "RUB": 15.0,
     "USD": 0.18,
     "EUR": 0.16,
-    "UAH": 8.08,
+    "UAH": 7.96,
     "mBTC": 0.0,
     "mLTC": 3.37
    },
@@ -78,7 +78,7 @@
     "RUB": 15.0,
     "USD": 0.18,
     "EUR": 0.16,
-    "UAH": 8.08,
+    "UAH": 7.96,
     "mBTC": 0.0,
     "mLTC": 3.67
    }
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 17.29,
+      "price": 17.45,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 17.46,
+      "price": 17.62,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -812,11 +812,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 266155,
+   "sales": 266963,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 2499,
+   "good_reviews": 2502,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

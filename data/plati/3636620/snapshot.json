@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "24/7 | ChatGPT 6 ASTRA | PLUS | PRO | GO | CODEX | ЛИЧНЫЙ АККАУНТ",
-  "price": 1199.0,
+  "price": 849.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3636620",
@@ -53,7 +53,7 @@
   "add_info": "<attention>Больше товаров на странице нашего магазина<br />📍 https://plati.market/seller/hmmml/1137274/</attention><attention>Оплата любых нейросетей<br />📍 https://plati.market/itm/ai-ai-payment-fast--to-your-account/4256218</attention><attention> Наши популярные товары:<br /><br />Cursor AI <br />📍 https://plati.market/itm/cursorai-pro-business-renewal-acc--fast/4758785<br /><br />Midjourney <br />📍 https://plati.io/itm/midjourney-v6-1-subscription-without-login-fast/3653930<br /><br />Grok SUPER<br />📍 https://plati.market/itm/grokai-x-ai-super-grok-3-subscription-fast/5018211<br /><br />ElevenLabs<br />📍 https://plati.market/itm/eleven-labs-to-your-account-subscription/3956338<br /><br />KLING AI<br />📍 https://plati.market/itm/kling-ai-subscriptions-personal-account--fast/4572584</attention><br /><br />",
   "release_date": "",
   "agency_fee": 10.0,
-  "agency_sum": 119.9,
+  "agency_sum": 84.9,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 1199.0,
-    "USD": 14.36,
-    "EUR": 12.71,
-    "UAH": 646.08,
-    "mBTC": 0.17,
-    "mLTC": 202.05
+    "RUB": 849.0,
+    "USD": 10.0,
+    "EUR": 8.91,
+    "UAH": 450.4,
+    "mBTC": 0.12,
+    "mLTC": 142.97
    },
    "default": {
-    "RUB": 1199.0,
-    "USD": 14.36,
-    "EUR": 12.71,
-    "UAH": 646.08,
-    "mBTC": 0.27,
-    "mLTC": 202.35
+    "RUB": 849.0,
+    "USD": 10.0,
+    "EUR": 8.91,
+    "UAH": 450.4,
+    "mBTC": 0.22,
+    "mLTC": 143.27
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 1199.0
+      "price": 849.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 1199.0
+      "price": 849.0
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1558.7,
+      "price": 1103.7,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -125,7 +125,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 18.67,
+      "price": 12.99,
       "limit": {
        "max": 300.0
       }
@@ -133,7 +133,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 16.53,
+      "price": 11.58,
       "limit": {
        "max": 300.0
       }
@@ -141,7 +141,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 202.05,
+      "price": 142.97,
       "limit": {
        "max": 7.3
       }
@@ -149,7 +149,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.17,
+      "price": 0.12,
       "limit": {
        "max": 0.03
       }
@@ -164,7 +164,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 1199.0
+      "price": 849.0
      }
     ]
    },
@@ -176,27 +176,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 18.67
+      "price": 12.99
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 16.53
+      "price": 11.58
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.17
+      "price": 0.12
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 202.05
+      "price": 142.97
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 14.36
+      "price": 10.0
      }
     ]
    },
@@ -208,7 +208,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1459.88,
+      "price": 1025.84,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -225,7 +225,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1379.3,
+      "price": 969.52,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -242,7 +242,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1392.56,
+      "price": 978.84,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -252,12 +252,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 1.25
+      "price": 0.86
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 1.11
+      "price": 0.77
      }
     ]
    },
@@ -269,7 +269,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 14.36,
+      "price": 10.0,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -286,7 +286,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.27
+      "price": 0.22
      }
     ]
    },
@@ -298,17 +298,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 1199.0
+      "price": 849.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 18.67
+      "price": 12.99
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 16.53
+      "price": 11.58
      }
     ]
    },
@@ -320,22 +320,22 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 1199.0
+      "price": 849.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 18.67
+      "price": 12.99
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 16.53
+      "price": 11.58
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.17
+      "price": 0.12
      }
     ]
    },
@@ -347,7 +347,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 202.35
+      "price": 143.27
      }
     ]
    },
@@ -359,7 +359,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 1199.0
+      "price": 849.0
      }
     ]
    }
@@ -426,30 +426,30 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "28.09.2026 12:17:36",
+   "date": "06.10.2026 00:10:01",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 166968.0,
+    "summa": 169862.0,
     "percent": 5.0
    },
    {
-    "summa": 125226.0,
+    "summa": 127396.0,
     "percent": 4.0
    },
    {
-    "summa": 83484.0,
+    "summa": 84931.0,
     "percent": 3.0
    },
    {
-    "summa": 41742.0,
+    "summa": 42465.0,
     "percent": 2.0
    },
    {
-    "summa": 4174.0,
+    "summa": 4247.0,
     "percent": 1.0
    }
   ],
@@ -479,29 +479,39 @@
       "value": 20738500,
       "text": "2. 24/7 АВТО | ChatGPT Plus НА 1 МЕСЯЦ (персональный аккаунт + почта)",
       "default": 0,
-      "modify": "+1100 RUB",
-      "modify_value": 1100.0,
-      "modify_value_default": 1100.0,
+      "modify": "+1150 RUB",
+      "modify_value": 1150.0,
+      "modify_value_default": 1150.0,
       "modify_type": "RUB",
       "visible": 1
      },
      {
       "value": 19189495,
-      "text": "4. ChatGPT PRO X5 НА 1 МЕСЯЦ (персональный аккаунт + почта)",
+      "text": "4. ChatGPT PRO X5 (100) НА 1 МЕСЯЦ (персональный аккаунт + почта)",
       "default": 0,
-      "modify": "+13000 RUB",
-      "modify_value": 13000.0,
-      "modify_value_default": 13000.0,
+      "modify": "+11000 RUB",
+      "modify_value": 11000.0,
+      "modify_value_default": 11000.0,
       "modify_type": "RUB",
       "visible": 1
      },
      {
       "value": 17657624,
-      "text": "5. ChatGPT PRO X20 НА 1 МЕСЯЦ (персональный аккаунт + почта)",
+      "text": "5. ChatGPT PRO X20 (200) НА 1 МЕСЯЦ (персональный аккаунт + почта)",
       "default": 0,
-      "modify": "+21000 RUB",
-      "modify_value": 21000.0,
-      "modify_value_default": 21000.0,
+      "modify": "+16150 RUB",
+      "modify_value": 16150.0,
+      "modify_value_default": 16150.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
+      "value": 35093134,
+      "text": "6. ChatGPT PRO X50 (500) НА 1 МЕСЯЦ (персональный аккаунт + почта)",
+      "default": 0,
+      "modify": "+54150 RUB",
+      "modify_value": 54150.0,
+      "modify_value_default": 54150.0,
       "modify_type": "RUB",
       "visible": 1
      }
@@ -583,7 +593,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 28357,
+   "sales": 28399,
    "sales_hidden": 0,
    "refunds": 171,
    "refunds_hidden": 0,
