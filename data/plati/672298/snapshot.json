@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 194.41,
+  "price": 196.19,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -13,13 +13,13 @@
   "add_info": "<delivery>🇪🇺Подарочные карты Apple iTunes для стран Евросоюза: <br />https://plati.market/itm/3995170<br /><attention>Карты US Card для оплаты в любых сервисах: https://plati.market/itm/1065234</attention></delivery><delivery>Мы предлагаем лучшие цены в сочетании с надежностью сделки. Многолетняя репутация надежного продавца, более 18 лет (!) на площадке.<br />Полный список всех товаров:<br />http://x-sale.plati.market<br /><br />Спасибо, что пользуетесь нашим сервисом :)</delivery>",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 1.78,
+  "agency_sum": 1.8,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 1,
+  "num_in_lock": 0,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 178.35,
+    "RUB": 179.99,
     "USD": 2.1,
     "EUR": 1.87,
-    "UAH": 101.24,
+    "UAH": 100.99,
     "mBTC": 0.04,
-    "mLTC": 30.04
+    "mLTC": 31.48
    },
    "default": {
-    "RUB": 194.41,
+    "RUB": 196.19,
     "USD": 2.1,
     "EUR": 1.87,
-    "UAH": 101.24,
+    "UAH": 100.99,
     "mBTC": 0.14,
-    "mLTC": 30.34
+    "mLTC": 31.78
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 203.6,
+      "price": 202.84,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 30.04
+      "price": 31.48
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 205.55,
+      "price": 204.79,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 30.34
+      "price": 31.78
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.86
+      "price": 0.91
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 237.21,
+      "price": 239.39,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 30.04,
+      "price": 31.48,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 178.35
+      "price": 179.99
      },
      {
       "currency": "USD",
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 178.35
+      "price": 179.99
      },
      {
       "currency": "USD",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 194.41
+      "price": 196.19
      }
     ]
    }
@@ -381,6 +381,17 @@
       "is_available": 1
      },
      {
+      "value": 2178798,
+      "text": "6$ (USD)",
+      "default": 0,
+      "modify": "+5,30 USD",
+      "modify_value": 5.3,
+      "modify_value_default": 5.3,
+      "modify_type": "USD",
+      "visible": 1,
+      "is_available": 1
+     },
+     {
       "value": 2178799,
       "text": "7$ (USD)",
       "default": 0,
@@ -389,7 +400,7 @@
       "modify_value_default": 6.55,
       "modify_type": "USD",
       "visible": 1,
-      "is_available": 0
+      "is_available": 1
      },
      {
       "value": 2178800,
@@ -649,11 +660,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 687523,
+   "sales": 688123,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3521,
+   "good_reviews": 3529,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
