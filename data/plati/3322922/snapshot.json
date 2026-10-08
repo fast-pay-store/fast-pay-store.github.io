@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 3340779,
   "name": "🔥КАРТ РЕГИОН СМЕНА КАЗАХСТАН/ТУРЦИЯ/УКРАИН СТИМ🔥 АВТО",
-  "price": 975.0,
+  "price": 875.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3322922",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><attention> Инструкции:<br />1. Используйте впн. (Казахстан / Украина / Турция)<br />2. Добавьте указанную игру в корзину. (Barro racing , Cyberhunt. и т.д.)<br />3. Сменить платежный регион на Казахстан / Украина / Турция!<br />4. Введите данные карты и случайный адрес<br />5. Наслаждайтесь играми!<br /><br />Если вам нужно пополнить баланс аккаунта Steam. TL<br />https://plati.market/itm/3458468<br />Если вам нужна поддержка, этот продукт для вас!<br />https://plati.market/itm/3340779<br /></attention></delivery>",
   "release_date": "",
   "agency_fee": 10.0,
-  "agency_sum": 97.5,
+  "agency_sum": 87.5,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 975.0,
-    "USD": 11.72,
-    "EUR": 10.15,
-    "UAH": 511.27,
-    "mBTC": 0.16,
-    "mLTC": 226.54
+    "RUB": 875.0,
+    "USD": 10.54,
+    "EUR": 9.08,
+    "UAH": 459.25,
+    "mBTC": 0.15,
+    "mLTC": 211.35
    },
    "default": {
-    "RUB": 975.0,
-    "USD": 11.72,
-    "EUR": 10.15,
-    "UAH": 511.27,
-    "mBTC": 0.26,
-    "mLTC": 226.84
+    "RUB": 875.0,
+    "USD": 10.54,
+    "EUR": 9.08,
+    "UAH": 459.25,
+    "mBTC": 0.25,
+    "mLTC": 211.65
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 975.0
+      "price": 875.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 1142.91,
+      "price": 1025.15,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 11.72,
+      "price": 10.54,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -138,7 +138,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 994.5
+      "price": 892.5
      }
     ]
    },
@@ -150,7 +150,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 1132.03,
+      "price": 1015.39,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -167,27 +167,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 16.4
+      "price": 14.76
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 14.21
+      "price": 12.72
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.16
+      "price": 0.15
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 226.54
+      "price": 211.35
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 11.72
+      "price": 10.54
      }
     ]
    },
@@ -199,12 +199,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 16.4
+      "price": 14.76
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 14.21
+      "price": 12.72
      }
     ]
    },
@@ -216,17 +216,17 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 16.4
+      "price": 14.76
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 14.21
+      "price": 12.72
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.16
+      "price": 0.15
      }
     ]
    },
@@ -238,7 +238,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.26
+      "price": 0.25
      }
     ]
    },
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 226.84
+      "price": 211.65
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 1365.0,
+      "price": 1225.0,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -271,7 +271,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 16.4,
+      "price": 14.76,
       "limit": {
        "max": 300.0
       }
@@ -279,7 +279,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 14.21,
+      "price": 12.72,
       "limit": {
        "max": 300.0
       }
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 226.54,
+      "price": 211.35,
       "limit": {
        "max": 7.3
       }
@@ -295,7 +295,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.16,
+      "price": 0.15,
       "limit": {
        "max": 0.03
       }
@@ -310,7 +310,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 5.06
+      "price": 4.6
      }
     ]
    },
@@ -322,7 +322,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 975.0
+      "price": 875.0
      }
     ]
    }
@@ -369,27 +369,27 @@
   ],
   "discounts": [
    {
-    "summa": 8571160.0,
+    "summa": 8548110.0,
     "percent": 10.0
    },
    {
-    "summa": 857116.0,
+    "summa": 854811.0,
     "percent": 6.0
    },
    {
-    "summa": 171423.0,
+    "summa": 170962.0,
     "percent": 5.0
    },
    {
-    "summa": 42856.0,
+    "summa": 42741.0,
     "percent": 4.0
    },
    {
-    "summa": 8571.0,
+    "summa": 8548.0,
     "percent": 3.0
    },
    {
-    "summa": 1714.0,
+    "summa": 1710.0,
     "percent": 2.0
    }
   ],

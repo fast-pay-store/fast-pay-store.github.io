@@ -69,19 +69,19 @@
   "prices": {
    "initial": {
     "RUB": 249.0,
-    "USD": 3.05,
-    "EUR": 2.59,
-    "UAH": 130.57,
+    "USD": 3.06,
+    "EUR": 2.58,
+    "UAH": 130.69,
     "mBTC": 0.04,
-    "mLTC": 56.87
+    "mLTC": 59.12
    },
    "default": {
     "RUB": 249.0,
-    "USD": 3.05,
-    "EUR": 2.59,
-    "UAH": 130.57,
+    "USD": 3.06,
+    "EUR": 2.58,
+    "UAH": 130.69,
     "mBTC": 0.14,
-    "mLTC": 57.17
+    "mLTC": 59.42
    }
   },
   "payment_methods": [
@@ -105,7 +105,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 294.6,
+      "price": 294.79,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -122,7 +122,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 297.43,
+      "price": 297.63,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -149,7 +149,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 311.75,
+      "price": 311.98,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -166,7 +166,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 4.12
+      "price": 4.13
      },
      {
       "currency": "mBTC",
@@ -176,12 +176,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 56.87
+      "price": 59.12
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 3.05
+      "price": 3.06
      }
     ]
    },
@@ -193,7 +193,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 3.05,
+      "price": 3.06,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -210,7 +210,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 4.12,
+      "price": 4.13,
       "limit": {
        "max": 300.0
       }
@@ -227,7 +227,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 56.87,
+      "price": 59.12,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 57.17
+      "price": 59.42
      }
     ]
    },
@@ -262,7 +262,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.32
+      "price": 1.34
      }
     ]
    },
@@ -303,7 +303,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 4.12
+      "price": 4.13
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 4.12
+      "price": 4.13
      },
      {
       "currency": "mBTC",
@@ -409,7 +409,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "06.10.2026 10:06:45",
+   "date": "07.10.2026 19:07:17",
    "size": 16
   },
   "category_id": 0,
@@ -455,6 +455,16 @@
       "visible": 1
      },
      {
+      "value": 29589145,
+      "text": "1 МЕСЯЦ ИНДИВИДУАЛЬНОЙ [ЕГИПЕТ]",
+      "default": 0,
+      "modify": "+100 RUB",
+      "modify_value": 100.0,
+      "modify_value_default": 100.0,
+      "modify_type": "RUB",
+      "visible": 1
+     },
+     {
       "value": 16315978,
       "text": "1 МЕСЯЦ PLATINUM ПРЕМИУМ [ИНДИЯ]",
       "default": 0,
@@ -488,9 +498,9 @@
       "value": 18889767,
       "text": "12 МЕСЯЦЕВ STANDARD(ИНДИВИДУАЛЬНЫЙ) ПРЕМИУМ [ИНДИЯ]",
       "default": 0,
-      "modify": "+2250 RUB",
-      "modify_value": 2250.0,
-      "modify_value_default": 2250.0,
+      "modify": "+2350 RUB",
+      "modify_value": 2350.0,
+      "modify_value_default": 2350.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -544,10 +554,10 @@
   },
   "sale_info": {
    "common_base_price": 399.0,
-   "common_price_usd": 4.89,
+   "common_price_usd": 4.9,
    "common_price_rub": 399.0,
-   "common_price_eur": 4.15,
-   "common_price_uah": 209.23,
+   "common_price_eur": 4.14,
+   "common_price_uah": 209.42,
    "sale_end": "14.10.2026 04:00:00",
    "sale_percent": 37.59,
    "percent": 37.59

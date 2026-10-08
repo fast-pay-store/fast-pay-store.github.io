@@ -70,17 +70,17 @@
     "RUB": 20.0,
     "USD": 0.23,
     "EUR": 0.21,
-    "UAH": 10.49,
+    "UAH": 10.5,
     "mBTC": 0.04,
-    "mLTC": 3.5
+    "mLTC": 3.64
    },
    "default": {
     "RUB": 20.0,
     "USD": 0.31,
     "EUR": 0.28,
-    "UAH": 13.96,
+    "UAH": 13.97,
     "mBTC": 0.14,
-    "mLTC": 3.8
+    "mLTC": 3.94
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 22.43,
+      "price": 22.38,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 3.8
+      "price": 3.94
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.5
+      "price": 3.64
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.5,
+      "price": 3.64,
       "limit": {
        "max": 7.3
       }
@@ -331,14 +331,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "05.10.2026 15:10:33",
+   "date": "08.10.2026 15:59:50",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 42856.0,
+    "summa": 42741.0,
     "percent": 1.0
    }
   ],
@@ -616,7 +616,7 @@
       "modify_value_default": 6679.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 29923994,
@@ -627,7 +627,7 @@
       "modify_value_default": 8779.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 29923995,
@@ -638,14 +638,14 @@
       "modify_value_default": 10979.0,
       "modify_type": "RUB",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      }
     ]
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 19090,
+   "sales": 19093,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

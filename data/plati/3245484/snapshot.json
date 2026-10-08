@@ -266,10 +266,10 @@
    "price": 1.06,
    "discounts": [
     {
-     "desc": "2 тыс. Steam RUB",
+     "desc": "10 тыс. Steam RUB",
      "percent": 1.0,
      "price": 1.0494,
-     "cnt": 2000.0
+     "cnt": 10000.0
     }
    ]
   },
@@ -286,13 +286,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 423739,
+   "sales": 425544,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 27958,
+   "good_reviews": 28021,
    "good_reviews_hidden": 0,
-   "bad_reviews": 0,
+   "bad_reviews": 1,
    "bad_reviews_hidden": 0
   },
   "seller": {

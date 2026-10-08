@@ -70,17 +70,17 @@
     "RUB": 139.0,
     "USD": 1.93,
     "EUR": 1.69,
-    "UAH": 72.89,
+    "UAH": 72.95,
     "mBTC": 0.03,
-    "mLTC": 35.98
+    "mLTC": 37.4
    },
    "default": {
     "RUB": 139.0,
     "USD": 1.93,
     "EUR": 1.69,
-    "UAH": 72.89,
+    "UAH": 72.95,
     "mBTC": 0.13,
-    "mLTC": 36.28
+    "mLTC": 37.7
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 186.42,
+      "price": 185.93,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 197.27,
+      "price": 196.77,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -167,7 +167,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 188.21,
+      "price": 187.72,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -206,7 +206,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.28
+      "price": 37.7
      }
     ]
    },
@@ -218,7 +218,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.83
+      "price": 0.84
      }
     ]
    },
@@ -247,7 +247,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.29,
+      "price": 2.28,
       "limit": {
        "max": 300.0
       }
@@ -255,7 +255,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 35.98,
+      "price": 37.4,
       "limit": {
        "max": 7.3
       }
@@ -283,7 +283,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.29
+      "price": 2.28
      },
      {
       "currency": "mBTC",
@@ -293,7 +293,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 35.98
+      "price": 37.4
      },
      {
       "currency": "WMT",
@@ -320,7 +320,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.29
+      "price": 2.28
      }
     ]
    },
@@ -342,7 +342,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.29
+      "price": 2.28
      },
      {
       "currency": "mBTC",
@@ -426,15 +426,15 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 8571.0,
+    "summa": 8548.0,
     "percent": 3.0
    },
    {
-    "summa": 4286.0,
+    "summa": 4274.0,
     "percent": 2.0
    },
    {
-    "summa": 86.0,
+    "summa": 85.0,
     "percent": 1.0
    }
   ],
@@ -633,7 +633,7 @@
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 2,
+   "bad_reviews": 4,
    "bad_reviews_hidden": 0
   },
   "seller": {
