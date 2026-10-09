@@ -69,10 +69,10 @@
    "initial": {
     "RUB": 199.0,
     "USD": 2.33,
-    "EUR": 2.07,
-    "UAH": 104.45,
+    "EUR": 2.08,
+    "UAH": 104.49,
     "mBTC": 0.04,
-    "mLTC": 36.23
+    "mLTC": 36.46
    },
    "default": {
     "RUB": 199.0,
@@ -80,7 +80,7 @@
     "EUR": 2.76,
     "UAH": 138.92,
     "mBTC": 0.14,
-    "mLTC": 36.53
+    "mLTC": 36.76
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 237.56,
+      "price": 236.38,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 226.63,
+      "price": 225.46,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.53
+      "price": 36.76
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.02
+      "price": 1.03
      }
     ]
    },
@@ -230,7 +230,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.75
+      "price": 2.77
      },
      {
       "currency": "mBTC",
@@ -240,7 +240,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 36.23
+      "price": 36.46
      },
      {
       "currency": "WMT",
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.75,
+      "price": 2.77,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 36.23,
+      "price": 36.46,
       "limit": {
        "max": 7.3
       }
@@ -315,7 +315,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.75
+      "price": 2.77
      }
     ]
    },
@@ -337,7 +337,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.75
+      "price": 2.77
      },
      {
       "currency": "mBTC",
@@ -386,7 +386,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 170962.0,
+    "summa": 170835.0,
     "percent": 1.0
    }
   ],

@@ -59,7 +59,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 1,
-  "num_in_stock": 1,
+  "num_in_stock": 2,
   "num_in_lock": 0,
   "owner": 1,
   "section_id": 22257,
@@ -70,18 +70,18 @@
    "initial": {
     "RUB": 799.0,
     "USD": 9.63,
-    "EUR": 9.95,
-    "UAH": 670.97,
+    "EUR": 10.04,
+    "UAH": 671.29,
     "mBTC": 0.14,
-    "mLTC": 199.88
+    "mLTC": 201.16
    },
    "default": {
     "RUB": 799.0,
     "USD": 9.63,
-    "EUR": 9.95,
-    "UAH": 670.97,
+    "EUR": 10.04,
+    "UAH": 671.29,
     "mBTC": 0.24,
-    "mLTC": 200.18
+    "mLTC": 201.46
    }
   },
   "payment_methods": [
@@ -132,7 +132,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 13.96
+      "price": 13.97
      },
      {
       "currency": "mBTC",
@@ -142,7 +142,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 199.88
+      "price": 201.16
      },
      {
       "currency": "WMT",
@@ -164,7 +164,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 13.96
+      "price": 13.97
      }
     ]
    },
@@ -181,7 +181,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 13.96
+      "price": 13.97
      },
      {
       "currency": "mBTC",
@@ -207,7 +207,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 13.96,
+      "price": 13.97,
       "limit": {
        "max": 300.0
       }
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 199.88,
+      "price": 201.16,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 200.18
+      "price": 201.46
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 936.64,
+      "price": 931.84,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 927.72,
+      "price": 922.96,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.2
+      "price": 4.27
      }
     ]
    },
@@ -341,7 +341,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "04.10.2026 12:27:19",
+   "date": "09.10.2026 11:29:17",
    "size": null
   },
   "category_id": 122611,
@@ -354,7 +354,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 21683,
+   "sales": 21684,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

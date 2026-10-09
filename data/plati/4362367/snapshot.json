@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 879.0,
-    "USD": 10.28,
-    "EUR": 9.12,
-    "UAH": 461.34,
+    "USD": 10.29,
+    "EUR": 9.21,
+    "UAH": 461.56,
     "mBTC": 0.15,
-    "mLTC": 192.05
+    "mLTC": 193.28
    },
    "default": {
     "RUB": 879.0,
-    "USD": 10.28,
-    "EUR": 9.12,
-    "UAH": 461.34,
+    "USD": 10.29,
+    "EUR": 9.21,
+    "UAH": 461.56,
     "mBTC": 0.25,
-    "mLTC": 192.35
+    "mLTC": 193.58
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 1048.1,
+      "price": 1043.91,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 990.35,
+      "price": 986.22,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -150,12 +150,12 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 14.91
+      "price": 14.92
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 13.23
+      "price": 13.35
      },
      {
       "currency": "mBTC",
@@ -165,12 +165,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 192.05
+      "price": 193.28
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 10.28
+      "price": 10.29
      }
     ]
    },
@@ -182,7 +182,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 999.87,
+      "price": 995.7,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -197,7 +197,7 @@
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.78
+      "price": 0.79
      }
     ]
    },
@@ -214,12 +214,12 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 14.91
+      "price": 14.92
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 13.23
+      "price": 13.35
      }
     ]
    },
@@ -236,12 +236,12 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 14.91
+      "price": 14.92
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 13.23
+      "price": 13.35
      },
      {
       "currency": "mBTC",
@@ -270,7 +270,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 192.35
+      "price": 193.58
      }
     ]
    },
@@ -282,7 +282,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 10.28,
+      "price": 10.29,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -299,7 +299,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.49
+      "price": 4.56
      }
     ]
    },
@@ -320,7 +320,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 14.91,
+      "price": 14.92,
       "limit": {
        "max": 300.0
       }
@@ -328,7 +328,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 13.23,
+      "price": 13.35,
       "limit": {
        "max": 300.0
       }
@@ -336,7 +336,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 192.05,
+      "price": 193.28,
       "limit": {
        "max": 7.3
       }
@@ -404,7 +404,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "06.10.2026 18:11:14",
+   "date": "08.10.2026 18:06:24",
    "size": 16
   },
   "category_id": 0,
@@ -435,9 +435,9 @@
       "value": 18020412,
       "text": "2.Активация/Продление ChatGPT Pro 20x (200) 1 МЕСЯЦ (на ваш аккаунт, быстро, без логина)",
       "default": 0,
-      "modify": "+25590 RUB",
-      "modify_value": 25590.0,
-      "modify_value_default": 25590.0,
+      "modify": "+17520 RUB",
+      "modify_value": 17520.0,
+      "modify_value_default": 17520.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -445,9 +445,9 @@
       "value": 19485585,
       "text": "3.Активация/Продление ChatGPT Pro 5x (100) 1 МЕСЯЦ (на ваш аккаунт, быстро, без логина, АВТО | 24/7)",
       "default": 0,
-      "modify": "+11590 RUB",
-      "modify_value": 11590.0,
-      "modify_value_default": 11590.0,
+      "modify": "+9520 RUB",
+      "modify_value": 9520.0,
+      "modify_value_default": 9520.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -513,7 +513,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 69,
+   "bad_reviews": 44,
    "bad_reviews_hidden": 0
   },
   "seller": {
