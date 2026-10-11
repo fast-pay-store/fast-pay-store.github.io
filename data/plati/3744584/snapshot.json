@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🔮MIDJOURNEY V8 БЕЗЛИМИТ🔥ПОДПИСКА⚙️+🎁ПОДАРОК",
-  "price": 100.0,
+  "price": 289.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3744584",
@@ -72,15 +72,15 @@
     "EUR": 1.05,
     "UAH": 52.87,
     "mBTC": 0.04,
-    "mLTC": 18.48
+    "mLTC": 18.54
    },
    "default": {
-    "RUB": 100.0,
-    "USD": 1.43,
-    "EUR": 1.05,
-    "UAH": 52.87,
+    "RUB": 289.0,
+    "USD": 4.13,
+    "EUR": 3.04,
+    "UAH": 152.8,
     "mBTC": 0.14,
-    "mLTC": 18.78
+    "mLTC": 18.84
    }
   },
   "payment_methods": [
@@ -131,7 +131,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 146.07,
+      "price": 146.12,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -175,7 +175,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 18.48
+      "price": 18.54
      },
      {
       "currency": "WMT",
@@ -287,7 +287,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 18.78
+      "price": 18.84
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 18.48,
+      "price": 18.54,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.64
+      "price": 0.63
      }
     ]
    },
@@ -418,7 +418,7 @@
       "modify_value_default": 0.0,
       "modify_type": "",
       "visible": 1,
-      "is_available": 1
+      "is_available": 0
      },
      {
       "value": 679644,
@@ -480,11 +480,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15546,
+   "sales": 15554,
    "sales_hidden": 0,
    "refunds": 115,
    "refunds_hidden": 0,
-   "good_reviews": 2020,
+   "good_reviews": 2021,
    "good_reviews_hidden": 0,
    "bad_reviews": 3,
    "bad_reviews_hidden": 0
