@@ -49,7 +49,7 @@
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/6078010",
-  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🔥 Еще наши товары:<br /><br />⭐ Подарочная карта iTunes Япония | 500–70000 JPY - https://plati.market/itm/6089991<br /><br />⭐ Подарочная карта iTunes Португалия | 2–250 EUR - https://plati.market/itm/6121328<br /><br />⭐ Подарочная карта iTunes Казахстан | 1000–45000 KZT - https://plati.market/itm/6089987<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
+  "info": "<delivery><attention><br />🚀 АВТОМАТИЧЕСКАЯ ДОСТАВКА 24/7 🚀 <br /></attention></delivery><delivery><attention><br />🎁 ВЫ ПОЛУЧАЕТЕ:<br />➖ Оригинальную лицензионную подарочную карту iTunes TURKEY<br /></attention></delivery><delivery><attention><br />⚠️ ВАЖНО:<br />➖ Активируется только на аккаунтах с регионом ТУРЦИЯ<br /><br />➖ Работает только с балансом в TRY<br /><br />➖ Активируйте код в течение суток после покупки<br /></attention></delivery><delivery><attention><br />🔥 Еще наши товары:<br /><br />⭐ Подарочная карта iTunes Швейцария | 2–250 CHF - https://plati.market/itm/6121331<br /><br />⭐ Подарочная карта iTunes Швеция | 20–5000 SEK - https://plati.market/itm/6121330<br /><br />⭐ Подарочная карта iTunes Индия | 100–2500 INR - https://plati.market/itm/6089986<br /></attention></delivery><delivery><attention><br />🆘 ПОДДЕРЖКА 🆘<br />💬Если у вас возникла проблема, опишите её, приложите видео и другие доказательства. Мы проверим ситуацию и предложим замену при наличии проблемы на стороне продавца.<br />💬Пожалуйста, не спешите оставлять отрицательный отзыв — мы обязательно постараемся помочь, как только модераторы будут онлайн.<br /></attention></delivery>",
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /><br />⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат средств невозможен.<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы;<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br /></attention></delivery><br />",
   "release_date": "",
   "agency_fee": 1.0,
@@ -72,7 +72,7 @@
     "EUR": 0.21,
     "UAH": 10.57,
     "mBTC": 0.04,
-    "mLTC": 3.71
+    "mLTC": 3.72
    },
    "default": {
     "RUB": 20.0,
@@ -80,7 +80,7 @@
     "EUR": 0.28,
     "UAH": 14.06,
     "mBTC": 0.14,
-    "mLTC": 4.01
+    "mLTC": 4.02
    }
   },
   "payment_methods": [
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 23.4,
+      "price": 23.24,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -157,7 +157,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 4.01
+      "price": 4.02
      }
     ]
    },
@@ -196,7 +196,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 3.71
+      "price": 3.72
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 3.71,
+      "price": 3.72,
       "limit": {
        "max": 7.3
       }
@@ -331,7 +331,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "10.10.2026 21:18:05",
+   "date": "12.10.2026 16:57:36",
    "size": 16
   },
   "category_id": 0,
