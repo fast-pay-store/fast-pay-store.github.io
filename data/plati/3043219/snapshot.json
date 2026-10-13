@@ -68,19 +68,19 @@
   "prices": {
    "initial": {
     "RUB": 69.0,
-    "USD": 0.81,
+    "USD": 0.82,
     "EUR": 0.73,
-    "UAH": 36.48,
+    "UAH": 36.97,
     "mBTC": 0.01,
-    "mLTC": 15.37
+    "mLTC": 15.96
    },
    "default": {
     "RUB": 69.0,
-    "USD": 0.81,
+    "USD": 0.82,
     "EUR": 0.73,
-    "UAH": 36.48,
+    "UAH": 36.97,
     "mBTC": 0.11,
-    "mLTC": 15.67
+    "mLTC": 16.26
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 15.67
+      "price": 16.26
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.35
+      "price": 0.36
      }
     ]
    },
@@ -145,7 +145,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 1.06
+      "price": 1.07
      }
     ]
    },
@@ -162,7 +162,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 1.06
+      "price": 1.07
      },
      {
       "currency": "mBTC",
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 82.2,
+      "price": 83.35,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -196,7 +196,7 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.07
+      "price": 0.08
      },
      {
       "currency": "EUR",
@@ -213,7 +213,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 1.06
+      "price": 1.07
      },
      {
       "currency": "mBTC",
@@ -223,12 +223,12 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 15.37
+      "price": 15.96
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 0.81
+      "price": 0.82
      }
     ]
    },
@@ -249,7 +249,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 1.06,
+      "price": 1.07,
       "limit": {
        "max": 300.0
       }
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 15.37,
+      "price": 15.96,
       "limit": {
        "max": 7.3
       }
@@ -348,7 +348,7 @@
   ],
   "discounts": [
    {
-    "summa": 85.0,
+    "summa": 84.0,
     "percent": 1.0
    }
   ],
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 48186,
+   "sales": 48212,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22321,
+   "good_reviews": 22325,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

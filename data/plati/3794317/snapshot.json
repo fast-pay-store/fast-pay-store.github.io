@@ -45,7 +45,7 @@
   "id_prev": 3791296,
   "id_next": 3794809,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 221.6,
+  "price": 219.02,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -53,7 +53,7 @@
   "add_info": "",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 2.22,
+  "agency_sum": 2.19,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 221.6,
+    "RUB": 219.02,
     "USD": 2.61,
     "EUR": 2.33,
-    "UAH": 117.16,
+    "UAH": 117.34,
     "mBTC": 0.03,
-    "mLTC": 49.36
+    "mLTC": 50.66
    },
    "default": {
-    "RUB": 221.6,
+    "RUB": 219.02,
     "USD": 2.61,
     "EUR": 2.33,
-    "UAH": 117.16,
+    "UAH": 117.34,
     "mBTC": 0.13,
-    "mLTC": 49.66
+    "mLTC": 50.96
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 250.23,
+      "price": 250.64,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 252.64,
+      "price": 253.05,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,7 +155,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 221.6
+      "price": 219.02
      },
      {
       "currency": "USD",
@@ -172,7 +172,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 221.6
+      "price": 219.02
      },
      {
       "currency": "USD",
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 288.08,
+      "price": 284.72,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 49.36,
+      "price": 50.66,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 49.36
+      "price": 50.66
      },
      {
       "currency": "WMT",
@@ -261,7 +261,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.14
+      "price": 1.15
      }
     ]
    },
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 49.66
+      "price": 50.96
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 221.6
+      "price": 219.02
      }
     ]
    }
@@ -350,7 +350,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "07.10.2026 19:39:44",
+   "date": "07.10.2026 19:39:46",
    "size": null
   },
   "category_id": 135134,
@@ -363,15 +363,15 @@
   ],
   "discounts": [
    {
-    "summa": 84905.0,
+    "summa": 83915.0,
     "percent": 3.0
    },
    {
-    "summa": 42452.0,
+    "summa": 41958.0,
     "percent": 2.0
    },
    {
-    "summa": 8490.0,
+    "summa": 8392.0,
     "percent": 1.0
    }
   ],
@@ -457,7 +457,7 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 15991,
+   "sales": 16002,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
