@@ -44,7 +44,7 @@
   "id": 3397775,
   "id_prev": 0,
   "id_next": 0,
-  "name": "🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ БЫСТРО !🎁",
+  "name": "🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ БЫСТРО!🎁",
   "price": 360.0,
   "currency": "RUB",
   "url": "",
@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 360.0,
     "USD": 4.29,
-    "EUR": 3.83,
-    "UAH": 192.86,
+    "EUR": 3.84,
+    "UAH": 193.51,
     "mBTC": 0.06,
-    "mLTC": 92.88
+    "mLTC": 92.71
    },
    "default": {
     "RUB": 360.0,
     "USD": 4.29,
-    "EUR": 3.83,
-    "UAH": 192.86,
+    "EUR": 3.84,
+    "UAH": 193.51,
     "mBTC": 0.16,
-    "mLTC": 93.18
+    "mLTC": 93.01
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 411.97,
+      "price": 411.92,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 415.93,
+      "price": 415.88,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -170,7 +170,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 92.88
+      "price": 92.71
      },
      {
       "currency": "WMT",
@@ -204,7 +204,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 92.88,
+      "price": 92.71,
       "limit": {
        "max": 7.3
       }
@@ -249,7 +249,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.89
+      "price": 1.9
      }
     ]
    },
@@ -278,7 +278,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 93.18
+      "price": 93.01
      }
     ]
    },
@@ -362,14 +362,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "13.10.2026 11:01:31",
+   "date": "13.10.2026 21:02:25",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 83915.0,
+    "summa": 83868.0,
     "percent": 3.0
    },
    {
@@ -599,11 +599,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 67377,
+   "sales": 67414,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 15654,
+   "good_reviews": 15658,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0

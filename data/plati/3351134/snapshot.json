@@ -70,18 +70,18 @@
    "initial": {
     "RUB": 799.0,
     "USD": 9.81,
-    "EUR": 10.2,
-    "UAH": 684.88,
+    "EUR": 10.22,
+    "UAH": 687.16,
     "mBTC": 0.14,
-    "mLTC": 212.32
+    "mLTC": 213.41
    },
    "default": {
     "RUB": 799.0,
     "USD": 9.81,
-    "EUR": 10.2,
-    "UAH": 684.88,
+    "EUR": 10.22,
+    "UAH": 687.16,
     "mBTC": 0.24,
-    "mLTC": 212.62
+    "mLTC": 213.71
    }
   },
   "payment_methods": [
@@ -132,7 +132,7 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 14.22
+      "price": 14.23
      },
      {
       "currency": "mBTC",
@@ -142,7 +142,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 212.32
+      "price": 213.41
      },
      {
       "currency": "WMT",
@@ -164,7 +164,7 @@
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 14.22
+      "price": 14.23
      }
     ]
    },
@@ -181,7 +181,7 @@
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 14.22
+      "price": 14.23
      },
      {
       "currency": "mBTC",
@@ -207,7 +207,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 14.22,
+      "price": 14.23,
       "limit": {
        "max": 300.0
       }
@@ -215,7 +215,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 212.32,
+      "price": 213.41,
       "limit": {
        "max": 7.3
       }
@@ -250,7 +250,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 212.62
+      "price": 213.71
      }
     ]
    },
@@ -279,7 +279,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 951.1,
+      "price": 951.0,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -296,7 +296,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 942.05,
+      "price": 941.94,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -313,7 +313,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 4.31
+      "price": 4.34
      }
     ]
    },
@@ -349,12 +349,12 @@
    {
     "id": 122611,
     "name": "iTunes | AppStore",
-    "products_cnt": 7
+    "products_cnt": 6
    }
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 21686,
+   "sales": 21687,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,

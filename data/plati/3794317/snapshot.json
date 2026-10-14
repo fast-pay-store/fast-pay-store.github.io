@@ -45,7 +45,7 @@
   "id_prev": 3791296,
   "id_next": 3794809,
   "name": "ТУРЦИЯ🍎ITUNES APPSTORE 100-1500 TL Лир Gift подарочная",
-  "price": 219.02,
+  "price": 218.89,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3794317",
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 219.02,
+    "RUB": 218.89,
     "USD": 2.61,
     "EUR": 2.33,
-    "UAH": 117.34,
+    "UAH": 117.66,
     "mBTC": 0.03,
-    "mLTC": 50.66
+    "mLTC": 50.89
    },
    "default": {
-    "RUB": 219.02,
+    "RUB": 218.89,
     "USD": 2.61,
     "EUR": 2.33,
-    "UAH": 117.34,
+    "UAH": 117.66,
     "mBTC": 0.13,
-    "mLTC": 50.96
+    "mLTC": 51.19
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 250.64,
+      "price": 250.61,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 253.05,
+      "price": 253.02,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,7 +155,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 219.02
+      "price": 218.89
      },
      {
       "currency": "USD",
@@ -172,7 +172,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 219.02
+      "price": 218.89
      },
      {
       "currency": "USD",
@@ -194,7 +194,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 284.72,
+      "price": 284.56,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -211,7 +211,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 50.66,
+      "price": 50.89,
       "limit": {
        "max": 7.3
       }
@@ -244,7 +244,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 50.66
+      "price": 50.89
      },
      {
       "currency": "WMT",
@@ -285,7 +285,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 50.96
+      "price": 51.19
      }
     ]
    },
@@ -297,7 +297,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 219.02
+      "price": 218.89
      }
     ]
    }
@@ -350,7 +350,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "07.10.2026 19:39:46",
+   "date": "07.10.2026 19:39:48",
    "size": null
   },
   "category_id": 135134,
@@ -358,20 +358,20 @@
    {
     "id": 135134,
     "name": "Apple (Турция)",
-    "products_cnt": 7
+    "products_cnt": 6
    }
   ],
   "discounts": [
    {
-    "summa": 83915.0,
+    "summa": 83868.0,
     "percent": 3.0
    },
    {
-    "summa": 41958.0,
+    "summa": 41934.0,
     "percent": 2.0
    },
    {
-    "summa": 8392.0,
+    "summa": 8387.0,
     "percent": 1.0
    }
   ],
@@ -457,11 +457,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 16002,
+   "sales": 16015,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 892,
+   "good_reviews": 893,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

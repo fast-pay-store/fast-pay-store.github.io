@@ -70,17 +70,17 @@
     "RUB": 139.0,
     "USD": 1.97,
     "EUR": 1.73,
-    "UAH": 74.47,
+    "UAH": 74.72,
     "mBTC": 0.03,
-    "mLTC": 39.73
+    "mLTC": 39.66
    },
    "default": {
     "RUB": 139.0,
     "USD": 1.97,
     "EUR": 1.73,
-    "UAH": 74.47,
+    "UAH": 74.72,
     "mBTC": 0.13,
-    "mLTC": 40.03
+    "mLTC": 39.96
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 189.18,
+      "price": 189.15,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -133,7 +133,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 200.23,
+      "price": 200.21,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -167,7 +167,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 191.0,
+      "price": 190.97,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -206,7 +206,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 40.03
+      "price": 39.96
      }
     ]
    },
@@ -247,7 +247,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.33,
+      "price": 2.34,
       "limit": {
        "max": 300.0
       }
@@ -255,7 +255,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 39.73,
+      "price": 39.66,
       "limit": {
        "max": 7.3
       }
@@ -283,7 +283,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.33
+      "price": 2.34
      },
      {
       "currency": "mBTC",
@@ -293,7 +293,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 39.73
+      "price": 39.66
      },
      {
       "currency": "WMT",
@@ -320,7 +320,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.33
+      "price": 2.34
      }
     ]
    },
@@ -342,7 +342,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.33
+      "price": 2.34
      },
      {
       "currency": "mBTC",
@@ -426,11 +426,11 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 8392.0,
+    "summa": 8387.0,
     "percent": 3.0
    },
    {
-    "summa": 4196.0,
+    "summa": 4193.0,
     "percent": 2.0
    },
    {
@@ -633,7 +633,7 @@
    "refunds_hidden": 0,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 2,
+   "bad_reviews": 3,
    "bad_reviews_hidden": 0
   },
   "seller": {

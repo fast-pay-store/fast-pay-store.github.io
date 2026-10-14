@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 100.0,
     "USD": 1.19,
-    "EUR": 1.06,
-    "UAH": 53.57,
+    "EUR": 1.07,
+    "UAH": 53.75,
     "mBTC": 0.02,
-    "mLTC": 24.28
+    "mLTC": 23.98
    },
    "default": {
     "RUB": 100.0,
     "USD": 1.19,
-    "EUR": 1.06,
-    "UAH": 53.57,
+    "EUR": 1.07,
+    "UAH": 53.75,
     "mBTC": 0.12,
-    "mLTC": 24.58
+    "mLTC": 24.28
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.37,
+      "price": 115.36,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 120.95,
+      "price": 120.94,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -192,7 +192,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 24.28
+      "price": 23.98
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 24.28,
+      "price": 23.98,
       "limit": {
        "max": 7.3
       }
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 114.28,
+      "price": 114.26,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 24.58
+      "price": 24.28
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.52
+      "price": 0.53
      }
     ]
    },
@@ -407,7 +407,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 83915.0,
+    "summa": 83868.0,
     "percent": 1.0
    }
   ],
@@ -467,11 +467,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 200479,
+   "sales": 200566,
    "sales_hidden": 0,
    "refunds": 752,
    "refunds_hidden": 0,
-   "good_reviews": 94100,
+   "good_reviews": 94127,
    "good_reviews_hidden": 0,
    "bad_reviews": 3,
    "bad_reviews_hidden": 0
