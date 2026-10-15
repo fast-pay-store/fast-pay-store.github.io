@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 100.0,
     "USD": 1.19,
-    "EUR": 1.07,
-    "UAH": 53.75,
+    "EUR": 1.06,
+    "UAH": 53.58,
     "mBTC": 0.02,
-    "mLTC": 23.98
+    "mLTC": 25.47
    },
    "default": {
     "RUB": 100.0,
     "USD": 1.19,
-    "EUR": 1.07,
-    "UAH": 53.75,
+    "EUR": 1.06,
+    "UAH": 53.58,
     "mBTC": 0.12,
-    "mLTC": 24.28
+    "mLTC": 25.77
    }
   },
   "payment_methods": [
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 115.36,
+      "price": 115.26,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -143,7 +143,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 120.94,
+      "price": 120.83,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -192,7 +192,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 23.98
+      "price": 25.47
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 23.98,
+      "price": 25.47,
       "limit": {
        "max": 7.3
       }
@@ -278,7 +278,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 114.26,
+      "price": 114.16,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -312,7 +312,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 24.28
+      "price": 25.77
      }
     ]
    },
@@ -324,7 +324,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.53
+      "price": 0.56
      }
     ]
    },
@@ -407,7 +407,7 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 83868.0,
+    "summa": 83950.0,
     "percent": 1.0
    }
   ],
@@ -467,13 +467,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 200566,
+   "sales": 200663,
    "sales_hidden": 0,
-   "refunds": 752,
+   "refunds": 753,
    "refunds_hidden": 0,
-   "good_reviews": 94127,
+   "good_reviews": 94167,
    "good_reviews_hidden": 0,
-   "bad_reviews": 3,
+   "bad_reviews": 2,
    "bad_reviews_hidden": 0
   },
   "seller": {

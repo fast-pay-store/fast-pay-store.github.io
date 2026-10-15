@@ -1,21 +1,20 @@
-# Отчёт сайта — 2026-10-14
-Страниц на сайте: 1075 | Товаров отслеживается: 47 (OK 34, изменено 13, снято 0)
+# Отчёт сайта — 2026-10-15
+Страниц на сайте: 1075 | Товаров отслеживается: 47 (OK 35, изменено 12, снято 0)
 Авто-приборка: CTA починено 0, папок-сирот удалено 0 | Дублей: 6 | Замечаний аудита: 1453 | Кандидатов: 30
 
 ## РЕШЕНИЕ: пересоздать страницы (изменились данные)
-- `auto-delivery-apple-itunes-gift-card-usa-2-1000-low-pri-672298` (id 672298): цена: 192.08 -> 191.97
-- `xbox-game-pass-ultimate-premium-pc-1-12-months-reliable-3270899` (id 3270899): цена: 79.0 -> 69.0
-- `auto-delivery-apple-itunes-gift-card-russia-500-25000-r-1440095` (id 1440095): цена: 646.15 -> 645.78
-- `us-eu-card-5-10000-works-everywhere-low-price-1065234` (id 1065234): цена: 1082.51 -> 1081.89
-- `steam-wallet-gift-card-5-no-global-description-2147595` (id 2147595): цена: 459.87 -> 459.61
-- `playstation-ps-deluxe-extra-essential-1-12-ea-play-turk-3397775` (id 3397775): название: 🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ БЫСТРО !🎁 -> 🟦 PS PLUS➕DELUXE EXTRA ESSENTIAL 1-12 EA PLAY ТУРЦИЯ БЫСТРО!🎁
-- `1-12-months-xbox-game-pass-ultimate-premium-pc-3043219` (id 3043219): цена: 69.0 -> 79.0
-- `us-card-worldwide-10-for-google-apple-other-price-672117` (id 672117): цена: 1383.69 -> 1382.89
-- `ps-plus-deluxe-extra-essential-ea-play-1-12-ukraine-fas-3894402` (id 3894402): цена: 334.0 -> 314.0
-- `subscription-ukraine-ps-plus-ea-play-very-fast-3533183` (id 3533183): цена: 339.0 -> 309.0
-- `turkish-payment-card-600-30-000tl-udemy-other-3367060` (id 3367060): цена: 2323.15 -> 2326.87
-- `5-9000-us-eu-card-will-pay-for-everything-3342822` (id 3342822): цена: 1275.51 -> 1274.79
-- `turkey-apple-app-store-100-250-500-1000-1250-1500-try-3794317` (id 3794317): цена: 219.02 -> 218.89
+- `auto-delivery-apple-itunes-gift-card-usa-2-1000-low-pri-672298` (id 672298): цена: 191.97 -> 192.16
+- `auto-delivery-apple-itunes-gift-card-russia-500-25000-r-1440095` (id 1440095): цена: 645.78 -> 646.41
+- `us-eu-card-5-10000-works-everywhere-low-price-1065234` (id 1065234): цена: 1081.89 -> 1082.95
+- `steam-wallet-gift-card-5-no-global-description-2147595` (id 2147595): цена: 459.61 -> 460.06
+- `playstation-ps-deluxe-extra-essential-1-12-ea-play-turk-3397775` (id 3397775): цена: 360.0 -> 499.0
+- `1-12-months-xbox-game-pass-ultimate-premium-pc-3043219` (id 3043219): цена: 79.0 -> 69.0
+- `us-card-worldwide-10-for-google-apple-other-price-672117` (id 672117): цена: 1382.89 -> 1384.25
+- `ps-plus-deluxe-extra-essential-ea-play-1-12-ukraine-fas-3894402` (id 3894402): цена: 314.0 -> 299.0
+- `subscription-ukraine-ps-plus-ea-play-very-fast-3533183` (id 3533183): цена: 309.0 -> 289.0
+- `turkish-payment-card-600-30-000tl-udemy-other-3367060` (id 3367060): цена: 2326.87 -> 2326.61
+- `5-9000-us-eu-card-will-pay-for-everything-3342822` (id 3342822): цена: 1274.79 -> 1276.04
+- `turkey-apple-app-store-100-250-500-1000-1250-1500-try-3794317` (id 3794317): цена: 218.89 -> 219.11
 
 ## РЕШЕНИЕ: дубли (оставить одну / переписать)
 - title: `battlefield-2042-elite-edition-steam-gift-avto-ru-4924358`, `battlefield-2042-elite-edition-steam-gift-avto-ru-5062650` (battlefield 2042 elite edition steam gift)
@@ -89,32 +88,32 @@
 
 ## РЕШЕНИЕ: создать новые страницы (макс 30/день)
 - id 3403743 | 99₽ | fee 1,00% | продаж 408501 | 🚀АВТО⚫STEAM🔴ТУРЦИЯ🔵КЗ🟡США КАРТА ПОПОЛНЕНИЯ СТИМ ЮСД
-- id 3206917 | 599₽ | fee 1,00% | продаж 98488 | 🏆 [АВТО 24\7] FORTNITE В-БАКСЫ 800-50000 EPIC/ПК/XBOX/PS✦БЫСТРО
-- id 3339119 | 100₽ | fee 16,00% | продаж 91588 | 🚀СМЕНА РЕГИОНА СТИМ КАЗАХСТАН/УКРАИНА/ИНДИЯ 🚀
-- id 6087516 | 1679₽ | fee 1,00% | продаж 56246 | 🟢Minecraft: Java & Bedrock для ПК Ключ ВСЕ СТРАНЫ + ПОДАРОК
-- id 6076713 | 89₽ | fee 1,00% | продаж 49465 | 🎒 [АВТО 24\7] ROBLOX GIFT CARD 50-22500 РОБУКС🎒ВСЕ СТРАНЫ🔑КЛЮЧ⭐
-- id 4339392 | 869₽ | fee 8,00% | продаж 85806 | {АВТО} ChatGPT 6 PLUS | GO | ASTRA| PRO | CODEX | ПОДПИСКА | БЕЗ ВХОДА | ПРОДЛЕНИЕ
-- id 5481303 | 649₽ | fee 1,00% | продаж 14788 | 24/7 Без Входа | ChatGPT 6 ASTRA | Plus Go PRO CODEX| Код активации | Автовыдача
+- id 3206917 | 399₽ | fee 1,00% | продаж 98500 | 🏆 [АВТО 24\7] FORTNITE В-БАКСЫ 800-50000 EPIC/ПК/XBOX/PS✦БЫСТРО
+- id 3339119 | 100₽ | fee 16,00% | продаж 91625 | 🚀СМЕНА РЕГИОНА СТИМ КАЗАХСТАН/УКРАИНА/ИНДИЯ 🚀
+- id 6087516 | 1679₽ | fee 1,00% | продаж 56286 | 🟢Minecraft: Java & Bedrock для ПК Ключ ВСЕ СТРАНЫ + ПОДАРОК
+- id 6076713 | 89₽ | fee 1,00% | продаж 49487 | 🎒 [АВТО 24\7] ROBLOX GIFT CARD 50-22500 РОБУКС🎒ВСЕ СТРАНЫ🔑КЛЮЧ⭐
+- id 4339392 | 869₽ | fee 8,00% | продаж 85970 | {АВТО} ChatGPT 6 PLUS | GO | ASTRA| PRO | CODEX | ПОДПИСКА | БЕЗ ВХОДА | ПРОДЛЕНИЕ
+- id 5481303 | 649₽ | fee 1,00% | продаж 14947 | 24/7 Без Входа | ChatGPT 6 ASTRA | Plus Go PRO CODEX| Код активации | Автовыдача
 - id 5422295 | 200₽ | fee 5,00% | продаж 13475 | ChatGPT 5 Plus 1 месяц (личный аккаунт,только для вас)
 - id 3534754 | 4890₽ | fee 1,00% | продаж 222 | God of War: Ragnarok Ps 5/КЛЮЧ🔑 на РФ аккаунт /РУ ЗВУК
 - id 3817536 | 2883₽ | fee 1,00% | продаж 127499 | Xbox Game Pass Ultimate 14 дней ( Gold + Game Pass)
-- id 3747603 | 59₽ | fee 1,00% | продаж 35134 | XBOX GAME PASS ULTIMATE | ESSENTIAL | PREMIUM БЫСТРАЯ ДОСТАВКА
-- id 3113850 | 1150₽ | fee 1,00% | продаж 28022 | XBOX GAME PASS ULTIMATE / PREMIUM / ESSENTIAL / PC | 1–2–3–6–9–12 МЕС | БЫСТРО
-- id 3406059 | 1611₽ | fee 1,00% | продаж 18773 | 🍏Подарочная карта Apple iTunes &amp; AppStore 500 руб. 🔥
+- id 3747603 | 59₽ | fee 1,00% | продаж 35151 | XBOX GAME PASS ULTIMATE | ESSENTIAL | PREMIUM БЫСТРАЯ ДОСТАВКА
+- id 3113850 | 1150₽ | fee 1,00% | продаж 28024 | XBOX GAME PASS ULTIMATE / PREMIUM / ESSENTIAL / PC | 1–2–3–6–9–12 МЕС | БЫСТРО
 - id 3351499 | 1900₽ | fee 1,00% | продаж 14308 | 🎟📱Подарочная карта Apple на 1000руб (AppStore,iTunes)
 - id 3658694 | 299₽ | fee 1,00% | продаж 13256 | Подарочная Карта Apple App Store iTunes 2-100 USD США + ПОДАРОК
-- id 3460192 | 10₽ | fee 1,00% | продаж 27842 | 🎮 ПОДПИСКА PS PLUS+ | EA PLAY 1-12 МЕСЯЦЕВ + 🎁 ТУРЦИЯ + СКИДКИ👍
-- id 3544663 | 100₽ | fee 1,00% | продаж 25599 | 🔷Турецкий/Украинский/Индийский аккаунт PSN БЫСТРО🎁
+- id 3803461 | 1299₽ | fee 1,00% | продаж 12585 | 📨 [АВТО 24\7] TELEGRAM PREMIUM 3|6|12 МЕСЯЦЕВ
+- id 3460192 | 10₽ | fee 1,00% | продаж 27850 | 🎮 ПОДПИСКА PS PLUS+ | EA PLAY 1-12 МЕСЯЦЕВ + 🎁 ТУРЦИЯ + СКИДКИ👍
+- id 3544663 | 100₽ | fee 1,00% | продаж 25615 | 🔷Турецкий/Украинский/Индийский аккаунт PSN БЫСТРО🎁
 - id 3465318 | 3₽ | fee 1,00% | продаж 21798 | ПОКУПКА ИГР | PS4/PS5 | ПОПОЛНЕНИЕ БАЛАНСА PSN | Турция
-- id 3594150 | 149₽ | fee 2,00% | продаж 17786 | 1/3/6/12MONTH 🟢SPOTIFY PREMIUM + AI DJ | РАБОТАЕТ В РОССИИ
+- id 3594150 | 149₽ | fee 2,00% | продаж 17812 | 1/3/6/12MONTH 🟢SPOTIFY PREMIUM + AI DJ | РАБОТАЕТ В РОССИИ
 - id 3603737 | 279₽ | fee 5,00% | продаж 7250 | 💎SPOTIFY ПРЕМИУМ 1^3^6^12 РАБОТАЕТ В РФ+МИР🌎БЫСТРО🎁
 - id 3829133 | 1956₽ | fee 12,00% | продаж 6354 | 🧩3/6/12 ИНДИВИДУАЛ/ДУО/СЕМЬЯ❤️ SPOTIFY PREMIUM💎
-- id 679337 | 2767₽ | fee 1,00% | продаж 14533 | ✅US Card Worldwide 20$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅
-- id 4694359 | 541₽ | fee 3,00% | продаж 13863 | 🌍 US Card 5-9999$ 📟 ЕСТЬ 3DS КОД🛡️ПЛАТЕЖНАЯ КАРТА США | ГАРАНТИЯ 1 МЕСЯЦ
-- id 679333 | 2075₽ | fee 1,00% | продаж 12943 | ✅US Card Worldwide 15$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅
+- id 679337 | 2770₽ | fee 1,00% | продаж 14535 | ✅US Card Worldwide 20$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅
+- id 4694359 | 542₽ | fee 3,00% | продаж 13870 | 🌍 US Card 5-9999$ 📟 ЕСТЬ 3DS КОД🛡️ПЛАТЕЖНАЯ КАРТА США | ГАРАНТИЯ 1 МЕСЯЦ
+- id 679333 | 2077₽ | fee 1,00% | продаж 12950 | ✅US Card Worldwide 15$⚡️ДЛЯ GOOGLE/APPLE/OTHERS⚡️ЦЕНА✅
 - id 3227693 | 3390₽ | fee 2,00% | продаж 3611 | 🔥ПРОМОКОД Я+ Мульти на 12 месяцев 🔥💳0
-- id 5596513 | 2750₽ | fee 1,00% | продаж 2168 | Я Пл+с Промокод Мульти на 12 месяцев 4 человека
-- id 3483252 | 100₽ | fee 1,00% | продаж 1683 | Я+ Плюс подписка | Кинопоиск HD, Я Музыка, Выгода с картой ПЕЙ | 45 дней промокод
+- id 4851428 | 159₽ | fee 5,00% | продаж 2942 | 🟡Я + ✅3 МЕСЯЦА| ИНВАЙТ В СЕМЬЮ🔥💳 0%
+- id 5596513 | 2750₽ | fee 1,00% | продаж 2175 | Я Пл+с Промокод Мульти на 12 месяцев 4 человека
 - id 2185872 | 29₽ | fee 1,00% | продаж 506 | Invasion (Steam key/Region free)
 - id 1861941 | 4490₽ | fee 1,00% | продаж 374 | CoD Call of Duty: Ghosts Deluxe STEAM KEY РФ+СНГ ЛИЦЕНЗИЯ СТИМ КЛЮЧ
 - id 2045011 | 49₽ | fee 2,00% | продаж 193 | Invasion STEAM KEY REGION GLOBAL+РОССИЯ ЛИЦЕНЗИЯ

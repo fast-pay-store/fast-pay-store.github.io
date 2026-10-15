@@ -70,17 +70,17 @@
     "RUB": 225.5,
     "USD": 2.9,
     "EUR": 2.4,
-    "UAH": 121.21,
+    "UAH": 120.82,
     "mBTC": 0.04,
-    "mLTC": 43.83
+    "mLTC": 46.24
    },
    "default": {
     "RUB": 240.01,
     "USD": 2.9,
     "EUR": 2.4,
-    "UAH": 121.21,
+    "UAH": 120.82,
     "mBTC": 0.14,
-    "mLTC": 44.13
+    "mLTC": 46.54
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 294.72,
+      "price": 294.46,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -121,7 +121,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 281.13,
+      "price": 280.87,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -148,7 +148,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 278.45,
+      "price": 278.19,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -199,7 +199,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.89
+      "price": 2.88
      },
      {
       "currency": "mBTC",
@@ -209,7 +209,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 43.83
+      "price": 46.24
      },
      {
       "currency": "WMT",
@@ -238,7 +238,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 44.13
+      "price": 46.54
      }
     ]
    },
@@ -260,7 +260,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.89
+      "price": 2.88
      }
     ]
    },
@@ -282,7 +282,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.89
+      "price": 2.88
      },
      {
       "currency": "mBTC",
@@ -316,7 +316,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.89,
+      "price": 2.88,
       "limit": {
        "max": 300.0
       }
@@ -324,7 +324,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 43.83,
+      "price": 46.24,
       "limit": {
        "max": 7.3
       }
@@ -347,7 +347,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 1.28
+      "price": 1.36
      }
     ]
    },
@@ -422,18 +422,18 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "12.10.2026 16:24:51",
+   "date": "15.10.2026 14:35:00",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 41934.0,
+    "summa": 41975.0,
     "percent": 2.0
    },
    {
-    "summa": 25160.0,
+    "summa": 25185.0,
     "percent": 1.0
    }
   ],
@@ -501,9 +501,9 @@
       "value": 662542,
       "text": "12 месяц индивидуально [= Любой аккаунт =]",
       "default": 0,
-      "modify": "+1888 RUB",
-      "modify_value": 1888.0,
-      "modify_value_default": 2009.41,
+      "modify": "+1850 RUB",
+      "modify_value": 1850.0,
+      "modify_value_default": 1968.96,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -650,7 +650,7 @@
    "refunds_hidden": 1,
    "good_reviews": 100,
    "good_reviews_hidden": 1,
-   "bad_reviews": 9,
+   "bad_reviews": 11,
    "bad_reviews_hidden": 0
   },
   "seller": {
