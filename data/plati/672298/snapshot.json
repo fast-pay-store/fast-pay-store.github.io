@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 192.16,
+  "price": 191.73,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -19,7 +19,7 @@
   "propertygood": 2,
   "is_available": 1,
   "show_rest": 0,
-  "num_in_lock": 1,
+  "num_in_lock": 0,
   "owner": 1,
   "section_id": 22243,
   "pwyw": 0,
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 176.29,
+    "RUB": 175.9,
     "USD": 2.1,
     "EUR": 1.88,
-    "UAH": 101.07,
+    "UAH": 100.86,
     "mBTC": 0.04,
-    "mLTC": 36.15
+    "mLTC": 34.21
    },
    "default": {
-    "RUB": 192.16,
+    "RUB": 191.73,
     "USD": 2.1,
     "EUR": 1.88,
-    "UAH": 101.07,
+    "UAH": 100.86,
     "mBTC": 0.14,
-    "mLTC": 36.45
+    "mLTC": 34.51
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 201.45,
+      "price": 201.25,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -86,7 +86,7 @@
      {
       "currency": "WME",
       "code": "WME",
-      "price": 2.5
+      "price": 2.49
      },
      {
       "currency": "mBTC",
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 36.15
+      "price": 34.21
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 203.39,
+      "price": 203.19,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 36.45
+      "price": 34.51
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.99
+      "price": 0.94
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 234.47,
+      "price": 233.94,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -200,7 +200,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 2.5,
+      "price": 2.49,
       "limit": {
        "max": 300.0
       }
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 36.15,
+      "price": 34.21,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 176.29
+      "price": 175.9
      },
      {
       "currency": "USD",
@@ -241,7 +241,7 @@
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 2.5
+      "price": 2.49
      }
     ]
    },
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 176.29
+      "price": 175.9
      },
      {
       "currency": "USD",
@@ -263,7 +263,7 @@
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 2.5
+      "price": 2.49
      },
      {
       "currency": "mBTC",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 192.16
+      "price": 191.73
      }
     ]
    }
@@ -322,7 +322,7 @@
    {
     "id": 6502,
     "name": "App Store & iTunes",
-    "products_cnt": 14
+    "products_cnt": 16
    }
   ],
   "options": [
@@ -682,13 +682,13 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 693329,
+   "sales": 694068,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3606,
+   "good_reviews": 3614,
    "good_reviews_hidden": 0,
-   "bad_reviews": 0,
+   "bad_reviews": 1,
    "bad_reviews_hidden": 0
   },
   "seller": {

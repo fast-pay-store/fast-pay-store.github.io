@@ -69,18 +69,18 @@
    "initial": {
     "RUB": 69.0,
     "USD": 0.82,
-    "EUR": 0.73,
-    "UAH": 36.97,
+    "EUR": 0.74,
+    "UAH": 36.98,
     "mBTC": 0.01,
-    "mLTC": 16.92
+    "mLTC": 16.08
    },
    "default": {
     "RUB": 69.0,
     "USD": 0.82,
-    "EUR": 0.73,
-    "UAH": 36.97,
+    "EUR": 0.74,
+    "UAH": 36.98,
     "mBTC": 0.11,
-    "mLTC": 17.22
+    "mLTC": 16.38
    }
   },
   "payment_methods": [
@@ -104,7 +104,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 17.22
+      "price": 16.38
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.38
+      "price": 0.37
      }
     ]
    },
@@ -179,7 +179,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 83.26,
+      "price": 83.18,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -223,7 +223,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 16.92
+      "price": 16.08
      },
      {
       "currency": "WMT",
@@ -257,7 +257,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 16.92,
+      "price": 16.08,
       "limit": {
        "max": 7.3
       }
@@ -335,7 +335,7 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "15.10.2026 00:49:11",
+   "date": "15.10.2026 18:15:14",
    "size": 16
   },
   "category_id": 110708,
@@ -538,9 +538,9 @@
       "value": 14808202,
       "text": "9 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (Не было подписок)",
       "default": 0,
-      "modify": "+5430 RUB",
-      "modify_value": 5430.0,
-      "modify_value_default": 5430.0,
+      "modify": "+5330 RUB",
+      "modify_value": 5330.0,
+      "modify_value_default": 5330.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -548,9 +548,9 @@
       "value": 27263754,
       "text": "10 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (Не было подписок)",
       "default": 0,
-      "modify": "+5730 RUB",
-      "modify_value": 5730.0,
-      "modify_value_default": 5730.0,
+      "modify": "+5630 RUB",
+      "modify_value": 5630.0,
+      "modify_value_default": 5630.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -558,9 +558,9 @@
       "value": 14712179,
       "text": "11 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (Не было подписок)",
       "default": 0,
-      "modify": "+6330 RUB",
-      "modify_value": 6330.0,
-      "modify_value_default": 6330.0,
+      "modify": "+6230 RUB",
+      "modify_value": 6230.0,
+      "modify_value_default": 6230.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -568,9 +568,9 @@
       "value": 8899413,
       "text": "12 МЕСЯЦЕВ XBOX GAME PASS ULTIMATE (Не было подписок)",
       "default": 0,
-      "modify": "+6730 RUB",
-      "modify_value": 6730.0,
-      "modify_value_default": 6730.0,
+      "modify": "+6630 RUB",
+      "modify_value": 6630.0,
+      "modify_value_default": 6630.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -578,9 +578,9 @@
       "value": 15514425,
       "text": "12 МЕСЯЦЕВ+1 МЕСЯЦ БОНУС XBOX GAME PASS ULTIMATE (Не было подписок)",
       "default": 0,
-      "modify": "+7930 RUB",
-      "modify_value": 7930.0,
-      "modify_value_default": 7930.0,
+      "modify": "+7830 RUB",
+      "modify_value": 7830.0,
+      "modify_value_default": 7830.0,
       "modify_type": "RUB",
       "visible": 1
      },
@@ -671,11 +671,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 48281,
+   "sales": 48302,
    "sales_hidden": 0,
    "refunds": 13,
    "refunds_hidden": 0,
-   "good_reviews": 22342,
+   "good_reviews": 22349,
    "good_reviews_hidden": 0,
    "bad_reviews": 0,
    "bad_reviews_hidden": 0
