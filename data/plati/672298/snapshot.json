@@ -5,7 +5,7 @@
   "id_prev": 0,
   "id_next": 1440095,
   "name": "[АВТОВЫДАЧА] Подарочная карта Apple iTunes (США) 2-1000$. НИЗКАЯ ЦЕНА",
-  "price": 191.73,
+  "price": 191.4,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/672298",
@@ -27,20 +27,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 175.9,
+    "RUB": 175.6,
     "USD": 2.1,
-    "EUR": 1.88,
-    "UAH": 100.86,
+    "EUR": 1.87,
+    "UAH": 100.8,
     "mBTC": 0.04,
-    "mLTC": 34.21
+    "mLTC": 35.26
    },
    "default": {
-    "RUB": 191.73,
+    "RUB": 191.4,
     "USD": 2.1,
-    "EUR": 1.88,
-    "UAH": 100.86,
+    "EUR": 1.87,
+    "UAH": 100.8,
     "mBTC": 0.14,
-    "mLTC": 34.51
+    "mLTC": 35.56
    }
   },
   "payment_methods": [
@@ -64,7 +64,7 @@
      {
       "currency": "RUB",
       "code": "ATM",
-      "price": 201.25,
+      "price": 200.72,
       "limit": {
        "min": 100.0,
        "max": 24500.0,
@@ -96,7 +96,7 @@
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 34.21
+      "price": 35.26
      },
      {
       "currency": "WMT",
@@ -130,7 +130,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 203.19,
+      "price": 202.65,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -147,7 +147,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 34.51
+      "price": 35.56
      }
     ]
    },
@@ -171,7 +171,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 0.94
+      "price": 0.96
      }
     ]
    },
@@ -191,7 +191,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 233.94,
+      "price": 233.54,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -208,7 +208,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 34.21,
+      "price": 35.26,
       "limit": {
        "max": 7.3
       }
@@ -231,7 +231,7 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 175.9
+      "price": 175.6
      },
      {
       "currency": "USD",
@@ -253,7 +253,7 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 175.9
+      "price": 175.6
      },
      {
       "currency": "USD",
@@ -280,7 +280,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 191.73
+      "price": 191.4
      }
     ]
    }
@@ -682,11 +682,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 694068,
+   "sales": 694663,
    "sales_hidden": 0,
    "refunds": 28,
    "refunds_hidden": 0,
-   "good_reviews": 3614,
+   "good_reviews": 3626,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0

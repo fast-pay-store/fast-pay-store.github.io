@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "✅5-10000$ Карта US/EU 💥ОПЛАТИТ ВСЁ💥| БЕЗ КОМИССИИ",
-  "price": 1273.15,
+  "price": 1270.99,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3342822",
@@ -253,7 +253,7 @@
   ],
   "prices_unit": {
    "unit_name": "USD",
-   "unit_amount": 1273.15,
+   "unit_amount": 1270.99,
    "unit_amount_desc": "RUR",
    "unit_currency": "RUR",
    "unit_cnt": 10,
@@ -291,76 +291,76 @@
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 418800.0,
+    "summa": 418088.0,
     "percent": 5.0
    },
    {
-    "summa": 251280.0,
+    "summa": 250853.0,
     "percent": 4.0
    },
    {
-    "summa": 83760.0,
+    "summa": 83618.0,
     "percent": 3.0
    },
    {
-    "summa": 41880.0,
+    "summa": 41809.0,
     "percent": 2.0
    },
    {
-    "summa": 8376.0,
+    "summa": 8362.0,
     "percent": 1.0
    }
   ],
   "units": {
    "desc": "1 USD",
-   "price": 127.3152,
+   "price": 127.098904,
    "discounts": [
     {
      "desc": "25 USD",
      "percent": 1.0,
-     "price": 126.042,
+     "price": 125.8279,
      "cnt": 25.0
     },
     {
      "desc": "50 USD",
      "percent": 2.0,
-     "price": 124.7689,
+     "price": 124.5569,
      "cnt": 50.0
     },
     {
      "desc": "75 USD",
      "percent": 3.0,
-     "price": 123.4957,
+     "price": 123.2859,
      "cnt": 75.0
     },
     {
      "desc": "100 USD",
      "percent": 4.0,
-     "price": 122.2226,
+     "price": 122.0149,
      "cnt": 100.0
     },
     {
      "desc": "300 USD",
      "percent": 5.0,
-     "price": 120.9494,
+     "price": 120.744,
      "cnt": 300.0
     },
     {
      "desc": "500 USD",
      "percent": 12.0,
-     "price": 112.0374,
+     "price": 111.847,
      "cnt": 500.0
     },
     {
      "desc": "1 тыс. USD",
      "percent": 14.0,
-     "price": 109.4911,
+     "price": 109.3051,
      "cnt": 1000.0
     },
     {
      "desc": "2 тыс. USD",
      "percent": 16.0,
-     "price": 106.9448,
+     "price": 106.7631,
      "cnt": 2000.0
     }
    ]

@@ -45,7 +45,7 @@
   "id_prev": 0,
   "id_next": 0,
   "name": "🧡 [АВТО 24\\7] FORTNITE CREW | 1 МЕСЯЦ | ⭐БОЕВОЙ ПРОПУСК + 800 V-BUCKS🎁",
-  "price": 499.0,
+  "price": 899.0,
   "currency": "RUB",
   "url": "",
   "card_url": "https://plati.market/itm/3330991",
@@ -53,7 +53,7 @@
   "add_info": "<delivery><attention><br />🕙 Техподдержка — ежедневно с 10:00 до 23:00 (МСК)<br /><br />⏱ Среднее время выполнения заказа — от 5 до 30 минут, но не более 48 часов с момента оформления заказа. <br /></attention><attention><br />💵 ПОЛИТИКА ВОЗВРАТА СРЕДСТВ<br /><br />✅ Товар доставлен — возврат средств невозможен.<br /><br />📦 Товар не доставлен:<br />🔹 по нашей вине — вернём 100% суммы;<br />🔹 по Вашей вине — возврат за вычетом комиссии 25% от суммы платежа. <br /></attention><attention><br />💬 Остались вопросы? Напишите нам в чат — с радостью ответим! <br /></attention></delivery><br />",
   "release_date": "",
   "agency_fee": 1.0,
-  "agency_sum": 4.99,
+  "agency_sum": 8.99,
   "agency_id": 0,
   "collection": "pins",
   "propertygood": 2,
@@ -67,20 +67,20 @@
   "no_cart": 0,
   "prices": {
    "initial": {
-    "RUB": 499.0,
-    "USD": 5.96,
-    "EUR": 5.32,
-    "UAH": 267.42,
-    "mBTC": 0.07,
-    "mLTC": 97.05
+    "RUB": 899.0,
+    "USD": 10.75,
+    "EUR": 9.59,
+    "UAH": 482.32,
+    "mBTC": 0.13,
+    "mLTC": 180.54
    },
    "default": {
-    "RUB": 499.0,
-    "USD": 7.93,
-    "EUR": 7.08,
-    "UAH": 355.67,
-    "mBTC": 0.17,
-    "mLTC": 97.35
+    "RUB": 899.0,
+    "USD": 14.3,
+    "EUR": 12.76,
+    "UAH": 641.49,
+    "mBTC": 0.23,
+    "mLTC": 180.84
    }
   },
   "payment_methods": [
@@ -92,7 +92,7 @@
      {
       "currency": "RUB",
       "code": "API",
-      "price": 499.0
+      "price": 899.0
      }
     ]
    },
@@ -104,7 +104,7 @@
      {
       "currency": "RUB",
       "code": "GRN",
-      "price": 543.62
+      "price": 979.38
      }
     ]
    },
@@ -116,7 +116,7 @@
      {
       "currency": "RUB",
       "code": "FKA",
-      "price": 555.39
+      "price": 1000.59
      }
     ]
    },
@@ -128,7 +128,7 @@
      {
       "currency": "RUB",
       "code": "SMS",
-      "price": 604.57,
+      "price": 1087.68,
       "limit": {
        "min": 1.0,
        "max": 500000.0,
@@ -145,7 +145,7 @@
      {
       "currency": "RUB",
       "code": "CL1",
-      "price": 576.64,
+      "price": 1037.35,
       "limit": {
        "min": 10.0,
        "max": 24500.0,
@@ -155,12 +155,12 @@
      {
       "currency": "USD",
       "code": "PS1",
-      "price": 0.52
+      "price": 0.94
      },
      {
       "currency": "EUR",
       "code": "PS2",
-      "price": 0.47
+      "price": 0.84
      }
     ]
    },
@@ -172,7 +172,7 @@
      {
       "currency": "USDT",
       "code": "BNK",
-      "price": 5.96,
+      "price": 10.75,
       "limit": {
        "min": 5.0,
        "max": 100.0,
@@ -189,7 +189,7 @@
      {
       "currency": "mBTC",
       "code": "BTC",
-      "price": 0.17
+      "price": 0.23
      }
     ]
    },
@@ -201,7 +201,7 @@
      {
       "currency": "mLTC",
       "code": "LTC",
-      "price": 97.35
+      "price": 180.84
      }
     ]
    },
@@ -213,7 +213,7 @@
      {
       "currency": "ETH",
       "code": "GMH",
-      "price": 2.66
+      "price": 4.88
      }
     ]
    },
@@ -225,27 +225,27 @@
      {
       "currency": "WMZ",
       "code": "WMZ",
-      "price": 7.92
+      "price": 14.3
      },
      {
       "currency": "WME",
       "code": "WME",
-      "price": 7.08
+      "price": 12.76
      },
      {
       "currency": "mBTC",
       "code": "WMX",
-      "price": 0.07
+      "price": 0.13
      },
      {
       "currency": "mLTC",
       "code": "WML",
-      "price": 97.05
+      "price": 180.54
      },
      {
       "currency": "WMT",
       "code": "WMT",
-      "price": 5.96
+      "price": 10.75
      }
     ]
    },
@@ -257,7 +257,7 @@
      {
       "currency": "WMR",
       "code": "PRR",
-      "price": 663.67,
+      "price": 1195.67,
       "limit": {
        "max": 30000.0,
        "currency": "RUB"
@@ -266,7 +266,7 @@
      {
       "currency": "WMZ",
       "code": "PRZ",
-      "price": 7.92,
+      "price": 14.3,
       "limit": {
        "max": 300.0
       }
@@ -274,7 +274,7 @@
      {
       "currency": "WME",
       "code": "PRE",
-      "price": 7.08,
+      "price": 12.76,
       "limit": {
        "max": 300.0
       }
@@ -282,7 +282,7 @@
      {
       "currency": "mLTC",
       "code": "PRL",
-      "price": 97.05,
+      "price": 180.54,
       "limit": {
        "max": 7.3
       }
@@ -290,7 +290,7 @@
      {
       "currency": "mBTC",
       "code": "PRX",
-      "price": 0.07,
+      "price": 0.13,
       "limit": {
        "max": 0.03
       }
@@ -305,17 +305,17 @@
      {
       "currency": "RUB",
       "code": "PPR",
-      "price": 499.0
+      "price": 899.0
      },
      {
       "currency": "USD",
       "code": "PPZ",
-      "price": 7.92
+      "price": 14.3
      },
      {
       "currency": "EUR",
       "code": "PPE",
-      "price": 7.08
+      "price": 12.76
      }
     ]
    },
@@ -327,22 +327,22 @@
      {
       "currency": "RUB",
       "code": "GCR",
-      "price": 499.0
+      "price": 899.0
      },
      {
       "currency": "USD",
       "code": "GCZ",
-      "price": 7.92
+      "price": 14.3
      },
      {
       "currency": "EUR",
       "code": "GCE",
-      "price": 7.08
+      "price": 12.76
      },
      {
       "currency": "mBTC",
       "code": "GCX",
-      "price": 0.07
+      "price": 0.13
      }
     ]
    },
@@ -354,7 +354,7 @@
      {
       "currency": "RUB",
       "code": "RUB",
-      "price": 499.0
+      "price": 899.0
      }
     ]
    }
@@ -373,14 +373,14 @@
   "type_good": 1,
   "type": "text",
   "text": {
-   "date": "16.10.2026 12:40:22",
+   "date": "17.10.2026 12:26:50",
    "size": 16
   },
   "category_id": 0,
   "breadcrumbs": [],
   "discounts": [
    {
-    "summa": 167520.0,
+    "summa": 167235.0,
     "percent": 1.0
    }
   ],
@@ -453,11 +453,11 @@
   ],
   "options_check": 0,
   "statistics": {
-   "sales": 44158,
+   "sales": 44164,
    "sales_hidden": 0,
    "refunds": 0,
    "refunds_hidden": 0,
-   "good_reviews": 17984,
+   "good_reviews": 17987,
    "good_reviews_hidden": 0,
    "bad_reviews": 1,
    "bad_reviews_hidden": 0
