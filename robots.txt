@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://fast-pay-store.github.io/digital-world/sitemap.xml
